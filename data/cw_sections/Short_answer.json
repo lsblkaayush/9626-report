@@ -227,7 +227,7 @@
   },
   {
    "kind": "tip",
-   "text": "Suggest is rare (2 tagged parts from 2022 onward). For the one with an examiner comment (improving a flowchart), suggestions had to be relevant and placed clearly. A 2021 report on a Suggest question criticised answers that said what something was instead of giving reasons that fitted the scenario.",
+   "text": "Suggest is rare (2 parts from 2022 onward). For the one with an examiner comment (improving a flowchart), suggestions had to be relevant and placed clearly. A 2021 report on a Suggest question criticised answers that said what something was instead of giving reasons that fitted the scenario.",
    "cites": [
     {
      "doc": "9626_w23_er",
@@ -348,5 +348,5 @@
    "note": "One short, precise sentence gets the mark. The examiner report says the precise definition 'sequence of characters' was what good answers gave."
   }
  ],
- "thin_evidence": "Counted from cw_parts.json tags (from 2022 onward): Identify 28, State 12, Give 11, Define 8, List 2, Suggest 2, Name 1. The two List parts also ask you to describe, and the one Name part (m26 Paper 12 Q10) actually says 'identify'. Suggest rests on only one question from 2022 onward with an examiner comment (9626_w23_qp_13 Q8) plus one 2021 report, so treat that advice as thin. Give, Name and List are not in the syllabus command-word table. No examiner report we found says whether adding an example to a definition is rewarded or penalised, so this section makes no claim about it."
+ "thin_evidence": "Counted from the question papers (from 2022 onward): Identify 28, State 12, Give 11, Define 8, List 2, Suggest 2, Name 1. The two List parts also ask you to describe, and the one Name part (m26 Paper 12 Q10) actually says 'identify'. Suggest rests on only one question from 2022 onward with an examiner comment (9626_w23_qp_13 Q8) plus one 2021 report, so treat that advice as thin. Give, Name and List are not in the syllabus command-word table. No examiner report we found says whether adding an example to a definition is rewarded or penalised, so this section makes no claim about it."
 }

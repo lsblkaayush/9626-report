@@ -38,7 +38,7 @@
   },
   {
    "kind": "marks",
-   "text": "Some mark schemes give a mark for a point, shown as (1st), and a second mark for adding detail to that same point, shown as (1). On those questions you can often reach 4 marks with four short points or with two points that you expand. 83 of the 387 Describe mark schemes from 2022 on in cw_parts.json use (1st) somewhere; none before 2022 do.",
+   "text": "Some mark schemes give a mark for a point, shown as (1st), and a second mark for adding detail to that same point, shown as (1). On those questions you can often reach 4 marks with four short points or with two points that you expand. 83 of the 387 Describe mark schemes from 2022 on use (1st) somewhere; none before 2022 do.",
    "cites": [
     {
      "doc": "9626_s25_ms_11",

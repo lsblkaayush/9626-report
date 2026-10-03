@@ -38,7 +38,7 @@
   },
   {
    "kind": "marks",
-   "text": "Each side often has a ceiling. In the 2022-2025 mark schemes I checked (77 Discuss parts in cw_parts.json), about 36 print a separate MAX for each side; for 8-mark questions it is usually MAX 6 (sometimes 5, once 7). On those questions an answer with only benefits cannot reach full marks.",
+   "text": "Each side often has a ceiling. In the 2022-2025 mark schemes we checked (77 Discuss parts), about 36 print a separate MAX for each side; for 8-mark questions it is usually MAX 6 (sometimes 5, once 7). On those questions an answer with only benefits cannot reach full marks.",
    "cites": [
     {
      "doc": "9626_w24_ms_12",
@@ -62,7 +62,7 @@
   },
   {
    "kind": "marks",
-   "text": "One-sided answers are capped. 23 of the 77 mark schemes I checked (all 2022-2023) say you need at least two of each side (one of each on some 4- and 6-mark questions) for full marks, and 4 more (November 2023) cap an all-benefits or all-drawbacks answer. The 2023 and 2025 examiner reports say the same: no full marks without both sides.",
+   "text": "One-sided answers are capped. 23 of the 77 mark schemes we checked (all 2022-2023) say you need at least two of each side (one of each on some 4- and 6-mark questions) for full marks, and 4 more (November 2023) cap an all-benefits or all-drawbacks answer. The 2023 and 2025 examiner reports say the same: no full marks without both sides.",
    "cites": [
     {
      "doc": "9626_m22_ms_12",
@@ -86,7 +86,7 @@
   },
   {
    "kind": "marks",
-   "text": "Sometimes there is a mark for a short opening definition or description of the thing in the question. I found it in 18 of the 77 mark schemes, usually capped at one mark for each thing described (two marks once, in June 2025 Paper 31 Q7). So one clear opening sentence can help, but a long introduction cannot earn more.",
+   "text": "Sometimes there is a mark for a short opening definition or description of the thing in the question. We found it in 18 of the 77 mark schemes, usually capped at one mark for each thing described (two marks once, in June 2025 Paper 31 Q7). So one clear opening sentence can help, but a long introduction cannot earn more.",
    "cites": [
     {
      "doc": "9626_s25_ms_12",
@@ -110,7 +110,7 @@
   },
   {
    "kind": "marks",
-   "text": "No 2022-2025 Discuss mark scheme I checked has a mark for a conclusion or your opinion. The current syllabus meaning of Discuss does not ask for one. Older reports (2019) used an older wording that said Discuss often needs a conclusion; that is no longer how it is defined. A one-line conclusion does no harm, but put your time into expanded points.",
+   "text": "No 2022-2025 Discuss mark scheme we checked has a mark for a conclusion or your opinion. The current syllabus meaning of Discuss does not ask for one. Older reports (2019) used an older wording that said Discuss often needs a conclusion; that is no longer how it is defined. A one-line conclusion does no harm, but put your time into expanded points.",
    "cites": [
     {
      "doc": "9626_syllabus_2025-2027",
@@ -128,7 +128,7 @@
   },
   {
    "kind": "format",
-   "text": "Bullet points cost marks. Every 2022 and 2023 Discuss mark scheme (and 6 of the 17 in 2024) caps a bulleted list: max 6 of 8, max 4 or 5 of 6, max 3 of 4. I counted 48 of the 77 mark schemes with this cap.",
+   "text": "Bullet points cost marks. Every 2022 and 2023 Discuss mark scheme (and 6 of the 17 in 2024) caps a bulleted list: max 6 of 8, max 4 or 5 of 6, max 3 of 4. We counted 48 of the 77 mark schemes with this cap.",
    "cites": [
     {
      "doc": "9626_m22_ms_12",
@@ -423,5 +423,5 @@
    "note": "This 2025 mark scheme allowed up to two marks for saying what data mining is, then MAX SIX per side. A two-sentence definition, plus two benefits and two drawbacks (one of each expanded with its reason), reaches eight."
   }
  ],
- "thin_evidence": "Not thin: Discuss appears in 80 question parts from 2022 onward (77 with mark schemes available). The counts above are my own regex counts over the mark-scheme text in cw_parts.json and could be off by one or two."
+ "thin_evidence": "Not thin: Discuss appears in 80 question parts from 2022 onward (77 with mark schemes available). The counts above are our own counts from the mark-scheme text and could be off by one or two."
 }

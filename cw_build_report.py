@@ -26,7 +26,19 @@ def e(t):
 ABBR = [(r"\bERs\b", "examiner reports"), (r"\bER\b", "examiner report"), (r"\bMSs\b", "mark schemes"),
         (r"\bMS\b", "mark scheme"), (r"\bQPs?\b", "question paper")]
 
+MON = {"m": "March", "s": "June", "w": "November"}
+
+def readable_id(m):
+    s, yy, kind, comp = m.group(1), m.group(2), m.group(3), m.group(4)
+    name = {"er": "examiner report", "ms": "mark scheme", "qp": "question paper"}[kind]
+    return f"{MON[s]} 20{yy} {name}" + (f" (Paper {comp})" if comp else "")
+
 def prose(t):
+    # document ids and session codes in drafted prose -> words a student can read
+    t = re.sub(r"\b9626_([msw])(\d\d)_(er|ms|qp)(?:_(\d\d))?\b", readable_id, t)
+    t = re.sub(r"\b([msw])(\d\d)_(er|ms|qp)(?:_(\d\d))?\b", readable_id, t)
+    t = re.sub(r"\b([msw])(2[0-6]|1[7-9])\b", lambda m: f"{MON[m.group(1)]} 20{m.group(2)}", t)
+    t = re.sub(r"\bP(\d\d)\b", r"Paper \1", t)
     for a, b in ABBR: t = re.sub(a, b, t)
     return html.escape(t)
 

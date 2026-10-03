@@ -38,7 +38,7 @@
   },
   {
    "kind": "marks",
-   "text": "Some Explain mark schemes mark a point '(1st)' and the expansion under it '(1)'. The (1st) mark is for your statement. The (1) mark is only for the reason or detail you add to that statement. In cw_parts.json, 38 of the 176 Explain parts from 2022 on (to March 2026) use (1st) in the mark scheme.",
+   "text": "Some Explain mark schemes mark a point '(1st)' and the expansion under it '(1)'. The (1st) mark is for your statement. The (1) mark is only for the reason or detail you add to that statement. Of the question parts we counted, 38 of the 176 Explain parts from 2022 on (to March 2026) use (1st) in the mark scheme.",
    "cites": [
     {
      "doc": "9626_m24_ms_12",
@@ -315,5 +315,5 @@
    "note": "One point and two linked reasons can earn all three marks here. The first statement is the gateway; each linked reason after it adds a mark."
   }
  ],
- "thin_evidence": "Explain is common (176 parts from 2022 to March 2026 in cw_parts.json), so the evidence is broad. But only 38 of those mark schemes use the explicit (1st)/(1) labels; the rest simply list points worth one mark each. The cap for answers that are 'all only first marks' is written out in 9626_w23_ms_13 Q3(c). No other mark scheme found prints that cap, so treat it as a sign of how markers think, not a rule for every Explain question."
+ "thin_evidence": "Explain is common (176 parts from 2022 to March 2026), so the evidence is broad. But only 38 of those mark schemes use the explicit (1st)/(1) labels; the rest simply list points worth one mark each. The cap for answers that are 'all only first marks' is written out in 9626_w23_ms_13 Q3(c). No other mark scheme found prints that cap, so treat it as a sign of how markers think, not a rule for every Explain question."
 }

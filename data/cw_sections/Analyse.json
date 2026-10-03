@@ -14,7 +14,7 @@
  "points": [
   {
    "kind": "marks",
-   "text": "Marks come from making a point and then expanding it into what it causes or means. Some mark schemes say an answer without expansions is not a proper analysis, and two 2022 ones cap it at 6 of 8. I checked the 18 Analyse mark schemes from 2022 onward in cw_parts.json: none gives a mark for a conclusion.",
+   "text": "Marks come from making a point and then expanding it into what it causes or means. Some mark schemes say an answer without expansions is not a proper analysis, and two 2022 ones cap it at 6 of 8. We checked the 18 Analyse mark schemes from 2022 onward: none gives a mark for a conclusion.",
    "cites": [
     {
      "doc": "9626_w22_ms_13",
@@ -279,5 +279,5 @@
    "note": "Both methods are covered (the mark scheme allows at most 4 for one method), and each sentence says what happens to the image. The 'because' and 'as a result' links are the analysis."
   }
  ],
- "thin_evidence": "19 Analyse parts from 2022 onward in cw_parts.json (18 with a matched mark scheme), mostly on Paper 3. That is enough to see the pattern, but fewer than for Evaluate or Discuss. One ER comment (s24 Q8) says both sides were not required for full marks, so 'cover both sides' is advice, not a fixed rule."
+ "thin_evidence": "19 Analyse parts from 2022 onward (18 with a matched mark scheme), mostly on Paper 3. That is enough to see the pattern, but fewer than for Evaluate or Discuss. One ER comment (s24 Q8) says both sides were not required for full marks, so 'cover both sides' is advice, not a fixed rule."
 }

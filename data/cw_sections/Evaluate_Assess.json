@@ -46,7 +46,7 @@
   },
   {
    "kind": "marks",
-   "text": "Recent mark schemes give one mark for a conclusion. I checked the Evaluate parts from 2022 onward in cw_parts.json: 8 of the 24 with a mark scheme have a conclusion mark, and all 8 are from November 2024 or later (8 of the 9 mark schemes from that date on). End with a short overall judgement that pulls your points together.",
+   "text": "Recent mark schemes give one mark for a conclusion. We checked the Evaluate parts from 2022 onward: 8 of the 24 with a mark scheme have a conclusion mark, and all 8 are from November 2024 or later (8 of the 9 mark schemes from that date on). End with a short overall judgement that pulls your points together.",
    "cites": [
     {
      "doc": "9626_s25_ms_13",
@@ -220,7 +220,7 @@
   },
   {
    "kind": "tip",
-   "text": "Evaluate is not the same as Discuss. Discuss asks you to write in depth in a structured way; Evaluate asks you to judge importance or value. Your judgement can be on each point or on the whole answer. I checked the 77 Discuss mark schemes from 2022 onward in cw_parts.json: none has a conclusion mark, while recent Evaluate mark schemes do.",
+   "text": "Evaluate is not the same as Discuss. Discuss asks you to write in depth in a structured way; Evaluate asks you to judge importance or value. Your judgement can be on each point or on the whole answer. We checked the 77 Discuss mark schemes from 2022 onward: none has a conclusion mark, while recent Evaluate mark schemes do.",
    "cites": [
     {
      "doc": "9626_syllabus_2025-2027",
@@ -423,5 +423,5 @@
    "note": "The same facts appear in both answers. The strong answer earns more because each fact is followed by what it leads to and how much it matters, and it ends with a verdict."
   }
  ],
- "thin_evidence": "Evaluate is well covered: 25 question parts from 2022 onward (114 in all years) in cw_parts.json. Assess is in the syllabus command-word list, but no question part in cw_parts.json uses Assess as its command word, and a search of all question paper pages found no question starting with 'Assess'. There are no Assess mark schemes or examiner comments, so this report gives no separate advice for Assess beyond its syllabus definition ('make an informed judgement'). The conclusion-mark count rests on a text search of the mark schemes for 'conclusion' or 'overall judgement'."
+ "thin_evidence": "Evaluate is well covered: 25 question parts from 2022 onward (114 in all years). Assess is in the syllabus command-word list, but no question part uses Assess as its command word, and a search of all question paper pages found no question starting with 'Assess'. There are no Assess mark schemes or examiner comments, so this report gives no separate advice for Assess beyond its syllabus definition ('make an informed judgement'). The conclusion-mark count rests on a text search of the mark schemes for 'conclusion' or 'overall judgement'."
 }
