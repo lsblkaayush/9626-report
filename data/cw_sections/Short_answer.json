@@ -49,35 +49,12 @@
    "note": "Not in the syllabus command-word table (page 66)."
   }
  ],
- "one_line": "Give exactly what the question asks for, in the number of items it asks for. Give the correct technical term or a precise fact. Do not copy words from the question. Do not explain unless the question also says describe or explain.",
+ "one_line": "Give the exact term or fact, in the number of items the question asks for. Leave out explanations unless the question also says describe or explain.",
  "points": [
   {
-   "kind": "marks",
-   "text": "Short-answer questions usually give one mark for each correct item ('One from', 'Four from'). Some questions say 'identify and describe', or ask for an item and a description. For these, the mark scheme can use matched pairs. You get one mark for the item and one mark for a description that goes with it.",
-   "cites": [
-    {
-     "doc": "9626_s25_ms_33",
-     "ref": "Q5(a)",
-     "quote": "ONE from: • a cryptographic hash of the previous block • a timestamp • (all the) transaction data",
-     "page": 7
-    },
-    {
-     "doc": "9626_m24_ms_12",
-     "ref": "Q2",
-     "quote": "Eight available. Max two for each matched pair: • Table name/title (1st)",
-     "page": 4
-    },
-    {
-     "doc": "9626_s25_ms_12",
-     "ref": "Q11",
-     "quote": "Max FOUR marks, TWO per paired answer • Length check (1st)",
-     "page": 10
-    }
-   ]
-  },
-  {
    "kind": "tip",
-   "text": "For Identify, State and Name, a single word or short term can be enough. Examiners described one Identify question as looking for four one-word answers. Another question wanted only the name or acronym of a protocol. But when the question asks you to describe, one-word answers are not enough.",
+   "heading": "How much to write",
+   "text": "For Identify, State and Name, a single word or short term can be enough. Examiners described one Identify question as looking for four one-word answers. Another question wanted only the name or acronym of a protocol.",
    "cites": [
     {
      "doc": "9626_s24_er",
@@ -90,7 +67,14 @@
      "ref": "Paper 31 Q6(b)",
      "quote": "This question required only a name or acronym of a protocol that works at the internet layer.",
      "page": 19
-    },
+    }
+   ]
+  },
+  {
+   "kind": "tip",
+   "heading": "How much to write",
+   "text": "When the question asks you to describe, write more than one word for each answer.",
+   "cites": [
     {
      "doc": "9626_w25_er",
      "ref": "Paper 11 Q11",
@@ -100,8 +84,41 @@
    ]
   },
   {
+   "kind": "marks",
+   "heading": "How much to write",
+   "text": "Short-answer questions usually give one mark for each correct item. The mark scheme says 'One from' or 'Four from'.",
+   "cites": [
+    {
+     "doc": "9626_s25_ms_33",
+     "ref": "Q5(a)",
+     "quote": "ONE from: • a cryptographic hash of the previous block • a timestamp • (all the) transaction data",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "heading": "How much to write",
+   "text": "Some questions say 'identify and describe', or ask for an item and a description. The mark scheme can then use matched pairs. You get one mark for the item and one mark for a description that goes with it.",
+   "cites": [
+    {
+     "doc": "9626_m24_ms_12",
+     "ref": "Q2",
+     "quote": "Max two for each matched pair",
+     "page": 4
+    },
+    {
+     "doc": "9626_s25_ms_12",
+     "ref": "Q11",
+     "quote": "Max FOUR marks, TWO per paired answer",
+     "page": 10
+    }
+   ]
+  },
+  {
    "kind": "tip",
-   "text": "Give exactly the number of answers that the question asks for. The November 2023 examiner report says that examiners mark only the first answers, up to that number. Extra answers earn nothing.",
+   "heading": "How much to write",
+   "text": "Give exactly the number of answers that the question asks for. Examiners mark only the first answers, up to that number. Extra answers earn nothing.",
    "cites": [
     {
      "doc": "9626_w23_er",
@@ -113,37 +130,8 @@
   },
   {
    "kind": "mistake",
-   "text": "Do not copy something from the question as your answer. If the question already names an item or gives an example, repeating it earns nothing. A new wording of the question also earns nothing, for example 'a command line interface uses commands'.",
-   "cites": [
-    {
-     "doc": "9626_s25_er",
-     "ref": "Paper 33 general comments / Q5(a)",
-     "quote": "Candidates should not repeat the question in their answers. For example, Question 5(a) asks for one ‘other item of data’ but a significant number of candidates included the items given in the question stem in their answer, which did not gain them credit.",
-     "page": 24
-    },
-    {
-     "doc": "9626_w25_er",
-     "ref": "Paper 12 Q6(a)",
-     "quote": "repetition of the theft of data, which was included in the question as an example, was not accepted.",
-     "page": 6
-    },
-    {
-     "doc": "9626_w23_er",
-     "ref": "Paper 12 Q3",
-     "quote": "For example, candidates stated that a command line interface used commands or a gesture-based interface used gestures. In cases where candidates answered in these terms, without any further expansion, no credit could be awarded.",
-     "page": 6
-    },
-    {
-     "doc": "9626_w24_er",
-     "ref": "Paper 12 Q2(a)",
-     "quote": "some candidates stated that the age of information meant that information was outdated, which was not accepted, as it was effectively, a repeat of the question.",
-     "page": 3
-    }
-   ]
-  },
-  {
-   "kind": "mistake",
-   "text": "A definition must be precise. Examiners praised short, exact definitions such as 'a sequence of characters'. They called nearly-right answers a common mistake. One example is saying that encrypted data is unreadable. In fact the data is readable, but its meaning is hidden. Learn the exact meaning of each syllabus term.",
+   "heading": "Use the exact term",
+   "text": "Make a definition precise. Examiners praised short, exact definitions such as 'a sequence of characters'. They called nearly-right answers a common mistake. One example is saying that encrypted data is unreadable. In fact the data is readable, but its meaning is hidden. Learn the exact meaning of each syllabus term.",
    "cites": [
     {
      "doc": "9626_w24_er",
@@ -156,23 +144,12 @@
      "ref": "Paper 11 Q1(a)",
      "quote": "One common mistake is considering that encrypted data is unreadable without a key, which is one advantage of encrypting the data.",
      "page": 2
-    },
-    {
-     "doc": "9626_w25_er",
-     "ref": "Paper 32 Q7",
-     "quote": "Many candidates could not precisely define a virtual currency and muddled their answers with vague details of different forms of digital currency",
-     "page": 17
-    },
-    {
-     "doc": "9626_s25_er",
-     "ref": "Paper 13 Q12",
-     "quote": "This question assessed candidates’ ability to provide definitions of key terms from the syllabus.",
-     "page": 12
     }
    ]
   },
   {
    "kind": "mistake",
+   "heading": "Use the exact term",
    "text": "Use the exact names from the syllabus. Made-up names such as 'updating maintenance' got no marks. Be as specific as the question asks. For example, 'numeric' was not enough when the question asked which numeric data type.",
    "cites": [
     {
@@ -191,6 +168,26 @@
   },
   {
    "kind": "mistake",
+   "heading": "Answer this question",
+   "text": "Do not give an item from the question as your answer. If the question already names an item or gives an example, repeating it earns nothing. A new wording of the question also earns nothing, for example 'a command line interface uses commands'.",
+   "cites": [
+    {
+     "doc": "9626_s25_er",
+     "ref": "Paper 33 general comments / Q5(a)",
+     "quote": "Candidates should not repeat the question in their answers. For example, Question 5(a) asks for one ‘other item of data’ but a significant number of candidates included the items given in the question stem in their answer, which did not gain them credit.",
+     "page": 24
+    },
+    {
+     "doc": "9626_w23_er",
+     "ref": "Paper 12 Q3",
+     "quote": "For example, candidates stated that a command line interface used commands or a gesture-based interface used gestures. In cases where candidates answered in these terms, without any further expansion, no credit could be awarded.",
+     "page": 6
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "heading": "Answer this question",
    "text": "Answer the actual question. If it asks you to give reasons, a description gets no marks. If it asks how something could go wrong, a definition gets no marks.",
    "cites": [
     {
@@ -209,7 +206,8 @@
   },
   {
    "kind": "mistake",
-   "text": "Short answers must still fit the scenario. Examiners did not accept answers about the wrong part of the scenario.",
+   "heading": "Answer this question",
+   "text": "Fit short answers to the scenario too. Examiners did not accept answers about the wrong part of the scenario.",
    "cites": [
     {
      "doc": "9626_w25_er",
@@ -227,7 +225,8 @@
   },
   {
    "kind": "tip",
-   "text": "Suggest is rare, with 2 parts from 2022 onward. One of them has an examiner comment. That question was about improving a flowchart. The suggestions had to be relevant, and each one had to fit clearly on the flowchart. A 2021 report on a Suggest question criticised answers that said what something was. Those answers did not give reasons that fitted the scenario.",
+   "heading": "Suggest needs reasons that fit",
+   "text": "Suggest is rare, with 2 parts from 2022 onward. One of them has an examiner comment, on improving a flowchart. Each suggestion had to be relevant and had to fit clearly on the flowchart. A 2021 report on a Suggest question criticised answers that said what something was. Those answers gave no reasons that fitted the scenario.",
    "cites": [
     {
      "doc": "9626_w23_er",
@@ -276,7 +275,7 @@
      "sentence": "3 Age",
      "earns": {
       "doc": "9626_s24_ms_11",
-      "quote": "Relevance (1)  Age (1)",
+      "quote": "Age (1)",
       "page": 3
      }
     },
@@ -290,7 +289,7 @@
     }
    ],
    "weak": null,
-   "note": "The mark scheme accepts Accuracy, Relevance, Age, Level of detail and Completeness, one mark each. Four correct words get all four marks. The examiner report says the question was looking for four one-word answers. Write only four, because examiners do not mark extra answers."
+   "note": "The mark scheme also accepts Level of detail."
   },
   {
    "doc": "9626_s25_qp_33",
@@ -307,7 +306,7 @@
      "sentence": "A timestamp.",
      "earns": {
       "doc": "9626_s25_ms_33",
-      "quote": "ONE from: • a cryptographic hash of the previous block • a timestamp",
+      "quote": "a timestamp",
       "page": 7
      }
     }
@@ -322,7 +321,7 @@
      "page": 24
     }
    },
-   "note": "Before you answer, read the stem and cross out anything it already gives. 'Other' means something that is not in the question."
+   "note": "'Other' in the question means an item that the stem does not already give."
   },
   {
    "doc": "9626_w24_qp_33",
@@ -344,9 +343,8 @@
      }
     }
    ],
-   "weak": null,
-   "note": "One short, precise sentence gets the mark. The examiner report says that good answers gave the precise definition 'sequence of characters'."
+   "weak": null
   }
  ],
- "thin_evidence": "Counts from the question papers, from 2022 onward: Identify 28, State 12, Give 11, Define 8, List 2, Suggest 2, Name 1. The two List parts also ask you to describe. The one Name part (March 2026, Paper 12 Q10) actually says 'identify'. The Suggest advice rests on only one question from 2022 onward with an examiner comment (9626_w23_qp_13 Q8), plus one 2021 report. So treat that advice as thin. Give, Name and List are not in the syllabus command-word table. We found no examiner report that says whether an example in a definition gains or loses marks. So this section makes no claim about it."
+ "thin_evidence": "Papers 1 and 3 from 2022 to March 2026. Parts: Identify 28, State 12, Give 11, Define 8, List 2, Suggest 2, Name 1. Parts with a mark scheme: Identify 26, State 8, Give 11, Define 6, List 2, Suggest 2, Name 0. The two List parts also ask you to describe. The one Name part (March 2026, Paper 12 Q10) says 'identify' in its wording. One Suggest question from 2022 onward has an examiner comment (9626_w23_qp_13 Q8). The Suggest advice also uses one 2021 report. Give, Name and List are not in the syllabus command-word table. No examiner report says whether an example in a definition gains or loses marks."
 }

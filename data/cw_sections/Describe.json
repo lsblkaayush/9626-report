@@ -10,89 +10,12 @@
    }
   }
  ],
- "one_line": "Say what it is, what it does or how it happens. Give enough separate, accurate points to match the marks. Give reasons only if the question asks for them.",
+ "one_line": "Say what it is, what it does or how it happens, with one separate point for each mark. Give reasons only when the question asks for them.",
  "points": [
   {
    "kind": "marks",
-   "text": "In most Describe mark schemes, each correct point earns one mark. So a 4-mark Describe question needs about four separate points. One long sentence that says one thing is not enough.",
-   "cites": [
-    {
-     "doc": "9626_w25_er",
-     "ref": "Paper 11 Q2(a)",
-     "quote": "As a description is generally a one-mark answer, candidates had to give three separate descriptions for full marks to be awarded.",
-     "page": 1
-    },
-    {
-     "doc": "9626_w22_er",
-     "ref": "Paper 12 Q7(b)",
-     "quote": "Typically, one would expect a four mark question to require four individual points to be made.",
-     "page": 4
-    },
-    {
-     "doc": "9626_w25_er",
-     "ref": "Paper 33 Key messages",
-     "quote": "Question 1 has four marks available for describing the structure of a cellular network so at least four points need to be made in the answer for full marks",
-     "page": 19
-    }
-   ]
-  },
-  {
-   "kind": "marks",
-   "text": "Some mark schemes give one mark for a point, shown as (1st). They give a second mark for more detail about that same point, shown as (1). On those questions, four short points can often get 4 marks. Two points with more detail can also get 4 marks. 83 of the 387 Describe mark schemes from 2022 on use (1st) somewhere. None before 2022 use it.",
-   "cites": [
-    {
-     "doc": "9626_s25_ms_11",
-     "ref": "Q7(a)",
-     "quote": "A wind sensor/anemometer (1st) – is used to measure the direction of the wind (1)",
-     "page": 6
-    },
-    {
-     "doc": "9626_w25_ms_11",
-     "ref": "Q4(b)",
-     "quote": "It is interrogated by the inference engine (1st) – Using relevant rules//rules that apply (1)",
-     "page": 5
-    },
-    {
-     "doc": "9626_s25_er",
-     "ref": "Paper 13 Q8(a)",
-     "quote": "Therefore, they could describe four individual functions or two in some depth, or three with a mixture of techniques.",
-     "page": 11
-    },
-    {
-     "doc": "9626_s25_er",
-     "ref": "Paper 33 Q6(b)",
-     "quote": "This meant that candidates could gain full credit by either giving four descriptions or expanding on fewer descriptions.",
-     "page": 26
-    }
-   ]
-  },
-  {
-   "kind": "marks",
-   "text": "Naming things is not describing them. Examiner reports say that answers which only name components do not get the higher marks. At least one mark scheme limits answers that only give names. It allows a maximum of 3 of 5 marks for naming events without descriptions. Say what each one is or does.",
-   "cites": [
-    {
-     "doc": "9626_s24_ms_32",
-     "ref": "Q4(c)",
-     "quote": "Max three for naming valid events without descriptions",
-     "page": 6
-    },
-    {
-     "doc": "9626_s22_er",
-     "ref": "Paper 13 Q9(a)",
-     "quote": "Many responses indicated that candidates knew the names of the components but were unable to describe them in the detail required to gain the higher marks.",
-     "page": 9
-    },
-    {
-     "doc": "9626_m24_er",
-     "ref": "Paper 12",
-     "quote": "candidates were unable to describe the component, without relying on simply restating the component’s name.",
-     "page": 2
-    }
-   ]
-  },
-  {
-   "kind": "marks",
-   "text": "Describe is about what and how. Explain adds why. You do not need a reason in a Describe answer unless the question asks for one, for example 'Describe, with reasons'. If it does, you cannot get full marks without the reasons.",
+   "heading": "Check what you must describe",
+   "text": "Describe asks what something is, what it does or how it happens. Explain adds why. You need a reason in a Describe answer only when the question asks for one, for example 'Describe, with reasons'. Then you cannot get full marks without the reasons.",
    "cites": [
     {
      "doc": "9626_syllabus_2025-2027",
@@ -101,34 +24,17 @@
      "page": 66
     },
     {
-     "doc": "9626_w23_er",
-     "ref": "Paper 11 Q3",
-     "quote": "Candidates were asked to explain the differences rather than describe, so they were expected to give reasons for why the differences exist.",
-     "page": 2
-    },
-    {
-     "doc": "9626_s23_qp_11",
-     "ref": "Q6(a)",
-     "quote": "Describe, with reasons, the steps the manager takes when setting up this process.",
-     "page": 6
-    },
-    {
      "doc": "9626_s23_ms_11",
      "ref": "Q6(a)",
      "quote": "Must have at least TWO reasons to obtain full marks",
      "page": 5
-    },
-    {
-     "doc": "9626_w25_er",
-     "ref": "Paper 11 Q8",
-     "quote": "For each part, candidates had to describe the process and give a reason for its use for full marks to be awarded.",
-     "page": 3
     }
    ]
   },
   {
    "kind": "mistake",
-   "text": "Examiner reports often say that students mix up Describe and Explain. The opposite mistake also loses marks. If the question asks why, a description of the thing itself gets few or no marks.",
+   "heading": "Check what you must describe",
+   "text": "Examiner reports often say that students mix up Describe and Explain. The mix-up costs marks in both directions. If the question asks why, a description of the thing itself gets few or no marks.",
    "cites": [
     {
      "doc": "9626_s24_er",
@@ -146,37 +52,116 @@
   },
   {
    "kind": "mistake",
-   "text": "Check what the question asks you to describe. For 'Describe how X is set up' or 'the process of', give the steps in order. For 'Describe the features' or 'the functions', say what X is or does. For 'Describe the benefits', give benefits, not uses. An answer about the wrong one gets no marks, even if it is true.",
+   "heading": "Check what you must describe",
+   "text": "For 'Describe how X is set up' or 'the process of', give the steps in order. Details of how X is used earn nothing there.",
    "cites": [
     {
      "doc": "9626_s22_er",
      "ref": "Paper 32 Q1(b)",
      "quote": "Good answers detailed the steps that would be taken to set up an electronic wallet. No details of the use of the wallet were required to gain marks.",
      "page": 16
-    },
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "heading": "Check what you must describe",
+   "text": "For 'Describe the features' or 'the functions', say what X is or does. For 'Describe the benefits', give benefits and leave out uses. An answer about the wrong one gets no marks, even if it is true.",
+   "cites": [
     {
-     "doc": "9626_s22_er",
-     "ref": "Paper 13 Q1(b)",
-     "quote": "some only identified methods of collecting the data without saying how they would be used for example, what data would be collected or who it would be collected from.",
-     "page": 7
+     "doc": "9626_w22_er",
+     "ref": "Paper 31 Q8(a)",
+     "quote": "some focused on the use of the internet and remote learning, neither of which are features of a MOOC.",
+     "page": 14
     },
     {
      "doc": "9626_m25_er",
      "ref": "Paper 32 Q2(b)",
      "quote": "Common mistakes included descriptions of uses, inaccurate references to network performance and to illegal activities.",
      "page": 9
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "heading": "One mark for each point",
+   "text": "In most Describe mark schemes, each correct point earns one mark. A 4-mark Describe question needs four separate points. One long sentence with one point in it is not enough.",
+   "cites": [
+    {
+     "doc": "9626_w25_er",
+     "ref": "Paper 11 Q2(a)",
+     "quote": "As a description is generally a one-mark answer, candidates had to give three separate descriptions for full marks to be awarded.",
+     "page": 1
     },
     {
-     "doc": "9626_w22_er",
-     "ref": "Paper 31 Q8(a)",
-     "quote": "some focused on the use of the internet and remote learning, neither of which are features of a MOOC.",
-     "page": 14
+     "doc": "9626_w25_er",
+     "ref": "Paper 33 Key messages",
+     "quote": "Question 1 has four marks available for describing the structure of a cellular network so at least four points need to be made in the answer for full marks",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "heading": "One mark for each point",
+   "text": "Some mark schemes give one mark for a point, labelled (1st), and another for more detail about it, labelled (1). The (1st) label works as in the general rules at the front. On those questions, four short points can get 4 marks. Two points with more detail can also get 4 marks. 83 of the 388 Describe mark schemes from 2022 onward use (1st). None before 2022 use it.",
+   "cites": [
+    {
+     "doc": "9626_w25_ms_11",
+     "ref": "Q4(b)",
+     "quote": "It is interrogated by the inference engine (1st) – Using relevant rules//rules that apply (1)",
+     "page": 5
+    },
+    {
+     "doc": "9626_s25_er",
+     "ref": "Paper 33 Q6(b)",
+     "quote": "This meant that candidates could gain full credit by either giving four descriptions or expanding on fewer descriptions.",
+     "page": 26
+    }
+   ]
+  },
+  {
+   "kind": "tip",
+   "heading": "One mark for each point",
+   "text": "If the question asks for a set number of things, for example 'Describe two reasons', the examiner marks only that many answers. Extra answers do not help. If you join two ideas with 'and', the second idea can count as a separate answer. Give each point its own sentence.",
+   "cites": [
+    {
+     "doc": "9626_w25_er",
+     "ref": "Paper 11 General comments",
+     "quote": "If, for example, the question asks for two reasons why an action may be taken, only the first two answers given by the candidate may be awarded marks.",
+     "page": 1
+    },
+    {
+     "doc": "9626_w25_er",
+     "ref": "Paper 11 General comments",
+     "quote": "Typically, where candidates join two concepts together using ‘and’, the concept after the word ‘and’ is treated as a second answer, unless the piece after the ‘and’ is clearly an explanation or clarification of the piece before the ‘and’.",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "heading": "Say what each thing is or does",
+   "text": "Say what each thing is or does. Examiner reports say that answers which only name components do not get the higher marks. One mark scheme allows a maximum of 3 of 5 marks for naming events without descriptions.",
+   "cites": [
+    {
+     "doc": "9626_s24_ms_32",
+     "ref": "Q4(c)",
+     "quote": "Max three for naming valid events without descriptions",
+     "page": 6
+    },
+    {
+     "doc": "9626_s22_er",
+     "ref": "Paper 13 Q9(a)",
+     "quote": "Many responses indicated that candidates knew the names of the components but were unable to describe them in the detail required to gain the higher marks.",
+     "page": 9
     }
    ]
   },
   {
    "kind": "mistake",
-   "text": "Do not repeat the question. Answers such as 'White box testing is used to test the code' or 'a sound sensor measures sound' get no mark. Add a detail that the question does not already give you.",
+   "heading": "Say what each thing is or does",
+   "text": "Do not repeat the question. Answers such as 'White box testing is used to test the code' or 'a sound sensor measures sound' get no mark. Add a detail that the question does not give you.",
    "cites": [
     {
      "doc": "9626_s24_er",
@@ -194,7 +179,8 @@
   },
   {
    "kind": "mistake",
-   "text": "Vague words such as 'cheaper', 'more expensive' or 'work out the costs' do not get marks on their own. Say exactly what is cheaper, or name the exact cost. Use the correct technical term, not slang.",
+   "heading": "Say what each thing is or does",
+   "text": "Vague words such as 'more expensive' get no marks on their own. Name the exact cost, or say exactly what is cheaper.",
    "cites": [
     {
      "doc": "9626_s22_er",
@@ -207,19 +193,14 @@
      "ref": "Paper 12 Q1(a)",
      "quote": "However, where candidates stated that a specific, named, cost could be avoided, this was awarded.",
      "page": 6
-    },
-    {
-     "doc": "9626_s24_er",
-     "ref": "Paper 32 Q6(a)",
-     "quote": "A common mistake was to give vague answers such as ‘work out the costs’.",
-     "page": 22
-    },
-    {
-     "doc": "9626_w25_er",
-     "ref": "Paper 11 Q4(b)",
-     "quote": "candidates did not always focus as keenly as was required and gave vague answers that did not warrant any marks.",
-     "page": 2
-    },
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "heading": "Say what each thing is or does",
+   "text": "Use the correct technical term. Examiners say that slang often makes an answer meaningless.",
+   "cites": [
     {
      "doc": "9626_m25_er",
      "ref": "Paper 12 Key messages",
@@ -229,50 +210,15 @@
    ]
   },
   {
-   "kind": "tip",
-   "text": "Use the scenario. The question can be about a nuclear power plant, a bank's new customers or a table of data. Your points should fit that situation. A point that is true in general but wrong for the scenario loses the mark. A prepared answer that ignores the question gets only low marks.",
-   "cites": [
-    {
-     "doc": "9626_s22_er",
-     "ref": "Paper 31 General comments",
-     "quote": "The full range of marks is only available to candidates for answers referring to the scenario in the questions.",
-     "page": 13
-    },
-    {
-     "doc": "9626_w25_er",
-     "ref": "Paper 11 General comments",
-     "quote": "context also provides a restriction, as certain answers may be acceptable for one scenario, but not for another.",
-     "page": 1
-    },
-    {
-     "doc": "9626_w23_er",
-     "ref": "Paper 13 Q4(a)",
-     "quote": "Many responses suggested a form of lookup validation. This would not be acceptable, as the account numbers are for new customers and so would not exist.",
-     "page": 9
-    },
-    {
-     "doc": "9626_s22_er",
-     "ref": "Paper 31 Q9(b)",
-     "quote": "those who provided an answer they had prepared for, rather than for the question on the paper, were limited to low band marks.",
-     "page": 15
-    }
-   ]
-  },
-  {
    "kind": "format",
-   "text": "Write descriptions as full sentences, with one point in each sentence. The Paper 3 reports say that you cannot give a description in short bullets. On one Paper 1 question, the examiners accepted a list of steps for a 'describe the process' question. But full sentences are the safe choice on both papers.",
+   "heading": "Say what each thing is or does",
+   "text": "Write descriptions as full sentences, with one point in each sentence. The Paper 3 reports say that a description needs full sentences. On one Paper 1 question, the examiners accepted a list of steps for a 'describe the process' question. Full sentences are the safe choice on both papers.",
    "cites": [
     {
      "doc": "9626_s22_er",
      "ref": "Paper 31 General comments",
      "quote": "Descriptions or explanations can only be conveyed in full sentences.",
      "page": 13
-    },
-    {
-     "doc": "9626_w25_er",
-     "ref": "Paper 32 General comments",
-     "quote": "Candidates should also be encouraged to write full sentences and discouraged from writing bulleted, short statements in their responses.",
-     "page": 16
     },
     {
      "doc": "9626_w25_er",
@@ -284,25 +230,20 @@
   },
   {
    "kind": "tip",
-   "text": "If the question asks for a set number of things, for example 'Describe two reasons', the examiner marks only the first that many answers. Extra answers do not help. If you join two ideas with 'and', the second idea can count as a separate answer. So give each point its own sentence.",
+   "heading": "Use the scenario",
+   "text": "Fit your points to the scenario. The question may be about a nuclear power plant or a bank's new customers. A point that is true in general but wrong for the scenario loses the mark. A prepared answer that ignores the question gets only low marks.",
    "cites": [
     {
      "doc": "9626_w25_er",
      "ref": "Paper 11 General comments",
-     "quote": "Typically, where candidates join two concepts together using ‘and’, the concept after the word ‘and’ is treated as a second answer, unless the piece after the ‘and’ is clearly an explanation or clarification of the piece before the ‘and’.",
+     "quote": "context also provides a restriction, as certain answers may be acceptable for one scenario, but not for another.",
      "page": 1
     },
     {
-     "doc": "9626_s25_er",
-     "ref": "Paper 33 Q6(a)",
-     "quote": "The question clearly stated that two reasons should be described so it was not possible to score full marks without giving two descriptions.",
-     "page": 26
-    },
-    {
-     "doc": "9626_w25_er",
-     "ref": "Paper 11 General comments",
-     "quote": "If, for example, the question asks for two reasons why an action may be taken, only the first two answers given by the candidate may be awarded marks.",
-     "page": 1
+     "doc": "9626_s22_er",
+     "ref": "Paper 31 Q9(b)",
+     "quote": "those who provided an answer they had prepared for, rather than for the question on the paper, were limited to low band marks.",
+     "page": 15
     }
    ]
   }
@@ -323,15 +264,15 @@
      "sentence": "The knowledge base holds the facts about the subject area of the expert system.",
      "earns": {
       "doc": "9626_w25_ms_11",
-      "quote": "4(b) Four from: • Knowledge base holds facts (1)",
+      "quote": "Knowledge base holds facts (1)",
       "page": 5
      }
     },
     {
-     "sentence": "These facts have been gathered from a human expert in that subject.",
+     "sentence": "A human expert in that subject supplied these facts.",
      "earns": {
       "doc": "9626_w25_ms_11",
-      "quote": "Knowledge base holds facts (1) gathered from an expert (1)",
+      "quote": "gathered from an expert (1)",
       "page": 5
      }
     },
@@ -347,7 +288,7 @@
      "sentence": "The inference engine only uses the rules that apply to that query.",
      "earns": {
       "doc": "9626_w25_ms_11",
-      "quote": "It is interrogated by the inference engine (1st) – Using relevant rules//rules that apply (1)",
+      "quote": "Using relevant rules//rules that apply (1)",
       "page": 5
      }
     }
@@ -361,8 +302,7 @@
      "quote": "For example, whilst many candidates stated that the knowledge base holds facts, very few stated that these were sourced from experts. Similarly, candidates were aware that rules are used to interrogate the knowledge base, but very few stated that only the relevant rules were used.",
      "page": 2
     }
-   },
-   "note": "This is a 'describe how' question, so the marks are for what happens, not why. Two of the four marks are for more detail about an earlier point. These are 'gathered from an expert' and 'only relevant rules'. So precise detail earns as much as new points."
+   }
   },
   {
    "doc": "9626_s22_qp_13",
@@ -411,15 +351,14 @@
    "weak": {
     "answer": "Custom written software is more expensive. It is better than off-the-shelf software.",
     "marks_likely": "0 of 4",
-    "why": "'More expensive' is a vague comparison with no detail. 'Better' is an opinion, not a feature. The cost point earns a mark only when it says who pays the development costs.",
+    "why": "'More expensive' is a vague comparison with no detail. 'Better' is an opinion and names no feature. The cost point earns a mark only when it says who pays the development costs.",
     "basis": {
      "doc": "9626_s22_er",
      "quote": "Some weaker responses contained responses such as ‘more expensive’ which is not enough at this level and statements such as this should always be expanded.",
      "page": 8
     }
-   },
-   "note": "A 'describe the features' question wants four separate facts about what the thing is. You do not need reasons. But each fact must be specific enough to match a mark scheme point."
+   }
   }
  ],
- "thin_evidence": "There is plenty of evidence. Describe is one of the most common command words on Papers 1 and 3. The mark schemes do not define the (1st) label. This guide reads it as a first point that a later linked point expands. That reading comes from how the mark schemes lay out the points. It also comes from examiner report comments about expanding fewer points."
+ "thin_evidence": "409 Describe parts on Papers 1 and 3 from 2022 to March 2026, 388 of them with a mark scheme. 83 of those 388 mark schemes use the (1st) label. Cambridge's mark-scheme key does not define (1st)."
 }

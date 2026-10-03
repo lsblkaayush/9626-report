@@ -18,18 +18,13 @@
    }
   }
  ],
- "one_line": "Compare means similarities, differences or both. Give both unless the question says otherwise, because some questions need both. Contrast means differences only. Make every point a clear comparison of the two things ('both', 'whereas', '-er than').",
+ "one_line": "For Compare, give similarities and differences. For Contrast, give differences only, and write every point about both things.",
  "points": [
   {
+   "heading": "Which sides to give",
    "kind": "marks",
-   "text": "Mark schemes for Compare list similarities and differences, with one mark for each valid point. Some mark schemes say you need at least one similarity and one difference for full marks. Three examples are March 2022 Paper 32, March 2023 Paper 32 and June 2022 Paper 12.",
+   "text": "Mark schemes for Compare list similarities and differences, with one mark for each valid point. Some mark schemes need at least one similarity and one difference for full marks. Two examples are March 2023 Paper 32 and June 2022 Paper 12.",
    "cites": [
-    {
-     "doc": "9626_m22_ms_32",
-     "ref": "Q9",
-     "quote": "Must be at least one similarity and one difference for full marks",
-     "page": 9
-    },
     {
      "doc": "9626_m23_ms_32",
      "ref": "Q3",
@@ -45,8 +40,9 @@
    ]
   },
   {
+   "heading": "Which sides to give",
    "kind": "marks",
-   "text": "Some mark schemes put a cap on each side. For example, a 5-mark question can allow a maximum of 4 marks for similarities and 4 for differences. So if you write only one side, you cannot get full marks.",
+   "text": "Some mark schemes cap each side. A 5-mark question can allow at most 4 marks for similarities and 4 for differences. An answer with one side only cannot reach full marks.",
    "cites": [
     {
      "doc": "9626_w23_ms_11",
@@ -57,32 +53,21 @@
     {
      "doc": "9626_w25_ms_32",
      "ref": "Q3",
-     "quote": "Five from: Max 4 from: Similarities: Both",
+     "quote": "Five from: Max 4 from: Similarities",
      "page": 6
     }
    ]
   },
   {
+   "heading": "Which sides to give",
    "kind": "tip",
-   "text": "Give both similarities and differences in a Compare answer, even if the question does not ask for both. The examiner reports have not always agreed on this. Some reports said both were required. Others said you could get full marks with only one side when the question did not ask for both. Writing both is safe in every case.",
+   "text": "Give similarities and differences in a Compare answer, even when the question does not ask for both. The examiner reports differ here. The March 2023 report advised both sides in every case. The November 2022 report gave full marks for one side on one question. An answer with both sides is safe under either view.",
    "cites": [
     {
      "doc": "9626_m23_er",
      "ref": "Q3",
-     "quote": "Often a question will specify that both similarities and differences as required, as in this question, but even if it does not, candidates are advised to give both to ensure access to the full mark range.",
+     "quote": "even if it does not, candidates are advised to give both to ensure access to the full mark range.",
      "page": 8
-    },
-    {
-     "doc": "9626_s23_er",
-     "ref": "Paper 31 Q3",
-     "quote": "this is interpreted as both being required. Therefore, centres are reminded to ensure that their candidates include both. Answers that do not include both are unable to access the full range of marks.",
-     "page": 17
-    },
-    {
-     "doc": "9626_w24_er",
-     "ref": "Paper 32 Q1(b)",
-     "quote": "Where both similarities and differences, or where only similarities or only differences, are specifically required, this will be made clear in the question.",
-     "page": 15
     },
     {
      "doc": "9626_w22_er",
@@ -93,44 +78,47 @@
    ]
   },
   {
+   "heading": "Which sides to give",
    "kind": "mistake",
-   "text": "Students often forget the similarities. The November 2025 examiner report (Paper 11) said few, if any, candidates gave similarities. The June 2025 examiner report (Paper 32) said candidates often left them out.",
+   "text": "Students often leave out the similarities. The November 2025 examiner report (Paper 11) said few, if any, candidates gave similarities. The June 2025 report (Paper 32) said candidates often omitted them.",
    "cites": [
     {
      "doc": "9626_w25_er",
      "ref": "Paper 11 Q5(b)",
-     "quote": "When candidates are asked to compare, they are able to identify similarities as well as differences. Few, if any, candidates identified similarities between the two methods.",
+     "quote": "Few, if any, candidates identified similarities between the two methods.",
      "page": 2
     },
     {
      "doc": "9626_s25_er",
      "ref": "Paper 32 Q7",
-     "quote": "Most candidates could describe the basic, obvious differences between activity-on-node and activity-on- arrow PERT diagrams, but the similarities between the two were often omitted.",
+     "quote": "the similarities between the two were often omitted.",
      "page": 22
     }
    ]
   },
   {
-   "kind": "format",
-   "text": "Write each difference as one matched sentence about both things, joined by 'whereas'. Do not write one paragraph about A and then a separate paragraph about B. Examiners did not give marks when they could not see the comparison.",
+   "heading": "Which sides to give",
+   "kind": "mistake",
+   "text": "Contrast means differences only. Similarities in a Contrast answer get no marks and use up your time.",
    "cites": [
     {
-     "doc": "9626_w22_er",
-     "ref": "Paper 12 Q3(a)",
-     "quote": "differences are best presented together, perhaps joined by the use of ‘whereas’. In some cases, candidates wrote two separate descriptions one of phishing and the other of vishing.",
-     "page": 3
+     "doc": "9626_s23_er",
+     "ref": "Paper 32 Q4(a)",
+     "quote": "Any references to similarities were ignored and not given credit because these did not answer the question.",
+     "page": 21
     },
     {
-     "doc": "9626_w22_er",
-     "ref": "Paper 12 Q3(a)",
-     "quote": "Where it was clear that these were presented as comparisons, marks were awarded if possible. However, this clarity was sometimes lacking and so marks were not awarded.",
+     "doc": "9626_m22_ms_32",
+     "ref": "Q1",
+     "quote": "Command word: Contrast: identify/comment on differences.",
      "page": 3
     }
    ]
   },
   {
+   "heading": "Write each point as a comparison",
    "kind": "mistake",
-   "text": "A true fact about only one thing is not a comparison. 'A LAN covers a small area' gets no mark. 'A LAN covers a smaller area than a WAN' gets a mark. The June 2025 examiner report (Paper 12) was about a Contrast question. It said you do not need to write out the other side every time. The point must still clearly be a comparison.",
+   "text": "Make each point say something about both things. 'A LAN covers a small area' gets no mark. 'A LAN covers a smaller area than a WAN' gets a mark. The June 2025 report on a Contrast question said you need not write out both sides every time. The point must still read as a comparison.",
    "cites": [
     {
      "doc": "9626_m22_er",
@@ -147,13 +135,33 @@
    ]
   },
   {
+   "heading": "Write each point as a comparison",
    "kind": "format",
-   "text": "Do not answer with a bullet list or a table. One examiner report says lists of points, bulleted or in tables, are unlikely to get full marks for a comparison. Write full sentences.",
+   "text": "Write each difference as one sentence about both things, joined by 'whereas'. Do not write one paragraph about A and then another paragraph about B. Examiners gave no marks when they could not see the comparison.",
+   "cites": [
+    {
+     "doc": "9626_w22_er",
+     "ref": "Paper 12 Q3(a)",
+     "quote": "differences are best presented together, perhaps joined by the use of ‘whereas’. In some cases, candidates wrote two separate descriptions one of phishing and the other of vishing.",
+     "page": 3
+    },
+    {
+     "doc": "9626_w22_er",
+     "ref": "Paper 12 Q3(a)",
+     "quote": "this clarity was sometimes lacking and so marks were not awarded.",
+     "page": 3
+    }
+   ]
+  },
+  {
+   "heading": "Write each point as a comparison",
+   "kind": "format",
+   "text": "Do not answer with a bullet list or a table. Write full sentences. One examiner report says lists of points, bulleted or in tables, are unlikely to get full marks for a comparison.",
    "cites": [
     {
      "doc": "9626_s23_er",
      "ref": "Paper 32 Q2",
-     "quote": "It should also be noted by centres that candidates who provide lists of points, bulleted or in tables, are unlikely to gain full marks because the question asks for comparisons which are best written in free response.",
+     "quote": "candidates who provide lists of points, bulleted or in tables, are unlikely to gain full marks because the question asks for comparisons which are best written in free response.",
      "page": 21
     },
     {
@@ -165,56 +173,28 @@
    ]
   },
   {
-   "kind": "mistake",
-   "text": "Contrast means differences only. Similarities in a Contrast answer get no marks, so they waste your time.",
-   "cites": [
-    {
-     "doc": "9626_s23_er",
-     "ref": "Paper 32 Q4(a)",
-     "quote": "The command word ‘contrast’ requires only that the differences are described (see p. 45 of the syllabus). Any references to similarities were ignored and not given credit because these did not answer the question.",
-     "page": 21
-    },
-    {
-     "doc": "9626_m23_er",
-     "ref": "Paper 32 Q2",
-     "quote": "When responding to ‘contrast’ questions, candidates should give only differences.",
-     "page": 7
-    },
-    {
-     "doc": "9626_m22_ms_32",
-     "ref": "Q1",
-     "quote": "Command word: Contrast: identify/comment on differences.",
-     "page": 3
-    }
-   ]
-  },
-  {
+   "heading": "Answer the question asked",
    "kind": "mistake",
    "text": "Do not repeat the question as a similarity. If the question says both devices exchange data, 'both exchange data' gets no mark. The examiners also called very general similarities weak, such as 'both are plastic cards'.",
    "cites": [
     {
      "doc": "9626_s23_er",
      "ref": "Paper 32 Q2",
-     "quote": "Centres should also remind their candidates that answers that repeat the question, in this case stating that both exchange data in networks, will not be given credit.",
+     "quote": "answers that repeat the question, in this case stating that both exchange data in networks, will not be given credit.",
      "page": 21
-    },
-    {
-     "doc": "9626_w24_er",
-     "ref": "Paper 32 Q1(b)",
-     "quote": "the mark was for the repeatedly/iteration comment since ‘loop through a block of code’ was given in the question.",
-     "page": 15
     },
     {
      "doc": "9626_s23_er",
      "ref": "Paper 31 Q3",
-     "quote": "Weaker answers referred to both being plastic cards and, inaccurately, both being used for online shopping.",
+     "quote": "Weaker answers referred to both being plastic cards",
      "page": 17
     }
    ]
   },
   {
+   "heading": "Answer the question asked",
    "kind": "mistake",
-   "text": "Compare exactly the two things named in the question. Do not write about only one of them. Do not answer about something else that just has a similar keyword.",
+   "text": "Compare exactly the two things named in the question. Write about both of them. Do not answer about something else that just shares a keyword.",
    "cites": [
     {
      "doc": "9626_w25_er",
@@ -225,7 +205,7 @@
     {
      "doc": "9626_m23_er",
      "ref": "Paper 32 Q3",
-     "quote": "It was noted that a significant number of responses referred to dynamic IP assignment using DHCP. Such references did not answer the question",
+     "quote": "a significant number of responses referred to dynamic IP assignment using DHCP. Such references did not answer the question",
      "page": 8
     }
    ]
@@ -295,14 +275,13 @@
    "weak": {
     "answer": "Static IP addresses are set by the network administrator and do not change. Dynamic IP addresses are given out by a DHCP server and can change each time a device connects.",
     "marks_likely": "0 of 6",
-    "why": "It is about IP addresses, not routing. It also has no similarity, and it describes each type separately instead of comparing them.",
+    "why": "It answers about IP addresses, but the question is about routing. It has no similarity. It also describes each type on its own, with no comparison.",
     "basis": {
      "doc": "9626_m23_er",
      "quote": "It was noted that a significant number of responses referred to dynamic IP assignment using DHCP. Such references did not answer the question and it can only be assumed that the candidates spotted the words ’dynamic’ and ‘IP’ and misunderstood the question.",
      "page": 8
     }
-   },
-   "note": "Two similarities that start with 'Both' and four differences joined by 'whereas' give six separate marks. Each sentence covers both things, so the examiner can see the comparison."
+   }
   },
   {
    "doc": "9626_m22_qp_32",
@@ -367,15 +346,14 @@
    "weak": {
     "answer": "• LAN: small area, one building.\n• WAN: large area, the internet.\n• Both are networks that connect computers.",
     "marks_likely": "0 of 6",
-    "why": "The bullets are separate facts about one network at a time, not differences. The last bullet is a similarity, which gets no credit for Contrast.",
+    "why": "Each bullet states facts about one network, so no bullet gives a difference. The last bullet is a similarity, and Contrast gives no credit for similarities.",
     "basis": {
      "doc": "9626_m22_er",
      "quote": "Weaker answers just stated facts, sometimes as unconnected bullets, or described uses of LANs/WANs. Others gave similarities. These did not gain credit because the responses did not answer the question.",
      "page": 6
     }
-   },
-   "note": "Every sentence names both LAN and WAN and uses a comparing word ('smaller ... than', 'whereas'). There are no similarities, because Contrast does not credit them."
+   }
   }
  ],
- "thin_evidence": "Compare has good evidence. The question papers have 16 question parts that use Compare, all from 2022 onward, and many have examiner comments. Contrast has less evidence. 8 parts are labelled Contrast. One of them, November 2024 Paper 33 Q3(b), is a false match, because 'contrast' is an image term in a Describe question. So 7 are real Contrast questions. 6 of them are from 2022 onward, and the other is June 2021 Paper 32. Another 20 parts from 2018-2021 are labelled 'Compare and Contrast'. This guide does not use them. The examiner reports disagree on whether Compare needs both sides when the question does not ask for both. The June 2023 report said both are required. The November 2022 and November 2024 reports said one side could get full marks. The advice to give both follows the March 2023 report and works under either reading."
+ "thin_evidence": "Compare: 16 question parts from 2022 to 2025, all 16 with mark schemes. Contrast: 6 parts from 2022 to 2026, 5 with mark schemes. The sixth part, March 2026 Paper 12 Q7(b), has no mark scheme in the source set. November 2024 Paper 33 Q3(b) is left out because 'contrast' there is an image term in a Describe question. The examiner reports disagree on whether Compare needs both sides when the question does not ask for both."
 }

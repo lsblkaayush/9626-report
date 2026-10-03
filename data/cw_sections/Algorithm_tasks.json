@@ -29,22 +29,17 @@
    "note": "Not in the command-word table (page 66). This is the syllabus symbol list on page 61 that examiners expect you to use."
   }
  ],
- "one_line": "Use the syllabus pseudocode keywords or flowchart symbols. Set your variables to a starting value before the loop. Put the counter update inside the loop. Close every structure (ENDIF, ENDWHILE, UNTIL). Label every decision Yes and No.",
+ "one_line": "Use the syllabus keywords and flowchart symbols. Set counters before the loop, update them inside it, and close every structure.",
  "points": [
   {
+   "heading": "One mark per feature",
    "kind": "marks",
-   "text": "Examiners give one mark for each required feature, such as initialising a variable, the loop, the input, the counter update and the output. Most features get a mark on their own, so you can earn marks even if part of your answer is wrong. A few marks depend on other marks. Always attempt the question. The examiner reports say the easier marks are generally there to get.",
+   "text": "Examiners give one mark for each feature the answer needs, such as an IF...ENDIF or outputs that match the conditions. Most of these marks stand alone, and a partly wrong answer still scores. A few marks depend on other marks. Always attempt the question. The examiner reports say the easier marks are generally accessible.",
    "cites": [
-    {
-     "doc": "9626_m22_ms_12",
-     "ref": "Q7",
-     "quote": "Eight from: Input number of numbers Initialise count Initialise total Loop that works involving REPEAT… UNTIL (e.g. count = n) Input number within loop Increment count within loop Update total within loop",
-     "page": 7
-    },
     {
      "doc": "9626_s25_ms_13",
      "ref": "Q7",
-     "quote": "Initialise Count before Mark variable is input (1) • REPEAT in correct logical location (1) • Input Mark (1)",
+     "quote": "Use of one IF…ENDIF (1) • All OUTPUTs correctly match the criteria (NOT awardable if BP4 or BP5 not awarded) (1)",
      "page": 7
     },
     {
@@ -56,13 +51,52 @@
    ]
   },
   {
+   "heading": "Write pseudocode the examiners accept",
+   "kind": "tip",
+   "text": "Use the structures and keywords from the syllabus (IF...ELSE...ENDIF, WHILE...ENDWHILE, REPEAT...UNTIL, CASE...ENDCASE). If the question names a structure, use it. Students who mixed CASE with IF statements lost marks.",
+   "cites": [
+    {
+     "doc": "9626_w23_er",
+     "ref": "Paper 11 general",
+     "quote": "some candidates did not use the coding structures and terms given for this qualification.",
+     "page": 1
+    },
+    {
+     "doc": "9626_s24_er",
+     "ref": "Paper 11 Q8",
+     "quote": "Most candidates tried to combine the structure with IF statements, thereby highlighting this lack of understanding.",
+     "page": 3
+    }
+   ]
+  },
+  {
+   "heading": "Write pseudocode the examiners accept",
+   "kind": "tip",
+   "text": "Write the answer as pseudocode. Students who wrote prose lost marks. Cambridge publishes a pseudocode guide that shows the expected layout.",
+   "cites": [
+    {
+     "doc": "9626_s22_er",
+     "ref": "Paper 11 Q6",
+     "quote": "proved challenging to candidates who wrote their answer in prose rather than using algorithmic constructs.",
+     "page": 2
+    },
+    {
+     "doc": "9626_s25_er",
+     "ref": "Paper 13 Q7",
+     "quote": "Centres are reminded that CIE has produced a pseudocode guide for teachers and candidates working on this course.",
+     "page": 11
+    }
+   ]
+  },
+  {
+   "heading": "Write pseudocode the examiners accept",
    "kind": "mistake",
-   "text": "Initialise counters and totals before the loop starts, not inside it. In June 2025 Paper 13 Q7, this was the most common mistake among otherwise strong candidates. In Q13 of the same paper, a missing initialisation was the usual reason for losing marks.",
+   "text": "Initialise counters and totals before the loop starts. In June 2025 Paper 13 Q7, initialisation inside the loop was the most common mistake among otherwise strong candidates. In Q13 of the same paper, a missing initialisation was the usual reason for losing marks.",
    "cites": [
     {
      "doc": "9626_s25_er",
      "ref": "Paper 13 Q7",
-     "quote": "most candidates realised that the algorithm required a count and that this count should be initialised outside of the loop. However, a sizeable minority placed the initialisation of the count within the loop.",
+     "quote": "a sizeable minority placed the initialisation of the count within the loop.",
      "page": 11
     },
     {
@@ -70,18 +104,13 @@
      "ref": "Paper 13 Q13",
      "quote": "Where candidates did not achieve full marks, this was generally because they did not initialise the variable Sum.",
      "page": 12
-    },
-    {
-     "doc": "9626_w24_ms_12",
-     "ref": "Q4",
-     "quote": "Two variables (e.g. MAX, COUNT, TOTAL, NUM) initialised/set to zero before loop (1)",
-     "page": 5
     }
    ]
   },
   {
+   "heading": "Write pseudocode the examiners accept",
    "kind": "marks",
-   "text": "Put the counter increment inside the loop. If the increment is only inside an IF within the loop, it does not get the mark. Make the loop stop at the right value.",
+   "text": "Put the counter increment inside the loop. An increment that sits only inside an IF within the loop does not get the mark. Make the loop stop at the right value.",
    "cites": [
     {
      "doc": "9626_s25_ms_13",
@@ -98,56 +127,15 @@
    ]
   },
   {
-   "kind": "tip",
-   "text": "Use the structures and keywords from the syllabus (IF...ELSE...ENDIF, WHILE...ENDWHILE, REPEAT...UNTIL, CASE...ENDCASE). If the question names a structure, use it. Students who mixed CASE with IF statements lost marks. Students who wrote prose also lost marks. Cambridge publishes a pseudocode guide that shows the expected layout.",
-   "cites": [
-    {
-     "doc": "9626_w23_er",
-     "ref": "Paper 11 general",
-     "quote": "Performance on the algorithm question was improved, although some candidates did not use the coding structures and terms given for this qualification.",
-     "page": 1
-    },
-    {
-     "doc": "9626_s24_er",
-     "ref": "Paper 11 Q8",
-     "quote": "Most candidates tried to combine the structure with IF statements, thereby highlighting this lack of understanding.",
-     "page": 3
-    },
-    {
-     "doc": "9626_s22_er",
-     "ref": "Paper 11 Q6",
-     "quote": "proved challenging to candidates who wrote their answer in prose rather than using algorithmic constructs.",
-     "page": 2
-    },
-    {
-     "doc": "9626_s25_er",
-     "ref": "Paper 13 Q7",
-     "quote": "Centres are reminded that CIE has produced a pseudocode guide for teachers and candidates working on this course.",
-     "page": 11
-    }
-   ]
-  },
-  {
+   "heading": "Write pseudocode the examiners accept",
    "kind": "mistake",
-   "text": "Small syntax errors cost marks. Write each comparison in full (IF X > Y AND X < Z, not IF X > Y and < Z). Close every IF with ENDIF. Input or output each variable separately ('OUTPUT smallest and largest' was not accepted). Put text in speech marks, with commas between text and variables.",
+   "text": "Small syntax errors cost marks. Write each comparison in full (IF X > Y AND X < Z, not IF X > Y and < Z). Close every IF with ENDIF. Input each variable separately ('input X and Y' does not work). Put text in speech marks, with commas between text and variables.",
    "cites": [
     {
      "doc": "9626_s25_er",
      "ref": "Paper 13 Q7",
      "quote": "treating the test criteria as a string and using the structure IF X>Y and <Z, instead of IF X>Y AND X<Z.",
      "page": 11
-    },
-    {
-     "doc": "9626_s23_er",
-     "ref": "Paper 12 Q10",
-     "quote": "Failure to close IF statements with ENDIF statements. • Failure to use mathematical reasoning in the pseudocode.",
-     "page": 8
-    },
-    {
-     "doc": "9626_w23_er",
-     "ref": "Paper 12 Q9",
-     "quote": "For example, some responses stated, “Output smallest and largest”, which would not work and so was not accepted.",
-     "page": 7
     },
     {
      "doc": "9626_w23_er",
@@ -158,21 +146,29 @@
    ]
   },
   {
+   "heading": "Write pseudocode the examiners accept",
    "kind": "format",
-   "text": "Indent the lines inside IF, ELSE and loops. Some mark schemes give a mark just for correct indentation. Variable names with two or more words must have no spaces. Examiners do not take off marks for a slightly wrong variable name if it is clear which variable you mean.",
+   "text": "Indent the lines inside IF, ELSE and loops. Some mark schemes give a mark just for correct indentation.",
    "cites": [
     {
      "doc": "9626_w23_ms_13",
      "ref": "Q9",
-     "quote": "IF and ENDIF indented correctly (1) • Use of THEN (1)",
+     "quote": "IF and ENDIF indented correctly (1)",
      "page": 8
     },
     {
      "doc": "9626_s24_er",
      "ref": "Paper 11 Q8",
-     "quote": "Where marks were awarded, these tended to be for structural awareness, such as correct use of indentation, or for inputting a number at the start of the process.",
+     "quote": "Where marks were awarded, these tended to be for structural awareness, such as correct use of indentation",
      "page": 4
-    },
+    }
+   ]
+  },
+  {
+   "heading": "Write pseudocode the examiners accept",
+   "kind": "format",
+   "text": "Write variable names of two or more words with no spaces. Examiners do not take off marks for a slightly wrong variable name if it is clear which variable you mean.",
+   "cites": [
     {
      "doc": "9626_w22_er",
      "ref": "Paper 12 Q9(a)",
@@ -188,44 +184,34 @@
    ]
   },
   {
+   "heading": "Draw flowcharts with the syllabus symbols",
    "kind": "mistake",
-   "text": "In a flowchart, every decision box needs two exits labelled Yes and No (True and False are accepted). Write the condition as a maths expression, not in words. For example, 'is x between 5 and 10' is not acceptable.",
+   "text": "Use the symbols shown in the syllabus: parallelograms for input and output, rectangles for processes, and terminators for Start and Stop. Do not use other versions of the symbols.",
    "cites": [
-    {
-     "doc": "9626_s23_er",
-     "ref": "Paper 11 Q8",
-     "quote": "Candidates are reminded that all decision boxes must have a Yes and a No output (True and False are acceptable) and that they should use mathematical expression rather than text in their boxes. For example, the term ‘is x between 5 and 10’ is not acceptable.",
-     "page": 4
-    },
-    {
-     "doc": "9626_m25_er",
-     "ref": "Paper 12 Q12",
-     "quote": "Firstly, decisions need to be based on questions, and each decision has two outcomes. These outcomes may be yes/no, or true/false, but they must be shown and labelled.",
-     "page": 4
-    }
-   ]
-  },
-  {
-   "kind": "mistake",
-   "text": "Use the symbols shown in the syllabus: parallelograms for input and output, rectangles for processes, and terminators for Start and Stop. Do not mix up input and process boxes, and do not use other versions of the symbols. Mark schemes give marks for correct shapes and for arrowheads on flow lines.",
-   "cites": [
-    {
-     "doc": "9626_m25_er",
-     "ref": "Paper 12 Q12",
-     "quote": "Candidates need to use the symbols provided by the board and should have practiced using them correctly.",
-     "page": 4
-    },
-    {
-     "doc": "9626_w24_er",
-     "ref": "Paper 12 Q4",
-     "quote": "In a small number of cases, candidates confused input symbols with process symbols",
-     "page": 4
-    },
     {
      "doc": "9626_w24_er",
      "ref": "Paper 33 Q7",
      "quote": "While it is accepted that there are variations on the use of symbols and their naming in system flowcharts, it is expected that for the purposes of this syllabus that the symbols shown in the syllabus be used.",
      "page": 20
+    },
+    {
+     "doc": "9626_m25_er",
+     "ref": "Paper 12 Q12",
+     "quote": "Candidates need to use the symbols provided by the board and should have practiced using them correctly.",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "heading": "Draw flowcharts with the syllabus symbols",
+   "kind": "mistake",
+   "text": "Do not mix up input and process boxes. Mark schemes give marks for correct shapes and for arrowheads on flow lines.",
+   "cites": [
+    {
+     "doc": "9626_w24_er",
+     "ref": "Paper 12 Q4",
+     "quote": "In a small number of cases, candidates confused input symbols with process symbols",
+     "page": 4
     },
     {
      "doc": "9626_s24_ms_13",
@@ -236,13 +222,33 @@
    ]
   },
   {
+   "heading": "Draw flowcharts with the syllabus symbols",
+   "kind": "mistake",
+   "text": "Give every decision box two exits labelled Yes and No (True and False are accepted). Write the condition as a maths expression. The examiners did not accept words such as 'is x between 5 and 10'.",
+   "cites": [
+    {
+     "doc": "9626_s23_er",
+     "ref": "Paper 11 Q8",
+     "quote": "Candidates are reminded that all decision boxes must have a Yes and a No output (True and False are acceptable) and that they should use mathematical expression rather than text in their boxes. For example, the term ‘is x between 5 and 10’ is not acceptable.",
+     "page": 4
+    },
+    {
+     "doc": "9626_m25_er",
+     "ref": "Paper 12 Q12",
+     "quote": "each decision has two outcomes. These outcomes may be yes/no, or true/false, but they must be shown and labelled.",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "heading": "Do what the question asks",
    "kind": "tip",
-   "text": "Do exactly what the question asks. If it says 'redraw', draw a new flowchart rather than editing the printed one. If it asks for a flowchart, do not write pseudocode. Include every feature the question lists, such as a calculation and an output.",
+   "text": "Do exactly what the question asks. If it says 'redraw', draw a new flowchart and leave the printed one alone. If it asks for a flowchart, do not write pseudocode.",
    "cites": [
     {
      "doc": "9626_s25_er",
      "ref": "Paper 13 Q13",
-     "quote": "In this question, candidates were clearly asked to redraw the flowchart. Candidates who amended the original flowchart and did not provide a new flowchart were therefore not answering the question.",
+     "quote": "candidates were clearly asked to redraw the flowchart. Candidates who amended the original flowchart and did not provide a new flowchart were therefore not answering the question.",
      "page": 12
     },
     {
@@ -250,7 +256,14 @@
      "ref": "Paper 12 Q4",
      "quote": "In a very small number of cases, candidates gave a form of pseudocode, instead of a flowchart for the answer",
      "page": 4
-    },
+    }
+   ]
+  },
+  {
+   "heading": "Do what the question asks",
+   "kind": "tip",
+   "text": "Include every feature the question lists, such as a calculation and an output.",
+   "cites": [
     {
      "doc": "9626_w23_er",
      "ref": "Paper 11 Q7",
@@ -260,6 +273,7 @@
    ]
   },
   {
+   "heading": "Do what the question asks",
    "kind": "tip",
    "text": "When you suggest or describe a change to a flowchart or pseudocode, say exactly where it goes. For example, say which line you remove and what replaces it. Write the answer in the answer space, not on the printed code.",
    "cites": [
@@ -291,7 +305,7 @@
    "context": "Marks above 70 get a Distinction. Marks from 55 to 70 get a Merit, and marks from 40 to 54 get a Pass. Marks below 40 get the message 'You have not reached the Pass mark'.",
    "strong": [
     {
-     "sentence": "Count ← 0   (before the loop)",
+     "sentence": "Count ← 0",
      "earns": {
       "doc": "9626_s25_ms_13",
       "quote": "Initialise Count before Mark variable is input (1)",
@@ -315,7 +329,7 @@
      }
     },
     {
-     "sentence": "    IF Mark > 70 THEN PRINT \"You have achieved a Distinction\" ENDIF   and   IF Mark < 40 THEN PRINT \"You have not reached the Pass mark\" ENDIF",
+     "sentence": "    IF Mark > 70 THEN\n        PRINT \"You have achieved a Distinction\"",
      "earns": {
       "doc": "9626_s25_ms_13",
       "quote": "Correct Distinction grade criterion//correct fail criterion (1)",
@@ -323,7 +337,7 @@
      }
     },
     {
-     "sentence": "    IF Mark > 54 AND Mark < 71 THEN PRINT \"You have achieved a Merit\" ENDIF",
+     "sentence": "    ELSE\n        IF Mark > 54 THEN\n            PRINT \"You have achieved a Merit\"",
      "earns": {
       "doc": "9626_s25_ms_13",
       "quote": "Correct Merit grade criterion//correct Pass grade criterion (1)",
@@ -331,7 +345,15 @@
      }
     },
     {
-     "sentence": "    IF Mark > 39 AND Mark < 55 THEN PRINT \"You have achieved a Pass\" ENDIF",
+     "sentence": "        ELSE\n            IF Mark > 39 THEN\n                PRINT \"You have achieved a Pass\"\n            ELSE\n                PRINT \"You have not reached the Pass mark\"",
+     "earns": {
+      "doc": "9626_s25_ms_13",
+      "quote": "All OUTPUTs correctly match the criteria (NOT awardable if BP4 or BP5 not awarded) (1)",
+      "page": 7
+     }
+    },
+    {
+     "sentence": "            ENDIF\n        ENDIF\n    ENDIF",
      "earns": {
       "doc": "9626_s25_ms_13",
       "quote": "Use of one IF…ENDIF (1)",
@@ -339,7 +361,7 @@
      }
     },
     {
-     "sentence": "    Count ← Count + 1   (inside the loop)",
+     "sentence": "    Count ← Count + 1",
      "earns": {
       "doc": "9626_s25_ms_13",
       "quote": "Correct Increment of Count (1) • Increment of Count is within the loop (1)",
@@ -347,33 +369,25 @@
      }
     },
     {
-     "sentence": "UNTIL Count = 20   (as the last line of the loop)",
+     "sentence": "UNTIL Count = 20",
      "earns": {
       "doc": "9626_s25_ms_13",
       "quote": "UNTIL Count = 20 (1) • UNTIL in correct position (1)",
-      "page": 7
-     }
-    },
-    {
-     "sentence": "Every PRINT message matches its range of marks.",
-     "earns": {
-      "doc": "9626_s25_ms_13",
-      "quote": "All OUTPUTs correctly match the criteria (NOT awardable if BP4 or BP5 not awarded) (1)",
       "page": 7
      }
     }
    ],
    "weak": {
     "answer": "REPEAT\n    Count ← 0\n    INPUT Mark\n    IF Mark >= 55 and <= 70 THEN OUTPUT \"You have achieved a Merit\"\n    ...\n    Count ← Count + 1\nUNTIL Count = 20",
-    "marks_likely": "about 5 of 8",
-    "why": "The code sets Count to 0 on every pass, so the loop never ends and the answer loses the initialisation mark. The Merit test does not repeat the variable (it should be Mark > 54 AND Mark < 71), and the IF has no ENDIF. The answer can still get the REPEAT, INPUT, increment and UNTIL marks.",
+    "marks_likely": "5 of 8",
+    "why": "The code sets Count to 0 on every pass. The loop never ends, and the answer loses the initialisation mark. The Merit test does not repeat Mark before <= 70, and the IF has no ENDIF. The answer still gets the REPEAT, INPUT, increment and UNTIL marks.",
     "basis": {
      "doc": "9626_s25_er",
      "quote": "However, a sizeable minority placed the initialisation of the count within the loop. This was the most frequently made mistakes amongst candidates who otherwise had a strong understanding of what was required.",
      "page": 11
     }
    },
-   "note": "This is pseudocode, so the strong answer is lines of code, not sentences. The lines cover more than eight mark-scheme points, and the mark is capped at 8. The increment and UNTIL lines earn two points each. The syllabus lists only the comparison operators >, < and =, and it lists WRITE/PRINT for output. So the ranges use > and < (marks are whole numbers), and the output uses PRINT. The mark scheme's own example uses OUTPUT. Most of the marks are for structure. Initialise before the loop, increment inside it, and use the right UNTIL condition in the right place."
+   "note": "The syllabus lists only the operators >, < and =, so this answer nests IF...ELSE in place of AND or >=."
   },
   {
    "doc": "9626_w24_qp_12",
@@ -445,16 +459,16 @@
    ],
    "weak": {
     "answer": "A flowchart that puts 'Input number' in a rectangle, has a decision box 'Have 20 numbers been entered' with no Yes or No labels, and never sets COUNT or TOTAL to zero.",
-    "marks_likely": "about 2 of 7",
-    "why": "It uses the wrong symbol for input, writes the decision in words without Yes/No labels, and leaves out the initialisation before the loop.",
+    "marks_likely": "2 of 7",
+    "why": "The input sits in a rectangle, which is the wrong symbol. The decision is in words and has no Yes or No labels. COUNT and TOTAL never start at zero.",
     "basis": {
      "doc": "9626_w24_er",
      "quote": "In a small number of cases, candidates confused input symbols with process symbols, but overall, performance on this question was very good.",
      "page": 4
     }
    },
-   "note": "The mark scheme lists 14 features that earn marks, for 7 marks. So if you get the shapes, labels and initialisation right, you have room to spare. MAX starts at the first value, not 0, so the answer still works if every number is negative. The mark scheme also accepts setting MAX to 0. The weak answer describes a flowchart in words, because this guide cannot show a drawing."
+   "note": "Setting MAX to the first value makes the flowchart work when every number is negative, and the mark scheme also accepts MAX set to 0."
   }
  ],
- "thin_evidence": "Evidence is strong for pseudocode and program flowcharts in Paper 1. Many questions from 2022 onward have examiner comments. The June 2022 examiner report says several times that algorithms and flowcharts were a recent addition to the syllabus. So the most recent reports (2024-2025) are the best guide. Draw also covers DFD, PERT and system-flowchart questions in Paper 3. Only the symbol points here apply to those. 'Write' is sometimes tagged on parts that are not about algorithms. Examples are November 2025 Paper 11 and Paper 13 Q8(b), which are about audio. This guide ignores those parts."
+ "thin_evidence": "Write: 7 question parts from 2022 to 2025, all 7 with mark schemes. Complete: 17 parts from 2022 to 2026, 15 with mark schemes. Draw: 9 parts from 2022 to 2025, 8 with mark schemes. Most algorithm and program-flowchart questions are in Paper 1. In Paper 3, Draw and Complete also tag DFD, PERT and system-flowchart parts, and only the symbol points apply to those. Write also tags November 2025 Paper 11 and Paper 13 Q8(b), which are about audio. The June 2022 examiner report says several times that algorithms and flowcharts were a recent addition to the syllabus."
 }
