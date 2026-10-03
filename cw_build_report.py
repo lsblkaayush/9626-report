@@ -86,11 +86,17 @@ def source(c):
     # only verified facts in a citation: the drafter's question label is not checked, the page is
     return f"{name} 9626/{comp}, {when}, p. {page}"
 
-def cites_html(cites):
+def point_html(p):
+    """A numbered point: its text and first quotation stay on one page, the rest may follow."""
+    first, rest = p["cites"][:1], p["cites"][1:]
+    return (f"<li><div class='lead'><p>{prose(p['text'])}</p>{cites_html(first)}</div>"
+            f"{cites_html(rest, 'more')}</li>")
+
+def cites_html(cites, cls=""):
     out = []
     for c in cites:
-        out.append(f'<div class="cite">"{e(c["quote"].strip())}"<span class="src"> {e(source(c))}</span></div>')
-    return "".join(out)
+        out.append(f'<div class="cite"><span class="qt">"{e(c["quote"].strip())}"</span> <span class="src">{e(source(c))}</span></div>')
+    return f'<div class="cites {cls}">{"".join(out)}</div>' if out else ""
 
 def stats():
     rows = json.load(open(ROOT / "data" / "cw_parts.json"))
@@ -107,7 +113,7 @@ def stats():
     return mk, n, sum(mk.values()), papers, len(rec)
 
 def section_html(s, title):
-    h = [f'<section class="word{" page" if title.startswith("Describe") else ""}"><h2>{e(title)}</h2>']
+    h = [f'<section class="word{" page" if title.startswith("Describe") else ""}"><div class="sechead"><h2>{e(title)}</h2>']
     for w in s.get("words", []):
         if not w.get("syllabus"):
             h.append(f'<div class="def"><b>{e(w["word"])}</b>: not in the syllabus list of command words. {e(w.get("note", ""))}</div>')
@@ -115,34 +121,36 @@ def section_html(s, title):
         q = SYLLABUS.get(w["word"])
         if q:
             h.append(f'<div class="def"><b>{e(w["word"])}</b>. Cambridge&#39;s definition: &quot;{e(q)}&quot;'
-                     f'<span class="src"> Syllabus 2025 to 2027, p. 66</span></div>')
+                     f' <span class="src">Syllabus 2025 to 2027, p. 66</span></div>')
         else:
             h.append(f'<div class="def"><b>{e(w["word"])}</b>: not in the syllabus table of command words. '
                      f'{e(w.get("note", ""))}</div>{cites_html([w["syllabus"]])}')
-    h.append(f'<p class="oneline">{prose(s["one_line"])}</p>')
+    h.append(f'<p class="oneline">{prose(s["one_line"])}</p></div>')
     for kind, label in KIND:
         pts = [p for p in s.get("points", []) if p["kind"] == kind]
         if not pts: continue
         h.append(f"<h3>{label}</h3><ol class='pts'>")
         for p in pts:
-            h.append(f"<li><p>{prose(p['text'])}</p>{cites_html(p['cites'])}</li>")
+            h.append(point_html(p))
         h.append("</ol>")
     for ex in s.get("examples", []):
-        h.append('<div class="ex"><h3>Worked example</h3>')
+        h.append('<div class="ex"><div class="exhead"><h3>Worked example</h3>')
         h.append(f'<p class="q"><b>{e(ex["ref"])} [{ex["marks"]} marks]</b> "{e(ex["question"]["quote"])}"'
-                 f'<span class="src"> {e(source(ex["question"]))}</span></p>')
+                 f' <span class="src">{e(source(ex["question"]))}</span></p>')
         if ex.get("context"): h.append(f'<p class="ctx">{prose(ex["context"])}</p>')
-        h.append('<p class="lbl good">A full-mark answer, built from the mark scheme (not a real candidate&#39;s):</p><ol class="strong">')
+        # a short full-mark answer stays in one piece; a long one may break between its sentences
+        h.append(f'</div><div class="{"strongblk" if len(ex["strong"]) <= 5 else "stronglong"}"><p class="lbl good">A full-mark answer, built from the mark scheme (not a real candidate&#39;s):</p><ol class="strong">')
         for st in ex["strong"]:
-            h.append(f'<li>{prose(st["sentence"])}<div class="earns">earns: "{e(st["earns"]["quote"])}"'
-                     f'<span class="src"> {e(source(st["earns"]))}</span></div></li>')
+            h.append(f'<li>{prose(st["sentence"])}<div class="earns"><span class="k">earns:</span> "{e(st["earns"]["quote"])}"'
+                     f' <span class="src">{e(source(st["earns"]))}</span></div></li>')
         h.append("</ol>")
+        # the closing note shares a block with the answer just above it, so it never sits alone
         wk = ex.get("weak")
         if wk:
-            h.append(f'<p class="lbl bad">A weak answer of the kind the examiners describe (written for this guide; likely {e(wk["marks_likely"])}):</p>'
+            h.append(f'</div><div class="weakblk"><p class="lbl bad">A weak answer of the kind the examiners describe (written for this guide; likely {e(wk["marks_likely"])}):</p>'
                      f'<p class="weak">{prose(wk["answer"])}</p><p class="why">{prose(wk["why"])}</p>{cites_html([wk["basis"]])}')
         if ex.get("note"): h.append(f'<p class="note">{prose(ex["note"])}</p>')
-        h.append("</div>")
+        h.append("</div></div>")
     if s.get("thin_evidence"):
         h.append(f'<p class="thin"><b>How much evidence:</b> {prose(s["thin_evidence"])}</p>')
     h.append("</section>")
@@ -165,33 +173,42 @@ SYLLABUS = {  # syllabus 2025-2027 p. 66, verbatim (checked by cw_verify on the 
 }
 
 CSS = """
-:root{--ink:#1b1f24;--mute:#5d6670;--teal:#0f6466;--tint:#e3efef;--warn:#b5541c;--good:#2c7a4b}
-*{box-sizing:border-box} body{font:10.5pt/1.45 Helvetica,Arial,sans-serif;color:var(--ink);margin:0 56px;background:#fff}
-h1{font-size:30pt;margin:0 0 4px;letter-spacing:-.5px} h2{font-size:19pt;margin:0 0 8px;color:var(--ink);border-bottom:3px solid var(--teal);padding-bottom:4px;display:inline-block}
-h3{font-size:11.5pt;color:var(--teal);margin:16px 0 6px;text-transform:uppercase;letter-spacing:.5px}
-.kicker{color:var(--teal);font-weight:bold;font-size:9pt;letter-spacing:1px;margin-top:40px}
-.sub{color:var(--mute);font-size:12pt;margin-bottom:18px}
-section{break-before:auto;margin-top:34px} section.page{break-before:page;margin-top:0} section.first{margin-top:0}
-h2,h3,.def,.oneline,.q,.lbl{break-after:avoid} .cite,.earns,.weak,tr{break-inside:avoid}
-.oneline{background:var(--tint);border-left:4px solid var(--teal);padding:8px 12px;font-size:11.5pt;font-weight:bold;margin:10px 0}
-.def{margin:6px 0} .src{color:var(--mute);font-size:8.3pt;font-style:normal;white-space:nowrap}
-.cite{color:#3c4650;font-size:8.8pt;font-style:italic;margin:3px 0 0 0;padding-left:10px;border-left:2px solid #c9d6d6}
-ol.pts{padding-left:20px} ol.pts li{margin-bottom:9px} ol.pts li>p{break-after:avoid} ol.pts p{margin:0}
-.ex{border:1px solid #cfdcdc;border-radius:6px;padding:10px 14px;margin:14px 0;box-decoration-break:clone;-webkit-box-decoration-break:clone}
-.ex h3{margin-top:0} .q{margin:4px 0} .ctx{color:var(--mute);margin:4px 0}
-.lbl{font-weight:bold;margin:8px 0 2px;font-size:9.5pt} .good{color:var(--good)} .bad{color:var(--warn)}
-ol.strong{margin:0;padding-left:20px} ol.strong li{margin-bottom:5px}
-.earns{color:var(--mute);font-size:8.5pt;font-style:italic}
-.weak{background:#fbf1ea;padding:6px 10px;margin:2px 0;border-radius:4px} .why{margin:4px 0}
-.note{margin-top:8px;font-weight:bold}
-.thin{color:var(--mute);font-size:9pt;border-top:1px dashed #ccc;padding-top:6px;margin-top:14px}
-table{border-collapse:collapse;width:100%;font-size:9.4pt;margin:8px 0} th{text-align:left;color:var(--mute);font-weight:normal;border-bottom:1px solid #bbb;padding:4px 6px}
-td{border-bottom:1px solid #eee;padding:4px 6px;vertical-align:top} td.n{text-align:right;white-space:nowrap}
+:root{--ink:#1b1f24;--mute:#545d66;--quote:#38424c;--teal:#0f6466;--tint:#e6f0f0;--rule:#c4d6d6;--warn:#b5541c;--good:#2c7a4b}
+*{box-sizing:border-box} body{font:10.5pt/1.5 Helvetica,Arial,sans-serif;color:var(--ink);margin:0 60px;background:#fff;orphans:3;widows:3}
+h1{font-size:30pt;margin:0 0 6px;letter-spacing:-.5px;line-height:1.15}
+h2{font-size:20pt;line-height:1.2;margin:0 0 14px;color:var(--ink);border-bottom:3px solid var(--teal);padding-bottom:5px;display:inline-block}
+h3{font-size:11pt;line-height:1.3;color:var(--teal);margin:24px 0 10px;text-transform:uppercase;letter-spacing:.6px}
+.kicker{color:var(--teal);font-weight:bold;font-size:9pt;letter-spacing:1px;margin-top:6px}
+.sub{color:var(--mute);font-size:12.5pt;line-height:1.4;margin-bottom:20px}
+section{break-before:auto;margin-top:44px} .sechead{break-inside:avoid;break-after:avoid} section.page{break-before:page;margin-top:0} section.first{margin-top:0}
+h2,h3,.def,.oneline,.lbl,.exhead,.weak{break-after:avoid}
+.cite,.earns,.weak,.why,tr,ol.strong>li,.exhead,.strongblk,.weakblk,.note,.thin{break-inside:avoid}
+.oneline{background:var(--tint);border-left:4px solid var(--teal);padding:10px 14px;font-size:11.5pt;line-height:1.45;font-weight:bold;margin:14px 0 4px}
+.def{margin:0 0 4px;line-height:1.5} .sechead .cites{margin:5px 0 12px}
+.src{color:var(--mute);font-size:8.5pt;font-style:normal;letter-spacing:.1px;white-space:nowrap}
+.cites{margin:7px 0 0}
+.cite{color:var(--quote);font-size:9pt;line-height:1.4;font-style:italic;padding:2px 0 3px 12px;border-left:2px solid var(--rule)}
+.cite+.cite,.cites.more .cite{padding-top:4px} .cites.more{margin:0} .lead{break-inside:avoid}
+ol.pts{padding-left:22px;margin:0} ol.pts>li{margin-bottom:14px;padding-left:2px} ol.pts>li:last-child{margin-bottom:4px}
+ol.pts li>p{break-after:avoid} ol.pts p{margin:0}
+.ex{border:1px solid #cddbdb;border-radius:6px;padding:14px 18px 12px;margin:24px 0;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.ex h3{margin:0 0 8px} .q{margin:0 0 4px} .ctx{color:var(--mute);margin:6px 0 0}
+.lbl{font-weight:bold;margin:16px 0 6px;font-size:10pt;line-height:1.35} .good{color:var(--good)} .bad{color:var(--warn)}
+ol.strong{margin:0;padding-left:22px} ol.strong>li{margin-bottom:10px}
+.earns{color:var(--quote);font-size:9pt;line-height:1.4;font-style:italic;margin-top:2px}
+.earns .k{font-style:normal;font-weight:bold;color:var(--good);font-size:8.5pt;text-transform:uppercase;letter-spacing:.5px}
+.weakblk{margin-top:6px}
+.weak{background:#fbf1ea;padding:8px 12px;margin:0 0 8px;border-radius:4px} .why{margin:0}
+.note{margin:16px 0 4px;padding:2px 0 2px 12px;border-left:3px solid var(--teal);color:#123f40}
+.thin{color:var(--mute);font-size:9.5pt;line-height:1.5;border-top:1px dashed #c8c8c8;padding-top:10px;margin-top:22px}
+table{border-collapse:collapse;width:100%;font-size:9.8pt;line-height:1.4;margin:10px 0 4px}
+th{text-align:left;color:var(--mute);font-weight:normal;border-bottom:1px solid #b5b5b5;padding:5px 8px;white-space:nowrap;vertical-align:bottom}
+td{border-bottom:1px solid #e6e6e6;padding:5px 8px;vertical-align:top} td.n,th.n{text-align:right;white-space:nowrap}
 .bar{height:9px;background:var(--teal);border-radius:3px;display:inline-block;vertical-align:middle}
-.myth{border:2px solid var(--warn);border-radius:6px;padding:10px 14px;margin:14px 0;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.myth{border:2px solid var(--warn);border-radius:6px;padding:14px 18px 10px;margin:20px 0 0;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .myth h3{color:var(--warn);margin-top:0}
-.small{font-size:9pt;color:var(--mute)}
-table.glance td{padding:7px 6px;font-size:10pt} table.glance td:first-child{width:34%}
+.small{font-size:9.5pt;color:var(--mute);line-height:1.45}
+table.glance td{padding:9px 8px;font-size:10.5pt;line-height:1.45} table.glance td:first-child{width:32%}
 """
 
 def build():
@@ -223,13 +240,13 @@ def build():
     # the myth box: format points
     h.append('<div class="myth"><h3>"Write everything in bullet points" is wrong</h3><ol class="pts">')
     for p in [p for p in g["points"] if p["kind"] == "format"]:
-        h.append(f"<li><p>{prose(p['text'])}</p>{cites_html(p['cites'])}</li>")
+        h.append(point_html(p))
     h.append("</ol></div></section>")
     h.append('<section><h2>How the marks are given</h2><ol class="pts">')
     for p in [p for p in g["points"] if p["kind"] != "format"]:
-        h.append(f"<li><p>{prose(p['text'])}</p>{cites_html(p['cites'])}</li>")
+        h.append(point_html(p))
     h.append("</ol></section>")
-    h.append('<section><h2>The words at a glance</h2><table class="glance"><tr><th>Command word</th><th>What to do</th></tr>')
+    h.append('<section class="page"><h2>The words at a glance</h2><table class="glance"><tr><th>Command word</th><th>What to do</th></tr>')
     for k in ORDER:
         if k in secs:
             h.append(f"<tr><td><b>{e(TITLES.get(k, k))}</b></td><td>{prose(secs[k]['one_line'])}</td></tr>")
