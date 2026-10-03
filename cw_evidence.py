@@ -61,7 +61,7 @@ def parse_md(path):
             opens = re.findall(r"(?:^|[.?)\]]\s|\)\s)(" + "|".join(CMDS) + r")\b", own)
             if opens: cw = opens[-1]
             out.append({"q": qn, "part": p["label"], "marks": p["marks"], "cw": cw and cw.title().replace(" And ", " and "),
-                        "question": p["text"][-900:], "ms": blocks[i][:2500] if ms_ok else None})
+                        "question": p["text"][-900:], "ms": blocks[i] if ms_ok else None})
     return out
 
 def er_index():

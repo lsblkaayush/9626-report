@@ -1,0 +1,191 @@
+{
+ "group": "_notation",
+ "intro": "From June 2024, Paper 3 mark schemes print a list that explains their signs. Paper 1 mark schemes use the same signs but do not print the list. Where the list explains a sign, the table uses its words. For the other signs, the meaning comes from how the mark schemes use them.",
+ "rows": [
+  {
+   "sign": "/",
+   "meaning": "The words on each side are alternatives. Any one of them earns the mark.",
+   "cites": [
+    {
+     "doc": "9626_s25_ms_31",
+     "quote": "/ separates alternative words / phrases within a marking point",
+     "page": 6
+    },
+    {
+     "doc": "9626_w25_ms_11",
+     "quote": "Real time processing produces an extremely/fast response",
+     "page": 8
+    }
+   ]
+  },
+  {
+   "sign": "//",
+   "meaning": "Two different answers that earn the same mark. Give either one.",
+   "cites": [
+    {
+     "doc": "9626_s25_ms_31",
+     "quote": "// separates alternative answers within a marking point",
+     "page": 6
+    }
+   ]
+  },
+  {
+   "sign": "( )",
+   "meaning": "You do not need the words in brackets. They only show the context of the point.",
+   "cites": [
+    {
+     "doc": "9626_s25_ms_31",
+     "quote": "( ) the word / phrase in brackets is not required, but sets the context",
+     "page": 6
+    }
+   ]
+  },
+  {
+   "sign": "Underlined word",
+   "meaning": "You must use this word, or a form of it such as a plural.",
+   "cites": [
+    {
+     "doc": "9626_s25_ms_31",
+     "quote": "Underline actual word given must be used by candidate (grammatical variants accepted)",
+     "page": 6
+    }
+   ]
+  },
+  {
+   "sign": "max, MAX",
+   "meaning": "The most marks that a group of points can earn.",
+   "cites": [
+    {
+     "doc": "9626_s25_ms_31",
+     "quote": "max indicates the maximum number of marks that can be awarded",
+     "page": 6
+    }
+   ]
+  },
+  {
+   "sign": "(1)",
+   "meaning": "One mark for that point.",
+   "cites": [
+    {
+     "doc": "9626_m25_ms_12",
+     "quote": "One mark per bullet point to a maximum of five marks",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "sign": "Four from:, Six from:",
+   "meaning": "Any of the listed points can earn marks, up to that number.",
+   "cites": [
+    {
+     "doc": "9626_s25_ms_12",
+     "quote": "Four marks from",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "sign": "(1st)",
+   "meaning": "The first mark in a chain. The dashed lines under it are follow-on marks for adding detail to that point. The printed list does not explain it. Some mark schemes say a follow-on mark needs the first one.",
+   "cites": [
+    {
+     "doc": "9626_m25_ms_12",
+     "quote": "First mark – any reasonable reason why a checker may miss issues when comparing two documents (1st)",
+     "page": 4
+    },
+    {
+     "doc": "9626_w25_ms_12",
+     "quote": "(only award if either of previous two marks given)",
+     "page": 6
+    }
+   ]
+  },
+  {
+   "sign": "only award if, NOT awardable if",
+   "meaning": "This mark depends on another mark. Without the first point, this one scores nothing.",
+   "cites": [
+    {
+     "doc": "9626_s25_ms_13",
+     "quote": "NOT awardable if BP4 or BP5 not awarded",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "sign": "e.g., Content areas could include",
+   "meaning": "Examples only. Other correct answers also get marks.",
+   "cites": [
+    {
+     "doc": "9626_s25_ms_31",
+     "quote": "Content areas could include",
+     "page": 12
+    },
+    {
+     "doc": "9626_s25_ms_12",
+     "quote": "credit is given for valid answers which go beyond the scope of the syllabus and mark scheme",
+     "page": 2
+    }
+   ]
+  },
+  {
+   "sign": "accept, allow",
+   "meaning": "This different wording also earns the mark.",
+   "cites": [
+    {
+     "doc": "9626_m23_ms_12",
+     "quote": "accept either ‘finds’ or ‘stops new infections’",
+     "page": 5
+    },
+    {
+     "doc": "9626_s25_ms_12",
+     "quote": "(allow concept)",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "sign": "do not accept",
+   "meaning": "This wording earns nothing, even though it looks close.",
+   "cites": [
+    {
+     "doc": "9626_s23_ms_11",
+     "quote": "Sensor(s) are used to gather data (DO NOT ACCEPT ‘COLLECT’)",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "sign": "converse, award once only",
+   "meaning": "The opposite statement counts on the other side, for example as a drawback instead of a benefit. It earns one mark only, not one on each side.",
+   "cites": [
+    {
+     "doc": "9626_s24_ms_11",
+     "quote": "(allow converse, but award once only)",
+     "page": 8
+    }
+   ]
+  },
+  {
+   "sign": "Max N marks if bullets/list of points",
+   "meaning": "A lower limit for answers written as a list. Mark schemes printed it from 2021 to 2024.",
+   "cites": [
+    {
+     "doc": "9626_m22_ms_12",
+     "quote": "Max. six marks if bullets/list of points",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "sign": "Note: brand names",
+   "meaning": "Name the type of software or hardware, not the product.",
+   "cites": [
+    {
+     "doc": "9626_s25_ms_31",
+     "quote": "No marks are awarded for using brand names of software packages or hardware.",
+     "page": 6
+    }
+   ]
+  }
+ ]
+}

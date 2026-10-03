@@ -137,7 +137,7 @@ def section_html(s, title):
         if ex.get("context"): h.append(f'<p class="ctx">{prose(ex["context"])}</p>')
         # a short full-mark answer stays in one piece; a long one may break between its sentences
         code = any(re.search(r"←|\b(IF|REPEAT|UNTIL|WHILE|INPUT|PRINT|ENDIF)\b", st["sentence"]) for st in ex["strong"])
-        h.append(f'</div><div class="{"strongblk" if len(ex["strong"]) <= 5 else "stronglong"}"><p class="lbl good">A full-mark answer made from mark scheme points:</p>')
+        h.append(f'</div><div class="{"strongblk" if len(ex["strong"]) <= 5 else "stronglong"}"><p class="lbl good">Full marks</p>')
         if code:
             h.append('<pre class="code">' + "\n".join(f'{prose(st["sentence"])}  <sup>{i}</sup>' for i, st in enumerate(ex["strong"], 1)) + "</pre>")
         else:
@@ -148,7 +148,7 @@ def section_html(s, title):
         # the closing note shares a block with the answer just above it, so it never sits alone
         wk = ex.get("weak")
         if wk:
-            h.append(f'</div><div class="weakblk"><p class="lbl bad">A weak answer of the kind the examiners describe (estimated mark: {e(marks_likely(wk["marks_likely"]))}):</p>'
+            h.append(f'</div><div class="weakblk"><p class="lbl bad">Weak answer, about {e(marks_likely(wk["marks_likely"]))}</p>'
                      f'<p class="weak">{prose(wk["answer"])}</p><p class="why">{prose(wk["why"])}</p>{cites_html([wk["basis"]])}')
         if ex.get("note"): h.append(f'<p class="note">{prose(ex["note"])}</p>')
         h.append("</div></div>")
@@ -239,7 +239,13 @@ def build():
         d = syl.get(w)
         h.append(f"<tr><td><b>{e(w)}</b></td><td>{e(d['syllabus']['quote']) if d else '<span class=small>an instruction that is not in the syllabus command-word table</span>'}</td>"
                  f"<td class='n'>{n[w]}</td><td class='n'>{100*v/tot:.1f}%</td><td><span class='bar' style='width:{80*v/top:.0f}px'></span></td></tr>")
+    shown = sum(v for w, v in mk.items() if w != "none" and v / tot >= 0.004)
+    hidden = [w for w, v in mk.most_common() if w != "none" and v / tot < 0.004]
     h.append("</table>")
+    p_none, p_hid = round(100 * mk["none"] / tot, 1), round(100 * sum(mk[w] for w in hidden) / tot, 1)
+    h.append(f"<p class='small foot'>The shares above add up to {100 - p_none - p_hid:.1f}%. The other {p_none + p_hid:.1f}% is "
+             f"{n['none']} parts with no command word of their own ({p_none:.1f}%), such as '(b) Trojan' under an Identify question, "
+             f"and {', '.join(hidden[:-1])} and {hidden[-1]} ({p_hid:.1f}% together).</p>")
     # the myth box: format points
     h.append('<div class="myth"><h3>Answer in full sentences</h3><ol class="pts">')
     for p in [p for p in g["points"] if p["kind"] == "format"]:
@@ -253,6 +259,14 @@ def build():
             last = p.get("heading")
         h.append(point_html(p))
     h.append("</ol></section>")
+    nt = secs.get("_notation")
+    if nt:
+        h.append(f'<section><h2>How to read a mark scheme</h2><p>{prose(nt["intro"])}</p><table class="notation">'
+                 '<tr><th>Sign</th><th>What it means</th><th>Example from a mark scheme</th></tr>')
+        for r in nt["rows"]:
+            ex = "<br>".join(f'"{e(c["quote"])}" <span class="src">({e(source(c))})</span>' for c in r["cites"])
+            h.append(f'<tr><td class="sign">{e(r["sign"])}</td><td>{prose(r["meaning"])}</td><td class="nex">{ex}</td></tr>')
+        h.append("</table></section>")
     h.append('<section class="page"><h2>The words at a glance</h2><table class="glance"><tr><th>Command word</th><th>What to do</th></tr>')
     for k in ORDER:
         if k in secs:
@@ -280,16 +294,14 @@ def method_html(secs):
     for s in secs.values():
         for c in _cites(s): docs[c["doc"]] += 1
     nq = sum(docs.values())
-    return ("<section class=\"page\"><h2>Sources</h2>"
-            f"<p>Each point quotes the Cambridge document it comes from, with the page number. There are {nq} quotations from {len(docs)} documents. "
-            "They are the 9626 syllabus for 2025 to 2027, the Cambridge Learner Guide for 9626, and the Paper 1 and Paper 3 question papers, "
-            "mark schemes and examiner reports from 2017 to March 2026. Before printing, a script checked every quotation against its source, word for word.</p>"
-            "<p>The worked examples use real questions. The full-mark answers join mark scheme points into sentences, and the numbers show which point each sentence earns. "
-            "The weak answers show a mistake that an examiner report describes. No real candidate wrote any of these answers.</p>"
-            "<p>Cambridge also publishes Example Candidate Responses for 9626, with real scripts and examiner comments. "
-            "They sit behind a teacher login on the School Support Hub. None of them is quoted.</p>"
-            "<p>The counts of question parts come from Papers 1 and 3, 2022 to March 2026, read by a script and checked by hand where the script was unsure. "
-            "A part with no command word of its own, such as '(b) Trojan', is counted as having none. Papers 2 and 4 are practical papers and are not included.</p>"
+    return ("<section class=\"page colophon\"><h2>About this booklet</h2><ul>"
+            "<li>Sources: the 9626 syllabus (2025 to 2027), the Cambridge Learner Guide for 9626, and Paper 1 and Paper 3 question papers, "
+            "mark schemes and examiner reports, 2017 to March 2026.</li>"
+            f"<li>Quotations: {nq}, from {len(docs)} documents, each checked word for word against its page.</li>"
+            "<li>Counts: Papers 1 and 3, 2022 to March 2026. A part with no command word of its own counts as none.</li>"
+            "<li>Worked examples: real questions. Full-mark answers are mark scheme points written as sentences. "
+            "Weak answers show mistakes the examiner reports describe. No candidate wrote them.</li>"
+            "<li>Not used: Cambridge's Example Candidate Responses (School Support Hub, teacher login). Papers 2 and 4.</li></ul>"
             + "<h3>How much evidence there is for each word</h3><table class='glance'>"
             + "".join(f"<tr><td><b>{e(TITLES.get(k, k))}</b></td><td>{prose(secs[k]['thin_evidence'])}</td></tr>"
                       for k in ORDER if k in secs and secs[k].get("thin_evidence"))

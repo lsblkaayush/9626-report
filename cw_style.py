@@ -15,7 +15,7 @@ import json, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-PROSE = {"text", "one_line", "context", "why", "note", "thin_evidence", "sentence"}
+PROSE = {"meaning", "intro", "text", "one_line", "context", "why", "note", "thin_evidence", "sentence"}
 TELLS = r"\b(crucial|vital|pivotal|key to|delve|enhance[sd]?|foster|showcase|testament|underscore|highlight(?:s|ing)?|" \
         r"landscape|robust|seamless|leverage|utili[sz]e|additionally|furthermore|moreover|ensure[sd]?|ensuring|" \
         r"in order to|it is important to note|it's worth noting|navigate|journey|realm|tapestry|valuable|essential)\b"
