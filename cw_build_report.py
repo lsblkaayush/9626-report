@@ -69,7 +69,7 @@ def source(c):
     doc, page = c["doc"], c.get("page")
     if page is None:
         sys.exit(f"unverified cite {doc}: {c['quote'][:60]!r} - run cw_verify.py")
-    if doc == "9626_syllabus_2025-2027": return f"Syllabus 2025–2027, p. {page}"
+    if doc == "9626_syllabus_2025-2027": return f"Syllabus 2025 to 2027, p. {page}"
     if doc == "9626_learner_guide": return f"Cambridge Learner Guide for 9626, p. {page}"
     m = re.match(r"9626_([msw])(\d\d)_(er|ms|qp)(?:_(\d\d))?", doc)
     s, yy, kind, comp = m.groups()
@@ -102,17 +102,17 @@ def stats():
     return mk, n, sum(mk.values()), papers, len(rec)
 
 def section_html(s, title):
-    h = [f'<section class="word"><h2>{e(title)}</h2>']
+    h = [f'<section class="word{" page" if title.startswith("Describe") else ""}"><h2>{e(title)}</h2>']
     for w in s.get("words", []):
         if not w.get("syllabus"):
-            h.append(f'<div class="def"><b>{e(w["word"])}</b> — not in the syllabus list of command words. {e(w.get("note", ""))}</div>')
+            h.append(f'<div class="def"><b>{e(w["word"])}</b>: not in the syllabus list of command words. {e(w.get("note", ""))}</div>')
             continue
         q = SYLLABUS.get(w["word"])
         if q:
-            h.append(f'<div class="def"><b>{e(w["word"])}</b> — Cambridge’s definition: “{e(q)}”'
-                     f'<span class="src"> Syllabus 2025–2027, p. 66</span></div>')
+            h.append(f'<div class="def"><b>{e(w["word"])}</b>. Cambridge’s definition: “{e(q)}”'
+                     f'<span class="src"> Syllabus 2025 to 2027, p. 66</span></div>')
         else:
-            h.append(f'<div class="def"><b>{e(w["word"])}</b> — not in the syllabus table of command words. '
+            h.append(f'<div class="def"><b>{e(w["word"])}</b>: not in the syllabus table of command words. '
                      f'{e(w.get("note", ""))}</div>{cites_html([w["syllabus"]])}')
     h.append(f'<p class="oneline">{prose(s["one_line"])}</p>')
     for kind, label in KIND:
@@ -166,12 +166,13 @@ h1{font-size:30pt;margin:0 0 4px;letter-spacing:-.5px} h2{font-size:19pt;margin:
 h3{font-size:11.5pt;color:var(--teal);margin:16px 0 6px;text-transform:uppercase;letter-spacing:.5px}
 .kicker{color:var(--teal);font-weight:bold;font-size:9pt;letter-spacing:1px;margin-top:40px}
 .sub{color:var(--mute);font-size:12pt;margin-bottom:18px}
-section{page-break-before:always} section.first{page-break-before:avoid}
+section{break-before:auto;margin-top:34px} section.page{break-before:page;margin-top:0} section.first{margin-top:0}
+h2,h3,.def,.oneline,.q,.lbl{break-after:avoid} .cite,.earns,.weak,tr{break-inside:avoid}
 .oneline{background:var(--tint);border-left:4px solid var(--teal);padding:8px 12px;font-size:11.5pt;font-weight:bold;margin:10px 0}
 .def{margin:6px 0} .src{color:var(--mute);font-size:8.3pt;font-style:normal;white-space:nowrap}
 .cite{color:#3c4650;font-size:8.8pt;font-style:italic;margin:3px 0 0 0;padding-left:10px;border-left:2px solid #c9d6d6}
-ol.pts{padding-left:20px} ol.pts li{margin-bottom:9px;break-inside:avoid} ol.pts p{margin:0}
-.ex{border:1px solid #cfdcdc;border-radius:6px;padding:10px 14px;margin:14px 0;break-inside:avoid-page}
+ol.pts{padding-left:20px} ol.pts li{margin-bottom:9px} ol.pts li>p{break-after:avoid} ol.pts p{margin:0}
+.ex{border:1px solid #cfdcdc;border-radius:6px;padding:10px 14px;margin:14px 0;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .ex h3{margin-top:0} .q{margin:4px 0} .ctx{color:var(--mute);margin:4px 0}
 .lbl{font-weight:bold;margin:8px 0 2px;font-size:9.5pt} .good{color:var(--good)} .bad{color:var(--warn)}
 ol.strong{margin:0;padding-left:20px} ol.strong li{margin-bottom:5px}
@@ -182,9 +183,10 @@ ol.strong{margin:0;padding-left:20px} ol.strong li{margin-bottom:5px}
 table{border-collapse:collapse;width:100%;font-size:9.4pt;margin:8px 0} th{text-align:left;color:var(--mute);font-weight:normal;border-bottom:1px solid #bbb;padding:4px 6px}
 td{border-bottom:1px solid #eee;padding:4px 6px;vertical-align:top} td.n{text-align:right;white-space:nowrap}
 .bar{height:9px;background:var(--teal);border-radius:3px;display:inline-block;vertical-align:middle}
-.myth{border:2px solid var(--warn);border-radius:6px;padding:10px 14px;margin:14px 0}
+.myth{border:2px solid var(--warn);border-radius:6px;padding:10px 14px;margin:14px 0;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .myth h3{color:var(--warn);margin-top:0}
 .small{font-size:9pt;color:var(--mute)}
+table.glance td{padding:7px 6px;font-size:10pt} table.glance td:first-child{width:34%}
 """
 
 def build():
@@ -222,6 +224,11 @@ def build():
     for p in [p for p in g["points"] if p["kind"] != "format"]:
         h.append(f"<li><p>{prose(p['text'])}</p>{cites_html(p['cites'])}</li>")
     h.append("</ol></section>")
+    h.append('<section><h2>The words at a glance</h2><table class="glance"><tr><th>Command word</th><th>What to do</th></tr>')
+    for k in ORDER:
+        if k in secs:
+            h.append(f"<tr><td><b>{e(TITLES.get(k, k))}</b></td><td>{prose(secs[k]['one_line'])}</td></tr>")
+    h.append("</table></section>")
     for k in ORDER:
         if k in secs: h.append(section_html(secs[k], TITLES.get(k, k)))
     h.append(method_html(secs))
@@ -238,9 +245,9 @@ def method_html(secs):
     for s in secs.values():
         for c in _cites(s): docs[c["doc"]] += 1
     nq = sum(docs.values())
-    return ("<section><h2>Where this comes from</h2>"
+    return ("<section class=\"page\"><h2>Where this comes from</h2>"
             f"<p>Every statement in this guide is followed by the words it rests on, copied from a Cambridge document, with the page. "
-            f"There are {nq} quotations from {len(docs)} documents: the 9626 syllabus for 2025–2027, the Cambridge Learner Guide for 9626, "
+            f"There are {nq} quotations from {len(docs)} documents: the 9626 syllabus for 2025 to 2027, the Cambridge Learner Guide for 9626, "
             "and the question papers, mark schemes and examiner reports for Papers 1 and 3 from 2017 to March 2026. "
             "A script checked each quotation word for word against the document it cites and wrote in the page number it found; "
             "the guide will not build if any quotation fails that check.</p>"
