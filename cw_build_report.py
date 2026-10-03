@@ -137,7 +137,7 @@ def section_html(s, title):
         if ex.get("context"): h.append(f'<p class="ctx">{prose(ex["context"])}</p>')
         # a short full-mark answer stays in one piece; a long one may break between its sentences
         code = any(re.search(r"←|\b(IF|REPEAT|UNTIL|WHILE|INPUT|PRINT|ENDIF)\b", st["sentence"]) for st in ex["strong"])
-        h.append(f'</div><div class="{"strongblk" if len(ex["strong"]) <= 5 else "stronglong"}"><p class="lbl good">Full marks</p>')
+        h.append(f'</div><div class="{"strongblk" if len(ex["strong"]) <= 5 else "stronglong"}">')
         if code:
             h.append('<pre class="code">' + "\n".join(f'{prose(st["sentence"])}  <sup>{i}</sup>' for i, st in enumerate(ex["strong"], 1)) + "</pre>")
         else:
@@ -187,8 +187,8 @@ h2,h3,.def,.oneline,.lbl,.exhead,.weak{break-after:avoid}
 .src{color:var(--mute);font-size:8.5pt;font-style:normal;letter-spacing:.1px;white-space:nowrap}
 .cites{margin:6px 0 0;padding-left:12px;border-left:2px solid var(--rule);color:var(--quote);font-size:9pt;line-height:1.45;font-style:italic;break-inside:auto;orphans:1;widows:1}
 .cites .src{font-style:normal} ol.pts li>p:first-child{break-after:avoid}
-.answer{line-height:1.6;margin:4px 0 8px} .answer sup,.code sup,.marksfrom sup{color:var(--good);font-weight:bold;font-size:7.5pt;margin:0 2px 0 1px;font-style:normal}
-pre.code{font:9.5pt/1.55 'DejaVu Sans Mono',Menlo,Consolas,monospace;background:#f5f8f8;border-radius:4px;padding:8px 10px;white-space:pre-wrap;margin:4px 0 8px}
+.answer{line-height:1.6;margin:8px 0 8px;padding-left:10px;border-left:3px solid var(--good)} .answer sup,.code sup,.marksfrom sup{color:var(--good);font-weight:bold;font-size:7.5pt;margin:0 2px 0 1px;font-style:normal}
+pre.code{border-left:3px solid var(--good);font:9.5pt/1.55 'DejaVu Sans Mono',Menlo,Consolas,monospace;background:#f5f8f8;border-radius:4px;padding:8px 10px;white-space:pre-wrap;margin:4px 0 8px}
 .marksfrom{color:var(--quote);font-size:9pt;line-height:1.5;font-style:italic;margin:0 0 6px} .marksfrom .k{font-style:normal;font-weight:bold;color:var(--good);margin-right:4px}
 .cite{color:var(--quote);font-size:9pt;line-height:1.4;font-style:italic;padding:2px 0 3px 12px;border-left:2px solid var(--rule)}
 .cite+.cite,.cites.more .cite{padding-top:4px} .cites.more{margin:0} .lead{break-inside:avoid}
