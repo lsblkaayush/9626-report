@@ -10,11 +10,11 @@
    }
   }
  ],
- "one_line": "Write full sentences in paragraphs that give benefits and drawbacks of the thing in the question (aim for at least two of each), and expand every point with a 'because' or 'so'.",
+ "one_line": "Write full sentences in paragraphs. Give benefits and drawbacks of the thing in the question, and aim for at least two of each. Expand every point with 'because' or 'so'.",
  "points": [
   {
    "kind": "marks",
-   "text": "Marks go to points from a list. A point is often worth 1 mark, and a second mark comes when you expand it: the mark scheme shows the point as (1st) and the expansion as (1). A bare point with no expansion leaves marks behind.",
+   "text": "Marks go to points from a list in the mark scheme. A point is often worth 1 mark. You get a second mark when you expand it. The mark scheme shows the point as (1st) and the expansion as (1). A point with no expansion loses marks.",
    "cites": [
     {
      "doc": "9626_s24_ms_12",
@@ -38,7 +38,7 @@
   },
   {
    "kind": "marks",
-   "text": "Each side often has a ceiling. In the 2022-2025 mark schemes we checked (77 Discuss parts), about 36 print a separate MAX for each side; for 8-mark questions it is usually MAX 6 (sometimes 5, once 7). On those questions an answer with only benefits cannot reach full marks.",
+   "text": "Each side often has a maximum. We checked 77 Discuss parts in the 2022-2025 mark schemes. About 36 of them print a separate MAX for each side. For 8-mark questions it is usually MAX 6 (sometimes 5, once 7). On those questions, an answer with only benefits cannot get full marks.",
    "cites": [
     {
      "doc": "9626_w24_ms_12",
@@ -62,7 +62,7 @@
   },
   {
    "kind": "marks",
-   "text": "One-sided answers are capped. 23 of the 77 mark schemes we checked (all 2022-2023) say you need at least two of each side (one of each on some 4- and 6-mark questions) for full marks, and 4 more (November 2023) cap an all-benefits or all-drawbacks answer. The 2023 and 2025 examiner reports say the same: no full marks without both sides.",
+   "text": "The mark scheme caps one-sided answers. We checked 77 mark schemes. 23 of them (all 2022-2023) say you need at least two points on each side for full marks. On some 4-mark and 6-mark questions, one of each is enough. 4 more mark schemes (November 2023) cap an answer with only benefits or only drawbacks. The 2023 and 2025 examiner reports say the same thing. You cannot get full marks without both sides.",
    "cites": [
     {
      "doc": "9626_m22_ms_12",
@@ -86,7 +86,7 @@
   },
   {
    "kind": "marks",
-   "text": "Sometimes there is a mark for a short opening definition or description of the thing in the question. We found it in 18 of the 77 mark schemes, usually capped at one mark for each thing described (two marks once, in June 2025 Paper 31 Q7). So one clear opening sentence can help, but a long introduction cannot earn more.",
+   "text": "Sometimes the mark scheme gives a mark for a short opening definition or description of the thing in the question. We found this in 18 of the 77 mark schemes. Usually the cap is one mark for each thing you describe. Once, in June 2025 Paper 31 Q7, it was two marks. So one clear opening sentence can help. A long introduction cannot earn more.",
    "cites": [
     {
      "doc": "9626_s25_ms_12",
@@ -110,7 +110,7 @@
   },
   {
    "kind": "marks",
-   "text": "No 2022-2025 Discuss mark scheme we checked has a mark for a conclusion or your opinion. The current syllabus meaning of Discuss does not ask for one. Older reports (2019) used an older wording that said Discuss often needs a conclusion; that is no longer how it is defined. A one-line conclusion does no harm, but put your time into expanded points.",
+   "text": "No 2022-2025 Discuss mark scheme we checked gives a mark for a conclusion or for your opinion. The current syllabus meaning of Discuss does not ask for one. Older examiner reports (2019) used an older wording. It said Discuss often needs a conclusion. The syllabus no longer defines Discuss that way. A one-line conclusion does no harm. But spend your time on expanded points.",
    "cites": [
     {
      "doc": "9626_syllabus_2025-2027",
@@ -128,7 +128,7 @@
   },
   {
    "kind": "format",
-   "text": "Bullet points cost marks. Every 2022 and 2023 Discuss mark scheme (and 6 of the 17 in 2024) caps a bulleted list: max 6 of 8, max 4 or 5 of 6, max 3 of 4. We counted 48 of the 77 mark schemes with this cap.",
+   "text": "Bullet points lose marks. Every 2022 and 2023 Discuss mark scheme caps a bulleted list. So do 6 of the 17 mark schemes in 2024. The caps are max 6 of 8, max 4 or 5 of 6, and max 3 of 4. In total, we counted 48 of the 77 mark schemes with this cap.",
    "cites": [
     {
      "doc": "9626_m22_ms_12",
@@ -152,7 +152,7 @@
   },
   {
    "kind": "format",
-   "text": "The 2025 mark schemes no longer print the bullet cap, but the examiners still say lists and tables of statements cannot reach most of the marks. This includes two separate lists (benefits, then drawbacks) made of single words or very short sentences.",
+   "text": "The 2025 mark schemes no longer print the bullet cap. But the examiners still say that lists and tables of statements cannot reach most of the marks. This also applies to two separate lists (benefits, then drawbacks) made of single words or very short sentences.",
    "cites": [
     {
      "doc": "9626_m25_er",
@@ -176,7 +176,7 @@
   },
   {
    "kind": "format",
-   "text": "Write in full sentences and continuous prose. A good shape is one paragraph of benefits and one of drawbacks, with each point followed by its reason or effect in the same sentence.",
+   "text": "Write in full sentences and paragraphs, not lists. A good shape is one paragraph of benefits and one paragraph of drawbacks. Put the reason or effect of each point in the same sentence as the point.",
    "cites": [
     {
      "doc": "9626_s25_er",
@@ -200,7 +200,7 @@
   },
   {
    "kind": "mistake",
-   "text": "Making a point and stopping. Examiners say most students give valid points but few expand them, and two 2022 mark schemes cap answers with no expansion at 6 of 8.",
+   "text": "Making a point and stopping. Examiners say most students give correct points, but few students expand them. Two 2022 mark schemes cap answers with no expansion at 6 of 8.",
    "cites": [
     {
      "doc": "9626_m22_er",
@@ -218,7 +218,7 @@
   },
   {
    "kind": "mistake",
-   "text": "Vague cost words. Writing that something is 'expensive' or 'costs more' was too vague. Say what the money is spent on (for example travelling to interviews or printing questionnaires).",
+   "text": "Using vague words about cost. The examiners said that 'expensive' or 'costs more' was too vague. Say what the money pays for, for example travelling to interviews or printing questionnaires.",
    "cites": [
     {
      "doc": "9626_s24_er",
@@ -236,7 +236,7 @@
   },
   {
    "kind": "mistake",
-   "text": "Writing the same point twice, once as a benefit and again reversed as a drawback. It earns only once and wastes time.",
+   "text": "Writing the same point twice: once as a benefit, then reversed as a drawback. The examiner gives the mark only once, so you waste time.",
    "cites": [
     {
      "doc": "9626_s24_er",
@@ -254,7 +254,7 @@
   },
   {
    "kind": "mistake",
-   "text": "Describing the topic instead of discussing it in the question's setting. Describing types of technology, or the stages of a process, or writing about the wrong context, gained little or nothing. Tie each benefit and drawback to the people or organisation named in the question.",
+   "text": "Describing the topic instead of discussing it in the setting of the question. Some answers described types of technology or the stages of a process. Others wrote about the wrong topic. These answers got few or no marks. Link each benefit and drawback to the people or organisation named in the question.",
    "cites": [
     {
      "doc": "9626_m25_er",
@@ -290,7 +290,7 @@
    "context": null,
    "strong": [
     {
-     "sentence": "Direct data is collected first-hand by the person who will use it (a primary source), while indirect data was collected by someone else for another purpose (a secondary source).",
+     "sentence": "The person who will use direct data collects it first-hand (a primary source). Someone else collected indirect data for another purpose (a secondary source).",
      "earns": {
       "doc": "9626_s24_ms_12",
       "quote": "Simple statement of the difference between the two (1): e.g.",
@@ -298,7 +298,7 @@
      }
     },
     {
-     "sentence": "One advantage of direct data is that it is more reliable and trusted, because we collected it ourselves and know exactly how it was gathered.",
+     "sentence": "One advantage of direct data is that it is more reliable and trusted, because we collected it ourselves and know exactly how we gathered it.",
      "earns": {
       "doc": "9626_s24_ms_12",
       "quote": "Direct data source/direct data is reliable/trusted (1st) – because we collected it (1)",
@@ -306,7 +306,7 @@
      }
     },
     {
-     "sentence": "Also, only specific, relevant data is collected, so time is not wasted sorting through data we do not need.",
+     "sentence": "Also, we collect only specific, relevant data, so we do not waste time sorting through data we do not need.",
      "earns": {
       "doc": "9626_s24_ms_12",
       "quote": "ONLY Specific/relevant data is collected (1)",
@@ -314,7 +314,7 @@
      }
     },
     {
-     "sentence": "Direct data is also more up to date than indirect data, which may have been collected years ago.",
+     "sentence": "Direct data is also more up to date than indirect data, which someone may have collected years ago.",
      "earns": {
       "doc": "9626_s24_ms_12",
       "quote": "Direct data is (more) up-to-date (1) Disadvantages MAX SIX",
@@ -330,7 +330,7 @@
      }
     },
     {
-     "sentence": "Collecting direct data also costs money that would not otherwise be spent, such as travelling to interview people and printing questionnaires.",
+     "sentence": "Collecting direct data also costs money that we would not otherwise spend, such as travelling to interview people and printing questionnaires.",
      "earns": {
       "doc": "9626_s24_ms_12",
       "quote": "Collecting direct data involves the expense of travelling/photocopying/printing questionnaires//any expense to do with a direct data method (1)",
@@ -341,14 +341,14 @@
    "weak": {
     "answer": "Advantages: direct data is cheaper, relevant, up to date. Disadvantages: indirect data is not relevant and old, direct data is expensive.",
     "marks_likely": "about 2 of 8 (estimate)",
-    "why": "It is a list, not a discussion. 'Expensive' does not say what the money is spent on. The disadvantages just repeat the advantages in reverse, so they earn nothing new.",
+    "why": "It is a list, not a discussion. 'Expensive' does not say what the money pays for. The disadvantages only repeat the advantages in reverse, so they earn nothing new.",
     "basis": {
      "doc": "9626_s24_er",
      "quote": "Some candidates effectively wrote what was good about direct data compared to indirect data and then repeated the list, but in reverse structure, so the positive aspects of one became the negative points of the other.",
      "page": 7
     }
    },
-   "note": "Six sentences earn eight marks because two of them carry a point plus its expansion. The examiner report says this question was really about what was good and bad about direct data, with indirect data only as the comparison point, so do not write each point twice in reverse."
+   "note": "Six sentences earn eight marks because two of them give a point plus its expansion. The examiner report says this question was about the good and bad sides of direct data. Indirect data was only the comparison. So do not write each point twice in reverse."
   },
   {
    "doc": "9626_s25_qp_31",
@@ -378,7 +378,7 @@
      }
     },
     {
-     "sentence": "A business can use data mining to improve its sales and profits, because it can target its advertising at the customers or demographic groups most likely to buy.",
+     "sentence": "Data mining can improve sales and profits, because the business can target its advertising at the types of customer most likely to buy.",
      "earns": {
       "doc": "9626_s25_ms_31",
       "quote": "used to improve sales / profits (1st) by targeting customers / demographics (1)",
@@ -386,7 +386,7 @@
      }
     },
     {
-     "sentence": "The information it extracts also gives managers a sound basis for their decisions, rather than guesswork.",
+     "sentence": "The information it extracts also gives managers a sound basis for their decisions, instead of guesswork.",
      "earns": {
       "doc": "9626_s25_ms_31",
       "quote": "provides a sound basis for decision-making",
@@ -413,15 +413,15 @@
    "weak": {
     "answer": "A two-column table: Benefits | Drawbacks; trends | expensive; profit | privacy; decisions | storage.",
     "marks_likely": "low (estimate: 2-3 of 8)",
-    "why": "Single words in a table make points but give no reasons or effects, so there is no discussion and no expansion marks.",
+    "why": "Single words in a table name points, but they give no reasons or effects. So there is no discussion and no expansion marks.",
     "basis": {
      "doc": "9626_s25_er",
      "quote": "Furthermore, if these answers are shown in a sketched table, they do not properly answer the question as there is no discussion.",
      "page": 17
     }
    },
-   "note": "This 2025 mark scheme allowed up to two marks for saying what data mining is, then MAX SIX per side. A two-sentence definition, plus two benefits and two drawbacks (one of each expanded with its reason), reaches eight."
+   "note": "This 2025 mark scheme gave up to two marks for saying what data mining is. Then it gave MAX SIX for each side. A two-sentence definition, two benefits and two drawbacks reach eight marks, if you expand one of each with its reason."
   }
  ],
- "thin_evidence": "Not thin: Discuss appears in 80 question parts from 2022 onward (77 with mark schemes available). The counts above are our own counts from the mark-scheme text and could be off by one or two."
+ "thin_evidence": "Not thin. Discuss appears in 80 question parts from 2022 onward, and 77 of them have mark schemes. We made the counts above ourselves from the mark-scheme text. They could be off by one or two."
 }

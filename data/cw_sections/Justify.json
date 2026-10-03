@@ -10,11 +10,11 @@
    }
   }
  ],
- "one_line": "Argue only FOR the choice in the question: state a benefit, then give the reason it helps in this scenario, and never list drawbacks of the choice.",
+ "one_line": "Argue only FOR the choice in the question. State a benefit, then give the reason it helps in this scenario. Never list drawbacks of the choice.",
  "points": [
   {
    "kind": "mistake",
-   "text": "Justify is one-sided. Arguments against the choice earn nothing. One examiner report (June 2025) says drawbacks are not required for any question that uses Justify, and several reports describe candidates giving 'for and against' answers that did not meet the demand of the question.",
+   "text": "Justify is one-sided. Arguments against the choice earn nothing. One examiner report (June 2025) says no question that uses Justify needs drawbacks. Several examiner reports describe students who gave 'for and against' answers. These answers did not meet the demand of the question.",
    "cites": [
     {
      "doc": "9626_w23_er",
@@ -38,7 +38,7 @@
   },
   {
    "kind": "tip",
-   "text": "You may mention a drawback of an alternative, because that still supports the choice. For example: interviews give data relevant to the study, whereas indirect sources are not specific to it.",
+   "text": "You may mention a drawback of an alternative, because that still supports the choice. For example: interviews give data relevant to the study, but indirect sources are not specific to it.",
    "cites": [
     {
      "doc": "9626_s24_er",
@@ -62,7 +62,7 @@
   },
   {
    "kind": "marks",
-   "text": "Most marks go to the reasons. About half the Justify mark schemes (9 of 19 from 2022 on) give a first mark for a benefit and a second for the reason or result that follows from it.",
+   "text": "Most marks go to the reasons. About half the Justify mark schemes (9 of 19 from 2022 on) give a first mark for a benefit. They give a second mark for the reason or result that follows from it.",
    "cites": [
     {
      "doc": "9626_w24_er",
@@ -110,7 +110,7 @@
   },
   {
    "kind": "tip",
-   "text": "Tie every reason to the scenario. Full marks may only be possible when the concept and the context are combined, and a check or feature that does not fit the given data earns nothing.",
+   "text": "Link every reason to the scenario. Full marks may only be possible when you combine the concept and the context. A check or feature that does not fit the given data earns nothing.",
    "cites": [
     {
      "doc": "9626_w25_er",
@@ -242,7 +242,7 @@
    "context": null,
    "strong": [
     {
-     "sentence": "Code that is interpreted can be written in a high-level language, which is easier for the programmer to write and read.",
+     "sentence": "With an interpreter, the programmer can write the code in a high-level language, which is easier to write and read.",
      "earns": {
       "doc": "9626_w25_ms_11",
       "quote": "Programmer can write in high level language (1)",
@@ -266,7 +266,7 @@
      }
     },
     {
-     "sentence": "The interpreter highlights mistakes as soon as it finds them, so the programmer can debug the new software quickly while developing it.",
+     "sentence": "The interpreter reports mistakes as soon as it finds them, so the programmer can debug the new software quickly while developing it.",
      "earns": {
       "doc": "9626_w25_ms_11",
       "quote": "An interpreter will highlight mistakes as they are found (1)",
@@ -298,7 +298,7 @@
    "context": null,
    "strong": [
     {
-     "sentence": "Custom written software is created for this exact purpose: running this company's payroll.",
+     "sentence": "The programmer creates custom written software for this exact purpose: running this company's payroll.",
      "earns": {
       "doc": "9626_w23_ms_13",
       "quote": "(This) custom written software is created for a defined/this purpose/running a payroll",
@@ -306,7 +306,7 @@
      }
     },
     {
-     "sentence": "So it does not need to be adapted before the payroll staff can use it.",
+     "sentence": "So the payroll staff can use it without adapting it first.",
      "earns": {
       "doc": "9626_w23_ms_13",
       "quote": "Does not need to be adapted for use (1)",
@@ -330,7 +330,7 @@
      }
     },
     {
-     "sentence": "Any settings built into the software can be changed by the programmer.",
+     "sentence": "The programmer can change any settings built into the software.",
      "earns": {
       "doc": "9626_w23_ms_13",
       "quote": "(Any) settings built into the software can be changed (1st)",
@@ -365,7 +365,7 @@
    "weak": {
     "answer": "Custom software is made for the company, so it meets their needs. However, it is expensive and takes a long time to write, and it may have bugs because few people have tested it. Off-the-shelf software is cheaper and ready straight away.",
     "marks_likely": "about 2 of 8",
-    "why": "Only the first sentence supports the decision. The drawbacks of custom software and the benefits of off-the-shelf software argue against the manager's choice, so they earn nothing.",
+    "why": "Only the first sentence supports the decision. The drawbacks of custom software and the benefits of off-the-shelf software argue against the manager's choice. So they earn nothing.",
     "basis": {
      "doc": "9626_w23_er",
      "quote": "Most responses also gave arguments against the decision. These answers did not meet the demand of the question and were not worthy of credit.",
@@ -375,5 +375,5 @@
    "note": "Every sentence argues for the manager's decision. Where a mark scheme shows (1st) then (1), state the benefit and then say what it leads to."
   }
  ],
- "thin_evidence": "20 Justify parts from 2022 onward (one, m26 Q10(c), has no matched mark scheme). The one-sided rule is repeated in many examiner reports from 2022 to 2025. The 'drawbacks of alternatives' exception rests on one ER sentence (s24, repeated for Papers 31 and 33), one 2023 ER comment and one mark scheme, so use it carefully."
+ "thin_evidence": "There are 20 Justify parts from 2022 onward. One of them (March 2026 Q10(c)) has no matched mark scheme. Many examiner reports from 2022 to 2025 repeat the one-sided rule. The 'drawbacks of alternatives' exception rests on little evidence. It comes from one examiner report sentence (June 2024, repeated for Papers 31 and 33), one 2023 examiner report comment and one mark scheme. So use it carefully."
 }

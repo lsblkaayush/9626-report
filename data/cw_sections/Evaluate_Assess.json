@@ -18,11 +18,11 @@
    }
   }
  ],
- "one_line": "Give points for AND against, add a consequence to each, say how important it is in this scenario, and finish with a reasoned overall judgement.",
+ "one_line": "Give points for AND against. Add a consequence to each point and say how much it matters in this scenario. End with a reasoned overall judgement.",
  "points": [
   {
    "kind": "marks",
-   "text": "You must write about both sides. Some 2022-2023 mark schemes cap answers that are all for or all against at 6 of 8 (3 of the 24 Evaluate mark schemes from 2022 on), and two say you need at least two points on each side for full marks.",
+   "text": "You must write about both sides. Some 2022-2023 mark schemes cap answers that are all for or all against at 6 of 8. This is 3 of the 24 Evaluate mark schemes from 2022 on. Two mark schemes say you need at least two points on each side for full marks.",
    "cites": [
     {
      "doc": "9626_w23_ms_32",
@@ -46,7 +46,7 @@
   },
   {
    "kind": "marks",
-   "text": "Recent mark schemes give one mark for a conclusion. We checked the Evaluate parts from 2022 onward: 8 of the 24 with a mark scheme have a conclusion mark, and all 8 are from November 2024 or later (8 of the 9 mark schemes from that date on). End with a short overall judgement that pulls your points together.",
+   "text": "Recent mark schemes give one mark for a conclusion. We checked the Evaluate parts from 2022 onward. 8 of the 24 with a mark scheme have a conclusion mark. All 8 are from November 2024 or later. That is 8 of the 9 mark schemes from that date on. End with a short overall judgement that brings your points together.",
    "cites": [
     {
      "doc": "9626_s25_ms_13",
@@ -76,7 +76,7 @@
   },
   {
    "kind": "mistake",
-   "text": "Leaving out a conclusion can cost marks. In the March 2024 report (Paper 12, Q9), examiners said candidates' failure to reach a realistic conclusion reduced their marks.",
+   "text": "If you leave out a conclusion, you can lose marks. In the March 2024 examiner report (Paper 12, Q9), examiners said students did not reach a realistic conclusion. This reduced their marks.",
    "cites": [
     {
      "doc": "9626_m24_er",
@@ -88,7 +88,7 @@
   },
   {
    "kind": "marks",
-   "text": "Good answers take each point through three steps: a fact, a consequence of that fact, and a judgement about how much it matters. Some mark schemes give a first mark for the point and further marks for the expansion, and limit how many marks plain points can earn.",
+   "text": "Good answers take each point through three steps. First give a fact, then a consequence of that fact, then a judgement about how much it matters. Some mark schemes give a first mark for the point and more marks for the expansion. They also limit how many marks plain points can earn.",
    "cites": [
     {
      "doc": "9626_s25_er",
@@ -112,7 +112,7 @@
   },
   {
    "kind": "mistake",
-   "text": "The most common failure is describing how the thing works instead of judging it. Knowing the topic is not enough; you have to say whether each feature helps or hinders.",
+   "text": "The most common mistake is describing how the thing works instead of judging it. Knowing the topic is not enough. You have to say whether each feature helps or causes problems.",
    "cites": [
     {
      "doc": "9626_m23_er",
@@ -136,7 +136,7 @@
   },
   {
    "kind": "mistake",
-   "text": "One-sided answers lose marks. Both sides must be there, but they do not need to be exactly equal: more points for than against was accepted.",
+   "text": "One-sided answers lose marks. Both sides must be there, but they do not need to be exactly equal. The examiners accepted more points for than against.",
    "cites": [
     {
      "doc": "9626_s24_er",
@@ -160,7 +160,7 @@
   },
   {
    "kind": "format",
-   "text": "Write in full sentences and paragraphs, not bullet points or a table. 9 of the 24 Evaluate mark schemes from 2022 on (all 2022-2024) cap a bulleted list, usually at 6 of 8 marks (5 of 6 on 6-mark questions).",
+   "text": "Write in full sentences and paragraphs, not bullet points or a table. 9 of the 24 Evaluate mark schemes from 2022 on (all 2022-2024) cap a bulleted list. The cap is usually 6 of 8 marks (5 of 6 on 6-mark questions).",
    "cites": [
     {
      "doc": "9626_m23_er",
@@ -190,7 +190,7 @@
   },
   {
    "kind": "tip",
-   "text": "Judge the thing in the scenario you were given, not in general. Answers about spreadsheets that never mentioned financial modelling did badly.",
+   "text": "Judge the thing in the scenario in the question, not in general. Some answers about spreadsheets never mentioned financial modelling, and they did badly.",
    "cites": [
     {
      "doc": "9626_m23_er",
@@ -220,7 +220,7 @@
   },
   {
    "kind": "tip",
-   "text": "Evaluate is not the same as Discuss. Discuss asks you to write in depth in a structured way; Evaluate asks you to judge importance or value. Your judgement can be on each point or on the whole answer. We checked the 77 Discuss mark schemes from 2022 onward: none has a conclusion mark, while recent Evaluate mark schemes do.",
+   "text": "Evaluate is not the same as Discuss. Discuss asks you to write in depth in a structured way. Evaluate asks you to judge importance or value. You can give a judgement on each point or on the whole answer. We checked the 77 Discuss mark schemes from 2022 onward. None has a conclusion mark, but recent Evaluate mark schemes do.",
    "cites": [
     {
      "doc": "9626_syllabus_2025-2027",
@@ -244,7 +244,7 @@
   },
   {
    "kind": "marks",
-   "text": "Some mark schemes give one mark for a short definition or description of the thing being evaluated. Keep it to one sentence, then move on to judging it.",
+   "text": "Some mark schemes give one mark for a short definition or description of the thing you evaluate. Keep it to one sentence, then start judging it.",
    "cites": [
     {
      "doc": "9626_m24_ms_12",
@@ -271,7 +271,7 @@
     "quote": "A person uses a dialogue interface to control multiple devices in their home. Evaluate the use of a dialogue interface in this context.",
     "page": 9
    },
-   "context": "A dialogue interface is controlled by speaking to it.",
+   "context": "You control a dialogue interface by speaking to it.",
    "strong": [
     {
      "sentence": "Because the person controls the devices by speaking, they do not need to physically touch any switch or screen.",
@@ -306,7 +306,7 @@
      }
     },
     {
-     "sentence": "It may also mishear what is said and operate the wrong device, which reduces how far the person can rely on it.",
+     "sentence": "It may also mishear what the person says and operate the wrong device, so the person can rely on it less.",
      "earns": {
       "doc": "9626_s25_ms_12",
       "quote": "Dialogue interface may misinterpret what is said (1)",
@@ -314,7 +314,7 @@
      }
     },
     {
-     "sentence": "Overall, a dialogue interface is very useful in a home, especially for someone with limited movement, as long as the rooms are quiet enough for commands to be understood.",
+     "sentence": "Overall, a dialogue interface is very useful in a home, especially for someone with limited movement, if the rooms are quiet enough.",
      "earns": {
       "doc": "9626_s25_ms_12",
       "quote": "One mark for a valid conclusion (1)",
@@ -325,14 +325,14 @@
    "weak": {
     "answer": "Dialogue interfaces are good for disabled people. You control things with your voice. It is hands-free and easy to use.",
     "marks_likely": "about 2 of 6",
-    "why": "Every point is positive, nothing is expanded into a consequence, and there is no conclusion, so most of the marks for drawbacks and for the judgement cannot be reached.",
+    "why": "Every point is positive. No point has a consequence, and there is no conclusion. So the answer cannot reach most of the marks for drawbacks and for the judgement.",
     "basis": {
      "doc": "9626_s25_er",
      "quote": "Candidates tended to concentrate on the positive implications, rather than both the positive and the negative, and this did restrict the overall marks scored for this question in a few cases.",
      "page": 8
     }
    },
-   "note": "Three sentences for, two against, one conclusion. The conclusion mark is easy to get if you remember to write one."
+   "note": "Three sentences for, two against and one conclusion. The conclusion mark is easy to get if you remember to write one."
   },
   {
    "doc": "9626_w24_qp_32",
@@ -346,7 +346,7 @@
    "context": null,
    "strong": [
     {
-     "sentence": "In evolutionary prototyping, the data input screen is continually refined and rebuilt until it is finished.",
+     "sentence": "In evolutionary prototyping, the developers keep refining and rebuilding the data input screen until it is complete.",
      "earns": {
       "doc": "9626_w24_ms_32",
       "quote": "The system / screen is continually refined and rebuilt (when developed using evolutionary prototyping)",
@@ -354,7 +354,7 @@
      }
     },
     {
-     "sentence": "The staff who will use the screen work with every version of it as it is developed.",
+     "sentence": "The staff who will use the screen work with every version of it during development.",
      "earns": {
       "doc": "9626_w24_ms_32",
       "quote": "The user continuously engages with the system (1)",
@@ -362,7 +362,7 @@
      }
     },
     {
-     "sentence": "As a result, the finished screen is more likely to include the customer fields the staff actually need, which is the most important benefit for a data input screen.",
+     "sentence": "As a result, the screen is more likely to have the customer fields the staff need, which matters most for a data input screen.",
      "earns": {
       "doc": "9626_w24_ms_32",
       "quote": "so the new system / screen is more likely to meet the user requirements (1)",
@@ -370,7 +370,7 @@
      }
     },
     {
-     "sentence": "The screen can also be changed at any iteration, for example if the company decides to record extra customer details.",
+     "sentence": "The developers can also change the screen at any iteration, for example if the company decides to record extra customer details.",
      "earns": {
       "doc": "9626_w24_ms_32",
       "quote": "Screen / product can be changed at any stage / iteration (1)",
@@ -386,7 +386,7 @@
      }
     },
     {
-     "sentence": "This raises the overall cost of development, which is a serious drawback when only one screen is being built.",
+     "sentence": "This raises the overall cost of development, which is a serious drawback when the company is building only one screen.",
      "earns": {
       "doc": "9626_w24_ms_32",
       "quote": "which raises overall cost of development (1)",
@@ -402,7 +402,7 @@
      }
     },
     {
-     "sentence": "Overall, evolutionary prototyping suits this screen because user feedback matters most for data entry, provided the company sets a clear end point to control the cost.",
+     "sentence": "Overall, evolutionary prototyping suits this screen because user feedback matters most for data entry, if the company sets a clear end point to control cost.",
      "earns": {
       "doc": "9626_w24_ms_32",
       "quote": "One mark is available for a valid conclusion / judgement (must have considered both pros and cons).",
@@ -413,15 +413,15 @@
    "weak": {
     "answer": "Evolutionary prototyping involves the users. The screen can be changed. It can be expensive. It takes a long time.",
     "marks_likely": "probably no more than 3 of 8",
-    "why": "These are bare statements. None is followed by a consequence or a judgement, and there is no conclusion.",
+    "why": "These are bare statements. No statement has a consequence or a judgement after it, and there is no conclusion.",
     "basis": {
      "doc": "9626_w24_er",
      "quote": "Weaker answers confused the methods of prototyping, made statements with no consequences, expansion, or judgments.",
      "page": 17
     }
    },
-   "note": "The same facts appear in both answers. The strong answer earns more because each fact is followed by what it leads to and how much it matters, and it ends with a verdict."
+   "note": "Both answers contain the same facts. The strong answer earns more because it follows each fact with what it leads to and how much it matters. It also ends with a judgement."
   }
  ],
- "thin_evidence": "Evaluate is well covered: 25 question parts from 2022 onward (114 in all years). Assess is in the syllabus command-word list, but no question part uses Assess as its command word, and a search of all question paper pages found no question starting with 'Assess'. There are no Assess mark schemes or examiner comments, so this report gives no separate advice for Assess beyond its syllabus definition ('make an informed judgement'). The conclusion-mark count rests on a text search of the mark schemes for 'conclusion' or 'overall judgement'."
+ "thin_evidence": "Evaluate has plenty of evidence: 25 question parts from 2022 onward (114 in all years). Assess is in the syllabus list of command words. But no question part uses Assess as its command word. A search of all question paper pages found no question that starts with 'Assess'. There are no Assess mark schemes or examiner report comments. So this report gives no separate advice for Assess beyond its syllabus definition ('make an informed judgement'). The count of conclusion marks comes from a text search of the mark schemes for 'conclusion' or 'overall judgement'."
 }

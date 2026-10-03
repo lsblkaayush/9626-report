@@ -18,11 +18,11 @@
    }
   }
  ],
- "one_line": "Compare: similarities and/or differences. Give both unless the question says otherwise, because some questions require both. Contrast: differences only. Make every point clearly a comparison of the two things ('both', 'whereas', '-er than').",
+ "one_line": "Compare means similarities, differences or both. Give both unless the question says otherwise, because some questions need both. Contrast means differences only. Make every point a clear comparison of the two things ('both', 'whereas', '-er than').",
  "points": [
   {
    "kind": "marks",
-   "text": "Mark schemes for Compare list similarities and differences, with one mark for each valid point. Some (for example m22 Paper 32, m23 Paper 32 and s22 Paper 12) say you need at least one similarity and one difference to get full marks.",
+   "text": "Mark schemes for Compare list similarities and differences, with one mark for each valid point. Some mark schemes say you need at least one similarity and one difference for full marks. Three examples are March 2022 Paper 32, March 2023 Paper 32 and June 2022 Paper 12.",
    "cites": [
     {
      "doc": "9626_m22_ms_32",
@@ -46,7 +46,7 @@
   },
   {
    "kind": "marks",
-   "text": "Some mark schemes put a cap on each side, for example a maximum of 4 marks for similarities and 4 for differences in a 5-mark question. So writing only one side cannot get you full marks.",
+   "text": "Some mark schemes put a cap on each side. For example, a 5-mark question can allow a maximum of 4 marks for similarities and 4 for differences. So if you write only one side, you cannot get full marks.",
    "cites": [
     {
      "doc": "9626_w23_ms_11",
@@ -64,7 +64,7 @@
   },
   {
    "kind": "tip",
-   "text": "Give both similarities and differences in a Compare answer, even if the question does not say so. The examiners have not always agreed on this: some reports said both were required, and others said full marks were possible with only one side when the question did not ask for both. Writing both is safe in every case.",
+   "text": "Give both similarities and differences in a Compare answer, even if the question does not ask for both. The examiner reports have not always agreed on this. Some reports said both were required. Others said you could get full marks with only one side when the question did not ask for both. Writing both is safe in every case.",
    "cites": [
     {
      "doc": "9626_m23_er",
@@ -94,7 +94,7 @@
   },
   {
    "kind": "mistake",
-   "text": "Students often forget the similarities. The w25 (Paper 11) and s25 (Paper 32) reports both noted that few candidates gave them.",
+   "text": "Students often forget the similarities. The November 2025 examiner report (Paper 11) said few, if any, candidates gave similarities. The June 2025 examiner report (Paper 32) said candidates often left them out.",
    "cites": [
     {
      "doc": "9626_w25_er",
@@ -112,7 +112,7 @@
   },
   {
    "kind": "format",
-   "text": "Write each difference as one matched sentence about both things, joined by 'whereas'. Do not write one paragraph about A and then a separate paragraph about B. Examiners did not award marks when they could not see the comparison.",
+   "text": "Write each difference as one matched sentence about both things, joined by 'whereas'. Do not write one paragraph about A and then a separate paragraph about B. Examiners did not give marks when they could not see the comparison.",
    "cites": [
     {
      "doc": "9626_w22_er",
@@ -130,7 +130,7 @@
   },
   {
    "kind": "mistake",
-   "text": "A true fact about only one thing, with no comparison shown, is not a comparison. 'A LAN covers a small area' gets no mark. 'A LAN covers a smaller area than a WAN' does. The s25 report (on a Contrast question) added that you need not spell out the other side every time, as long as the point is clearly a valid comparison.",
+   "text": "A true fact about only one thing is not a comparison. 'A LAN covers a small area' gets no mark. 'A LAN covers a smaller area than a WAN' gets a mark. The June 2025 examiner report (Paper 12) was about a Contrast question. It said you do not need to write out the other side every time. The point must still clearly be a comparison.",
    "cites": [
     {
      "doc": "9626_m22_er",
@@ -190,7 +190,7 @@
   },
   {
    "kind": "mistake",
-   "text": "Do not repeat the question as a similarity. If the question says both devices exchange data, 'both exchange data' earns nothing. Very general similarities, such as 'both are plastic cards', were also called weak.",
+   "text": "Do not repeat the question as a similarity. If the question says both devices exchange data, 'both exchange data' gets no mark. The examiners also called very general similarities weak, such as 'both are plastic cards'.",
    "cites": [
     {
      "doc": "9626_s23_er",
@@ -260,7 +260,7 @@
      }
     },
     {
-     "sentence": "Static routing tables are created by network administrators, whereas dynamic routing tables are created by algorithms.",
+     "sentence": "Network administrators create static routing tables, whereas algorithms create dynamic routing tables.",
      "earns": {
       "doc": "9626_m23_ms_32",
       "quote": "Static routing tables created by network administrators whereas dynamic routing tables are created by algorithms",
@@ -276,7 +276,7 @@
      }
     },
     {
-     "sentence": "Static routing tables are not updated when network conditions or devices change, whereas dynamic routing tables are updated and can adjust to the changes.",
+     "sentence": "Static routing tables stay the same when network conditions or devices change, whereas dynamic routing tables update to match the changes.",
      "earns": {
       "doc": "9626_m23_ms_32",
       "quote": "Static routing tables not updated/amended when network conditions/device change whereas dynamic routing are updated/can adjust to changing network conditions",
@@ -284,7 +284,7 @@
      }
     },
     {
-     "sentence": "Static route information does not time out, whereas dynamic routes have a time-to-live after which the table is updated.",
+     "sentence": "Static route information does not time out, whereas dynamic routes have a time-to-live.",
      "earns": {
       "doc": "9626_m23_ms_32",
       "quote": "Static routing table/info does not ‘time out’ whereas dynamic routes can be time-limited/have time-to-live data",
@@ -332,7 +332,7 @@
      }
     },
     {
-     "sentence": "A LAN is usually owned by one organisation, whereas a WAN is often owned by a number of organisations.",
+     "sentence": "One organisation usually owns a LAN, whereas a number of organisations often own a WAN.",
      "earns": {
       "doc": "9626_m22_ms_32",
       "quote": "LANs are (usually) owned by one organisation whereas WANs are (usually/often) owned by a number/collective ownership",
@@ -377,5 +377,5 @@
    "note": "Every sentence names both LAN and WAN and uses a comparing word ('smaller ... than', 'whereas'). There are no similarities, because Contrast does not credit them."
   }
  ],
- "thin_evidence": "Compare is well covered: the question papers have 16 question parts as Compare, all from 2022 onward, and many have examiner comments. Contrast has fewer: 8 parts are labelled Contrast. One of them, November 2024 Paper 33 Q3(b), is a false match ('contrast' is an image term in a Describe question), so 7 are real Contrast questions, 6 of them from 2022 onward (the other is s21 Paper 32). Another 20 parts from 2018-2021 are labelled 'Compare and Contrast'; they are not used here. The examiner reports disagree on whether Compare needs both sides when the question does not ask for both: s23 said both are required, while w22 and w24 said one side could get full marks. The advice to give both follows the m23 report and works under either reading."
+ "thin_evidence": "Compare has good evidence. The question papers have 16 question parts that use Compare, all from 2022 onward, and many have examiner comments. Contrast has less evidence. 8 parts are labelled Contrast. One of them, November 2024 Paper 33 Q3(b), is a false match, because 'contrast' is an image term in a Describe question. So 7 are real Contrast questions. 6 of them are from 2022 onward, and the other is June 2021 Paper 32. Another 20 parts from 2018-2021 are labelled 'Compare and Contrast'. This guide does not use them. The examiner reports disagree on whether Compare needs both sides when the question does not ask for both. The June 2023 report said both are required. The November 2022 and November 2024 reports said one side could get full marks. The advice to give both follows the March 2023 report and works under either reading."
 }

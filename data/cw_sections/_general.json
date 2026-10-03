@@ -1,10 +1,10 @@
 {
  "group": "_general",
- "one_line": "Write in full sentences, make every point complete, and answer the question that was asked about the scenario that was given.",
+ "one_line": "Write full sentences. Give each point its reason or detail. Answer the question on the paper, about the scenario it gives.",
  "points": [
   {
    "kind": "format",
-   "text": "No Cambridge document for 9626 tells you to answer in bullet points. Cambridge's own guide for students says the opposite.",
+   "text": "No Cambridge document for 9626 tells you to answer in bullet points. The Cambridge guide for students says the opposite.",
    "cites": [
     {
      "doc": "9626_learner_guide",
@@ -16,7 +16,7 @@
   },
   {
    "kind": "format",
-   "text": "The examiners repeat this in almost every series. Describe and Explain answers need full sentences too, not only the long questions.",
+   "text": "Examiner reports repeat this advice in almost every exam series. Use full sentences for Describe and Explain answers too, as well as for the long questions.",
    "cites": [
     {
      "doc": "9626_w25_er",
@@ -34,7 +34,7 @@
   },
   {
    "kind": "format",
-   "text": "The real problem with bullets is what they leave out. A bullet is usually a bare point with no reason or detail, and the reason or detail is where most marks are.",
+   "text": "The real problem with bullets is what they leave out. A bullet is usually a bare point with no reason or detail. Most of the marks are for the reason or detail.",
    "cites": [
     {
      "doc": "9626_s18_er",
@@ -52,7 +52,7 @@
   },
   {
    "kind": "format",
-   "text": "For Discuss, Evaluate and Analyse, the shape of the answer matters as well. Bulleted lists and tables of statements lose most of the marks, and so do separate lists of benefits and drawbacks when each item is only a word or a very brief sentence.",
+   "text": "For Discuss, Evaluate and Analyse, the shape of the answer also matters. Bulleted lists and tables of statements cannot get most of the marks. The same is true for separate lists of benefits and drawbacks if each item is only one word or a very short sentence.",
    "cites": [
     {
      "doc": "9626_m25_er",
@@ -76,7 +76,7 @@
   },
   {
    "kind": "format",
-   "text": "This was once written into the mark schemes too. From 2021 to 2023, almost every Paper 1 and Paper 3 mark scheme printed a cap on bulleted answers to its Discuss, Evaluate or Analyse questions: at most 6 of 8 marks (fewer on shorter questions, e.g. 3 of 4), however good the points were. In 2024 only the March and June Paper 3 mark schemes still printed it, and from November 2024 on it is gone. The 2025 examiner reports still say bulleted lists and tables cannot reach most of the marks.",
+   "text": "The mark schemes once printed this rule too. From 2021 to 2023, almost every Paper 1 and Paper 3 mark scheme had a limit for bulleted answers to Discuss, Evaluate or Analyse questions. On an 8-mark question, the limit was 6 marks, however good the points were. Shorter questions had lower limits, for example 3 of 4 marks. In 2024, only the March and June Paper 3 mark schemes still printed the limit. From November 2024, the mark schemes do not print it. But the 2025 examiner reports still say that bulleted lists and tables cannot get most of the marks.",
    "cites": [
     {
      "doc": "9626_m22_ms_12",
@@ -100,7 +100,7 @@
   },
   {
    "kind": "format",
-   "text": "Bullets are not banned outright. On one Paper 1 question (November 2025) that asked for the steps of planning something, the examiners accepted either a list of steps (sometimes bulleted) or a description, as long as each step showed a decision being made. Treat that as a rare exception, not a licence: the reports ask for full sentences everywhere else.",
+   "text": "Bullets are not completely banned. One Paper 1 question in November 2025 asked for the steps of planning something. The examiners accepted a list of steps, sometimes bulleted, or a description. Each step had to show a decision. Treat this as a rare exception. Everywhere else, the examiner reports ask for full sentences.",
    "cites": [
     {
      "doc": "9626_w25_er",
@@ -112,7 +112,7 @@
   },
   {
    "kind": "marks",
-   "text": "You do not lose marks for grammar or spelling. Examiners give marks for correct points and never take marks away for mistakes. Your meaning still has to be clear.",
+   "text": "You do not lose marks for grammar or spelling. Examiners give marks for correct points. They do not take marks away for errors. But your meaning must still be clear.",
    "cites": [
     {
      "doc": "9626_s25_ms_12",
@@ -130,7 +130,7 @@
   },
   {
    "kind": "tip",
-   "text": "Short sentences are fine. One clear point per sentence is easier for the examiner to mark and easier for you to check.",
+   "text": "Short sentences are fine. Put one clear point in each sentence. This is easier for the examiner to mark and easier for you to check.",
    "cites": [
     {
      "doc": "9626_learner_guide",
@@ -142,7 +142,7 @@
   },
   {
    "kind": "marks",
-   "text": "Some mark schemes give one mark for a point and a second mark only when you add its reason or detail. One mark scheme says outright that an answer made only of bare points is capped.",
+   "text": "Some mark schemes give one mark for a point. They give a second mark only when you add its reason or detail. One mark scheme says clearly that an answer made only of bare points has a mark limit.",
    "cites": [
     {
      "doc": "9626_w23_ms_13",
@@ -154,7 +154,7 @@
   },
   {
    "kind": "mistake",
-   "text": "Answer the question as it is written, about the scenario it gives. Writing everything you know about a word you spotted in the question does not earn the marks.",
+   "text": "Answer the question that the paper asks, about the scenario it gives. Do not write everything you know about one word that you saw in the question. That does not earn the marks.",
    "cites": [
     {
      "doc": "9626_w25_er",
@@ -172,7 +172,7 @@
   },
   {
    "kind": "mistake",
-   "text": "Do not copy mark scheme bullets you have memorised. Examiners notice, and a list of learnt points is not an answer to a new question.",
+   "text": "Do not write out mark scheme bullets that you learnt by heart. Examiners notice this. A list of learnt points does not answer a new question.",
    "cites": [
     {
      "doc": "9626_w19_er",
@@ -184,7 +184,7 @@
   },
   {
    "kind": "tip",
-   "text": "The number of marks is a clue to how much to write: how many separate points, or how much detail, the examiner expects.",
+   "text": "Use the number of marks as a clue to how much to write. It tells you how many separate points, or how much detail, the examiner expects.",
    "cites": [
     {
      "doc": "9626_learner_guide",

@@ -8,7 +8,7 @@
     "quote": "Writing an algorithm using pseudocode to solve a given problem, including: – INPUT/READ – WRITE/PRINT – FOR…NEXT – FOR…NEXT…STEP – IF...ELSE...ENDIF – WHILE...ENDWHILE – REPEAT...UNTIL – CASE...ENDCASE",
     "page": 21
    },
-   "note": "Not in the command-word table (page 66). This is the syllabus topic 4.1 wording; the ellipses are part of the syllabus keywords."
+   "note": "Not in the command-word table (page 66). This is the wording of syllabus topic 4.1. The ellipses are part of the syllabus keywords."
   },
   {
    "word": "Complete (an algorithm or flowchart)",
@@ -29,11 +29,11 @@
    "note": "Not in the command-word table (page 66). This is the syllabus symbol list on page 61 that examiners expect you to use."
   }
  ],
- "one_line": "Use the syllabus pseudocode keywords or flowchart symbols, set your variables to a starting value before the loop, put the counter update inside the loop, close every structure (ENDIF, ENDWHILE, UNTIL), and label every decision Yes and No.",
+ "one_line": "Use the syllabus pseudocode keywords or flowchart symbols. Set your variables to a starting value before the loop. Put the counter update inside the loop. Close every structure (ENDIF, ENDWHILE, UNTIL). Label every decision Yes and No.",
  "points": [
   {
    "kind": "marks",
-   "text": "Algorithm questions are marked one mark per required feature, such as initialising a variable, the loop, the input, the counter update and the output. Most features are marked separately, so you can earn marks even if part of your answer is wrong (a few marks depend on others). Always attempt the question: examiners say easier marks are generally there.",
+   "text": "Examiners give one mark for each required feature, such as initialising a variable, the loop, the input, the counter update and the output. Most features get a mark on their own, so you can earn marks even if part of your answer is wrong. A few marks depend on other marks. Always attempt the question. The examiner reports say the easier marks are generally there to get.",
    "cites": [
     {
      "doc": "9626_m22_ms_12",
@@ -57,7 +57,7 @@
   },
   {
    "kind": "mistake",
-   "text": "Initialise counters and totals before the loop starts, not inside it. In s25 Paper 13 Q7 this was the most common mistake among otherwise strong candidates, and in Q13 a missing initialisation was the usual reason for losing marks.",
+   "text": "Initialise counters and totals before the loop starts, not inside it. In June 2025 Paper 13 Q7, this was the most common mistake among otherwise strong candidates. In Q13 of the same paper, a missing initialisation was the usual reason for losing marks.",
    "cites": [
     {
      "doc": "9626_s25_er",
@@ -81,7 +81,7 @@
   },
   {
    "kind": "marks",
-   "text": "The counter must go up by one inside the loop, and not only inside an IF within the loop. The loop must stop at the right value.",
+   "text": "Put the counter increment inside the loop. If the increment is only inside an IF within the loop, it does not get the mark. Make the loop stop at the right value.",
    "cites": [
     {
      "doc": "9626_s25_ms_13",
@@ -99,7 +99,7 @@
   },
   {
    "kind": "tip",
-   "text": "Use the structures and keywords from the syllabus (IF...ELSE...ENDIF, WHILE...ENDWHILE, REPEAT...UNTIL, CASE...ENDCASE). If the question names a structure, use it. Students who mixed CASE with IF statements, or who wrote prose, lost marks. Cambridge publishes a pseudocode guide that shows the expected layout.",
+   "text": "Use the structures and keywords from the syllabus (IF...ELSE...ENDIF, WHILE...ENDWHILE, REPEAT...UNTIL, CASE...ENDCASE). If the question names a structure, use it. Students who mixed CASE with IF statements lost marks. Students who wrote prose also lost marks. Cambridge publishes a pseudocode guide that shows the expected layout.",
    "cites": [
     {
      "doc": "9626_w23_er",
@@ -159,7 +159,7 @@
   },
   {
    "kind": "format",
-   "text": "Indent the lines inside IF, ELSE and loops. Some mark schemes give a mark just for correct indentation. Variable names with two or more words must have no spaces. A slightly wrong variable name is not penalised if it is clear which variable you mean.",
+   "text": "Indent the lines inside IF, ELSE and loops. Some mark schemes give a mark just for correct indentation. Variable names with two or more words must have no spaces. Examiners do not take off marks for a slightly wrong variable name if it is clear which variable you mean.",
    "cites": [
     {
      "doc": "9626_w23_ms_13",
@@ -189,7 +189,7 @@
   },
   {
    "kind": "mistake",
-   "text": "In a flowchart, every decision box needs two exits labelled Yes and No (True and False are accepted). Write the condition as a maths expression, not words: 'is x between 5 and 10' is not acceptable.",
+   "text": "In a flowchart, every decision box needs two exits labelled Yes and No (True and False are accepted). Write the condition as a maths expression, not in words. For example, 'is x between 5 and 10' is not acceptable.",
    "cites": [
     {
      "doc": "9626_s23_er",
@@ -261,7 +261,7 @@
   },
   {
    "kind": "tip",
-   "text": "When you suggest or describe a change to a flowchart or pseudocode, say exactly where it goes, for example which line is removed and what replaces it. Write the answer in the answer space, not on the printed code.",
+   "text": "When you suggest or describe a change to a flowchart or pseudocode, say exactly where it goes. For example, say which line you remove and what replaces it. Write the answer in the answer space, not on the printed code.",
    "cites": [
     {
      "doc": "9626_s25_er",
@@ -288,7 +288,7 @@
     "quote": "Write a pseudocode algorithm using REPEAT...UNTIL which allows the teacher to input 20 test marks and outputs the correct message for each inputted mark.",
     "page": 6
    },
-   "context": "Marks above 70 get a Distinction, 55 to 70 a Merit, 40 to 54 a Pass, and below 40 'You have not reached the Pass mark'.",
+   "context": "Marks above 70 get a Distinction. Marks from 55 to 70 get a Merit, and marks from 40 to 54 get a Pass. Marks below 40 get the message 'You have not reached the Pass mark'.",
    "strong": [
     {
      "sentence": "Count ← 0   (before the loop)",
@@ -323,10 +323,18 @@
      }
     },
     {
-     "sentence": "    IF Mark > 54 AND Mark < 71 THEN PRINT \"You have achieved a Merit\" ENDIF   and   IF Mark > 39 AND Mark < 55 THEN PRINT \"You have achieved a Pass\" ENDIF",
+     "sentence": "    IF Mark > 54 AND Mark < 71 THEN PRINT \"You have achieved a Merit\" ENDIF",
      "earns": {
       "doc": "9626_s25_ms_13",
       "quote": "Correct Merit grade criterion//correct Pass grade criterion (1)",
+      "page": 7
+     }
+    },
+    {
+     "sentence": "    IF Mark > 39 AND Mark < 55 THEN PRINT \"You have achieved a Pass\" ENDIF",
+     "earns": {
+      "doc": "9626_s25_ms_13",
+      "quote": "Use of one IF…ENDIF (1)",
       "page": 7
      }
     },
@@ -358,14 +366,14 @@
    "weak": {
     "answer": "REPEAT\n    Count ← 0\n    INPUT Mark\n    IF Mark >= 55 and <= 70 THEN OUTPUT \"You have achieved a Merit\"\n    ...\n    Count ← Count + 1\nUNTIL Count = 20",
     "marks_likely": "about 5 of 8",
-    "why": "Count is reset to 0 on every pass, so the loop never ends and the initialisation mark is lost. The Merit test is not written in full (Mark > 54 AND Mark < 71), and the IF has no ENDIF. It can still pick up the REPEAT, INPUT, increment and UNTIL marks.",
+    "why": "The code sets Count to 0 on every pass, so the loop never ends and the answer loses the initialisation mark. The Merit test does not repeat the variable (it should be Mark > 54 AND Mark < 71), and the IF has no ENDIF. The answer can still get the REPEAT, INPUT, increment and UNTIL marks.",
     "basis": {
      "doc": "9626_s25_er",
      "quote": "However, a sizeable minority placed the initialisation of the count within the loop. This was the most frequently made mistakes amongst candidates who otherwise had a strong understanding of what was required.",
      "page": 11
     }
    },
-   "note": "This is pseudocode, so the strong answer is lines of code rather than sentences. The lines cover more than eight mark-scheme points (the increment and UNTIL lines earn two each), and the mark is capped at 8. The syllabus lists only the comparison operators >, < and =, and WRITE/PRINT for output, so the ranges are written with > and < (marks are whole numbers) and the output uses PRINT; the mark scheme's own example uses OUTPUT. Most of the marks are for structure: initialise before the loop, increment inside it, and use the right UNTIL condition in the right place."
+   "note": "This is pseudocode, so the strong answer is lines of code, not sentences. The lines cover more than eight mark-scheme points, and the mark is capped at 8. The increment and UNTIL lines earn two points each. The syllabus lists only the comparison operators >, < and =, and it lists WRITE/PRINT for output. So the ranges use > and < (marks are whole numbers), and the output uses PRINT. The mark scheme's own example uses OUTPUT. Most of the marks are for structure. Initialise before the loop, increment inside it, and use the right UNTIL condition in the right place."
   },
   {
    "doc": "9626_w24_qp_12",
@@ -445,8 +453,8 @@
      "page": 4
     }
    },
-   "note": "The mark scheme lists 14 creditable features for 7 marks, so getting the shapes, labels and initialisation right gives you room to spare. MAX starts at the first value rather than 0 so the answer is still right if every number is negative; the mark scheme also accepts setting MAX to 0. The weak answer is a description of a flowchart in words, because a drawing cannot be shown here."
+   "note": "The mark scheme lists 14 features that earn marks, for 7 marks. So if you get the shapes, labels and initialisation right, you have room to spare. MAX starts at the first value, not 0, so the answer still works if every number is negative. The mark scheme also accepts setting MAX to 0. The weak answer describes a flowchart in words, because this guide cannot show a drawing."
   }
  ],
- "thin_evidence": "Evidence is strong for pseudocode and program flowcharts in Paper 1 (many questions from 2022 onward with examiner comments). The s22 report says several times that algorithms and flowcharts were only recently introduced to the syllabus, so the most recent reports (2024-2025) are the best guide. Draw also covers DFD, PERT and system-flowchart questions in Paper 3; only the symbol points here apply to those. 'Write' is sometimes tagged on non-algorithm parts (for example 9626_w25_qp_11 and 9626_w25_qp_13 Q8(b), which are about audio), and those were ignored."
+ "thin_evidence": "Evidence is strong for pseudocode and program flowcharts in Paper 1. Many questions from 2022 onward have examiner comments. The June 2022 examiner report says several times that algorithms and flowcharts were a recent addition to the syllabus. So the most recent reports (2024-2025) are the best guide. Draw also covers DFD, PERT and system-flowchart questions in Paper 3. Only the symbol points here apply to those. 'Write' is sometimes tagged on parts that are not about algorithms. Examples are November 2025 Paper 11 and Paper 13 Q8(b), which are about audio. This guide ignores those parts."
 }
