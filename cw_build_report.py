@@ -76,6 +76,7 @@ def source(c):
         sys.exit(f"unverified cite {doc}: {c['quote'][:60]!r} - run cw_verify.py")
     if doc == "9626_syllabus_2025-2027": return f"Syllabus 2025 to 2027, p. {page}"
     if doc == "9626_learner_guide": return f"Cambridge Learner Guide for 9626, p. {page}"
+    if doc == "9626_pseudocode_guide": return f"Pseudocode Guide for Teachers, 9626, p. {page}"
     m = re.match(r"9626_([msw])(\d\d)_(er|ms|qp)(?:_(\d\d))?", doc)
     s, yy, kind, comp = m.groups()
     when = f"{SESS[s]} 20{yy}"
@@ -148,7 +149,7 @@ def section_html(s, title):
         # the closing note shares a block with the answer just above it, so it never sits alone
         wk = ex.get("weak")
         if wk:
-            h.append(f'</div><div class="weakblk"><p class="lbl bad">Weak answer, about {e(marks_likely(wk["marks_likely"]))}</p>'
+            h.append(f'</div><div class="weakblk"><p class="lbl bad">Weak answer: {e(marks_likely(wk["marks_likely"]))} (estimate, not a Cambridge mark)</p>'
                      f'<p class="weak">{prose(wk["answer"])}</p><p class="why">{prose(wk["why"])}</p>{cites_html([wk["basis"]])}')
         if ex.get("note"): h.append(f'<p class="note">{prose(ex["note"])}</p>')
         h.append("</div></div>")
@@ -212,6 +213,10 @@ td{border-bottom:1px solid #e6e6e6;padding:5px 8px;vertical-align:top} td.n,th.n
 .myth h3{color:var(--warn);margin-top:0}
 .small{font-size:9.5pt;color:var(--mute);line-height:1.45}
 table.glance td{padding:9px 8px;font-size:10.5pt;line-height:1.45} table.glance td:first-child{width:32%}
+
+.keep{break-inside:avoid} .ntintro{font-size:9.5pt;margin:4px 0 6px;line-height:1.4}
+table.notation{margin:0;font-size:9pt} table.notation th{padding:3px 5px} table.notation td{vertical-align:top;padding:3px 5px;line-height:1.28}
+td.sign{font:bold 9pt 'DejaVu Sans Mono',Menlo,monospace;width:19%} td.nex{font-size:8.4pt;line-height:1.28;color:var(--quote);font-style:italic;width:44%} td.nex .src{font-style:normal}
 """
 
 def build():
@@ -251,17 +256,22 @@ def build():
     for p in [p for p in g["points"] if p["kind"] == "format"]:
         h.append(point_html(p))
     h.append("</ol></div></section>")
-    h.append('<section><h2>How the marks are given</h2>')
+    # the section heading, its first subheading and its first point share one unbreakable block,
+    # so the heading can never sit alone at the foot of a page
+    h.append('<section class="page">')
     rest, last = [p for p in g["points"] if p["kind"] != "format"], None
-    for p in rest:
+    for i, p in enumerate(rest):
         if p.get("heading") != last:
-            h.append(("</ol>" if last is not None else "") + (f"<h3>{e(p['heading'])}</h3>" if p.get("heading") else "") + "<ol class='pts'>")
+            n_before = sum(1 for q in rest[:i] if q.get("heading") == p.get("heading"))
+            h.append(("</ol>" if last is not None else "") + ('<div class="keep"><h2>How the marks are given</h2>' if i == 0 else "")
+                     + (f"<h3>{e(p['heading'])}</h3>" if p.get("heading") else "") + "<ol class='pts'>")
             last = p.get("heading")
         h.append(point_html(p))
+        if i == 0: h.append("</ol></div><ol class='pts' start='2'>")
     h.append("</ol></section>")
     nt = secs.get("_notation")
     if nt:
-        h.append(f'<section><h2>How to read a mark scheme</h2><p>{prose(nt["intro"])}</p><table class="notation">'
+        h.append(f'<section class="page notation-page"><h2>How to read a mark scheme</h2><p class="ntintro">{prose(nt["intro"])}</p><table class="notation">'
                  '<tr><th>Sign</th><th>What it means</th><th>Example from a mark scheme</th></tr>')
         for r in nt["rows"]:
             ex = "<br>".join(f'"{e(c["quote"])}" <span class="src">({e(source(c))})</span>' for c in r["cites"])
@@ -301,6 +311,7 @@ def method_html(secs):
             "<li>Counts: Papers 1 and 3, 2022 to March 2026. A part with no command word of its own counts as none.</li>"
             "<li>Worked examples: real questions. Full-mark answers are mark scheme points written as sentences. "
             "Weak answers show mistakes the examiner reports describe. No candidate wrote them.</li>"
+            "<li>Marks for weak answers: estimates, made by checking each answer against the points in its mark scheme. Cambridge did not mark these answers.</li>"
             "<li>Not used: Cambridge's Example Candidate Responses (School Support Hub, teacher login). Papers 2 and 4.</li></ul>"
             + "<h3>How much evidence there is for each word</h3><table class='glance'>"
             + "".join(f"<tr><td><b>{e(TITLES.get(k, k))}</b></td><td>{prose(secs[k]['thin_evidence'])}</td></tr>"

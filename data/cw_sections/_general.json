@@ -5,12 +5,12 @@
   {
    "kind": "format",
    "heading": "Write in full sentences",
-   "text": "No Cambridge document for 9626 asks for bullet points. The Cambridge guide for students gives advice for all of Papers 1 and 3, and it tells you to answer in sentences.",
+   "text": "No Cambridge document for 9626 asks for bullet points. The Cambridge Learner Guide has a section of advice for all of Papers 1 and 3. Its first line tells you to answer in sentences.",
    "cites": [
     {
      "doc": "9626_learner_guide",
-     "ref": "Advice for all Papers 1 and 3",
-     "quote": "Answer the questions in sentences. Never give ‘one word’ or one ‘phrase’ answers.",
+     "ref": "",
+     "quote": "Advice for all Papers 1 and 3 Answer the questions in sentences. Never give ‘one word’ or one ‘phrase’ answers.",
      "page": 15
     }
    ]

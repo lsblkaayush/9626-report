@@ -121,9 +121,28 @@
    ]
   },
   {
+   "kind": "mistake",
+   "heading": "Write pseudocode the examiners accept",
+   "text": "Write each comparison in full: IF X > Y AND X < Z, never IF X > Y AND < Z. The examiners accept AND when both comparisons are written out. You may also use >= and <=. The 9626 pseudocode guide lists them, although the syllabus list shows only >, < and =.",
+   "cites": [
+    {
+     "doc": "9626_s25_er",
+     "ref": "",
+     "quote": "using the structure IF X>Y and <Z, instead of IF X>Y AND X<Z",
+     "page": 11
+    },
+    {
+     "doc": "9626_pseudocode_guide",
+     "ref": "",
+     "quote": "> Greater than < Less than >= Greater than or equal to <= Less than or equal to",
+     "page": 8
+    }
+   ]
+  },
+  {
    "heading": "Write pseudocode the examiners accept",
    "kind": "mistake",
-   "text": "Small syntax errors cost marks. Write each comparison in full: IF X > Y AND X < Z, never IF X > Y and < Z. Close every IF with ENDIF. Input each variable on its own, since 'input X and Y' does not work. Put text in speech marks, with commas between text and variables.",
+   "text": "Close every IF with ENDIF. Input each variable on its own, since 'input X and Y' does not work. Put text in speech marks, with commas between text and variables.",
    "cites": [
     {
      "doc": "9626_w23_er",
@@ -254,6 +273,7 @@
      "sentence": "Count ← 0",
      "earns": {
       "doc": "9626_s25_ms_13",
+      "ref": "",
       "quote": "Initialise Count before Mark variable is input (1)",
       "page": 7
      }
@@ -262,6 +282,7 @@
      "sentence": "REPEAT",
      "earns": {
       "doc": "9626_s25_ms_13",
+      "ref": "",
       "quote": "REPEAT in correct logical location (1)",
       "page": 7
      }
@@ -270,38 +291,43 @@
      "sentence": "    INPUT Mark",
      "earns": {
       "doc": "9626_s25_ms_13",
+      "ref": "",
       "quote": "Input Mark (1)",
       "page": 7
      }
     },
     {
-     "sentence": "    IF Mark > 70 THEN\n        PRINT \"You have achieved a Distinction\"",
+     "sentence": "    IF Mark > 70 THEN\n        PRINT \"You have achieved a Distinction\"\n    ENDIF",
      "earns": {
       "doc": "9626_s25_ms_13",
+      "ref": "",
       "quote": "Correct Distinction grade criterion//correct fail criterion (1)",
       "page": 7
      }
     },
     {
-     "sentence": "    ELSE\n        IF Mark > 54 THEN\n            PRINT \"You have achieved a Merit\"",
+     "sentence": "    IF Mark >= 55 AND Mark <= 70 THEN\n        PRINT \"You have achieved a Merit\"\n    ENDIF",
      "earns": {
       "doc": "9626_s25_ms_13",
+      "ref": "",
       "quote": "Correct Merit grade criterion//correct Pass grade criterion (1)",
       "page": 7
      }
     },
     {
-     "sentence": "        ELSE\n            IF Mark > 39 THEN\n                PRINT \"You have achieved a Pass\"\n            ELSE\n                PRINT \"You have not reached the Pass mark\"",
+     "sentence": "    IF Mark >= 40 AND Mark <= 54 THEN\n        PRINT \"You have achieved a Pass\"\n    ENDIF",
      "earns": {
       "doc": "9626_s25_ms_13",
+      "ref": "",
       "quote": "All OUTPUTs correctly match the criteria (NOT awardable if BP4 or BP5 not awarded) (1)",
       "page": 7
      }
     },
     {
-     "sentence": "            ENDIF\n        ENDIF\n    ENDIF",
+     "sentence": "    IF Mark < 40 THEN\n        PRINT \"You have not reached the Pass mark\"\n    ENDIF",
      "earns": {
       "doc": "9626_s25_ms_13",
+      "ref": "",
       "quote": "Use of one IF…ENDIF (1)",
       "page": 7
      }
@@ -310,6 +336,7 @@
      "sentence": "    Count ← Count + 1",
      "earns": {
       "doc": "9626_s25_ms_13",
+      "ref": "",
       "quote": "Correct Increment of Count (1) • Increment of Count is within the loop (1)",
       "page": 7
      }
@@ -318,6 +345,7 @@
      "sentence": "UNTIL Count = 20",
      "earns": {
       "doc": "9626_s25_ms_13",
+      "ref": "",
       "quote": "UNTIL Count = 20 (1) • UNTIL in correct position (1)",
       "page": 7
      }
@@ -325,14 +353,15 @@
    ],
    "weak": {
     "answer": "REPEAT\n    Count ← 0\n    INPUT Mark\n    IF Mark >= 55 and <= 70 THEN OUTPUT \"You have achieved a Merit\"\n    ...\n    Count ← Count + 1\nUNTIL Count = 20",
-    "marks_likely": "5 of 8",
-    "why": "The code sets Count to 0 on every pass. The loop never ends. The answer also loses the initialisation mark. The Merit test does not repeat Mark before <= 70, and the IF has no ENDIF. The answer still gets the REPEAT, INPUT, increment and UNTIL marks.",
+    "marks_likely": "6 of 8",
+    "why": "Counted against the mark scheme, this answer gets 6 marks. They are REPEAT, INPUT, the increment, the increment inside the loop, UNTIL Count = 20 and UNTIL in the right place. It loses the initialisation mark, because Count goes back to 0 on every pass and the loop never ends. Using >= is fine. The fault in the Merit test is the missing second Mark. The examiner report lists IF X>Y and <Z as a common mistake. The IF also has no ENDIF.",
     "basis": {
      "doc": "9626_s25_er",
      "quote": "However, a sizeable minority placed the initialisation of the count within the loop. This was the most frequently made mistakes amongst candidates who otherwise had a strong understanding of what was required.",
      "page": 11
     }
-   }
+   },
+   "note": "This answer copies the shape of the mark scheme's own example, with one IF...ENDIF for each grade. Both comparisons are written out with AND. The operators >= and <= and the PRINT command come from the 9626 pseudocode guide."
   },
   {
    "doc": "9626_w24_qp_12",
