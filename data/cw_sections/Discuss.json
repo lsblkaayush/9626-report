@@ -10,7 +10,7 @@
    }
   }
  ],
- "one_line": "Write full sentences in paragraphs that give at least two benefits and at least two drawbacks of the thing in the question, and expand every point with a 'because' or 'so'.",
+ "one_line": "Write full sentences in paragraphs that give benefits and drawbacks of the thing in the question (aim for at least two of each), and expand every point with a 'because' or 'so'.",
  "points": [
   {
    "kind": "marks",
@@ -38,7 +38,7 @@
   },
   {
    "kind": "marks",
-   "text": "Each side has a ceiling. In the 2022-2025 mark schemes I checked (77 Discuss parts in cw_parts.json), 35 print a separate MAX for each side; for 8-mark questions it is usually MAX 6 (sometimes 5, once 7). So an answer with only benefits can never reach 8.",
+   "text": "Each side often has a ceiling. In the 2022-2025 mark schemes I checked (77 Discuss parts in cw_parts.json), about 36 print a separate MAX for each side; for 8-mark questions it is usually MAX 6 (sometimes 5, once 7). On those questions an answer with only benefits cannot reach full marks.",
    "cites": [
     {
      "doc": "9626_w24_ms_12",
@@ -62,7 +62,7 @@
   },
   {
    "kind": "marks",
-   "text": "One-sided answers are capped. Many 2022-2023 mark schemes (20 of the 77 I checked) say you need at least two of each side (one of each on 4- and 6-mark questions) for full marks. The 2023 and 2025 examiner reports say the same: no full marks without both sides.",
+   "text": "One-sided answers are capped. 23 of the 77 mark schemes I checked (all 2022-2023) say you need at least two of each side (one of each on some 4- and 6-mark questions) for full marks, and 4 more (November 2023) cap an all-benefits or all-drawbacks answer. The 2023 and 2025 examiner reports say the same: no full marks without both sides.",
    "cites": [
     {
      "doc": "9626_m22_ms_12",
@@ -86,7 +86,7 @@
   },
   {
    "kind": "marks",
-   "text": "Sometimes there is one mark for a short opening definition of the thing in the question. I found it in 18 of the 77 mark schemes, nearly always capped at one mark (two once). So one clear opening sentence can help, but a long introduction cannot earn more.",
+   "text": "Sometimes there is a mark for a short opening definition or description of the thing in the question. I found it in 18 of the 77 mark schemes, usually capped at one mark for each thing described (two marks once, in June 2025 Paper 31 Q7). So one clear opening sentence can help, but a long introduction cannot earn more.",
    "cites": [
     {
      "doc": "9626_s25_ms_12",
@@ -128,7 +128,7 @@
   },
   {
    "kind": "format",
-   "text": "Bullet points cost marks. Every 2022 and 2023 Discuss mark scheme (and some in 2024) caps a bulleted list: max 6 of 8, max 4 of 6, max 3 of 4. I counted 48 of the 77 mark schemes with this cap.",
+   "text": "Bullet points cost marks. Every 2022 and 2023 Discuss mark scheme (and 6 of the 17 in 2024) caps a bulleted list: max 6 of 8, max 4 or 5 of 6, max 3 of 4. I counted 48 of the 77 mark schemes with this cap.",
    "cites": [
     {
      "doc": "9626_m22_ms_12",
@@ -200,7 +200,7 @@
   },
   {
    "kind": "mistake",
-   "text": "Making a point and stopping. Examiners say most students give valid points but few expand them, and some mark schemes cap answers with no expansion at 6 of 8.",
+   "text": "Making a point and stopping. Examiners say most students give valid points but few expand them, and two 2022 mark schemes cap answers with no expansion at 6 of 8.",
    "cites": [
     {
      "doc": "9626_m22_er",
@@ -218,7 +218,7 @@
   },
   {
    "kind": "mistake",
-   "text": "Vague cost words. Writing that something is 'expensive' or 'costs more' was too vague. Say what the money is spent on (for example travel, printing questionnaires, cooling systems).",
+   "text": "Vague cost words. Writing that something is 'expensive' or 'costs more' was too vague. Say what the money is spent on (for example travelling to interviews or printing questionnaires).",
    "cites": [
     {
      "doc": "9626_s24_er",
@@ -348,7 +348,7 @@
      "page": 7
     }
    },
-   "note": "Six sentences earn eight marks because two of them carry a point plus its expansion. The examiner report says this question did not need both sides of the direct/indirect comparison, so do not write each point twice in reverse."
+   "note": "Six sentences earn eight marks because two of them carry a point plus its expansion. The examiner report says this question was really about what was good and bad about direct data, with indirect data only as the comparison point, so do not write each point twice in reverse."
   },
   {
    "doc": "9626_s25_qp_31",
@@ -389,7 +389,7 @@
      "sentence": "The information it extracts also gives managers a sound basis for their decisions, rather than guesswork.",
      "earns": {
       "doc": "9626_s25_ms_31",
-      "quote": "(usually) extracts reliable information • provides a sound basis for decision-making",
+      "quote": "provides a sound basis for decision-making",
       "page": 12
      }
     },
@@ -420,7 +420,7 @@
      "page": 17
     }
    },
-   "note": "This 2025 mark scheme allowed up to two marks for saying what data mining is, then MAX SIX per side. Two expanded benefits and two drawbacks in sentences, plus a definition, reach eight."
+   "note": "This 2025 mark scheme allowed up to two marks for saying what data mining is, then MAX SIX per side. A two-sentence definition, plus two benefits and two drawbacks (one of each expanded with its reason), reaches eight."
   }
  ],
  "thin_evidence": "Not thin: Discuss appears in 80 question parts from 2022 onward (77 with mark schemes available). The counts above are my own regex counts over the mark-scheme text in cw_parts.json and could be off by one or two."

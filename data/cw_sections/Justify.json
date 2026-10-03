@@ -14,7 +14,7 @@
  "points": [
   {
    "kind": "mistake",
-   "text": "Justify is one-sided. Arguments against the choice earn nothing. Examiners say drawbacks are not needed for any question that uses Justify, and several reports describe candidates losing marks by giving 'for and against'.",
+   "text": "Justify is one-sided. Arguments against the choice earn nothing. One examiner report (June 2025) says drawbacks are not required for any question that uses Justify, and several reports describe candidates giving 'for and against' answers that did not meet the demand of the question.",
    "cites": [
     {
      "doc": "9626_w23_er",
@@ -62,7 +62,7 @@
   },
   {
    "kind": "marks",
-   "text": "Most marks go to the reasons. Many mark schemes give a first mark for a benefit and a second for the reason or result that follows from it.",
+   "text": "Most marks go to the reasons. About half the Justify mark schemes (9 of 19 from 2022 on) give a first mark for a benefit and a second for the reason or result that follows from it.",
    "cites": [
     {
      "doc": "9626_w24_er",
@@ -126,7 +126,7 @@
     },
     {
      "doc": "9626_s24_er",
-     "ref": "Q8 (Paper 31)",
+     "ref": "General comments (Paper 31)",
      "quote": "Candidates should apply their knowledge to the scenario in the question set because the full range of marks is only available to candidates for answers referring to the question scenario.",
      "page": 17
     }
@@ -206,7 +206,7 @@
   },
   {
    "kind": "format",
-   "text": "Write in full sentences. Several 8-mark Justify mark schemes cap a bulleted list at 6 marks.",
+   "text": "Write in full sentences. Four 8-mark Justify mark schemes (all 2023) cap a bulleted list at 6 marks.",
    "cites": [
     {
      "doc": "9626_w23_ms_13",
@@ -357,7 +357,7 @@
      "sentence": "This means it could sell the software to other businesses and earn money from it.",
      "earns": {
       "doc": "9626_w23_ms_13",
-      "quote": "custom written software (1st) • so can sell it to others (1)",
+      "quote": "so can sell it to others (1)",
       "page": 9
      }
     }

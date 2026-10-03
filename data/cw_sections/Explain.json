@@ -38,7 +38,7 @@
   },
   {
    "kind": "marks",
-   "text": "Many Explain mark schemes mark a point '(1st)' and the expansion under it '(1)'. The (1st) mark is for your statement. The (1) mark is only for the reason or detail you add to that statement. I counted this in cw_parts.json: 38 of the 176 Explain parts from 2022 to 2025 use (1st) in the mark scheme.",
+   "text": "Some Explain mark schemes mark a point '(1st)' and the expansion under it '(1)'. The (1st) mark is for your statement. The (1) mark is only for the reason or detail you add to that statement. In cw_parts.json, 38 of the 176 Explain parts from 2022 on (to March 2026) use (1st) in the mark scheme.",
    "cites": [
     {
      "doc": "9626_m24_ms_12",
@@ -80,7 +80,7 @@
   },
   {
    "kind": "marks",
-   "text": "The expansion mark depends on the first mark. If you do not make the first point, the examiner cannot give the reason mark that goes with it. In a short question, one full point and its reason can be the whole answer.",
+   "text": "Where the mark scheme links an expansion to a first point, the expansion mark depends on it. In one encryption question, the two further marks were only available to answers that first said the data is scrambled. In a 2-mark question, one full point and its reason can be the whole answer.",
    "cites": [
     {
      "doc": "9626_s24_er",
@@ -98,7 +98,7 @@
   },
   {
    "kind": "tip",
-   "text": "Join the statement to its reason with a linking word. In the mark schemes, the expansion usually starts with 'so', 'so that', 'because', 'as' or 'which means'. Write the link word, so the examiner can see where the reason is.",
+   "text": "Join the statement to its reason with a linking word such as 'so', 'so that', 'because' or 'which means'. The mark schemes and examiner reports use these words to show where the reason starts. Write the link word, so the examiner can see where your reason is.",
    "cites": [
     {
      "doc": "9626_m24_ms_32",
@@ -152,7 +152,7 @@
   },
   {
    "kind": "mistake",
-   "text": "Leaving out the reason is the most common mistake. Short, vague phrases like 'store web sites' or 'makes the code more readable' do not get full marks.",
+   "text": "Leaving out the reason is a common mistake. Short, vague phrases like 'store web sites' or 'makes the code more readable' do not get full marks.",
    "cites": [
     {
      "doc": "9626_w23_er",
@@ -312,8 +312,8 @@
      "page": 4
     }
    },
-   "note": "One point and two linked reasons can earn all three marks. The first statement is the gateway; each 'so' or 'which means' adds a mark."
+   "note": "One point and two linked reasons can earn all three marks here. The first statement is the gateway; each linked reason after it adds a mark."
   }
  ],
- "thin_evidence": "Explain is common (176 parts from 2022 to 2025 in cw_parts.json), so the evidence is broad. But only 38 of those mark schemes use the explicit (1st)/(1) labels; the rest simply list points worth one mark each. The cap for answers that are 'all only first marks' is written out in 9626_w23_ms_13 Q3(c); other mark schemes show the same idea through 'Max two for one complete explanation' (9626_m24_ms_12) and the s24 ER comment, but it is not printed on every Explain question."
+ "thin_evidence": "Explain is common (176 parts from 2022 to March 2026 in cw_parts.json), so the evidence is broad. But only 38 of those mark schemes use the explicit (1st)/(1) labels; the rest simply list points worth one mark each. The cap for answers that are 'all only first marks' is written out in 9626_w23_ms_13 Q3(c). No other mark scheme found prints that cap, so treat it as a sign of how markers think, not a rule for every Explain question."
 }

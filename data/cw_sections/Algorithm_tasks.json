@@ -33,7 +33,7 @@
  "points": [
   {
    "kind": "marks",
-   "text": "Algorithm questions are marked one mark per required feature, such as initialising a variable, the loop, the input, the counter update and the output. Each correct line can earn a mark even if another line is wrong, so always attempt the question.",
+   "text": "Algorithm questions are marked one mark per required feature, such as initialising a variable, the loop, the input, the counter update and the output. Most features are marked separately, so you can earn marks even if part of your answer is wrong (a few marks depend on others). Always attempt the question: examiners say easier marks are generally there.",
    "cites": [
     {
      "doc": "9626_m22_ms_12",
@@ -57,7 +57,7 @@
   },
   {
    "kind": "mistake",
-   "text": "Initialise counters and totals before the loop starts, not inside it. A missing or misplaced initialisation was the most common way strong students lost marks.",
+   "text": "Initialise counters and totals before the loop starts, not inside it. In s25 Paper 13 Q7 this was the most common mistake among otherwise strong candidates, and in Q13 a missing initialisation was the usual reason for losing marks.",
    "cites": [
     {
      "doc": "9626_s25_er",
@@ -81,7 +81,7 @@
   },
   {
    "kind": "marks",
-   "text": "Inside the loop, the counter must go up by one, and that line must be inside the loop but not inside an IF. The loop must stop at the right value.",
+   "text": "The counter must go up by one inside the loop, and not only inside an IF within the loop. The loop must stop at the right value.",
    "cites": [
     {
      "doc": "9626_s25_ms_13",
@@ -207,7 +207,7 @@
   },
   {
    "kind": "mistake",
-   "text": "Use the symbols shown in the syllabus: parallelograms for input and output, rectangles for processes, and terminators for Start and Stop. Do not mix up input and process boxes. Do not use symbols from other kinds of diagram. Mark schemes give marks for correct shapes and for arrowheads on flow lines.",
+   "text": "Use the symbols shown in the syllabus: parallelograms for input and output, rectangles for processes, and terminators for Start and Stop. Do not mix up input and process boxes, and do not use other versions of the symbols. Mark schemes give marks for correct shapes and for arrowheads on flow lines.",
    "cites": [
     {
      "doc": "9626_m25_er",
@@ -315,7 +315,7 @@
      }
     },
     {
-     "sentence": "    IF Mark > 70 THEN OUTPUT \"You have achieved a Distinction\" ENDIF   and   IF Mark < 40 THEN OUTPUT \"You have not reached the Pass mark\" ENDIF",
+     "sentence": "    IF Mark > 70 THEN PRINT \"You have achieved a Distinction\" ENDIF   and   IF Mark < 40 THEN PRINT \"You have not reached the Pass mark\" ENDIF",
      "earns": {
       "doc": "9626_s25_ms_13",
       "quote": "Correct Distinction grade criterion//correct fail criterion (1)",
@@ -323,7 +323,7 @@
      }
     },
     {
-     "sentence": "    IF Mark >= 55 AND Mark <= 70 THEN OUTPUT \"You have achieved a Merit\" ENDIF   and   IF Mark >= 40 AND Mark <= 54 THEN OUTPUT \"You have achieved a Pass\" ENDIF",
+     "sentence": "    IF Mark > 54 AND Mark < 71 THEN PRINT \"You have achieved a Merit\" ENDIF   and   IF Mark > 39 AND Mark < 55 THEN PRINT \"You have achieved a Pass\" ENDIF",
      "earns": {
       "doc": "9626_s25_ms_13",
       "quote": "Correct Merit grade criterion//correct Pass grade criterion (1)",
@@ -347,7 +347,7 @@
      }
     },
     {
-     "sentence": "Every OUTPUT message matches its range of marks.",
+     "sentence": "Every PRINT message matches its range of marks.",
      "earns": {
       "doc": "9626_s25_ms_13",
       "quote": "All OUTPUTs correctly match the criteria (NOT awardable if BP4 or BP5 not awarded) (1)",
@@ -357,15 +357,15 @@
    ],
    "weak": {
     "answer": "REPEAT\n    Count ← 0\n    INPUT Mark\n    IF Mark >= 55 and <= 70 THEN OUTPUT \"You have achieved a Merit\"\n    ...\n    Count ← Count + 1\nUNTIL Count = 20",
-    "marks_likely": "about 4 of 8",
-    "why": "Count is reset to 0 on every pass, so the loop never ends and the initialisation mark is lost. The Merit test is not written in full (Mark >= 55 AND Mark <= 70), and the IF has no ENDIF.",
+    "marks_likely": "about 5 of 8",
+    "why": "Count is reset to 0 on every pass, so the loop never ends and the initialisation mark is lost. The Merit test is not written in full (Mark > 54 AND Mark < 71), and the IF has no ENDIF. It can still pick up the REPEAT, INPUT, increment and UNTIL marks.",
     "basis": {
      "doc": "9626_s25_er",
      "quote": "However, a sizeable minority placed the initialisation of the count within the loop. This was the most frequently made mistakes amongst candidates who otherwise had a strong understanding of what was required.",
      "page": 11
     }
    },
-   "note": "This is pseudocode, so the strong answer is lines of code rather than sentences, and each line or pair of lines earns one mark-scheme point. Most of the marks are for structure: initialise before the loop, increment inside it, and use the right UNTIL condition in the right place."
+   "note": "This is pseudocode, so the strong answer is lines of code rather than sentences. The lines cover more than eight mark-scheme points (the increment and UNTIL lines earn two each), and the mark is capped at 8. The syllabus lists only the comparison operators >, < and =, and WRITE/PRINT for output, so the ranges are written with > and < (marks are whole numbers) and the output uses PRINT; the mark scheme's own example uses OUTPUT. Most of the marks are for structure: initialise before the loop, increment inside it, and use the right UNTIL condition in the right place."
   },
   {
    "doc": "9626_w24_qp_12",
@@ -387,7 +387,7 @@
      }
     },
     {
-     "sentence": "In a process rectangle before the loop, set COUNT, TOTAL and MAX to 0.",
+     "sentence": "In a process rectangle before the loop, set COUNT and TOTAL to 0.",
      "earns": {
       "doc": "9626_w24_ms_12",
       "quote": "Two variables (e.g. MAX, COUNT, TOTAL, NUM) initialised/set to zero before loop (1)",
@@ -395,7 +395,7 @@
      }
     },
     {
-     "sentence": "Use a parallelogram to input NUM and a parallelogram to output MAX and the average.",
+     "sentence": "Use parallelograms for every input of NUM and for the output of MAX and the average.",
      "earns": {
       "doc": "9626_w24_ms_12",
       "quote": "Input box and output box are both parallelograms (1)",
@@ -403,7 +403,7 @@
      }
     },
     {
-     "sentence": "Inside the loop, use process rectangles for TOTAL ← TOTAL + NUM and COUNT ← COUNT + 1.",
+     "sentence": "Input the first NUM and set MAX ← NUM. Then, inside the loop, use process rectangles for TOTAL ← TOTAL + NUM and COUNT ← COUNT + 1.",
      "earns": {
       "doc": "9626_w24_ms_12",
       "quote": "Sum all values input (1) 11 Set new MAX when input value > MAX in loop 12 Increment COUNT (1)",
@@ -411,7 +411,7 @@
      }
     },
     {
-     "sentence": "Draw two decision diamonds, 'Is NUM > MAX?' and 'Is COUNT = 20?', each with labelled Yes and No exits.",
+     "sentence": "Draw two decision diamonds, 'NUM > MAX?' and 'COUNT = 20?', each with labelled Yes and No exits.",
      "earns": {
       "doc": "9626_w24_ms_12",
       "quote": "TWO Correctly drawn decision boxes with YES/NO decisions (1)",
@@ -419,7 +419,7 @@
      }
     },
     {
-     "sentence": "From 'Is NUM > MAX?', Yes goes to MAX ← NUM. From 'Is COUNT = 20?', No goes back to the input and Yes goes on to the average.",
+     "sentence": "From 'NUM > MAX?', Yes goes to MAX ← NUM and No skips it. From 'COUNT = 20?', No goes to an input box for the next NUM and back into the loop, and Yes leaves the loop.",
      "earns": {
       "doc": "9626_w24_ms_12",
       "quote": "All YES/NO decisions (used) go to correct outcomes (i.e. all logic is correct) (1)",
@@ -445,8 +445,8 @@
      "page": 4
     }
    },
-   "note": "The mark scheme lists 14 creditable features for 7 marks, so getting the shapes, labels and initialisation right gives you room to spare. The weak answer is a description of a flowchart in words, because a drawing cannot be shown here."
+   "note": "The mark scheme lists 14 creditable features for 7 marks, so getting the shapes, labels and initialisation right gives you room to spare. MAX starts at the first value rather than 0 so the answer is still right if every number is negative; the mark scheme also accepts setting MAX to 0. The weak answer is a description of a flowchart in words, because a drawing cannot be shown here."
   }
  ],
- "thin_evidence": "Evidence is strong for pseudocode and program flowcharts in Paper 1 (many questions from 2022 onward with examiner comments). Several 2022 reports describe algorithms as newly added to the syllabus, so the most recent reports (2024-2025) are the best guide. Draw also covers DFD, PERT and system-flowchart questions in Paper 3; only the symbol points here apply to those. 'Write' is sometimes tagged on non-algorithm parts (for example 9626_w25_qp_11 Q8b/c, which are about audio), and those were ignored."
+ "thin_evidence": "Evidence is strong for pseudocode and program flowcharts in Paper 1 (many questions from 2022 onward with examiner comments). The s22 report says several times that algorithms and flowcharts were only recently introduced to the syllabus, so the most recent reports (2024-2025) are the best guide. Draw also covers DFD, PERT and system-flowchart questions in Paper 3; only the symbol points here apply to those. 'Write' is sometimes tagged on non-algorithm parts (for example 9626_w25_qp_11 and 9626_w25_qp_13 Q8(b), which are about audio), and those were ignored."
 }

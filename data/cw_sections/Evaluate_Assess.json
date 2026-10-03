@@ -13,7 +13,7 @@
    "word": "Assess",
    "syllabus": {
     "doc": "9626_syllabus_2025-2027",
-    "quote": "Assess make an informed judgement Compare identify/comment on similarities and/or differences",
+    "quote": "Assess make an informed judgement",
     "page": 66
    }
   }
@@ -22,7 +22,7 @@
  "points": [
   {
    "kind": "marks",
-   "text": "You must write about both sides. Mark schemes cap answers that are all for or all against, often at 6 of 8 marks, and some say you need at least two points on each side for full marks.",
+   "text": "You must write about both sides. Some 2022-2023 mark schemes cap answers that are all for or all against at 6 of 8 (3 of the 24 Evaluate mark schemes from 2022 on), and two say you need at least two points on each side for full marks.",
    "cites": [
     {
      "doc": "9626_w23_ms_32",
@@ -46,7 +46,7 @@
   },
   {
    "kind": "marks",
-   "text": "Recent mark schemes give one mark for a conclusion. I checked the Evaluate parts from 2022 onward in cw_parts.json: 8 of the 25 have a conclusion mark, and all 8 are from November 2024 or later (8 of the 9 mark schemes from that date on). End with a short overall judgement that pulls your points together.",
+   "text": "Recent mark schemes give one mark for a conclusion. I checked the Evaluate parts from 2022 onward in cw_parts.json: 8 of the 24 with a mark scheme have a conclusion mark, and all 8 are from November 2024 or later (8 of the 9 mark schemes from that date on). End with a short overall judgement that pulls your points together.",
    "cites": [
     {
      "doc": "9626_s25_ms_13",
@@ -76,7 +76,7 @@
   },
   {
    "kind": "mistake",
-   "text": "Leaving out a conclusion has cost marks. Examiners reported that candidates who did not reach a realistic conclusion scored fewer marks.",
+   "text": "Leaving out a conclusion can cost marks. In the March 2024 report (Paper 12, Q9), examiners said candidates' failure to reach a realistic conclusion reduced their marks.",
    "cites": [
     {
      "doc": "9626_m24_er",
@@ -88,7 +88,7 @@
   },
   {
    "kind": "marks",
-   "text": "Each point needs three steps: a fact, a consequence of that fact, and a judgement about how much it matters. Mark schemes give a first mark for the point and further marks for the expansion, and limit how many marks plain points can earn.",
+   "text": "Good answers take each point through three steps: a fact, a consequence of that fact, and a judgement about how much it matters. Some mark schemes give a first mark for the point and further marks for the expansion, and limit how many marks plain points can earn.",
    "cites": [
     {
      "doc": "9626_s25_er",
@@ -160,7 +160,7 @@
   },
   {
    "kind": "format",
-   "text": "Write in full sentences and paragraphs, not bullet points or a table. Many mark schemes cap a bulleted list at 6 of 8 marks (5 of 6 on shorter questions).",
+   "text": "Write in full sentences and paragraphs, not bullet points or a table. 9 of the 24 Evaluate mark schemes from 2022 on (all 2022-2024) cap a bulleted list, usually at 6 of 8 marks (5 of 6 on 6-mark questions).",
    "cites": [
     {
      "doc": "9626_m23_er",
@@ -220,7 +220,7 @@
   },
   {
    "kind": "tip",
-   "text": "Evaluate is not the same as Discuss. Discuss asks you to write in depth in a structured way; Evaluate asks you to judge importance or value. Your judgement can be on each point or on the whole answer. I checked the 80 Discuss parts from 2022 onward in cw_parts.json: none of their mark schemes has a conclusion mark, while recent Evaluate mark schemes do.",
+   "text": "Evaluate is not the same as Discuss. Discuss asks you to write in depth in a structured way; Evaluate asks you to judge importance or value. Your judgement can be on each point or on the whole answer. I checked the 77 Discuss mark schemes from 2022 onward in cw_parts.json: none has a conclusion mark, while recent Evaluate mark schemes do.",
    "cites": [
     {
      "doc": "9626_syllabus_2025-2027",
@@ -277,7 +277,7 @@
      "sentence": "Because the person controls the devices by speaking, they do not need to physically touch any switch or screen.",
      "earns": {
       "doc": "9626_s25_ms_12",
-      "quote": "No need to physically interact (may exemplify) (1st) – Can be more hygienic (1)",
+      "quote": "No need to physically interact (may exemplify) (1st)",
       "page": 9
      }
     },
@@ -389,7 +389,7 @@
      "sentence": "This raises the overall cost of development, which is a serious drawback when only one screen is being built.",
      "earns": {
       "doc": "9626_w24_ms_32",
-      "quote": "which raises overall cost of development (1) and can increase the time taken to develop the product (1)",
+      "quote": "which raises overall cost of development (1)",
       "page": 15
      }
     },

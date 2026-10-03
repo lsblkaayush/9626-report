@@ -18,11 +18,11 @@
    }
   }
  ],
- "one_line": "Compare: give similarities AND differences, each one about both things in the same sentence (use 'both' and 'whereas'); Contrast: give differences only, each one about both things.",
+ "one_line": "Compare: similarities and/or differences. Give both unless the question says otherwise, because some questions require both. Contrast: differences only. Make every point clearly a comparison of the two things ('both', 'whereas', '-er than').",
  "points": [
   {
    "kind": "marks",
-   "text": "Mark schemes for Compare list similarities and differences, with one mark for each valid point. Several say you need at least one similarity and one difference to get full marks.",
+   "text": "Mark schemes for Compare list similarities and differences, with one mark for each valid point. Some (for example m22 Paper 32, m23 Paper 32 and s22 Paper 12) say you need at least one similarity and one difference to get full marks.",
    "cites": [
     {
      "doc": "9626_m22_ms_32",
@@ -94,7 +94,7 @@
   },
   {
    "kind": "mistake",
-   "text": "Students often forget the similarities. Examiners say this happens again and again.",
+   "text": "Students often forget the similarities. The w25 (Paper 11) and s25 (Paper 32) reports both noted that few candidates gave them.",
    "cites": [
     {
      "doc": "9626_w25_er",
@@ -130,7 +130,7 @@
   },
   {
    "kind": "mistake",
-   "text": "A true fact about only one thing is not a comparison. 'A LAN covers a small area' gets no mark. 'A LAN covers a smaller area than a WAN' does.",
+   "text": "A true fact about only one thing, with no comparison shown, is not a comparison. 'A LAN covers a small area' gets no mark. 'A LAN covers a smaller area than a WAN' does. The s25 report (on a Contrast question) added that you need not spell out the other side every time, as long as the point is clearly a valid comparison.",
    "cites": [
     {
      "doc": "9626_m22_er",
@@ -377,5 +377,5 @@
    "note": "Every sentence names both LAN and WAN and uses a comparing word ('smaller ... than', 'whereas'). There are no similarities, because Contrast does not credit them."
   }
  ],
- "thin_evidence": "Compare is well covered: cw_parts.json tags 16 question parts from 2022 onward as Compare, and many have examiner comments. Contrast has fewer: 7 are tagged, and 6 of them are real Contrast questions. The pack also tagged 9626_w24_qp_33 Q3(b)-(d) as Contrast by mistake: there the command word is 'Describe' and 'contrast' is an image term, so those are left out here. The examiner reports disagree on whether Compare needs both sides when the question does not ask for both: s23 said yes, while w22, w24 and s25 said one side could get full marks. The advice to give both follows the m23 report and works under either reading."
+ "thin_evidence": "Compare is well covered: cw_parts.json tags 16 question parts as Compare, all from 2022 onward, and many have examiner comments. Contrast has fewer: 8 parts are tagged Contrast. One of them, 9626_w24_qp_33 Q3(b), is a mistake ('contrast' is an image term in a Describe question), so 7 are real Contrast questions, 6 of them from 2022 onward (the other is s21 Paper 32). Another 20 parts from 2018-2021 are tagged 'Compare and Contrast'; they are not used here. The examiner reports disagree on whether Compare needs both sides when the question does not ask for both: s23 said both are required, while w22 and w24 said one side could get full marks. The advice to give both follows the m23 report and works under either reading."
 }

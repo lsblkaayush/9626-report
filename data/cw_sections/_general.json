@@ -52,7 +52,7 @@
   },
   {
    "kind": "format",
-   "text": "For Discuss, Evaluate and Analyse, the shape of the answer matters as well. Lists and tables of statements, even two neat lists of benefits and drawbacks, lose most of the marks.",
+   "text": "For Discuss, Evaluate and Analyse, the shape of the answer matters as well. Bulleted lists and tables of statements lose most of the marks, and so do separate lists of benefits and drawbacks when each item is only a word or a very brief sentence.",
    "cites": [
     {
      "doc": "9626_m25_er",
@@ -76,7 +76,7 @@
   },
   {
    "kind": "format",
-   "text": "This is written into the mark schemes, not only the reports. From 2021 to 2024, most Discuss, Evaluate and Analyse mark schemes printed a cap on answers written as bullets: at most 6 of 8 marks (5 of 6, 3 of 4 on shorter questions), however good the points were. The 2025 mark schemes no longer print the cap, but the 2025 examiner reports still say bulleted lists and tables cannot reach most of the marks.",
+   "text": "This was once written into the mark schemes too. From 2021 to 2023, most Discuss, Evaluate and Analyse mark schemes printed a cap on answers written as bullets: at most 6 of 8 marks (fewer on shorter questions, e.g. 3 of 4), however good the points were. In 2024 only the March and June Paper 3 mark schemes still printed it, and from November 2024 on it is gone. The 2025 examiner reports still say bulleted lists and tables cannot reach most of the marks.",
    "cites": [
     {
      "doc": "9626_m22_ms_12",
@@ -100,7 +100,7 @@
   },
   {
    "kind": "format",
-   "text": "Bullets are not banned outright. On one Paper 1 question that asked for the steps of a process, the examiners accepted a bulleted list of steps, because each step was itself a complete point. Treat that as the exception: for every other kind of question, the reports ask for full sentences.",
+   "text": "Bullets are not banned outright. On one Paper 1 question (November 2025) that asked for the steps of planning something, the examiners accepted either a list of steps (sometimes bulleted) or a description, as long as each step showed a decision being made. Treat that as a rare exception, not a licence: the reports ask for full sentences everywhere else.",
    "cites": [
     {
      "doc": "9626_w25_er",
@@ -146,7 +146,7 @@
    "cites": [
     {
      "doc": "9626_w23_ms_13",
-     "ref": "Q (mainframes)",
+     "ref": "Q3(c)",
      "quote": "MAX two marks if answers are all only first marks.",
      "page": 4
     }
@@ -184,13 +184,19 @@
   },
   {
    "kind": "tip",
-   "text": "The number of marks tells you how many separate points (or point-plus-reason pairs) to make.",
+   "text": "The number of marks is a clue to how much to write: how many separate points, or how much detail, the examiner expects.",
    "cites": [
     {
      "doc": "9626_learner_guide",
      "ref": "Advice for all papers",
      "quote": "Look at how many marks are allocated to a question. This gives you a clue as to how much work is expected.",
      "page": 15
+    },
+    {
+     "doc": "9626_m25_er",
+     "ref": "Paper 3",
+     "quote": "the number of marks available for each question is a useful indicator of how much detail or how many descriptions should be given in the answers",
+     "page": 8
     }
    ]
   },

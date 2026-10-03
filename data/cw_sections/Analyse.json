@@ -14,7 +14,7 @@
  "points": [
   {
    "kind": "marks",
-   "text": "Marks come from making a point and then expanding it into what it causes or means. Mark schemes limit answers with no expansion, often to 6 of 8. I checked the 18 Analyse mark schemes from 2022 onward in cw_parts.json: none gives a mark for a conclusion.",
+   "text": "Marks come from making a point and then expanding it into what it causes or means. Some mark schemes say an answer without expansions is not a proper analysis, and two 2022 ones cap it at 6 of 8. I checked the 18 Analyse mark schemes from 2022 onward in cw_parts.json: none gives a mark for a conclusion.",
    "cites": [
     {
      "doc": "9626_w22_ms_13",
@@ -146,7 +146,7 @@
   },
   {
    "kind": "format",
-   "text": "Write in full sentences. Bullet points are capped in many Analyse mark schemes, at 6 of 8 or 4 of 6.",
+   "text": "Write in full sentences. 10 of the 18 Analyse mark schemes from 2022 on (all 2022-2023) cap bullet points: 6 of 8, 5 of 7, or 4 or 5 of 6.",
    "cites": [
     {
      "doc": "9626_m23_er",
