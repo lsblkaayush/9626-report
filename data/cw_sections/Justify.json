@@ -71,7 +71,7 @@
   },
   {
    "kind": "marks",
-   "heading": "Where marks go",
+   "heading": "Reasons carry the marks",
    "text": "Most marks go to the reasons. 9 of the 19 Justify mark schemes from 2022 on give a first mark (1st) for a benefit. A second mark goes to the reason or result that follows from it.",
    "cites": [
     {
@@ -90,7 +90,7 @@
   },
   {
    "kind": "marks",
-   "heading": "Where marks go",
+   "heading": "Reasons carry the marks",
    "text": "Some mark schemes give one mark for a definition of the thing you justify. One clear sentence is enough.",
    "cites": [
     {
@@ -109,7 +109,7 @@
   },
   {
    "kind": "mistake",
-   "heading": "Where marks go",
+   "heading": "Reasons carry the marks",
    "text": "The same benefit in different words earns no extra marks. Give a range of different reasons.",
    "cites": [
     {
@@ -128,7 +128,7 @@
   },
   {
    "kind": "mistake",
-   "heading": "Where marks go",
+   "heading": "Reasons carry the marks",
    "text": "Vague reasons lose marks. Be technically precise about why the choice helps.",
    "cites": [
     {
@@ -147,7 +147,7 @@
   },
   {
    "kind": "format",
-   "heading": "Where marks go",
+   "heading": "Reasons carry the marks",
    "text": "Write in full sentences. 4 of the 19 Justify mark schemes, all 8-mark questions from 2023, cap a bulleted list at 6 marks.",
    "cites": [
     {
@@ -332,7 +332,7 @@
    "weak": {
     "answer": "Custom software is made for the company, so it meets their needs. However, it is expensive and takes a long time to write, and it may have bugs because few people have tested it. Off-the-shelf software is cheaper and ready straight away.",
     "marks_likely": "2 of 8",
-    "why": "Only the first sentence supports the decision. The drawbacks of custom software and the benefits of off-the-shelf software argue against the manager's choice, and earn nothing.",
+    "why": "The answer backs the decision once, in its first sentence. After that, the drawbacks of custom software and the benefits of off-the-shelf software argue against the manager's choice. They earn nothing.",
     "basis": {
      "doc": "9626_w23_er",
      "quote": "Most responses also gave arguments against the decision. These answers did not meet the demand of the question and were not worthy of credit.",
@@ -341,5 +341,5 @@
    }
   }
  ],
- "thin_evidence": "Justify: 20 question parts from Papers 1 and 3, 2022 to March 2026. 19 have mark schemes, all from 2022 to 2025. March 2026 Q10(c) has none. Examiner reports from 2022 to 2025 repeat the one-sided rule. The exception for drawbacks of alternatives rests on less. It comes from one examiner report sentence (June 2024, Papers 31 and 33), one 2023 comment and one mark scheme."
+ "thin_evidence": "20 parts. 19 have mark schemes, all from 2022 to 2025. March 2026 Q10(c) has none. Examiner reports from 2022 to 2025 repeat the one-sided rule. Three sources back the exception for drawbacks of alternatives. They are one examiner report sentence (June 2024, Papers 31 and 33), one 2023 comment and one mark scheme."
 }

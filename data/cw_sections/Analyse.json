@@ -109,7 +109,7 @@
   },
   {
    "kind": "mistake",
-   "heading": "Stay on the question",
+   "heading": "Reach the effect the question asks for",
    "text": "Write about the effect the question asks for. If it asks about risks to an economy or effects on an image, every point must reach that.",
    "cites": [
     {
@@ -128,7 +128,7 @@
   },
   {
    "kind": "mistake",
-   "heading": "Stay on the question",
+   "heading": "Reach the effect the question asks for",
    "text": "Keep to the exact focus of the question. Avoid empty phrases like 'looks better'.",
    "cites": [
     {
@@ -147,7 +147,7 @@
   },
   {
    "kind": "tip",
-   "heading": "Stay on the question",
+   "heading": "Reach the effect the question asks for",
    "text": "Read the whole question. If it names some tools and asks about other ones, the named tools earn nothing.",
    "cites": [
     {
@@ -241,7 +241,7 @@
    ],
    "weak": {
     "answer": "Compression makes the file size smaller, so the image takes up less storage space and is quicker to send by email. Lossy makes the file smaller than lossless.",
-    "marks_likely": "0-1 of 6",
+    "marks_likely": "0 or 1 of 6",
     "why": "It talks about file size and sending time. The question asked about the effect on the image.",
     "basis": {
      "doc": "9626_w23_er",
@@ -251,5 +251,5 @@
    }
   }
  ],
- "thin_evidence": "Analyse: 19 question parts from Papers 1 and 3, 2022 to March 2026, 13 of them on Paper 3. 18 have mark schemes, all from 2022 to 2025. One examiner report (June 2024, Paper 32, Q8) says full marks were possible without both sides."
+ "thin_evidence": "19 parts, 13 of them on Paper 3. 18 have mark schemes, all from 2022 to 2025. One examiner report (June 2024, Paper 32, Q8) says full marks were possible without both sides."
 }

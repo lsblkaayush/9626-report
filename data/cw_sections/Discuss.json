@@ -204,7 +204,7 @@
   },
   {
    "kind": "mistake",
-   "heading": "Keep to the scenario",
+   "heading": "Name the cost and the people",
    "text": "Say what the money pays for. The examiners treat 'expensive' or 'costs more' as too vague. Name the spending, for example travel to interviews or printing questionnaires.",
    "cites": [
     {
@@ -223,7 +223,7 @@
   },
   {
    "kind": "mistake",
-   "heading": "Keep to the scenario",
+   "heading": "Name the cost and the people",
    "text": "Link each benefit and drawback to the people or organisation in the question. Answers that described types of technology or the stages of a process got little or no credit. So did answers about the wrong topic.",
    "cites": [
     {
@@ -376,7 +376,7 @@
    ],
    "weak": {
     "answer": "A two-column table: Benefits | Drawbacks; trends | expensive; profit | privacy; decisions | storage.",
-    "marks_likely": "2-3 of 8",
+    "marks_likely": "2 or 3 of 8",
     "why": "Single words in a table name points but give no reasons or effects. There is no discussion and no expansion mark.",
     "basis": {
      "doc": "9626_s25_er",
@@ -386,5 +386,5 @@
    }
   }
  ],
- "thin_evidence": "80 question parts from Papers 1 and 3, 2022 to March 2026. 77 have mark schemes, all from 2022 to 2025. The 3 parts from March 2026 have none. The 2025 mark schemes no longer print the bullet cap or the both-sides rule, so the 2025 advice on format comes from examiner reports."
+ "thin_evidence": "80 parts. 77 have mark schemes, all from 2022 to 2025. The 3 parts from March 2026 have none. The 2025 mark schemes no longer print the bullet cap or the both-sides rule. For 2025, the advice on format comes from examiner reports."
 }

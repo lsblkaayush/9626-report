@@ -173,7 +173,7 @@
    ]
   },
   {
-   "heading": "Answer the question asked",
+   "heading": "Compare the two named things",
    "kind": "mistake",
    "text": "Do not repeat the question as a similarity. If the question says both devices exchange data, 'both exchange data' gets no mark. The examiners also called very general similarities weak, such as 'both are plastic cards'.",
    "cites": [
@@ -192,7 +192,7 @@
    ]
   },
   {
-   "heading": "Answer the question asked",
+   "heading": "Compare the two named things",
    "kind": "mistake",
    "text": "Compare exactly the two things named in the question. Write about both of them. Do not answer about something else that just shares a keyword.",
    "cites": [

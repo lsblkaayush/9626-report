@@ -36,17 +36,17 @@
   {
    "word": "Give",
    "syllabus": null,
-   "note": "Not in the syllabus command-word table (page 66)."
+   "note": ""
   },
   {
    "word": "Name",
    "syllabus": null,
-   "note": "Not in the syllabus command-word table (page 66)."
+   "note": ""
   },
   {
    "word": "List",
    "syllabus": null,
-   "note": "Not in the syllabus command-word table (page 66)."
+   "note": ""
   }
  ],
  "one_line": "Give the exact term or fact, in the number of items the question asks for. Leave out explanations unless the question also says describe or explain.",
@@ -168,7 +168,7 @@
   },
   {
    "kind": "mistake",
-   "heading": "Answer this question",
+   "heading": "Read the question closely",
    "text": "Do not give an item from the question as your answer. If the question already names an item or gives an example, repeating it earns nothing. A new wording of the question also earns nothing, for example 'a command line interface uses commands'.",
    "cites": [
     {
@@ -187,7 +187,7 @@
   },
   {
    "kind": "mistake",
-   "heading": "Answer this question",
+   "heading": "Read the question closely",
    "text": "Answer the actual question. If it asks you to give reasons, a description gets no marks. If it asks how something could go wrong, a definition gets no marks.",
    "cites": [
     {
@@ -206,7 +206,7 @@
   },
   {
    "kind": "mistake",
-   "heading": "Answer this question",
+   "heading": "Read the question closely",
    "text": "Fit short answers to the scenario too. Examiners did not accept answers about the wrong part of the scenario.",
    "cites": [
     {
@@ -256,7 +256,7 @@
    "context": null,
    "strong": [
     {
-     "sentence": "1 Accuracy",
+     "sentence": "Accuracy.",
      "earns": {
       "doc": "9626_s24_ms_11",
       "quote": "Accuracy (1)",
@@ -264,7 +264,7 @@
      }
     },
     {
-     "sentence": "2 Relevance",
+     "sentence": "Relevance.",
      "earns": {
       "doc": "9626_s24_ms_11",
       "quote": "Relevance (1)",
@@ -272,7 +272,7 @@
      }
     },
     {
-     "sentence": "3 Age",
+     "sentence": "Age.",
      "earns": {
       "doc": "9626_s24_ms_11",
       "quote": "Age (1)",
@@ -280,7 +280,7 @@
      }
     },
     {
-     "sentence": "4 Completeness",
+     "sentence": "Completeness.",
      "earns": {
       "doc": "9626_s24_ms_11",
       "quote": "Completeness (1)",
@@ -320,8 +320,7 @@
      "quote": "a significant number of candidates included the items given in the question stem in their answer, which did not gain them credit.",
      "page": 24
     }
-   },
-   "note": "'Other' in the question means an item that the stem does not already give."
+   }
   },
   {
    "doc": "9626_w24_qp_33",
@@ -346,5 +345,5 @@
    "weak": null
   }
  ],
- "thin_evidence": "Papers 1 and 3 from 2022 to March 2026. Parts: Identify 28, State 12, Give 11, Define 8, List 2, Suggest 2, Name 1. Parts with a mark scheme: Identify 26, State 8, Give 11, Define 6, List 2, Suggest 2, Name 0. The two List parts also ask you to describe. The one Name part (March 2026, Paper 12 Q10) says 'identify' in its wording. One Suggest question from 2022 onward has an examiner comment (9626_w23_qp_13 Q8). The Suggest advice also uses one 2021 report. Give, Name and List are not in the syllabus command-word table. No examiner report says whether an example in a definition gains or loses marks."
+ "thin_evidence": "Parts: Identify 28, State 12, Give 11, Define 8, List 2, Suggest 2, Name 1. Parts with a mark scheme: Identify 26, State 8, Give 11, Define 6, List 2, Suggest 2, Name 0. The two List parts also ask you to describe. The one Name part (March 2026, Paper 12 Q10) says 'identify' in its wording. One Suggest question from 2022 onward has an examiner comment (Q8 on Paper 13, November 2023). The Suggest advice also uses one 2021 report. Give, Name and List are not in the syllabus command-word table. No examiner report says whether an example in a definition gains or loses marks."
 }

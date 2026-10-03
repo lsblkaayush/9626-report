@@ -8,7 +8,7 @@
     "quote": "Writing an algorithm using pseudocode to solve a given problem, including: – INPUT/READ – WRITE/PRINT – FOR…NEXT – FOR…NEXT…STEP – IF...ELSE...ENDIF – WHILE...ENDWHILE – REPEAT...UNTIL – CASE...ENDCASE",
     "page": 21
    },
-   "note": "Not in the command-word table (page 66). This is the wording of syllabus topic 4.1. The ellipses are part of the syllabus keywords."
+   "note": "This is the wording of syllabus topic 4.1. The ellipses are part of the syllabus keywords."
   },
   {
    "word": "Complete (an algorithm or flowchart)",
@@ -17,7 +17,7 @@
     "quote": "Writing and editing a given algorithm that demonstrates a decision-making process, including: – conditional branching – looping – nested loops – procedures/subroutines",
     "page": 21
    },
-   "note": "Not in the command-word table (page 66). Topic 4.1 wording."
+   "note": "This is the wording of syllabus topic 4.1."
   },
   {
    "word": "Draw (a flowchart)",
@@ -26,7 +26,7 @@
     "quote": "Flowchart symbols Element Symbol Input/output Decision Terminator (Start/Stop) Process box Subroutine Connector A Flow line",
     "page": 61
    },
-   "note": "Not in the command-word table (page 66). This is the syllabus symbol list on page 61 that examiners expect you to use."
+   "note": "Examiners expect you to use this symbol list from syllabus page 61."
   }
  ],
  "one_line": "Use the syllabus keywords and flowchart symbols. Set counters before the loop, update them inside it, and close every structure.",
@@ -241,7 +241,7 @@
    ]
   },
   {
-   "heading": "Do what the question asks",
+   "heading": "Follow every instruction",
    "kind": "tip",
    "text": "Do exactly what the question asks. If it says 'redraw', draw a new flowchart and leave the printed one alone. If it asks for a flowchart, do not write pseudocode.",
    "cites": [
@@ -260,7 +260,7 @@
    ]
   },
   {
-   "heading": "Do what the question asks",
+   "heading": "Follow every instruction",
    "kind": "tip",
    "text": "Include every feature the question lists, such as a calculation and an output.",
    "cites": [
@@ -273,7 +273,7 @@
    ]
   },
   {
-   "heading": "Do what the question asks",
+   "heading": "Follow every instruction",
    "kind": "tip",
    "text": "When you suggest or describe a change to a flowchart or pseudocode, say exactly where it goes. For example, say which line you remove and what replaces it. Write the answer in the answer space, not on the printed code.",
    "cites": [
@@ -387,7 +387,7 @@
      "page": 11
     }
    },
-   "note": "The syllabus lists only the operators >, < and =, so this answer nests IF...ELSE in place of AND or >=."
+   "note": "The full-mark answer nests IF...ELSE in place of AND or >=, because the syllabus lists only the operators >, < and =."
   },
   {
    "doc": "9626_w24_qp_12",

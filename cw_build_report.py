@@ -106,14 +106,14 @@ def section_html(s, title):
     h = [f'<section class="word{" page" if title.startswith("Describe") else ""}"><div class="sechead"><h2>{e(title)}</h2>']
     for w in s.get("words", []):
         if not w.get("syllabus"):
-            h.append(f'<div class="def"><b>{e(w["word"])}</b>: not in the syllabus list of command words. {e(w.get("note", ""))}</div>')
+            h.append(f'<div class="def"><b>{e(w["word"])}</b>: not in the syllabus command-word table (page 66). {e(w.get("note", ""))}</div>')
             continue
         q = SYLLABUS.get(w["word"])
         if q:
             h.append(f'<div class="def"><b>{e(w["word"])}</b>. Cambridge&#39;s definition: &quot;{e(q)}&quot;'
                      f' <span class="src">Syllabus 2025 to 2027, p. 66</span></div>')
         else:
-            h.append(f'<div class="def"><b>{e(w["word"])}</b>: not in the syllabus table of command words. '
+            h.append(f'<div class="def"><b>{e(w["word"])}</b>: not in the syllabus command-word table (page 66). '
                      f'{e(w.get("note", ""))}</div>{cites_html([w["syllabus"]])}')
     h.append("</div>")
     pts = s.get("points", [])
@@ -137,7 +137,7 @@ def section_html(s, title):
         if ex.get("context"): h.append(f'<p class="ctx">{prose(ex["context"])}</p>')
         # a short full-mark answer stays in one piece; a long one may break between its sentences
         code = any(re.search(r"←|\b(IF|REPEAT|UNTIL|WHILE|INPUT|PRINT|ENDIF)\b", st["sentence"]) for st in ex["strong"])
-        h.append(f'</div><div class="{"strongblk" if len(ex["strong"]) <= 5 else "stronglong"}"><p class="lbl good">A full-mark answer, built from the mark scheme (not a real candidate&#39;s):</p>')
+        h.append(f'</div><div class="{"strongblk" if len(ex["strong"]) <= 5 else "stronglong"}"><p class="lbl good">A full-mark answer made from mark scheme points:</p>')
         if code:
             h.append('<pre class="code">' + "\n".join(f'{prose(st["sentence"])}  <sup>{i}</sup>' for i, st in enumerate(ex["strong"], 1)) + "</pre>")
         else:
@@ -148,7 +148,7 @@ def section_html(s, title):
         # the closing note shares a block with the answer just above it, so it never sits alone
         wk = ex.get("weak")
         if wk:
-            h.append(f'</div><div class="weakblk"><p class="lbl bad">A weak answer of the kind the examiners describe (written for this guide, about {e(marks_likely(wk["marks_likely"]))}):</p>'
+            h.append(f'</div><div class="weakblk"><p class="lbl bad">A weak answer of the kind the examiners describe (estimated mark: {e(marks_likely(wk["marks_likely"]))}):</p>'
                      f'<p class="weak">{prose(wk["answer"])}</p><p class="why">{prose(wk["why"])}</p>{cites_html([wk["basis"]])}')
         if ex.get("note"): h.append(f'<p class="note">{prose(ex["note"])}</p>')
         h.append("</div></div>")
@@ -237,11 +237,11 @@ def build():
     for w, v in mk.most_common():
         if w == "none" or v / tot < 0.004: continue
         d = syl.get(w)
-        h.append(f"<tr><td><b>{e(w)}</b></td><td>{e(d['syllabus']['quote']) if d else '<span class=small>not in the syllabus list; an instruction, not a command word</span>'}</td>"
+        h.append(f"<tr><td><b>{e(w)}</b></td><td>{e(d['syllabus']['quote']) if d else '<span class=small>an instruction that is not in the syllabus command-word table</span>'}</td>"
                  f"<td class='n'>{n[w]}</td><td class='n'>{100*v/tot:.1f}%</td><td><span class='bar' style='width:{80*v/top:.0f}px'></span></td></tr>")
     h.append("</table>")
     # the myth box: format points
-    h.append('<div class="myth"><h3>"Write everything in bullet points" is wrong</h3><ol class="pts">')
+    h.append('<div class="myth"><h3>Answer in full sentences</h3><ol class="pts">')
     for p in [p for p in g["points"] if p["kind"] == "format"]:
         h.append(point_html(p))
     h.append("</ol></div></section>")
@@ -283,11 +283,11 @@ def method_html(secs):
     return ("<section class=\"page\"><h2>Sources</h2>"
             f"<p>Each point quotes the Cambridge document it comes from, with the page number. There are {nq} quotations from {len(docs)} documents. "
             "They are the 9626 syllabus for 2025 to 2027, the Cambridge Learner Guide for 9626, and the Paper 1 and Paper 3 question papers, "
-            "mark schemes and examiner reports from 2017 to March 2026. A script compared every quotation with its source, word for word, before this PDF was made.</p>"
+            "mark schemes and examiner reports from 2017 to March 2026. Before printing, a script checked every quotation against its source, word for word.</p>"
             "<p>The worked examples use real questions. The full-mark answers join mark scheme points into sentences, and the numbers show which point each sentence earns. "
-            "The weak answers show a mistake that an examiner report describes. No answer in this booklet was written by a real candidate.</p>"
+            "The weak answers show a mistake that an examiner report describes. No real candidate wrote any of these answers.</p>"
             "<p>Cambridge also publishes Example Candidate Responses for 9626, with real scripts and examiner comments. "
-            "They are on the School Support Hub, which needs a teacher login, so they are not quoted here.</p>"
+            "They sit behind a teacher login on the School Support Hub. None of them is quoted.</p>"
             "<p>The counts of question parts come from Papers 1 and 3, 2022 to March 2026, read by a script and checked by hand where the script was unsure. "
             "A part with no command word of its own, such as '(b) Trojan', is counted as having none. Papers 2 and 4 are practical papers and are not included.</p>"
             + "<h3>How much evidence there is for each word</h3><table class='glance'>"

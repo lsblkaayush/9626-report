@@ -212,7 +212,7 @@
   {
    "kind": "format",
    "heading": "Say what each thing is or does",
-   "text": "Write descriptions as full sentences, with one point in each sentence. The Paper 3 reports say that a description needs full sentences. On one Paper 1 question, the examiners accepted a list of steps for a 'describe the process' question. Full sentences are the safe choice on both papers.",
+   "text": "Write descriptions as full sentences, with one point in each sentence. The Paper 3 reports say that a description needs full sentences. On one Paper 1 question, the examiners accepted a list of steps for a 'describe the process' question. Use full sentences on both papers.",
    "cites": [
     {
      "doc": "9626_s22_er",
@@ -230,7 +230,7 @@
   },
   {
    "kind": "tip",
-   "heading": "Use the scenario",
+   "heading": "Fit the scenario",
    "text": "Fit your points to the scenario. The question may be about a nuclear power plant or a bank's new customers. A point that is true in general but wrong for the scenario loses the mark. A prepared answer that ignores the question gets only low marks.",
    "cites": [
     {
@@ -295,8 +295,8 @@
    ],
    "weak": {
     "answer": "The knowledge base stores information and rules. The expert system uses it to make decisions.",
-    "marks_likely": "1-2 of 4",
-    "why": "'Stores rules' matches a mark scheme point. 'Stores information' may get the 'holds facts' mark. The answer does not say that the facts come from an expert. It does not say that the inference engine interrogates the knowledge base. It also does not say that the inference engine uses only the relevant rules.",
+    "marks_likely": "1 or 2 of 4",
+    "why": "'Stores rules' matches a mark scheme point. 'Stores information' may get the 'holds facts' mark. It misses three points: the facts come from an expert, and the inference engine interrogates the knowledge base with only the relevant rules.",
     "basis": {
      "doc": "9626_w25_er",
      "quote": "For example, whilst many candidates stated that the knowledge base holds facts, very few stated that these were sourced from experts. Similarly, candidates were aware that rules are used to interrogate the knowledge base, but very few stated that only the relevant rules were used.",
@@ -360,5 +360,5 @@
    }
   }
  ],
- "thin_evidence": "409 Describe parts on Papers 1 and 3 from 2022 to March 2026, 388 of them with a mark scheme. 83 of those 388 mark schemes use the (1st) label. Cambridge's mark-scheme key does not define (1st)."
+ "thin_evidence": "409 parts, and 388 of them have a mark scheme. 83 of those 388 mark schemes use the (1st) label. Cambridge's mark-scheme key does not define (1st)."
 }
