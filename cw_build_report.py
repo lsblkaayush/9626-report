@@ -20,8 +20,13 @@ TITLES = {"Evaluate_Assess": "Evaluate (and Assess)", "Compare_Contrast": "Compa
           "Algorithm_tasks": "Complete, Draw, Write (algorithms and flowcharts)"}
 KIND = [("marks", "How the marks are given"), ("format", "How to write it"),
         ("mistake", "What goes wrong"), ("tip", "Tips")]
+def straight(t):
+    """Straight quotes and apostrophes throughout. Cambridge's curly marks inside a quotation
+    become straight ones too; cw_verify.norm treats them as equal, so the words are unchanged."""
+    return t.replace("\u201c", '"').replace("\u201d", '"').replace("\u2018", "'").replace("\u2019", "'")
+
 def e(t):
-    return html.escape(t)
+    return html.escape(straight(t))
 
 ABBR = [(r"\bERs\b", "examiner reports"), (r"\bER\b", "examiner report"), (r"\bMSs\b", "mark schemes"),
         (r"\bMS\b", "mark scheme"), (r"\bQPs?\b", "question paper")]
@@ -40,7 +45,7 @@ def prose(t):
     t = re.sub(r"\b([msw])(2[0-6]|1[7-9])\b", lambda m: f"{MON[m.group(1)]} 20{m.group(2)}", t)
     t = re.sub(r"\bP(\d\d)\b", r"Paper \1", t)
     for a, b in ABBR: t = re.sub(a, b, t)
-    return html.escape(t)
+    return html.escape(straight(t))
 
 def er_components():
     """doc -> {page: (component in force at the top of the page, [(offset, component), ...])}
@@ -84,7 +89,7 @@ def source(c):
 def cites_html(cites):
     out = []
     for c in cites:
-        out.append(f'<div class="cite">“{e(c["quote"].strip())}”<span class="src"> {e(source(c))}</span></div>')
+        out.append(f'<div class="cite">"{e(c["quote"].strip())}"<span class="src"> {e(source(c))}</span></div>')
     return "".join(out)
 
 def stats():
@@ -109,7 +114,7 @@ def section_html(s, title):
             continue
         q = SYLLABUS.get(w["word"])
         if q:
-            h.append(f'<div class="def"><b>{e(w["word"])}</b>. Cambridge’s definition: “{e(q)}”'
+            h.append(f'<div class="def"><b>{e(w["word"])}</b>. Cambridge&#39;s definition: &quot;{e(q)}&quot;'
                      f'<span class="src"> Syllabus 2025 to 2027, p. 66</span></div>')
         else:
             h.append(f'<div class="def"><b>{e(w["word"])}</b>: not in the syllabus table of command words. '
@@ -124,12 +129,12 @@ def section_html(s, title):
         h.append("</ol>")
     for ex in s.get("examples", []):
         h.append('<div class="ex"><h3>Worked example</h3>')
-        h.append(f'<p class="q"><b>{e(ex["ref"])} [{ex["marks"]} marks]</b> “{e(ex["question"]["quote"])}”'
+        h.append(f'<p class="q"><b>{e(ex["ref"])} [{ex["marks"]} marks]</b> "{e(ex["question"]["quote"])}"'
                  f'<span class="src"> {e(source(ex["question"]))}</span></p>')
         if ex.get("context"): h.append(f'<p class="ctx">{prose(ex["context"])}</p>')
-        h.append('<p class="lbl good">A full-mark answer, built from the mark scheme (not a real candidate’s):</p><ol class="strong">')
+        h.append('<p class="lbl good">A full-mark answer, built from the mark scheme (not a real candidate&#39;s):</p><ol class="strong">')
         for st in ex["strong"]:
-            h.append(f'<li>{prose(st["sentence"])}<div class="earns">earns: “{e(st["earns"]["quote"])}”'
+            h.append(f'<li>{prose(st["sentence"])}<div class="earns">earns: "{e(st["earns"]["quote"])}"'
                      f'<span class="src"> {e(source(st["earns"]))}</span></div></li>')
         h.append("</ol>")
         wk = ex.get("weak")
@@ -207,7 +212,7 @@ def build():
     h.append(f'<p class="oneline">{prose(g["one_line"])}</p>')
     # share-of-marks table
     h.append(f"<h3>Which words carry the marks</h3><p class='small'>Every Paper 1 and Paper 3 question part from 2022 to March 2026: "
-             f"{parts} parts in {papers} papers. Each part counts under the command word it uses.</p><table><tr><th>Word</th><th>Cambridge’s definition (syllabus p. 66)</th><th class='n'>Parts</th><th class='n'>Share of marks</th><th></th></tr>")
+             f"{parts} parts in {papers} papers. Each part counts under the command word it uses.</p><table><tr><th>Word</th><th>Cambridge's definition (syllabus p. 66)</th><th class='n'>Parts</th><th class='n'>Share of marks</th><th></th></tr>")
     top = max(mk.values())
     for w, v in mk.most_common():
         if w == "none" or v / tot < 0.004: continue
@@ -216,7 +221,7 @@ def build():
                  f"<td class='n'>{n[w]}</td><td class='n'>{100*v/tot:.1f}%</td><td><span class='bar' style='width:{80*v/top:.0f}px'></span></td></tr>")
     h.append("</table>")
     # the myth box: format points
-    h.append('<div class="myth"><h3>“Write everything in bullet points” is wrong</h3><ol class="pts">')
+    h.append('<div class="myth"><h3>"Write everything in bullet points" is wrong</h3><ol class="pts">')
     for p in [p for p in g["points"] if p["kind"] == "format"]:
         h.append(f"<li><p>{prose(p['text'])}</p>{cites_html(p['cites'])}</li>")
     h.append("</ol></div></section>")
@@ -253,8 +258,8 @@ def method_html(secs):
             "the guide will not build if any quotation fails that check.</p>"
             "<p>The worked examples use real questions. The full-mark answers were written for this guide by joining mark scheme points "
             "into sentences, and each sentence shows the mark scheme point it earns. The weak answers were also written for this guide, "
-            "to show a mistake an examiner report describes. Neither is a real candidate’s work.</p>"
-            "<p>What is not here: Cambridge’s Example Candidate Responses booklets for 9626 (real scripts with examiner comments). "
+            "to show a mistake an examiner report describes. Neither is a real candidate's work.</p>"
+            "<p>What is not here: Cambridge's Example Candidate Responses booklets for 9626 (real scripts with examiner comments). "
             "They are on the School Support Hub, which needs a teacher login, so this guide does not quote them.</p>"
             "<p>Limits: the share of marks per command word comes from automatic reading of the question papers. A part with no command word "
             "of its own counts under the word of the part before it. Papers 2 and 4 (practical) are not included.</p></section>")
