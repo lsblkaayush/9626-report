@@ -1,0 +1,283 @@
+{
+ "group": "Analyse",
+ "words": [
+  {
+   "word": "Analyse",
+   "syllabus": {
+    "doc": "9626_syllabus_2025-2027",
+    "quote": "Analyse examine in detail to show meaning, identify elements and the relationship between them",
+    "page": 66
+   }
+  }
+ ],
+ "one_line": "Break the topic into its parts, and for each part say what it leads to in the situation in the question: point, then 'so', then the consequence.",
+ "points": [
+  {
+   "kind": "marks",
+   "text": "Marks come from making a point and then expanding it into what it causes or means. Mark schemes limit answers with no expansion, often to 6 of 8. I checked the 18 Analyse mark schemes from 2022 onward in cw_parts.json: none gives a mark for a conclusion.",
+   "cites": [
+    {
+     "doc": "9626_w22_ms_13",
+     "ref": "Q9",
+     "quote": "Max six marks if bullets/list of points Max six marks if no attempt at expansion",
+     "page": 6
+    },
+    {
+     "doc": "9626_s22_ms_11",
+     "ref": "Q3",
+     "quote": "Must be a proper analysis to gain full marks Max. six marks if bullets/list of points Must have expansions to be a proper analysis",
+     "page": 4
+    },
+    {
+     "doc": "9626_s23_er",
+     "ref": "Q7 (Paper 32)",
+     "quote": "candidates should produce answers that make a point and then expand on the point.",
+     "page": 22
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "text": "Show the relationships between the parts: one thing leads to another, which leads to a further effect. Examiners and mark schemes reward these chains of cause and effect.",
+   "cites": [
+    {
+     "doc": "9626_s23_er",
+     "ref": "Q7 (Paper 31)",
+     "quote": "Good answers should have made references to the need for greater bandwidth, for example, so IT infrastructure has to be upgraded which increases costs taking money from other needs",
+     "page": 18
+    },
+    {
+     "doc": "9626_m24_ms_12",
+     "ref": "Q12",
+     "quote": "Increased digital awareness leads to increased/better infrastructure// more investment in IT (accept personal equivalences) (1) which then leads to increased digital awareness (1)",
+     "page": 10
+    },
+    {
+     "doc": "9626_w23_ms_32",
+     "ref": "Q3",
+     "quote": "because at each compression/decompression more image information is lost (1)",
+     "page": 5
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "text": "A short description or definition at the start can earn one or two marks, but no more. Description only earns marks when you use it to explain the effect or the reason.",
+   "cites": [
+    {
+     "doc": "9626_m22_ms_32",
+     "ref": "Q3",
+     "quote": "Max two from: Resolution is measured/described as pixels per inch/ppi",
+     "page": 5
+    },
+    {
+     "doc": "9626_s23_er",
+     "ref": "Q7 (Paper 31)",
+     "quote": "Credit was given for a brief description of UHD television but the command word (see. p. 45 of the syllabus) analyse requires candidates to ‘examine in detail to show meaning, identify elements and the relationship between them’ so this question demanded more.",
+     "page": 18
+    },
+    {
+     "doc": "9626_m25_er",
+     "ref": "Q11 (Paper 32)",
+     "quote": "Descriptions of vector images were not given credit unless these descriptions were used to explain why vector graphics are, or are not, used on websites.",
+     "page": 12
+    }
+   ]
+  },
+  {
+   "kind": "tip",
+   "text": "Cover good and bad sides where they exist. It is not always needed for full marks, but some mark schemes cap answers that cover only one side or one item.",
+   "cites": [
+    {
+     "doc": "9626_s24_er",
+     "ref": "Q8 (Paper 32)",
+     "quote": "While it was possible to gain full credit without doing so, a full analysis should have given details of both ‘for’ and ‘against’ the use of the waterfall method in the question scenario",
+     "page": 23
+    },
+    {
+     "doc": "9626_s22_er",
+     "ref": "Q9 (Paper 32)",
+     "quote": "Typically, some of the stronger responses did detail the good and the bad aspects and explain them in detail to show meaning",
+     "page": 18
+    },
+    {
+     "doc": "9626_w23_ms_32",
+     "ref": "Q3",
+     "quote": "Max 4 for all lossless or for all lossy",
+     "page": 5
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Writing about what the thing is or how it works, instead of the effect the question asks about. If the question asks about risks to an economy or effects on an image, every point must reach that.",
+   "cites": [
+    {
+     "doc": "9626_s23_er",
+     "ref": "Q7 (Paper 32)",
+     "quote": "This question was not about digital currencies and what they are or how they work. It was about the risks to an economy that might occur as a result of the use of digital currencies.",
+     "page": 22
+    },
+    {
+     "doc": "9626_w23_er",
+     "ref": "Q3 (Paper 32)",
+     "quote": "references to a reduction in file size without an accompanying consequence on the image itself did not answer the question.",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Listing features. A list of points without expansion gets few marks.",
+   "cites": [
+    {
+     "doc": "9626_s22_er",
+     "ref": "Q3 (Paper 11)",
+     "quote": "Responses often consisted of lists of the features of encryption.",
+     "page": 2
+    },
+    {
+     "doc": "9626_s23_er",
+     "ref": "Q9 (Paper 31)",
+     "quote": "The weaker answers did not go beyond listing points so could not gain many marks.",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "kind": "format",
+   "text": "Write in full sentences. Bullet points are capped in many Analyse mark schemes, at 6 of 8 or 4 of 6.",
+   "cites": [
+    {
+     "doc": "9626_m23_er",
+     "ref": "General comments (Paper 12)",
+     "quote": "questions that ask candidates to ‘analyse’ or ‘discuss’ require detailed responses that include a proper analysis or discussion, rather than short or bullet-pointed responses.",
+     "page": 1
+    },
+    {
+     "doc": "9626_s23_ms_31",
+     "ref": "Q7",
+     "quote": "Max 4 marks if bullets/list of points/characteristics.",
+     "page": 8
+    },
+    {
+     "doc": "9626_w22_ms_11",
+     "ref": "Q7",
+     "quote": "Max. six marks if bullets/list of points Max six if no expansions",
+     "page": 6
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Ignoring the focus of the question or being vague. Stay on the exact topic in the question, and avoid empty phrases like 'looks better'.",
+   "cites": [
+    {
+     "doc": "9626_w23_er",
+     "ref": "Q11 (Paper 13)",
+     "quote": "Many candidates attempted to give answers that did not focus on the production of weather forecasts, or were too vague and little credit could be given.",
+     "page": 10
+    },
+    {
+     "doc": "9626_m24_er",
+     "ref": "Q12 (Paper 12)",
+     "quote": "Questions about the digital divide require candidates to concentrate on the specific focus, otherwise answers tend to be generic, unfocused and, usually, largely irrelevant.",
+     "page": 3
+    },
+    {
+     "doc": "9626_m25_er",
+     "ref": "Q11 (Paper 32)",
+     "quote": "Vague references to ‘vector graphics make the site look better’ or ‘look attractive to students’ did not gain credit.",
+     "page": 12
+    }
+   ]
+  },
+  {
+   "kind": "tip",
+   "text": "Read the whole question. If it names something and asks about 'other' ones, the named ones earn nothing.",
+   "cites": [
+    {
+     "doc": "9626_s25_er",
+     "ref": "Q4 (Paper 32)",
+     "quote": "a significant number of a candidates included the tools mentioned in the question in their answer, which did not gain them credit.",
+     "page": 20
+    }
+   ]
+  }
+ ],
+ "examples": [
+  {
+   "doc": "9626_w23_qp_32",
+   "ref": "Q3",
+   "marks": 6,
+   "question": {
+    "doc": "9626_w23_qp_32",
+    "quote": "Bitmap images can be compressed when stored and used on computer systems. Analyse the effects of the two main methods of image compression on a bitmap image.",
+    "page": 4
+   },
+   "context": null,
+   "strong": [
+    {
+     "sentence": "The two main methods of image compression are lossless compression and lossy compression.",
+     "earns": {
+      "doc": "9626_w23_ms_32",
+      "quote": "(The two methods are) lossless compression and lossy compression",
+      "page": 5
+     }
+    },
+    {
+     "sentence": "Lossless compression stores all the image information exactly, because no image information is removed.",
+     "earns": {
+      "doc": "9626_w23_ms_32",
+      "quote": "All image information is stored exactly/no image information is removed",
+      "page": 5
+     }
+    },
+    {
+     "sentence": "As a result, the image can be recreated perfectly, with no difference from the original.",
+     "earns": {
+      "doc": "9626_w23_ms_32",
+      "quote": "Image is/can be recreated perfectly/with no difference from the original",
+      "page": 5
+     }
+    },
+    {
+     "sentence": "Lossy compression loses information during compression, and that information cannot be replaced.",
+     "earns": {
+      "doc": "9626_w23_ms_32",
+      "quote": "Information is lost during compression and is not/cannot be replaced",
+      "page": 5
+     }
+    },
+    {
+     "sentence": "Because of this, the image is degraded and may look blurred or blocky.",
+     "earns": {
+      "doc": "9626_w23_ms_32",
+      "quote": "Images are degraded/reduced in quality/blurred/pixelated/blocky",
+      "page": 5
+     }
+    },
+    {
+     "sentence": "The quality gets worse each time the image is compressed and saved again, so an image that is edited many times keeps losing detail.",
+     "earns": {
+      "doc": "9626_w23_ms_32",
+      "quote": "Image quality is further degraded/reduced with repeated compression/decompression/saving and opening (1st)",
+      "page": 5
+     }
+    }
+   ],
+   "weak": {
+    "answer": "Compression makes the file size smaller, so the image takes up less storage space and is quicker to send by email. Lossy makes the file smaller than lossless.",
+    "marks_likely": "at most 1 of 6",
+    "why": "It talks about file size and sending time, not about the effect on the image, which is what the question asked.",
+    "basis": {
+     "doc": "9626_w23_er",
+     "quote": "references to a reduction in file size without an accompanying consequence on the image itself did not answer the question.",
+     "page": 16
+    }
+   },
+   "note": "Both methods are covered (the mark scheme allows at most 4 for one method), and each sentence says what happens to the image. The 'because' and 'as a result' links are the analysis."
+  }
+ ],
+ "thin_evidence": "19 Analyse parts from 2022 onward in cw_parts.json (18 with a matched mark scheme), mostly on Paper 3. That is enough to see the pattern, but fewer than for Evaluate or Discuss. One ER comment (s24 Q8) says both sides were not required for full marks, so 'cover both sides' is advice, not a fixed rule."
+}

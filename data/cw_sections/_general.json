@@ -76,6 +76,30 @@
   },
   {
    "kind": "format",
+   "text": "This is written into the mark schemes, not only the reports. From 2021 to 2024, most Discuss, Evaluate and Analyse mark schemes printed a cap on answers written as bullets: at most 6 of 8 marks (5 of 6, 3 of 4 on shorter questions), however good the points were. The 2025 mark schemes no longer print the cap, but the 2025 examiner reports still say bulleted lists and tables cannot reach most of the marks.",
+   "cites": [
+    {
+     "doc": "9626_m22_ms_12",
+     "ref": "Q3",
+     "quote": "Max. six marks if bullets/list of points Must have expansions or comparisons to be a proper discussion",
+     "page": 4
+    },
+    {
+     "doc": "9626_s24_ms_31",
+     "ref": "Q4",
+     "quote": "Max 6 marks if bullets/list of points.",
+     "page": 8
+    },
+    {
+     "doc": "9626_m21_ms_12",
+     "ref": "Q10",
+     "quote": "five marks if bullets/list of points Must have expansions to be a proper analysis",
+     "page": 9
+    }
+   ]
+  },
+  {
+   "kind": "format",
    "text": "Bullets are not banned outright. On one Paper 1 question that asked for the steps of a process, the examiners accepted a bulleted list of steps, because each step was itself a complete point. Treat that as the exception: for every other kind of question, the reports ask for full sentences.",
    "cites": [
     {

@@ -58,8 +58,8 @@ def source(c):
         c_ = er_component(doc, page, c["quote"])
         return f"Examiner report, {when}" + (f", Paper 9626/{c_}" if c_ else "") + f", p. {page}"
     name = {"ms": "Mark scheme", "qp": "Question paper"}[kind]
-    ref = f", {c['ref']}" if c.get("ref") and kind == "ms" and re.match(r"Q?\d", c["ref"]) else ""
-    return f"{name} 9626/{comp}, {when}{ref}, p. {page}"
+    # only verified facts in a citation: the drafter's question label is not checked, the page is
+    return f"{name} 9626/{comp}, {when}, p. {page}"
 
 def cites_html(cites):
     out = []
