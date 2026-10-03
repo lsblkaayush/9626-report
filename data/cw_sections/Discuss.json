@@ -1,0 +1,427 @@
+{
+ "group": "Discuss",
+ "words": [
+  {
+   "word": "Discuss",
+   "syllabus": {
+    "doc": "9626_syllabus_2025-2027",
+    "quote": "Discuss write about issue(s) or topic(s) in depth in a structured way",
+    "page": 66
+   }
+  }
+ ],
+ "one_line": "Write full sentences in paragraphs that give benefits and drawbacks of the thing in the question (aim for at least two of each), and expand every point with a 'because' or 'so'.",
+ "points": [
+  {
+   "kind": "marks",
+   "text": "Marks go to points from a list. A point is often worth 1 mark, and a second mark comes when you expand it: the mark scheme shows the point as (1st) and the expansion as (1). A bare point with no expansion leaves marks behind.",
+   "cites": [
+    {
+     "doc": "9626_s24_ms_12",
+     "ref": "Q7",
+     "quote": "Direct data source/direct data is reliable/trusted (1st) – because we collected it (1)",
+     "page": 7
+    },
+    {
+     "doc": "9626_w23_ms_11",
+     "ref": "Q11",
+     "quote": "Orders are/can be processed straight away (1st) • so process of filling/completing orders can start sooner (than for batch processing) (1)",
+     "page": 9
+    },
+    {
+     "doc": "9626_m22_ms_12",
+     "ref": "Q3(b)",
+     "quote": "Must have expansions or comparisons to be a proper discussion",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "text": "Each side often has a ceiling. In the 2022-2025 mark schemes we checked (77 Discuss parts), about 36 print a separate MAX for each side; for 8-mark questions it is usually MAX 6 (sometimes 5, once 7). On those questions an answer with only benefits cannot reach full marks.",
+   "cites": [
+    {
+     "doc": "9626_w24_ms_12",
+     "ref": "Q9",
+     "quote": "This method gathers direct data, which is more up to date (1) Benefits max 6:",
+     "page": 9
+    },
+    {
+     "doc": "9626_s23_ms_12",
+     "ref": "Q6(b)",
+     "quote": "Disadvantages MAX five from",
+     "page": 7
+    },
+    {
+     "doc": "9626_s25_ms_31",
+     "ref": "Q7",
+     "quote": "Content areas could include: Max SIX from: Benefits: e.g.:",
+     "page": 12
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "text": "One-sided answers are capped. 23 of the 77 mark schemes we checked (all 2022-2023) say you need at least two of each side (one of each on some 4- and 6-mark questions) for full marks, and 4 more (November 2023) cap an all-benefits or all-drawbacks answer. The 2023 and 2025 examiner reports say the same: no full marks without both sides.",
+   "cites": [
+    {
+     "doc": "9626_m22_ms_12",
+     "ref": "Q3(b)",
+     "quote": "Must have at least two of each to gain full marks Must be a proper discussion to obtain full marks",
+     "page": 4
+    },
+    {
+     "doc": "9626_s23_er",
+     "ref": "Paper 32, Question 5",
+     "quote": "Answers that do not provide both do not access the highest marks because a proper discussion should look at both sides of an issue.",
+     "page": 22
+    },
+    {
+     "doc": "9626_s25_er",
+     "ref": "Paper 32, Question 5",
+     "quote": "Also, where both benefits and drawbacks are required by the question, answers that address only benefits or only drawbacks cannot achieve full marks.",
+     "page": 22
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "text": "Sometimes there is a mark for a short opening definition or description of the thing in the question. We found it in 18 of the 77 mark schemes, usually capped at one mark for each thing described (two marks once, in June 2025 Paper 31 Q7). So one clear opening sentence can help, but a long introduction cannot earn more.",
+   "cites": [
+    {
+     "doc": "9626_s25_ms_12",
+     "ref": "Q13",
+     "quote": "One mark from: • Definition of encryption (1) Max 6 from: Benefits:",
+     "page": 11
+    },
+    {
+     "doc": "9626_w25_ms_11",
+     "ref": "Q13",
+     "quote": "Max one for: • Definition of computer simulation (1) Max six from: Benefits",
+     "page": 9
+    },
+    {
+     "doc": "9626_s24_ms_12",
+     "ref": "Q7",
+     "quote": "Eight from: Simple statement of the difference between the two (1): e.g.",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "text": "No 2022-2025 Discuss mark scheme we checked has a mark for a conclusion or your opinion. The current syllabus meaning of Discuss does not ask for one. Older reports (2019) used an older wording that said Discuss often needs a conclusion; that is no longer how it is defined. A one-line conclusion does no harm, but put your time into expanded points.",
+   "cites": [
+    {
+     "doc": "9626_syllabus_2025-2027",
+     "ref": "Command words, p66",
+     "quote": "Discuss write about issue(s) or topic(s) in depth in a structured way",
+     "page": 66
+    },
+    {
+     "doc": "9626_w19_er",
+     "ref": "Key messages",
+     "quote": "Discuss questions require candidates to give the important arguments for and against, and often require a conclusion.",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "kind": "format",
+   "text": "Bullet points cost marks. Every 2022 and 2023 Discuss mark scheme (and 6 of the 17 in 2024) caps a bulleted list: max 6 of 8, max 4 or 5 of 6, max 3 of 4. We counted 48 of the 77 mark schemes with this cap.",
+   "cites": [
+    {
+     "doc": "9626_m22_ms_12",
+     "ref": "Q3(b)",
+     "quote": "Max. six marks if bullets/list of points Must have expansions or comparisons to be a proper discussion",
+     "page": 4
+    },
+    {
+     "doc": "9626_m23_ms_32",
+     "ref": "Q10(b)",
+     "quote": "Must be at least one of each for full marks. Max 4 marks if bullets/list of points.",
+     "page": 11
+    },
+    {
+     "doc": "9626_w22_ms_12",
+     "ref": "Q8(b)",
+     "quote": "Must have at least one of each to gain full marks Max. three marks if bullets/list of points",
+     "page": 8
+    }
+   ]
+  },
+  {
+   "kind": "format",
+   "text": "The 2025 mark schemes no longer print the bullet cap, but the examiners still say lists and tables of statements cannot reach most of the marks. This includes two separate lists (benefits, then drawbacks) made of single words or very short sentences.",
+   "cites": [
+    {
+     "doc": "9626_m25_er",
+     "ref": "Paper 32, Question 7",
+     "quote": "so learners who produced bulleted lists or tables of statements were unable to access most of the marks.",
+     "page": 10
+    },
+    {
+     "doc": "9626_s24_er",
+     "ref": "Paper 32, Question 9(a)",
+     "quote": "The command word ‘discuss’ requires candidates to provide a structured answer, so a bulleted list of brief statements is not properly answering the question and does not gain access to the full range of marks.",
+     "page": 23
+    },
+    {
+     "doc": "9626_s25_er",
+     "ref": "Paper 32, Question 5",
+     "quote": "This comment also applies to answers that have separate lists of benefits and drawbacks, but the lists consist of single word or very brief sentences.",
+     "page": 22
+    }
+   ]
+  },
+  {
+   "kind": "format",
+   "text": "Write in full sentences and continuous prose. A good shape is one paragraph of benefits and one of drawbacks, with each point followed by its reason or effect in the same sentence.",
+   "cites": [
+    {
+     "doc": "9626_s25_er",
+     "ref": "Paper 31, General comments",
+     "quote": "Candidates should be encouraged to write answers in full sentences.",
+     "page": 17
+    },
+    {
+     "doc": "9626_m22_er",
+     "ref": "Paper 12, Key messages",
+     "quote": "Questions that ask candidates to discuss the benefits and drawbacks of something require responses to give both sides of the argument and should be in continuous prose rather than bullet points.",
+     "page": 1
+    },
+    {
+     "doc": "9626_m22_er",
+     "ref": "Paper 12, Question 3(b)",
+     "quote": "The strongest answers were written in full prose style and included points which were expanded upon",
+     "page": 2
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Making a point and stopping. Examiners say most students give valid points but few expand them, and two 2022 mark schemes cap answers with no expansion at 6 of 8.",
+   "cites": [
+    {
+     "doc": "9626_m22_er",
+     "ref": "Paper 12, Question 3(b)",
+     "quote": "Most responses gained credit for making valid points, but few went on to discuss the points they made by expanding on them.",
+     "page": 2
+    },
+    {
+     "doc": "9626_w22_ms_12",
+     "ref": "Q10",
+     "quote": "Max. six marks if bullets/list of points Max six marks if no attempt at expansion",
+     "page": 10
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Vague cost words. Writing that something is 'expensive' or 'costs more' was too vague. Say what the money is spent on (for example travelling to interviews or printing questionnaires).",
+   "cites": [
+    {
+     "doc": "9626_s24_er",
+     "ref": "Paper 12, Question 7",
+     "quote": "Where candidates stated that collecting direct data was expensive, this was considered too vague, but if candidates identified an area on which money would have to be spent, which would not otherwise be spent, this was awarded.",
+     "page": 7
+    },
+    {
+     "doc": "9626_m22_er",
+     "ref": "Paper 12, Question 3(b)",
+     "quote": "Many responses mentioned costs without going into sufficient detail to merit credit.",
+     "page": 2
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Writing the same point twice, once as a benefit and again reversed as a drawback. It earns only once and wastes time.",
+   "cites": [
+    {
+     "doc": "9626_s24_er",
+     "ref": "Paper 12, Question 7",
+     "quote": "Some candidates effectively wrote what was good about direct data compared to indirect data and then repeated the list, but in reverse structure, so the positive aspects of one became the negative points of the other.",
+     "page": 7
+    },
+    {
+     "doc": "9626_s23_ms_12",
+     "ref": "Q6(b)",
+     "quote": "(Converse answer may also be given as an advantage – Award ONCE only)",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Describing the topic instead of discussing it in the question's setting. Describing types of technology, or the stages of a process, or writing about the wrong context, gained little or nothing. Tie each benefit and drawback to the people or organisation named in the question.",
+   "cites": [
+    {
+     "doc": "9626_m25_er",
+     "ref": "Paper 32, Question 7",
+     "quote": "Descriptions of different types of TEL, statements about benefits or drawbacks gained little or no credit without further comment on how these can affect the achievement of students.",
+     "page": 10
+    },
+    {
+     "doc": "9626_s25_er",
+     "ref": "Paper 31, Question 7",
+     "quote": "there were many who made mistakes such as describing the stages of the data mining process or confusing data mining with another topic altogether",
+     "page": 19
+    },
+    {
+     "doc": "9626_s25_er",
+     "ref": "Paper 32, Question 11",
+     "quote": "Answers should have focused on how banking organisations make use of data mining.",
+     "page": 23
+    }
+   ]
+  }
+ ],
+ "examples": [
+  {
+   "doc": "9626_s24_qp_12",
+   "ref": "Q7",
+   "marks": 8,
+   "question": {
+    "doc": "9626_s24_qp_12",
+    "quote": "Data can be collected by using a direct or an indirect data source. Discuss the advantages and disadvantages of using direct data compared to indirect data.",
+    "page": 8
+   },
+   "context": null,
+   "strong": [
+    {
+     "sentence": "Direct data is collected first-hand by the person who will use it (a primary source), while indirect data was collected by someone else for another purpose (a secondary source).",
+     "earns": {
+      "doc": "9626_s24_ms_12",
+      "quote": "Simple statement of the difference between the two (1): e.g.",
+      "page": 7
+     }
+    },
+    {
+     "sentence": "One advantage of direct data is that it is more reliable and trusted, because we collected it ourselves and know exactly how it was gathered.",
+     "earns": {
+      "doc": "9626_s24_ms_12",
+      "quote": "Direct data source/direct data is reliable/trusted (1st) – because we collected it (1)",
+      "page": 7
+     }
+    },
+    {
+     "sentence": "Also, only specific, relevant data is collected, so time is not wasted sorting through data we do not need.",
+     "earns": {
+      "doc": "9626_s24_ms_12",
+      "quote": "ONLY Specific/relevant data is collected (1)",
+      "page": 7
+     }
+    },
+    {
+     "sentence": "Direct data is also more up to date than indirect data, which may have been collected years ago.",
+     "earns": {
+      "doc": "9626_s24_ms_12",
+      "quote": "Direct data is (more) up-to-date (1) Disadvantages MAX SIX",
+      "page": 7
+     }
+    },
+    {
+     "sentence": "However, a disadvantage is that the sample size may be small, whereas indirect data sources tend to be much larger sets of data.",
+     "earns": {
+      "doc": "9626_s24_ms_12",
+      "quote": "The sample size may be small (1st) – whereas indirect data sources tend to be larger sets of data (1)",
+      "page": 7
+     }
+    },
+    {
+     "sentence": "Collecting direct data also costs money that would not otherwise be spent, such as travelling to interview people and printing questionnaires.",
+     "earns": {
+      "doc": "9626_s24_ms_12",
+      "quote": "Collecting direct data involves the expense of travelling/photocopying/printing questionnaires//any expense to do with a direct data method (1)",
+      "page": 7
+     }
+    }
+   ],
+   "weak": {
+    "answer": "Advantages: direct data is cheaper, relevant, up to date. Disadvantages: indirect data is not relevant and old, direct data is expensive.",
+    "marks_likely": "about 2 of 8 (estimate)",
+    "why": "It is a list, not a discussion. 'Expensive' does not say what the money is spent on. The disadvantages just repeat the advantages in reverse, so they earn nothing new.",
+    "basis": {
+     "doc": "9626_s24_er",
+     "quote": "Some candidates effectively wrote what was good about direct data compared to indirect data and then repeated the list, but in reverse structure, so the positive aspects of one became the negative points of the other.",
+     "page": 7
+    }
+   },
+   "note": "Six sentences earn eight marks because two of them carry a point plus its expansion. The examiner report says this question was really about what was good and bad about direct data, with indirect data only as the comparison point, so do not write each point twice in reverse."
+  },
+  {
+   "doc": "9626_s25_qp_31",
+   "ref": "Q7",
+   "marks": 8,
+   "question": {
+    "doc": "9626_s25_qp_31",
+    "quote": "Discuss the benefits and drawbacks of using data mining in businesses.",
+    "page": 8
+   },
+   "context": null,
+   "strong": [
+    {
+     "sentence": "Data mining is the use of software tools to analyse very large data sets.",
+     "earns": {
+      "doc": "9626_s25_ms_31",
+      "quote": "data mining (is a set of techniques and tools) used to from work on / analyse large data sets",
+      "page": 12
+     }
+    },
+    {
+     "sentence": "Its aim is to discover trends, patterns and relationships in the data that people would not spot by hand.",
+     "earns": {
+      "doc": "9626_s25_ms_31",
+      "quote": "to discover trends / patterns / to find relationships",
+      "page": 12
+     }
+    },
+    {
+     "sentence": "A business can use data mining to improve its sales and profits, because it can target its advertising at the customers or demographic groups most likely to buy.",
+     "earns": {
+      "doc": "9626_s25_ms_31",
+      "quote": "used to improve sales / profits (1st) by targeting customers / demographics (1)",
+      "page": 12
+     }
+    },
+    {
+     "sentence": "The information it extracts also gives managers a sound basis for their decisions, rather than guesswork.",
+     "earns": {
+      "doc": "9626_s25_ms_31",
+      "quote": "provides a sound basis for decision-making",
+      "page": 12
+     }
+    },
+    {
+     "sentence": "On the other hand, the extracted information may not be accurate, because it depends on how good the source data set is.",
+     "earns": {
+      "doc": "9626_s25_ms_31",
+      "quote": "extracted information may not be accurate (1st) depends on source of data set (1)",
+      "page": 12
+     }
+    },
+    {
+     "sentence": "The business must also protect the privacy of the individuals in the data and follow data protection laws, which adds work and risk.",
+     "earns": {
+      "doc": "9626_s25_ms_31",
+      "quote": "must ensure privacy of individuals / conform to data protection regulations",
+      "page": 12
+     }
+    }
+   ],
+   "weak": {
+    "answer": "A two-column table: Benefits | Drawbacks; trends | expensive; profit | privacy; decisions | storage.",
+    "marks_likely": "low (estimate: 2-3 of 8)",
+    "why": "Single words in a table make points but give no reasons or effects, so there is no discussion and no expansion marks.",
+    "basis": {
+     "doc": "9626_s25_er",
+     "quote": "Furthermore, if these answers are shown in a sketched table, they do not properly answer the question as there is no discussion.",
+     "page": 17
+    }
+   },
+   "note": "This 2025 mark scheme allowed up to two marks for saying what data mining is, then MAX SIX per side. A two-sentence definition, plus two benefits and two drawbacks (one of each expanded with its reason), reaches eight."
+  }
+ ],
+ "thin_evidence": "Not thin: Discuss appears in 80 question parts from 2022 onward (77 with mark schemes available). The counts above are our own counts from the mark-scheme text and could be off by one or two."
+}

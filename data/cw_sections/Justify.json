@@ -1,0 +1,379 @@
+{
+ "group": "Justify",
+ "words": [
+  {
+   "word": "Justify",
+   "syllabus": {
+    "doc": "9626_syllabus_2025-2027",
+    "quote": "Justify support a case with evidence/argument State express in clear terms",
+    "page": 66
+   }
+  }
+ ],
+ "one_line": "Argue only FOR the choice in the question: state a benefit, then give the reason it helps in this scenario, and never list drawbacks of the choice.",
+ "points": [
+  {
+   "kind": "mistake",
+   "text": "Justify is one-sided. Arguments against the choice earn nothing. One examiner report (June 2025) says drawbacks are not required for any question that uses Justify, and several reports describe candidates giving 'for and against' answers that did not meet the demand of the question.",
+   "cites": [
+    {
+     "doc": "9626_w23_er",
+     "ref": "Q8 (Paper 12)",
+     "quote": "Some responses did not correctly interpret the command word of ‘justify’, and so gave arguments for and against. To justify an action, responses need to support an argument rather than criticise.",
+     "page": 7
+    },
+    {
+     "doc": "9626_w23_er",
+     "ref": "Q10 (Paper 13)",
+     "quote": "Most responses also gave arguments against the decision. These answers did not meet the demand of the question and were not worthy of credit.",
+     "page": 10
+    },
+    {
+     "doc": "9626_s25_er",
+     "ref": "Q4 (Paper 33)",
+     "quote": "Drawbacks of using mail merge were not required when answering this question, nor are they required for any question that uses the command word ‘justify’.",
+     "page": 25
+    }
+   ]
+  },
+  {
+   "kind": "tip",
+   "text": "You may mention a drawback of an alternative, because that still supports the choice. For example: interviews give data relevant to the study, whereas indirect sources are not specific to it.",
+   "cites": [
+    {
+     "doc": "9626_s24_er",
+     "ref": "Q8 (Paper 31)",
+     "quote": "The command word ‘justify’ requires answers to support a case so drawbacks do not gain credit unless they are of alternatives.",
+     "page": 20
+    },
+    {
+     "doc": "9626_s23_er",
+     "ref": "Q5 (Paper 13)",
+     "quote": "This justification may, for example, include why an alternative method has not been adopted.",
+     "page": 11
+    },
+    {
+     "doc": "9626_s23_ms_11",
+     "ref": "Q11",
+     "quote": "You are in control of the sample size//can be as big/small as needed (1st) – whereas Isabella has no control over the amount of data collected from an indirect source (1)",
+     "page": 10
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "text": "Most marks go to the reasons. About half the Justify mark schemes (9 of 19 from 2022 on) give a first mark for a benefit and a second for the reason or result that follows from it.",
+   "cites": [
+    {
+     "doc": "9626_w24_er",
+     "ref": "Q5 (Paper 33)",
+     "quote": "It is the reasons that gain most credit in questions that ask for ‘justify’.",
+     "page": 19
+    },
+    {
+     "doc": "9626_w24_ms_13",
+     "ref": "Q10",
+     "quote": "Give a positive impact (1st) • Give an extension that is a positive implication on a customer or business of the identified justification. (1)",
+     "page": 8
+    },
+    {
+     "doc": "9626_m25_ms_12",
+     "ref": "Q5",
+     "quote": "One mark per valid validation check identified (max 5) and justification given to a maximum of eight marks.",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Listing features or describing how something works is not justifying. Turn each feature into a reason for using it.",
+   "cites": [
+    {
+     "doc": "9626_s25_er",
+     "ref": "Q10 (Paper 33)",
+     "quote": "Most candidates could list the features of a VPN, but few used these to justify its use.",
+     "page": 26
+    },
+    {
+     "doc": "9626_m24_er",
+     "ref": "Q4 (Paper 32)",
+     "quote": "many candidates ignored the command word and wrote, it appeared, all they knew about lossy, and lossless, compression rather than stating facts and using these as reasons why lossy compression would be used.",
+     "page": 7
+    },
+    {
+     "doc": "9626_w25_er",
+     "ref": "Q9 (Paper 11)",
+     "quote": "few candidates attempted to fully justify, with some candidates giving reasons against the decision, and others giving descriptions.",
+     "page": 3
+    }
+   ]
+  },
+  {
+   "kind": "tip",
+   "text": "Tie every reason to the scenario. Full marks may only be possible when the concept and the context are combined, and a check or feature that does not fit the given data earns nothing.",
+   "cites": [
+    {
+     "doc": "9626_w25_er",
+     "ref": "Q9 (Paper 12)",
+     "quote": "The mark scheme was structured so that full marks could only be achieved where the concept and the context were combined",
+     "page": 7
+    },
+    {
+     "doc": "9626_m25_er",
+     "ref": "Q5 (Paper 12)",
+     "quote": "In questions such as this, context is important. For example, a student number is unlikely to be validated with a range check, as candidates were not given a range.",
+     "page": 3
+    },
+    {
+     "doc": "9626_s24_er",
+     "ref": "General comments (Paper 31)",
+     "quote": "Candidates should apply their knowledge to the scenario in the question set because the full range of marks is only available to candidates for answers referring to the question scenario.",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "kind": "tip",
+   "text": "If the question names two things to justify, cover both. One mark scheme capped answers that dealt with only one of them at 6 of 8.",
+   "cites": [
+    {
+     "doc": "9626_m25_ms_12",
+     "ref": "Q5",
+     "quote": "Max six if only one of student number or examination score used.",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "text": "Some mark schemes give one mark for a definition of the thing you are justifying. One clear sentence is enough.",
+   "cites": [
+    {
+     "doc": "9626_s23_ms_11",
+     "ref": "Q11",
+     "quote": "Any correct definition of direct data sources, such as:",
+     "page": 10
+    },
+    {
+     "doc": "9626_w25_ms_12",
+     "ref": "Q9",
+     "quote": "Definition of encryption (1) • Protects data/data “is safe”/improves data security (1)",
+     "page": 8
+    },
+    {
+     "doc": "9626_w24_ms_13",
+     "ref": "Q10",
+     "quote": "Definition of online processing: ONE from: • User is in direct connection with a central computer (1)",
+     "page": 8
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Repeating the same benefit in different words does not earn extra marks. Give a range of different reasons.",
+   "cites": [
+    {
+     "doc": "9626_w24_er",
+     "ref": "Q10 (Paper 13)",
+     "quote": "Whilst candidates were aware of some advantages, these were often narrow and repeated from different angles in an apparent attempt to achieve more marks.",
+     "page": 9
+    },
+    {
+     "doc": "9626_s25_er",
+     "ref": "Q8(b) (Paper 13)",
+     "quote": "To justify the use of an interpreter, candidates had to have a range of benefits of the use of an interpreter.",
+     "page": 11
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Vague reasons lose marks. Be technically precise about why the choice helps.",
+   "cites": [
+    {
+     "doc": "9626_w25_er",
+     "ref": "Q7(b) (Paper 12)",
+     "quote": "some of the reasons given in support were either vague or incorrect.",
+     "page": 7
+    },
+    {
+     "doc": "9626_s25_er",
+     "ref": "Q8(b) (Paper 13)",
+     "quote": "In some cases, there was a lack of technical understanding, whilst in others, answers were vague and lacked clarity.",
+     "page": 11
+    }
+   ]
+  },
+  {
+   "kind": "format",
+   "text": "Write in full sentences. Four 8-mark Justify mark schemes (all 2023) cap a bulleted list at 6 marks.",
+   "cites": [
+    {
+     "doc": "9626_w23_ms_13",
+     "ref": "Q10",
+     "quote": "so less expensive media/data storage costs (1) Max 6 marks for just bullet points",
+     "page": 9
+    },
+    {
+     "doc": "9626_s23_ms_11",
+     "ref": "Q11",
+     "quote": "indirect data is not hers to sell/pass/share (1) MAX 6 marks for a bulleted list",
+     "page": 10
+    },
+    {
+     "doc": "9626_m24_er",
+     "ref": "Q4 (Paper 32)",
+     "quote": "Candidates should be discouraged from writing bulleted, short statements in their responses but instead be encouraged to write answers in full sentences.",
+     "page": 7
+    }
+   ]
+  }
+ ],
+ "examples": [
+  {
+   "doc": "9626_w25_qp_11",
+   "ref": "Q9",
+   "marks": 4,
+   "question": {
+    "doc": "9626_w25_qp_11",
+    "quote": "A programmer is developing a new piece of software. The programmer has decided to write code that needs to be interpreted so that it will run. Justify the programmer’s decision.",
+    "page": 7
+   },
+   "context": null,
+   "strong": [
+    {
+     "sentence": "Code that is interpreted can be written in a high-level language, which is easier for the programmer to write and read.",
+     "earns": {
+      "doc": "9626_w25_ms_11",
+      "quote": "Programmer can write in high level language (1)",
+      "page": 8
+     }
+    },
+    {
+     "sentence": "This means the programmer does not need to code in machine code.",
+     "earns": {
+      "doc": "9626_w25_ms_11",
+      "quote": "Programmer does not need to code in machine code (1)",
+      "page": 8
+     }
+    },
+    {
+     "sentence": "The same program code will run on different computers and operating systems, as long as each has an interpreter.",
+     "earns": {
+      "doc": "9626_w25_ms_11",
+      "quote": "The program code will run on different computers/operating systems (1)",
+      "page": 8
+     }
+    },
+    {
+     "sentence": "The interpreter highlights mistakes as soon as it finds them, so the programmer can debug the new software quickly while developing it.",
+     "earns": {
+      "doc": "9626_w25_ms_11",
+      "quote": "An interpreter will highlight mistakes as they are found (1)",
+      "page": 8
+     }
+    }
+   ],
+   "weak": {
+    "answer": "Interpreted code is easier to debug. However, it runs more slowly than compiled code and the user needs the source code, so a compiler would be better.",
+    "marks_likely": "1 of 4",
+    "why": "Only the first sentence supports the decision. The rest argues against it, which earns nothing for Justify.",
+    "basis": {
+     "doc": "9626_w25_er",
+     "quote": "few candidates attempted to fully justify, with some candidates giving reasons against the decision, and others giving descriptions.",
+     "page": 3
+    }
+   },
+   "note": "Four marks need four separate reasons in favour. Do not mention compilers unless you use them to show why the interpreter is better."
+  },
+  {
+   "doc": "9626_w23_qp_13",
+   "ref": "Q10",
+   "marks": 8,
+   "question": {
+    "doc": "9626_w23_qp_13",
+    "quote": "The manager of the payroll department within a company has commissioned a computer programmer to write software to run the payroll. Justify this decision to use custom written software.",
+    "page": 11
+   },
+   "context": null,
+   "strong": [
+    {
+     "sentence": "Custom written software is created for this exact purpose: running this company's payroll.",
+     "earns": {
+      "doc": "9626_w23_ms_13",
+      "quote": "(This) custom written software is created for a defined/this purpose/running a payroll",
+      "page": 9
+     }
+    },
+    {
+     "sentence": "So it does not need to be adapted before the payroll staff can use it.",
+     "earns": {
+      "doc": "9626_w23_ms_13",
+      "quote": "Does not need to be adapted for use (1)",
+      "page": 9
+     }
+    },
+    {
+     "sentence": "The programmer can make sure the software has all the features the manager requires, such as the company's own pay rules.",
+     "earns": {
+      "doc": "9626_w23_ms_13",
+      "quote": "Software will have/Programmer can ensure the software will have all the features that are required (1)",
+      "page": 9
+     }
+    },
+    {
+     "sentence": "It will not include unnecessary features, so payroll staff are not distracted by bloatware.",
+     "earns": {
+      "doc": "9626_w23_ms_13",
+      "quote": "Custom written software will not have any unnecessary/distracting features/bloat ware (1)",
+      "page": 9
+     }
+    },
+    {
+     "sentence": "Any settings built into the software can be changed by the programmer.",
+     "earns": {
+      "doc": "9626_w23_ms_13",
+      "quote": "(Any) settings built into the software can be changed (1st)",
+      "page": 9
+     }
+    },
+    {
+     "sentence": "This matters if the software does not meet the manager's requirements at first.",
+     "earns": {
+      "doc": "9626_w23_ms_13",
+      "quote": "if the software doesn't initially meet the manager's requirements (1)",
+      "page": 9
+     }
+    },
+    {
+     "sentence": "The company will also own the copyright of the payroll software.",
+     "earns": {
+      "doc": "9626_w23_ms_13",
+      "quote": "The company will own the copyright of the custom written software (1st)",
+      "page": 9
+     }
+    },
+    {
+     "sentence": "This means it could sell the software to other businesses and earn money from it.",
+     "earns": {
+      "doc": "9626_w23_ms_13",
+      "quote": "so can sell it to others (1)",
+      "page": 9
+     }
+    }
+   ],
+   "weak": {
+    "answer": "Custom software is made for the company, so it meets their needs. However, it is expensive and takes a long time to write, and it may have bugs because few people have tested it. Off-the-shelf software is cheaper and ready straight away.",
+    "marks_likely": "about 2 of 8",
+    "why": "Only the first sentence supports the decision. The drawbacks of custom software and the benefits of off-the-shelf software argue against the manager's choice, so they earn nothing.",
+    "basis": {
+     "doc": "9626_w23_er",
+     "quote": "Most responses also gave arguments against the decision. These answers did not meet the demand of the question and were not worthy of credit.",
+     "page": 10
+    }
+   },
+   "note": "Every sentence argues for the manager's decision. Where a mark scheme shows (1st) then (1), state the benefit and then say what it leads to."
+  }
+ ],
+ "thin_evidence": "20 Justify parts from 2022 onward (one, m26 Q10(c), has no matched mark scheme). The one-sided rule is repeated in many examiner reports from 2022 to 2025. The 'drawbacks of alternatives' exception rests on one ER sentence (s24, repeated for Papers 31 and 33), one 2023 ER comment and one mark scheme, so use it carefully."
+}

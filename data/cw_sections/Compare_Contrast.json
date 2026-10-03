@@ -1,0 +1,381 @@
+{
+ "group": "Compare_Contrast",
+ "words": [
+  {
+   "word": "Compare",
+   "syllabus": {
+    "doc": "9626_syllabus_2025-2027",
+    "quote": "Compare identify/comment on similarities and/or differences",
+    "page": 66
+   }
+  },
+  {
+   "word": "Contrast",
+   "syllabus": {
+    "doc": "9626_syllabus_2025-2027",
+    "quote": "Contrast identify/comment on differences",
+    "page": 66
+   }
+  }
+ ],
+ "one_line": "Compare: similarities and/or differences. Give both unless the question says otherwise, because some questions require both. Contrast: differences only. Make every point clearly a comparison of the two things ('both', 'whereas', '-er than').",
+ "points": [
+  {
+   "kind": "marks",
+   "text": "Mark schemes for Compare list similarities and differences, with one mark for each valid point. Some (for example m22 Paper 32, m23 Paper 32 and s22 Paper 12) say you need at least one similarity and one difference to get full marks.",
+   "cites": [
+    {
+     "doc": "9626_m22_ms_32",
+     "ref": "Q9",
+     "quote": "Must be at least one similarity and one difference for full marks",
+     "page": 9
+    },
+    {
+     "doc": "9626_m23_ms_32",
+     "ref": "Q3",
+     "quote": "Must be 1 of each for full marks",
+     "page": 5
+    },
+    {
+     "doc": "9626_s22_ms_12",
+     "ref": "Q3(b)",
+     "quote": "Must have at least one similarity and one difference to gain full marks",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "text": "Some mark schemes put a cap on each side, for example a maximum of 4 marks for similarities and 4 for differences in a 5-mark question. So writing only one side cannot get you full marks.",
+   "cites": [
+    {
+     "doc": "9626_w23_ms_11",
+     "ref": "Q5",
+     "quote": "Five marks available: Similarities Max 4",
+     "page": 5
+    },
+    {
+     "doc": "9626_w25_ms_32",
+     "ref": "Q3",
+     "quote": "Five from: Max 4 from: Similarities: Both",
+     "page": 6
+    }
+   ]
+  },
+  {
+   "kind": "tip",
+   "text": "Give both similarities and differences in a Compare answer, even if the question does not say so. The examiners have not always agreed on this: some reports said both were required, and others said full marks were possible with only one side when the question did not ask for both. Writing both is safe in every case.",
+   "cites": [
+    {
+     "doc": "9626_m23_er",
+     "ref": "Q3",
+     "quote": "Often a question will specify that both similarities and differences as required, as in this question, but even if it does not, candidates are advised to give both to ensure access to the full mark range.",
+     "page": 8
+    },
+    {
+     "doc": "9626_s23_er",
+     "ref": "Paper 31 Q3",
+     "quote": "this is interpreted as both being required. Therefore, centres are reminded to ensure that their candidates include both. Answers that do not include both are unable to access the full range of marks.",
+     "page": 17
+    },
+    {
+     "doc": "9626_w24_er",
+     "ref": "Paper 32 Q1(b)",
+     "quote": "Where both similarities and differences, or where only similarities or only differences, are specifically required, this will be made clear in the question.",
+     "page": 15
+    },
+    {
+     "doc": "9626_w22_er",
+     "ref": "Paper 32 Q7(b)",
+     "quote": "However, in this case, full marks could have been achieved with only similarities or only differences in the answers.",
+     "page": 18
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Students often forget the similarities. The w25 (Paper 11) and s25 (Paper 32) reports both noted that few candidates gave them.",
+   "cites": [
+    {
+     "doc": "9626_w25_er",
+     "ref": "Paper 11 Q5(b)",
+     "quote": "When candidates are asked to compare, they are able to identify similarities as well as differences. Few, if any, candidates identified similarities between the two methods.",
+     "page": 2
+    },
+    {
+     "doc": "9626_s25_er",
+     "ref": "Paper 32 Q7",
+     "quote": "Most candidates could describe the basic, obvious differences between activity-on-node and activity-on- arrow PERT diagrams, but the similarities between the two were often omitted.",
+     "page": 22
+    }
+   ]
+  },
+  {
+   "kind": "format",
+   "text": "Write each difference as one matched sentence about both things, joined by 'whereas'. Do not write one paragraph about A and then a separate paragraph about B. Examiners did not award marks when they could not see the comparison.",
+   "cites": [
+    {
+     "doc": "9626_w22_er",
+     "ref": "Paper 12 Q3(a)",
+     "quote": "differences are best presented together, perhaps joined by the use of ‘whereas’. In some cases, candidates wrote two separate descriptions one of phishing and the other of vishing.",
+     "page": 3
+    },
+    {
+     "doc": "9626_w22_er",
+     "ref": "Paper 12 Q3(a)",
+     "quote": "Where it was clear that these were presented as comparisons, marks were awarded if possible. However, this clarity was sometimes lacking and so marks were not awarded.",
+     "page": 3
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "A true fact about only one thing, with no comparison shown, is not a comparison. 'A LAN covers a small area' gets no mark. 'A LAN covers a smaller area than a WAN' does. The s25 report (on a Contrast question) added that you need not spell out the other side every time, as long as the point is clearly a valid comparison.",
+   "cites": [
+    {
+     "doc": "9626_m22_er",
+     "ref": "Paper 32 Q1",
+     "quote": "For example, ‘a LAN covers a small geographical area’ on its own is a true fact but does not answer the question. However, ‘a LAN covers a smaller geographical area than a WAN’ answers the question and would gain credit.",
+     "page": 6
+    },
+    {
+     "doc": "9626_s25_er",
+     "ref": "Paper 12 Q4",
+     "quote": "whilst candidates do have to show some awareness that they are comparing, there is no requirement for candidates to present both sides of the argument.",
+     "page": 6
+    }
+   ]
+  },
+  {
+   "kind": "format",
+   "text": "Do not answer with a bullet list or a table. One examiner report says lists of points, bulleted or in tables, are unlikely to get full marks for a comparison. Write full sentences.",
+   "cites": [
+    {
+     "doc": "9626_s23_er",
+     "ref": "Paper 32 Q2",
+     "quote": "It should also be noted by centres that candidates who provide lists of points, bulleted or in tables, are unlikely to gain full marks because the question asks for comparisons which are best written in free response.",
+     "page": 21
+    },
+    {
+     "doc": "9626_m22_er",
+     "ref": "Paper 32 Q1",
+     "quote": "Weaker answers just stated facts, sometimes as unconnected bullets, or described uses of LANs/WANs.",
+     "page": 6
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Contrast means differences only. Similarities in a Contrast answer get no marks, so they waste your time.",
+   "cites": [
+    {
+     "doc": "9626_s23_er",
+     "ref": "Paper 32 Q4(a)",
+     "quote": "The command word ‘contrast’ requires only that the differences are described (see p. 45 of the syllabus). Any references to similarities were ignored and not given credit because these did not answer the question.",
+     "page": 21
+    },
+    {
+     "doc": "9626_m23_er",
+     "ref": "Paper 32 Q2",
+     "quote": "When responding to ‘contrast’ questions, candidates should give only differences.",
+     "page": 7
+    },
+    {
+     "doc": "9626_m22_ms_32",
+     "ref": "Q1",
+     "quote": "Command word: Contrast: identify/comment on differences.",
+     "page": 3
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Do not repeat the question as a similarity. If the question says both devices exchange data, 'both exchange data' earns nothing. Very general similarities, such as 'both are plastic cards', were also called weak.",
+   "cites": [
+    {
+     "doc": "9626_s23_er",
+     "ref": "Paper 32 Q2",
+     "quote": "Centres should also remind their candidates that answers that repeat the question, in this case stating that both exchange data in networks, will not be given credit.",
+     "page": 21
+    },
+    {
+     "doc": "9626_w24_er",
+     "ref": "Paper 32 Q1(b)",
+     "quote": "the mark was for the repeatedly/iteration comment since ‘loop through a block of code’ was given in the question.",
+     "page": 15
+    },
+    {
+     "doc": "9626_s23_er",
+     "ref": "Paper 31 Q3",
+     "quote": "Weaker answers referred to both being plastic cards and, inaccurately, both being used for online shopping.",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Compare exactly the two things named in the question. Do not write about only one of them. Do not answer about something else that just has a similar keyword.",
+   "cites": [
+    {
+     "doc": "9626_w25_er",
+     "ref": "Paper 12 Q8(c)",
+     "quote": "some candidates either only focussed on one of the two methods, or did not discuss the impact of each method on the quality of a video file.",
+     "page": 7
+    },
+    {
+     "doc": "9626_m23_er",
+     "ref": "Paper 32 Q3",
+     "quote": "It was noted that a significant number of responses referred to dynamic IP assignment using DHCP. Such references did not answer the question",
+     "page": 8
+    }
+   ]
+  }
+ ],
+ "examples": [
+  {
+   "doc": "9626_m23_qp_32",
+   "ref": "Q3",
+   "marks": 6,
+   "question": {
+    "doc": "9626_m23_qp_32",
+    "quote": "Compare the use of static and dynamic routing when sending data packets through IP networks. You must include similarities and differences.",
+    "page": 4
+   },
+   "context": null,
+   "strong": [
+    {
+     "sentence": "Both static and dynamic routing are used in routers to decide the next hop that a data packet is sent to.",
+     "earns": {
+      "doc": "9626_m23_ms_32",
+      "quote": "Used in routers/routing devices to determine next node/router/device/hop to send data packet/datagram/frame",
+      "page": 5
+     }
+    },
+    {
+     "sentence": "Both types of routing provide a default route for a packet if no other route can be found.",
+     "earns": {
+      "doc": "9626_m23_ms_32",
+      "quote": "Both provide default route for packet if no route can be determined",
+      "page": 5
+     }
+    },
+    {
+     "sentence": "Static routing tables are created by network administrators, whereas dynamic routing tables are created by algorithms.",
+     "earns": {
+      "doc": "9626_m23_ms_32",
+      "quote": "Static routing tables created by network administrators whereas dynamic routing tables are created by algorithms",
+      "page": 5
+     }
+    },
+    {
+     "sentence": "Static routes are fixed, whereas dynamic routing lets packets take different routes depending on network conditions.",
+     "earns": {
+      "doc": "9626_m23_ms_32",
+      "quote": "Static routes are fixed whereas dynamic routing allows packets to take different routes depending on network conditions",
+      "page": 5
+     }
+    },
+    {
+     "sentence": "Static routing tables are not updated when network conditions or devices change, whereas dynamic routing tables are updated and can adjust to the changes.",
+     "earns": {
+      "doc": "9626_m23_ms_32",
+      "quote": "Static routing tables not updated/amended when network conditions/device change whereas dynamic routing are updated/can adjust to changing network conditions",
+      "page": 5
+     }
+    },
+    {
+     "sentence": "Static route information does not time out, whereas dynamic routes have a time-to-live after which the table is updated.",
+     "earns": {
+      "doc": "9626_m23_ms_32",
+      "quote": "Static routing table/info does not ‘time out’ whereas dynamic routes can be time-limited/have time-to-live data",
+      "page": 5
+     }
+    }
+   ],
+   "weak": {
+    "answer": "Static IP addresses are set by the network administrator and do not change. Dynamic IP addresses are given out by a DHCP server and can change each time a device connects.",
+    "marks_likely": "0 of 6",
+    "why": "It is about IP addresses, not routing. It also has no similarity, and it describes each type separately instead of comparing them.",
+    "basis": {
+     "doc": "9626_m23_er",
+     "quote": "It was noted that a significant number of responses referred to dynamic IP assignment using DHCP. Such references did not answer the question and it can only be assumed that the candidates spotted the words ’dynamic’ and ‘IP’ and misunderstood the question.",
+     "page": 8
+    }
+   },
+   "note": "Two similarities that start with 'Both' and four differences joined by 'whereas' give six separate marks. Each sentence covers both things, so the examiner can see the comparison."
+  },
+  {
+   "doc": "9626_m22_qp_32",
+   "ref": "Q1",
+   "marks": 6,
+   "question": {
+    "doc": "9626_m22_qp_32",
+    "quote": "Contrast the characteristics of local area networks (LANs) and wide area networks (WANs).",
+    "page": 2
+   },
+   "context": null,
+   "strong": [
+    {
+     "sentence": "A LAN covers a smaller geographical area than a WAN.",
+     "earns": {
+      "doc": "9626_m22_ms_32",
+      "quote": "LAN covers a smaller geographical area/valid examples than WAN",
+      "page": 3
+     }
+    },
+    {
+     "sentence": "A LAN has a higher data transfer speed than a WAN.",
+     "earns": {
+      "doc": "9626_m22_ms_32",
+      "quote": "LAN has higher data transfer speed/greater bandwidth than WAN",
+      "page": 3
+     }
+    },
+    {
+     "sentence": "A LAN is usually owned by one organisation, whereas a WAN is often owned by a number of organisations.",
+     "earns": {
+      "doc": "9626_m22_ms_32",
+      "quote": "LANs are (usually) owned by one organisation whereas WANs are (usually/often) owned by a number/collective ownership",
+      "page": 3
+     }
+    },
+    {
+     "sentence": "LANs have fewer data transmission errors than WANs.",
+     "earns": {
+      "doc": "9626_m22_ms_32",
+      "quote": "LANs have fewer data transmission errors than WANs",
+      "page": 3
+     }
+    },
+    {
+     "sentence": "LANs have fewer network congestion problems than WANs.",
+     "earns": {
+      "doc": "9626_m22_ms_32",
+      "quote": "LANs have fewer network congestion problems than WANs",
+      "page": 3
+     }
+    },
+    {
+     "sentence": "A LAN uses Layer 1 or 2 devices such as switches and hubs, whereas a WAN uses Layer 3 devices such as routers.",
+     "earns": {
+      "doc": "9626_m22_ms_32",
+      "quote": "LANs use Layer 1or 2 devices/switches/bridges/hubs/repeaters whereas WANs use Layer 3 devices/Routers/Multi-layer Switches",
+      "page": 3
+     }
+    }
+   ],
+   "weak": {
+    "answer": "• LAN: small area, one building.\n• WAN: large area, the internet.\n• Both are networks that connect computers.",
+    "marks_likely": "0 of 6",
+    "why": "The bullets are separate facts about one network at a time, not differences. The last bullet is a similarity, which gets no credit for Contrast.",
+    "basis": {
+     "doc": "9626_m22_er",
+     "quote": "Weaker answers just stated facts, sometimes as unconnected bullets, or described uses of LANs/WANs. Others gave similarities. These did not gain credit because the responses did not answer the question.",
+     "page": 6
+    }
+   },
+   "note": "Every sentence names both LAN and WAN and uses a comparing word ('smaller ... than', 'whereas'). There are no similarities, because Contrast does not credit them."
+  }
+ ],
+ "thin_evidence": "Compare is well covered: the question papers have 16 question parts as Compare, all from 2022 onward, and many have examiner comments. Contrast has fewer: 8 parts are labelled Contrast. One of them, November 2024 Paper 33 Q3(b), is a false match ('contrast' is an image term in a Describe question), so 7 are real Contrast questions, 6 of them from 2022 onward (the other is s21 Paper 32). Another 20 parts from 2018-2021 are labelled 'Compare and Contrast'; they are not used here. The examiner reports disagree on whether Compare needs both sides when the question does not ask for both: s23 said both are required, while w22 and w24 said one side could get full marks. The advice to give both follows the m23 report and works under either reading."
+}
