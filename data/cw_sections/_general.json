@@ -1,0 +1,174 @@
+{
+ "group": "_general",
+ "one_line": "Write in full sentences, make every point complete, and answer the question that was asked about the scenario that was given.",
+ "points": [
+  {
+   "kind": "format",
+   "text": "No Cambridge document for 9626 tells you to answer in bullet points. Cambridge's own guide for students says the opposite.",
+   "cites": [
+    {
+     "doc": "9626_learner_guide",
+     "ref": "Advice for all Papers 1 and 3",
+     "quote": "Answer the questions in sentences. Never give ‘one word’ or one ‘phrase’ answers.",
+     "page": 15
+    }
+   ]
+  },
+  {
+   "kind": "format",
+   "text": "The examiners repeat this in almost every series. Describe and Explain answers need full sentences too, not only the long questions.",
+   "cites": [
+    {
+     "doc": "9626_w25_er",
+     "ref": "Paper 3 General comments",
+     "quote": "Candidates should also be encouraged to write full sentences and discouraged from writing bulleted, short statements in their responses. Descriptions or explanations can only be conveyed in full sentences.",
+     "page": 16
+    },
+    {
+     "doc": "9626_s22_er",
+     "ref": "Paper 3 General comments",
+     "quote": "Candidates should write full sentences and avoid bulleted short statements in their responses.",
+     "page": 13
+    }
+   ]
+  },
+  {
+   "kind": "format",
+   "text": "The real problem with bullets is what they leave out. A bullet is usually a bare point with no reason or detail, and the reason or detail is where most marks are.",
+   "cites": [
+    {
+     "doc": "9626_s18_er",
+     "ref": "General comments",
+     "quote": "the use of bullet points rarely produces little more than simple points or short statements with no explanations or descriptions",
+     "page": 17
+    },
+    {
+     "doc": "9626_w22_er",
+     "ref": "Paper 3",
+     "quote": "Short statements or bulleted responses that do not expand on facts cannot be awarded the higher marks because these are not discussions.",
+     "page": 14
+    }
+   ]
+  },
+  {
+   "kind": "format",
+   "text": "For Discuss, Evaluate and Analyse, the shape of the answer matters as well. Lists and tables of statements, even two neat lists of benefits and drawbacks, lose most of the marks.",
+   "cites": [
+    {
+     "doc": "9626_m25_er",
+     "ref": "Paper 3 Question 7",
+     "quote": "learners who produced bulleted lists or tables of statements were unable to access most of the marks",
+     "page": 10
+    },
+    {
+     "doc": "9626_m25_er",
+     "ref": "Paper 3 General comments",
+     "quote": "if these answers are shown in a sketched table, they do not properly answer the question as there is no e.g., discussion",
+     "page": 8
+    },
+    {
+     "doc": "9626_s25_er",
+     "ref": "Paper 3",
+     "quote": "This comment also applies to answers that have separate lists of benefits and drawbacks, but the lists consist of single word or very brief sentences.",
+     "page": 22
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "text": "You do not lose marks for grammar or spelling. Examiners give marks for correct points and never take marks away for mistakes. Your meaning still has to be clear.",
+   "cites": [
+    {
+     "doc": "9626_s25_ms_12",
+     "ref": "Generic Marking Principle 3",
+     "quote": "marks are not deducted for errors",
+     "page": 2
+    },
+    {
+     "doc": "9626_s25_ms_12",
+     "ref": "Generic Marking Principle 3",
+     "quote": "answers should only be judged on the quality of spelling, punctuation and grammar when these features are specifically assessed by the question as indicated by the mark scheme. The meaning, however, should be unambiguous.",
+     "page": 2
+    }
+   ]
+  },
+  {
+   "kind": "tip",
+   "text": "Short sentences are fine. One clear point per sentence is easier for the examiner to mark and easier for you to check.",
+   "cites": [
+    {
+     "doc": "9626_learner_guide",
+     "ref": "Advice for all Papers 1 and 3",
+     "quote": "Keep most sentences short and focused. That will help with clarity and in making every point stand out for the examiner.",
+     "page": 15
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "text": "Many mark schemes give one mark for a point and a second mark only when you add its reason or detail. If you only list bare points, the marks are capped.",
+   "cites": [
+    {
+     "doc": "9626_w23_ms_13",
+     "ref": "Q (mainframes)",
+     "quote": "MAX two marks if answers are all only first marks.",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Answer the question as it is written, about the scenario it gives. Writing everything you know about a word you spotted in the question does not earn the marks.",
+   "cites": [
+    {
+     "doc": "9626_w25_er",
+     "ref": "Paper 3 General comments",
+     "quote": "the full range of marks is only available to candidates for answers referring to the scenario in the questions",
+     "page": 16
+    },
+    {
+     "doc": "9626_s24_er",
+     "ref": "Paper 31 General comments",
+     "quote": "Centres must ensure that candidates target their answers to the questions as they are written and not at ‘key’ words in the questions.",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Do not copy mark scheme bullets you have memorised. Examiners notice, and a list of learnt points is not an answer to a new question.",
+   "cites": [
+    {
+     "doc": "9626_w19_er",
+     "ref": "General comments",
+     "quote": "Examiners saw many scripts where candidates listed sets of bullet points that appeared to have been learnt directly from previous mark schemes.",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "kind": "tip",
+   "text": "The number of marks tells you how many separate points (or point-plus-reason pairs) to make.",
+   "cites": [
+    {
+     "doc": "9626_learner_guide",
+     "ref": "Advice for all papers",
+     "quote": "Look at how many marks are allocated to a question. This gives you a clue as to how much work is expected.",
+     "page": 15
+    }
+   ]
+  },
+  {
+   "kind": "tip",
+   "text": "Never leave a question blank. A few sentences on a topic you are unsure of can still earn marks.",
+   "cites": [
+    {
+     "doc": "9626_w25_er",
+     "ref": "Paper 3 General comments",
+     "quote": "Writing a few sentences, even if little is known about the topic, may gain valuable marks towards the overall total.",
+     "page": 16
+    }
+   ]
+  }
+ ]
+}

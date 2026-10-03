@@ -1,1 +1,7 @@
 PDFs/
+Text/
+data/cw_pages.jsonl
+data/cw_parts.json
+data/cw_packs/
+node_modules/
+__pycache__/
