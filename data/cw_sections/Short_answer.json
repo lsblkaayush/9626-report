@@ -1,0 +1,352 @@
+{
+ "group": "Short_answer",
+ "words": [
+  {
+   "word": "Identify",
+   "syllabus": {
+    "doc": "9626_syllabus_2025-2027",
+    "quote": "Identify name/select/recognise",
+    "page": 66
+   }
+  },
+  {
+   "word": "State",
+   "syllabus": {
+    "doc": "9626_syllabus_2025-2027",
+    "quote": "State express in clear terms",
+    "page": 66
+   }
+  },
+  {
+   "word": "Define",
+   "syllabus": {
+    "doc": "9626_syllabus_2025-2027",
+    "quote": "Define give precise meaning",
+    "page": 66
+   }
+  },
+  {
+   "word": "Suggest",
+   "syllabus": {
+    "doc": "9626_syllabus_2025-2027",
+    "quote": "Suggest apply knowledge and understanding to situations where there are a range of valid responses in order to make proposals/put forward considerations",
+    "page": 66
+   }
+  },
+  {
+   "word": "Give",
+   "syllabus": null,
+   "note": "Not in the syllabus command-word table (page 66)."
+  },
+  {
+   "word": "Name",
+   "syllabus": null,
+   "note": "Not in the syllabus command-word table (page 66)."
+  },
+  {
+   "word": "List",
+   "syllabus": null,
+   "note": "Not in the syllabus command-word table (page 66)."
+  }
+ ],
+ "one_line": "Give exactly what is asked, in as many items as asked: the correct technical term or a precise fact. Do not copy words from the question, and do not explain unless the question also says describe or explain.",
+ "points": [
+  {
+   "kind": "marks",
+   "text": "Short-answer questions usually give one mark for each correct item ('One from', 'Two from'). When Identify is joined to another word ('identify and describe'), the mark scheme uses matched pairs: one mark for the item and one for a description that goes with it.",
+   "cites": [
+    {
+     "doc": "9626_s25_ms_33",
+     "ref": "Q5(a)",
+     "quote": "ONE from: • a cryptographic hash of the previous block • a timestamp • (all the) transaction data",
+     "page": 7
+    },
+    {
+     "doc": "9626_m24_ms_12",
+     "ref": "Q2",
+     "quote": "Eight available. Max two for each matched pair: • Table name/title (1st)",
+     "page": 4
+    },
+    {
+     "doc": "9626_s25_ms_12",
+     "ref": "Q11",
+     "quote": "Max FOUR marks, TWO per paired answer • Length check (1st)",
+     "page": 10
+    }
+   ]
+  },
+  {
+   "kind": "tip",
+   "text": "For Identify, State and Name, a single word or short term can be enough. Examiners described one Identify question as looking for four one-word answers. Another wanted only the name or acronym of a protocol. One-word answers only fail when the question also asks you to describe or explain.",
+   "cites": [
+    {
+     "doc": "9626_s24_er",
+     "ref": "Paper 11 Q2",
+     "quote": "In effect, this question was a test of memory recall, as whilst the answer did not require precise wording, it was looking for four one-word answers",
+     "page": 2
+    },
+    {
+     "doc": "9626_s25_er",
+     "ref": "Paper 31 Q6(b)",
+     "quote": "This question required only a name or acronym of a protocol that works at the internet layer.",
+     "page": 19
+    },
+    {
+     "doc": "9626_w25_er",
+     "ref": "Paper 11 Q11",
+     "quote": "As candidates were asked to describe, rather than state, answers needed to be more than one-word answers.",
+     "page": 3
+    }
+   ]
+  },
+  {
+   "kind": "tip",
+   "text": "Give exactly the number of answers asked for. Extra answers are not marked: only the first ones, up to the number asked, are marked.",
+   "cites": [
+    {
+     "doc": "9626_w23_er",
+     "ref": "Paper 13 Q2",
+     "quote": "Where candidates are asked for a specific number of answers, only the first of these up to that number will be marked. Therefore, for this question, if a candidate gave more than four answers, only the first four were marked.",
+     "page": 8
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Do not copy something from the question as your answer. If the question already names an item or gives an example, repeating it earns nothing. A rewording of the question earns nothing either ('a command line interface uses commands').",
+   "cites": [
+    {
+     "doc": "9626_s25_er",
+     "ref": "Paper 33 general comments / Q5(a)",
+     "quote": "Candidates should not repeat the question in their answers. For example, Question 5(a) asks for one ‘other item of data’ but a significant number of candidates included the items given in the question stem in their answer, which did not gain them credit.",
+     "page": 24
+    },
+    {
+     "doc": "9626_w25_er",
+     "ref": "Paper 12 Q6(a)",
+     "quote": "repetition of the theft of data, which was included in the question as an example, was not accepted.",
+     "page": 6
+    },
+    {
+     "doc": "9626_w23_er",
+     "ref": "Paper 12 Q3",
+     "quote": "For example, candidates stated that a command line interface used commands or a gesture-based interface used gestures. In cases where candidates answered in these terms, without any further expansion, no credit could be awarded.",
+     "page": 6
+    },
+    {
+     "doc": "9626_w24_er",
+     "ref": "Paper 12 Q2(a)",
+     "quote": "some candidates stated that the age of information meant that information was outdated, which was not accepted, as it was effectively, a repeat of the question.",
+     "page": 3
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "A definition must be precise. Examiners praised short, exact definitions ('a sequence of characters'). They rejected answers that were nearly right but inaccurate, such as saying encrypted data is unreadable. Learn the exact meaning of each syllabus term.",
+   "cites": [
+    {
+     "doc": "9626_w24_er",
+     "ref": "Paper 33 Q1(a)",
+     "quote": "Many candidates could give the precise definition of a string as a ‘sequence of characters’.",
+     "page": 18
+    },
+    {
+     "doc": "9626_s23_er",
+     "ref": "Paper 11 Q1(a)",
+     "quote": "One common mistake is considering that encrypted data is unreadable without a key, which is one advantage of encrypting the data.",
+     "page": 2
+    },
+    {
+     "doc": "9626_w25_er",
+     "ref": "Paper 32 Q7",
+     "quote": "Many candidates could not precisely define a virtual currency and muddled their answers with vague details of different forms of digital currency",
+     "page": 17
+    },
+    {
+     "doc": "9626_s25_er",
+     "ref": "Paper 13 Q12",
+     "quote": "This question assessed candidates’ ability to provide definitions of key terms from the syllabus.",
+     "page": 12
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Use the exact names from the syllabus. Made-up names such as 'updating maintenance' got no marks.",
+   "cites": [
+    {
+     "doc": "9626_w23_er",
+     "ref": "Paper 32 Q11",
+     "quote": "Poorer answers incorrectly named the maintenance as e.g., ‘updating maintenance’ or ‘replacement’ maintenance. The names of the types of maintenance are given in Topic 16.8 so candidates are reminded to use these.",
+     "page": 18
+    },
+    {
+     "doc": "9626_w24_er",
+     "ref": "Paper 12 Q8(a)",
+     "quote": "Typical issues included stating that the field was numeric, but not stating what type of numeric field was best, or simply confusing the data types.",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Answer the command word and nothing else. If the question asks you to give reasons, a description gets no marks. If it asks about a problem, a definition gets no marks.",
+   "cites": [
+    {
+     "doc": "9626_w22_er",
+     "ref": "Paper 32 Q1(a)",
+     "quote": "Many candidates described tunnelling which did not answer the question. The question required candidates to give reasons why it would be used.",
+     "page": 16
+    },
+    {
+     "doc": "9626_m25_er",
+     "ref": "Paper 12 Q2",
+     "quote": "Candidates who failed to achieve marks usually did so because they gave a definition of visual checking, rather than answer the question.",
+     "page": 2
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Short answers still have to fit the scenario. Answers about the wrong part of the context were not accepted.",
+   "cites": [
+    {
+     "doc": "9626_w25_er",
+     "ref": "Paper 12 Q1",
+     "quote": "Where candidates did not achieve full marks, this was often because they listed issues to do with the train service itself.",
+     "page": 5
+    },
+    {
+     "doc": "9626_s23_er",
+     "ref": "Paper 12 Q1(a)",
+     "quote": "When faced with a question that has a clear context, learners should take this as an opportunity to apply their understanding in the particular context.",
+     "page": 6
+    }
+   ]
+  },
+  {
+   "kind": "tip",
+   "text": "Suggest is rare. In the one Suggest question from 2022 onward with an examiner comment (improving a flowchart), suggestions had to be relevant and placed clearly. A 2021 report criticised answers that said what something was instead of giving reasons that fitted the scenario.",
+   "cites": [
+    {
+     "doc": "9626_w23_er",
+     "ref": "Paper 13 Q8",
+     "quote": "As the question asks for improvement to the flowchart, candidates had to ensure that suggested improvements were both relevant and able to be clearly placed on the flowchart.",
+     "page": 10
+    },
+    {
+     "doc": "9626_s21_er",
+     "ref": "Paper 32 Q9(a)",
+     "quote": "While many responses provided some detail about what incremental prototyping involved, most did not give reasons why it might be used when developing a spreadsheet for managing finances.",
+     "page": 20
+    }
+   ]
+  }
+ ],
+ "examples": [
+  {
+   "doc": "9626_s24_qp_11",
+   "ref": "Q2",
+   "marks": 4,
+   "question": {
+    "doc": "9626_s24_qp_11",
+    "quote": "Identify four factors which can affect the quality of information.",
+    "page": 2
+   },
+   "context": null,
+   "strong": [
+    {
+     "sentence": "1 Accuracy",
+     "earns": {
+      "doc": "9626_s24_er",
+      "quote": "it was looking for four one-word answers",
+      "page": 2
+     }
+    },
+    {
+     "sentence": "2 Relevance",
+     "earns": {
+      "doc": "9626_s24_er",
+      "quote": "it was looking for four one-word answers",
+      "page": 2
+     }
+    },
+    {
+     "sentence": "3 Age",
+     "earns": {
+      "doc": "9626_s24_er",
+      "quote": "it was looking for four one-word answers",
+      "page": 2
+     }
+    },
+    {
+     "sentence": "4 Completeness",
+     "earns": {
+      "doc": "9626_s24_er",
+      "quote": "it was looking for four one-word answers",
+      "page": 2
+     }
+    }
+   ],
+   "weak": null,
+   "note": "The mark scheme accepts Accuracy, Relevance, Age, Level of detail and Completeness, one mark each. (The mark-scheme page is not quoted here because its bullet symbols do not extract cleanly.) Four correct words get all four marks, and you do not need sentences. Write only four, because extra answers are not marked."
+  },
+  {
+   "doc": "9626_s25_qp_33",
+   "ref": "Q5(a)",
+   "marks": 1,
+   "question": {
+    "doc": "9626_s25_qp_33",
+    "quote": "Blockchains contain the records and the cryptographic hashes used to secure the records. State one other item of data that makes up the blockchain.",
+    "page": 6
+   },
+   "context": null,
+   "strong": [
+    {
+     "sentence": "A timestamp.",
+     "earns": {
+      "doc": "9626_s25_ms_33",
+      "quote": "ONE from: • a cryptographic hash of the previous block • a timestamp",
+      "page": 7
+     }
+    }
+   ],
+   "weak": {
+    "answer": "The cryptographic hashes that secure the records.",
+    "marks_likely": "0 of 1",
+    "why": "The question already gives this item. Repeating the stem earns nothing.",
+    "basis": {
+     "doc": "9626_s25_er",
+     "quote": "a significant number of candidates included the items given in the question stem in their answer, which did not gain them credit.",
+     "page": 24
+    }
+   },
+   "note": "Read the stem and cross out anything already given before you answer. 'Other' means something not in the question."
+  },
+  {
+   "doc": "9626_w24_qp_33",
+   "ref": "Q1(a)",
+   "marks": 1,
+   "question": {
+    "doc": "9626_w24_qp_33",
+    "quote": "JavaScript can manipulate and store strings in variables. (a) Define the term string as used in JavaScript.",
+    "page": 2
+   },
+   "context": null,
+   "strong": [
+    {
+     "sentence": "A string is a sequence of characters.",
+     "earns": {
+      "doc": "9626_w24_ms_33",
+      "quote": "(An object representing) a sequence of (any) characters.",
+      "page": 5
+     }
+    }
+   ],
+   "weak": null,
+   "note": "One short, precise sentence gets the mark. The examiner report says the precise definition 'sequence of characters' was what good answers gave."
+  }
+ ],
+ "thin_evidence": "Counted from cw_parts.json tags (from 2022 onward): Identify 28, State 12, Give 11, Define 8, List 2, Suggest 2, Name 1. Some List and Name tags are really tick-box or other questions. Suggest rests on only one question from 2022 onward with an examiner comment (9626_w23_qp_13 Q8) plus one 2021 report, so treat that advice as thin. Give, Name and List are not in the syllabus command-word table. No examiner report we found says whether adding an example to a definition is rewarded or penalised, so this section makes no claim about it."
+}
