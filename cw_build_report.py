@@ -245,8 +245,12 @@ def build():
     for p in [p for p in g["points"] if p["kind"] == "format"]:
         h.append(point_html(p))
     h.append("</ol></div></section>")
-    h.append('<section><h2>How the marks are given</h2><ol class="pts">')
-    for p in [p for p in g["points"] if p["kind"] != "format"]:
+    h.append('<section><h2>How the marks are given</h2>')
+    rest, last = [p for p in g["points"] if p["kind"] != "format"], None
+    for p in rest:
+        if p.get("heading") != last:
+            h.append(("</ol>" if last is not None else "") + (f"<h3>{e(p['heading'])}</h3>" if p.get("heading") else "") + "<ol class='pts'>")
+            last = p.get("heading")
         h.append(point_html(p))
     h.append("</ol></section>")
     h.append('<section class="page"><h2>The words at a glance</h2><table class="glance"><tr><th>Command word</th><th>What to do</th></tr>')

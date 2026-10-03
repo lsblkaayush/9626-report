@@ -10,71 +10,37 @@
    }
   }
  ],
- "one_line": "Break the topic into its parts. For each part, say what it leads to in the situation in the question: point, then 'so', then the consequence.",
+ "one_line": "Break the topic into parts. For each part, say what it leads to in the question's situation.",
  "points": [
   {
    "kind": "marks",
-   "text": "Marks come from making a point and then expanding it into what it causes or means. Some mark schemes say an answer without expansions is not a proper analysis. Two 2022 mark schemes cap it at 6 of 8. We checked the 18 Analyse mark schemes from 2022 onward. None gives a mark for a conclusion.",
+   "heading": "Break it into points and expand them",
+   "text": "Make a point, then expand it into what it causes or means. Some mark schemes say a proper analysis must have expansions. Two November 2022 mark schemes cap an answer with no expansion at 6 of 8. None of the 18 Analyse mark schemes from 2022 on gives a mark for a conclusion.",
    "cites": [
-    {
-     "doc": "9626_w22_ms_13",
-     "ref": "Q9",
-     "quote": "Max six marks if bullets/list of points Max six marks if no attempt at expansion",
-     "page": 6
-    },
     {
      "doc": "9626_s22_ms_11",
      "ref": "Q3",
-     "quote": "Must be a proper analysis to gain full marks Max. six marks if bullets/list of points Must have expansions to be a proper analysis",
+     "quote": "Must have expansions to be a proper analysis",
      "page": 4
     },
     {
-     "doc": "9626_s23_er",
-     "ref": "Q7 (Paper 32)",
-     "quote": "candidates should produce answers that make a point and then expand on the point.",
-     "page": 22
+     "doc": "9626_w22_ms_13",
+     "ref": "Q9",
+     "quote": "Max six marks if no attempt at expansion",
+     "page": 6
     }
    ]
   },
   {
    "kind": "marks",
-   "text": "Show the links between the parts: one thing leads to another, which leads to a further effect. Examiners and mark schemes reward these chains of cause and effect.",
-   "cites": [
-    {
-     "doc": "9626_s23_er",
-     "ref": "Q7 (Paper 31)",
-     "quote": "Good answers should have made references to the need for greater bandwidth, for example, so IT infrastructure has to be upgraded which increases costs taking money from other needs",
-     "page": 18
-    },
-    {
-     "doc": "9626_m24_ms_12",
-     "ref": "Q12",
-     "quote": "Increased digital awareness leads to increased/better infrastructure// more investment in IT (accept personal equivalences) (1) which then leads to increased digital awareness (1)",
-     "page": 10
-    },
-    {
-     "doc": "9626_w23_ms_32",
-     "ref": "Q3",
-     "quote": "because at each compression/decompression more image information is lost (1)",
-     "page": 5
-    }
-   ]
-  },
-  {
-   "kind": "marks",
-   "text": "A short description or definition at the start can earn one or two marks, but no more. A description only earns marks when you use it to explain the effect or the reason.",
+   "heading": "Break it into points and expand them",
+   "text": "A short description or definition at the start can earn one or two marks. After that, a description earns marks only when you use it to explain an effect or a reason.",
    "cites": [
     {
      "doc": "9626_m22_ms_32",
      "ref": "Q3",
      "quote": "Max two from: Resolution is measured/described as pixels per inch/ppi",
      "page": 5
-    },
-    {
-     "doc": "9626_s23_er",
-     "ref": "Q7 (Paper 31)",
-     "quote": "Credit was given for a brief description of UHD television but the command word (see. p. 45 of the syllabus) analyse requires candidates to ‘examine in detail to show meaning, identify elements and the relationship between them’ so this question demanded more.",
-     "page": 18
     },
     {
      "doc": "9626_m25_er",
@@ -85,50 +51,9 @@
    ]
   },
   {
-   "kind": "tip",
-   "text": "Cover good and bad sides where they exist. You do not always need both for full marks. But some mark schemes cap answers that cover only one side or one item.",
-   "cites": [
-    {
-     "doc": "9626_s24_er",
-     "ref": "Q8 (Paper 32)",
-     "quote": "While it was possible to gain full credit without doing so, a full analysis should have given details of both ‘for’ and ‘against’ the use of the waterfall method in the question scenario",
-     "page": 23
-    },
-    {
-     "doc": "9626_s22_er",
-     "ref": "Q9 (Paper 32)",
-     "quote": "Typically, some of the stronger responses did detail the good and the bad aspects and explain them in detail to show meaning",
-     "page": 18
-    },
-    {
-     "doc": "9626_w23_ms_32",
-     "ref": "Q3",
-     "quote": "Max 4 for all lossless or for all lossy",
-     "page": 5
-    }
-   ]
-  },
-  {
    "kind": "mistake",
-   "text": "Writing about what the thing is or how it works, instead of the effect the question asks about. If the question asks about risks to an economy or effects on an image, every point must reach that.",
-   "cites": [
-    {
-     "doc": "9626_s23_er",
-     "ref": "Q7 (Paper 32)",
-     "quote": "This question was not about digital currencies and what they are or how they work. It was about the risks to an economy that might occur as a result of the use of digital currencies.",
-     "page": 22
-    },
-    {
-     "doc": "9626_w23_er",
-     "ref": "Q3 (Paper 32)",
-     "quote": "references to a reduction in file size without an accompanying consequence on the image itself did not answer the question.",
-     "page": 16
-    }
-   ]
-  },
-  {
-   "kind": "mistake",
-   "text": "Listing features. A list of points without expansion gets few marks.",
+   "heading": "Break it into points and expand them",
+   "text": "Listing features gets few marks. Expand each one.",
    "cites": [
     {
      "doc": "9626_s22_er",
@@ -145,39 +70,67 @@
    ]
   },
   {
-   "kind": "format",
-   "text": "Write in full sentences. 10 of the 18 Analyse mark schemes from 2022 on (all 2022-2023) cap bullet points. The caps are 6 of 8, 5 of 7, or 4 or 5 of 6.",
+   "kind": "marks",
+   "heading": "Show the links",
+   "text": "Show how one thing leads to another, and then to a further effect. Examiners and mark schemes reward these chains of cause and effect.",
    "cites": [
     {
-     "doc": "9626_m23_er",
-     "ref": "General comments (Paper 12)",
-     "quote": "questions that ask candidates to ‘analyse’ or ‘discuss’ require detailed responses that include a proper analysis or discussion, rather than short or bullet-pointed responses.",
-     "page": 1
+     "doc": "9626_s23_er",
+     "ref": "Q7 (Paper 31)",
+     "quote": "Good answers should have made references to the need for greater bandwidth, for example, so IT infrastructure has to be upgraded which increases costs taking money from other needs",
+     "page": 18
     },
     {
-     "doc": "9626_s23_ms_31",
-     "ref": "Q7",
-     "quote": "Max 4 marks if bullets/list of points/characteristics.",
-     "page": 8
+     "doc": "9626_m24_ms_12",
+     "ref": "Q12",
+     "quote": "Increased digital awareness leads to increased/better infrastructure// more investment in IT (accept personal equivalences) (1) which then leads to increased digital awareness (1)",
+     "page": 10
+    }
+   ]
+  },
+  {
+   "kind": "tip",
+   "heading": "Show the links",
+   "text": "Cover good and bad sides where they exist. A June 2024 examiner report says full marks were possible without both. Some mark schemes cap an answer that covers only one side or one item.",
+   "cites": [
+    {
+     "doc": "9626_s24_er",
+     "ref": "Q8 (Paper 32)",
+     "quote": "While it was possible to gain full credit without doing so, a full analysis should have given details of both ‘for’ and ‘against’ the use of the waterfall method in the question scenario",
+     "page": 23
     },
     {
-     "doc": "9626_w22_ms_11",
-     "ref": "Q7",
-     "quote": "Max. six marks if bullets/list of points Max six if no expansions",
-     "page": 6
+     "doc": "9626_w23_ms_32",
+     "ref": "Q3",
+     "quote": "Max 4 for all lossless or for all lossy",
+     "page": 5
     }
    ]
   },
   {
    "kind": "mistake",
-   "text": "Ignoring the focus of the question, or being vague. Stay on the exact topic in the question. Avoid empty phrases like 'looks better'.",
+   "heading": "Stay on the question",
+   "text": "Write about the effect the question asks for. If it asks about risks to an economy or effects on an image, every point must reach that.",
    "cites": [
     {
-     "doc": "9626_w23_er",
-     "ref": "Q11 (Paper 13)",
-     "quote": "Many candidates attempted to give answers that did not focus on the production of weather forecasts, or were too vague and little credit could be given.",
-     "page": 10
+     "doc": "9626_s23_er",
+     "ref": "Q7 (Paper 32)",
+     "quote": "It was about the risks to an economy that might occur as a result of the use of digital currencies.",
+     "page": 22
     },
+    {
+     "doc": "9626_w23_er",
+     "ref": "Q3 (Paper 32)",
+     "quote": "references to a reduction in file size without an accompanying consequence on the image itself did not answer the question.",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "heading": "Stay on the question",
+   "text": "Keep to the exact focus of the question. Avoid empty phrases like 'looks better'.",
+   "cites": [
     {
      "doc": "9626_m24_er",
      "ref": "Q12 (Paper 12)",
@@ -194,13 +147,33 @@
   },
   {
    "kind": "tip",
-   "text": "Read the whole question. If it names something and asks about 'other' ones, the named ones earn nothing.",
+   "heading": "Stay on the question",
+   "text": "Read the whole question. If it names some tools and asks about other ones, the named tools earn nothing.",
    "cites": [
     {
      "doc": "9626_s25_er",
      "ref": "Q4 (Paper 32)",
      "quote": "a significant number of a candidates included the tools mentioned in the question in their answer, which did not gain them credit.",
      "page": 20
+    }
+   ]
+  },
+  {
+   "kind": "format",
+   "heading": "Write in sentences",
+   "text": "Write in full sentences. 10 of the 18 Analyse mark schemes, all from 2022 and 2023, cap bullet points. The caps are 6 of 8, 5 of 7, and 4 or 5 of 6.",
+   "cites": [
+    {
+     "doc": "9626_m23_er",
+     "ref": "General comments (Paper 12)",
+     "quote": "questions that ask candidates to ‘analyse’ or ‘discuss’ require detailed responses that include a proper analysis or discussion, rather than short or bullet-pointed responses.",
+     "page": 1
+    },
+    {
+     "doc": "9626_s23_ms_31",
+     "ref": "Q7",
+     "quote": "Max 4 marks if bullets/list of points/characteristics",
+     "page": 8
     }
    ]
   }
@@ -268,16 +241,15 @@
    ],
    "weak": {
     "answer": "Compression makes the file size smaller, so the image takes up less storage space and is quicker to send by email. Lossy makes the file smaller than lossless.",
-    "marks_likely": "at most 1 of 6",
-    "why": "It talks about file size and sending time, not about the effect on the image. The question asked about the effect on the image.",
+    "marks_likely": "0-1 of 6",
+    "why": "It talks about file size and sending time. The question asked about the effect on the image.",
     "basis": {
      "doc": "9626_w23_er",
      "quote": "references to a reduction in file size without an accompanying consequence on the image itself did not answer the question.",
      "page": 16
     }
-   },
-   "note": "The answer covers both methods (the mark scheme allows at most 4 marks for one method). Each sentence says what happens to the image. The 'because' and 'as a result' links are the analysis."
+   }
   }
  ],
- "thin_evidence": "There are 19 Analyse parts from 2022 onward (18 with a matched mark scheme), mostly on Paper 3. That is enough to see the pattern, but fewer than for Evaluate or Discuss. One examiner report comment (June 2024, Paper 32, Q8) says you could get full marks without both sides. So 'cover both sides' is advice, not a fixed rule."
+ "thin_evidence": "Analyse: 19 question parts from Papers 1 and 3, 2022 to March 2026, 13 of them on Paper 3. 18 have mark schemes, all from 2022 to 2025. One examiner report (June 2024, Paper 32, Q8) says full marks were possible without both sides."
 }

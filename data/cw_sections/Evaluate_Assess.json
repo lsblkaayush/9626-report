@@ -18,48 +18,127 @@
    }
   }
  ],
- "one_line": "Give points for AND against. Add a consequence to each point and say how much it matters in this scenario. End with a reasoned overall judgement.",
+ "one_line": "Give points for and against, each with a consequence and how much it matters here. End with a reasoned overall judgement.",
  "points": [
   {
-   "kind": "marks",
-   "text": "You must write about both sides. Some 2022-2023 mark schemes cap answers that are all for or all against at 6 of 8. This is 3 of the 24 Evaluate mark schemes from 2022 on. Two mark schemes say you need at least two points on each side for full marks.",
+   "kind": "tip",
+   "heading": "Judge each point",
+   "text": "Evaluate asks you to judge the importance or value of something. Discuss asks you to write in depth in a structured way. You can judge each point, or give one judgement on the whole answer.",
    "cites": [
     {
-     "doc": "9626_w23_ms_32",
-     "ref": "Q8",
-     "quote": "Max 6 if all for or all against. Max 6 marks if bullets/list of points.",
-     "page": 10
+     "doc": "9626_syllabus_2025-2027",
+     "ref": "Command words, p.66",
+     "quote": "Discuss write about issue(s) or topic(s) in depth in a structured way Evaluate judge or calculate the quality, importance, amount, or value of something",
+     "page": 66
     },
     {
-     "doc": "9626_m23_ms_32",
-     "ref": "Q9",
-     "quote": "Must be at least two of each for full marks. Max 6 marks if bullets/list of points.",
-     "page": 7
+     "doc": "9626_w24_er",
+     "ref": "Q11(b) (Paper 33)",
+     "quote": "the judgement can be for individual points or for an overall judgement on the whole content of the answer",
+     "page": 21
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "heading": "Judge each point",
+   "text": "The most common mistake is to describe how the thing works and never judge it. For each feature, say whether it helps or causes problems.",
+   "cites": [
+    {
+     "doc": "9626_m23_er",
+     "ref": "Q6(b)",
+     "quote": "Candidates seemed to have some understanding of each process, but preferred to describe each of these than actually evaluate their efficacy.",
+     "page": 3
     },
     {
-     "doc": "9626_w22_ms_32",
-     "ref": "Q5",
-     "quote": "Must be at least 2 strengths and at least 2 weaknesses for full marks.",
-     "page": 6
+     "doc": "9626_w23_er",
+     "ref": "Q9 (Paper 33)",
+     "quote": "candidates were expected to make factual statements about project management software (PMS) and then expand on these with comments about whether these facts helped or hindered the project.",
+     "page": 21
     }
    ]
   },
   {
    "kind": "marks",
-   "text": "Recent mark schemes give one mark for a conclusion. We checked the Evaluate parts from 2022 onward. 8 of the 24 with a mark scheme have a conclusion mark. All 8 are from November 2024 or later. That is 8 of the 9 mark schemes from that date on. End with a short overall judgement that brings your points together.",
+   "heading": "Judge each point",
+   "text": "Good answers take each point through three steps: a fact, its consequence, and a judgement of how much it matters. Some mark schemes give a first mark for the point and more for the expansion. June 2025 Paper 13 Q11 allows at most 4 marks for first marks alone.",
    "cites": [
+    {
+     "doc": "9626_s25_er",
+     "ref": "Q7 (Paper 33)",
+     "quote": "Good answers gave a description of how compression was used or of the effects of the compression and then added a consequence followed by a judgment",
+     "page": 26
+    },
     {
      "doc": "9626_s25_ms_13",
      "ref": "Q11",
-     "quote": "Valid conclusion drawing together/based on arguments presented in the answer (1)",
+     "quote": "MAX four for 1st marks only",
+     "page": 9
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "heading": "Judge each point",
+   "text": "Some mark schemes give one mark for a short definition or description of the thing you evaluate. Write one sentence, then start judging.",
+   "cites": [
+    {
+     "doc": "9626_m24_ms_12",
+     "ref": "Q9",
+     "quote": "One mark for a description of encryption (e.g. data scrambled/converted to cyphertext)",
      "page": 9
     },
     {
-     "doc": "9626_w25_ms_32",
+     "doc": "9626_s25_ms_31",
      "ref": "Q11",
-     "quote": "Max one from: Conclusion: • One mark for a reasoned conclusion / overall judgement",
+     "quote": "Valid definition / description of video-conferencing in education",
+     "page": 15
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "heading": "Cover both sides",
+   "text": "Write about both sides. 3 of the 24 Evaluate mark schemes, all from November 2023, cap an answer that is all for or all against at 6 of 8. 2 others need at least two points on each side for full marks.",
+   "cites": [
+    {
+     "doc": "9626_w23_ms_32",
+     "ref": "Q8",
+     "quote": "Max 6 if all for or all against",
      "page": 10
     },
+    {
+     "doc": "9626_m23_ms_32",
+     "ref": "Q9",
+     "quote": "Must be at least two of each for full marks",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "heading": "Cover both sides",
+   "text": "One-sided answers lose marks. The two sides do not need to be equal. In June 2025, the examiners accepted more points for than against.",
+   "cites": [
+    {
+     "doc": "9626_s25_er",
+     "ref": "Q10 (Paper 12)",
+     "quote": "Candidates tended to concentrate on the positive implications, rather than both the positive and the negative, and this did restrict the overall marks",
+     "page": 8
+    },
+    {
+     "doc": "9626_s25_er",
+     "ref": "Q11 (Paper 13)",
+     "quote": "Typically, candidates gave more answers in support than against, but this was acceptable.",
+     "page": 12
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "heading": "End with a judgement",
+   "text": "8 of the 24 Evaluate mark schemes give one mark for a conclusion. All 8 are from November 2024 or later. That is 8 of the 9 mark schemes since that date. End with a short overall judgement that brings your points together.",
+   "cites": [
     {
      "doc": "9626_w24_ms_32",
      "ref": "Q10",
@@ -76,7 +155,8 @@
   },
   {
    "kind": "mistake",
-   "text": "If you leave out a conclusion, you can lose marks. In the March 2024 examiner report (Paper 12, Q9), examiners said students did not reach a realistic conclusion. This reduced their marks.",
+   "heading": "End with a judgement",
+   "text": "Leaving out the conclusion costs marks. The March 2024 examiner report (Paper 12, Q9) says students did not reach a realistic conclusion. This reduced their marks.",
    "cites": [
     {
      "doc": "9626_m24_er",
@@ -87,80 +167,9 @@
    ]
   },
   {
-   "kind": "marks",
-   "text": "Good answers take each point through three steps. First give a fact, then a consequence of that fact, then a judgement about how much it matters. Some mark schemes give a first mark for the point and more marks for the expansion. They also limit how many marks plain points can earn.",
-   "cites": [
-    {
-     "doc": "9626_s25_er",
-     "ref": "Q7 (Paper 33)",
-     "quote": "Good answers gave a description of how compression was used or of the effects of the compression and then added a consequence followed by a judgment as to the desirability or further effect of the compression.",
-     "page": 26
-    },
-    {
-     "doc": "9626_s25_ms_13",
-     "ref": "Q11",
-     "quote": "Eight marks from: MAX four for 1st marks only Evaluations:",
-     "page": 9
-    },
-    {
-     "doc": "9626_m22_ms_12",
-     "ref": "Q8",
-     "quote": "Must have expansions to be a proper evaluation",
-     "page": 8
-    }
-   ]
-  },
-  {
-   "kind": "mistake",
-   "text": "The most common mistake is describing how the thing works instead of judging it. Knowing the topic is not enough. You have to say whether each feature helps or causes problems.",
-   "cites": [
-    {
-     "doc": "9626_m23_er",
-     "ref": "Q6(b)",
-     "quote": "Candidates seemed to have some understanding of each process, but preferred to describe each of these than actually evaluate their efficacy.",
-     "page": 3
-    },
-    {
-     "doc": "9626_w24_er",
-     "ref": "Q3 (Paper 12)",
-     "quote": "In some cases, candidates described how control technologies worked. Typically, this involved an in-depth discussion of sensors.",
-     "page": 3
-    },
-    {
-     "doc": "9626_w23_er",
-     "ref": "Q9 (Paper 33)",
-     "quote": "candidates were expected to make factual statements about project management software (PMS) and then expand on these with comments about whether these facts helped or hindered the project.",
-     "page": 21
-    }
-   ]
-  },
-  {
-   "kind": "mistake",
-   "text": "One-sided answers lose marks. Both sides must be there, but they do not need to be exactly equal. The examiners accepted more points for than against.",
-   "cites": [
-    {
-     "doc": "9626_s24_er",
-     "ref": "General comments (Paper 11)",
-     "quote": "some candidates seemed not to understand the importance of ‘evaluate’ as a command word, and so gave a one-sided answer.",
-     "page": 1
-    },
-    {
-     "doc": "9626_s25_er",
-     "ref": "Q10 (Paper 12)",
-     "quote": "Candidates tended to concentrate on the positive implications, rather than both the positive and the negative, and this did restrict the overall marks scored for this question in a few cases.",
-     "page": 8
-    },
-    {
-     "doc": "9626_s25_er",
-     "ref": "Q11 (Paper 13)",
-     "quote": "Typically, candidates gave more answers in support than against, but this was acceptable.",
-     "page": 12
-    }
-   ]
-  },
-  {
    "kind": "format",
-   "text": "Write in full sentences and paragraphs, not bullet points or a table. 9 of the 24 Evaluate mark schemes from 2022 on (all 2022-2024) cap a bulleted list. The cap is usually 6 of 8 marks (5 of 6 on 6-mark questions).",
+   "heading": "Paragraphs about the given scenario",
+   "text": "Write in full sentences and paragraphs. 9 of the 24 Evaluate mark schemes, all from 2022 to 2024, cap a bulleted list. The cap is usually 6 of 8, or 5 of 6 on 6-mark questions.",
    "cites": [
     {
      "doc": "9626_m23_er",
@@ -171,26 +180,15 @@
     {
      "doc": "9626_m22_ms_32",
      "ref": "Q4",
-     "quote": "Must be a proper evaluation for full marks. Max 6 marks if bullets/list of points.",
+     "quote": "Max 6 marks if bullets/list of points",
      "page": 6
-    },
-    {
-     "doc": "9626_m23_ms_12",
-     "ref": "Q6(b)",
-     "quote": "Max. five marks if all three methods not covered Max. five marks if bullets/list of points",
-     "page": 8
-    },
-    {
-     "doc": "9626_s25_er",
-     "ref": "General comments (Paper 31)",
-     "quote": "Answers with bulleted, short statements for free response questions, especially those requiring analyses, discussions and evaluations do not adequately answer the question.",
-     "page": 17
     }
    ]
   },
   {
    "kind": "tip",
-   "text": "Judge the thing in the scenario in the question, not in general. Some answers about spreadsheets never mentioned financial modelling, and they did badly.",
+   "heading": "Paragraphs about the given scenario",
+   "text": "Judge the thing in the scenario the question gives. Answers about spreadsheets that never mentioned financial modelling did badly.",
    "cites": [
     {
      "doc": "9626_m23_er",
@@ -201,62 +199,21 @@
     {
      "doc": "9626_s25_er",
      "ref": "Q11 (Paper 13)",
-     "quote": "Whilst some lenience was allowed, candidates who failed to make any mention of financial modelling struggled to score well on this question.",
+     "quote": "candidates who failed to make any mention of financial modelling struggled to score well on this question",
      "page": 12
     }
    ]
   },
   {
    "kind": "tip",
-   "text": "Evaluate only what the question names. You do not need to compare it with other methods unless the question asks you to.",
+   "heading": "Paragraphs about the given scenario",
+   "text": "Evaluate only what the question names. Compare it with other methods only if the question asks you to.",
    "cites": [
     {
      "doc": "9626_w23_er",
      "ref": "Q8 (Paper 32)",
      "quote": "It was not necessary to compare pilot with other possible methods of implementation because the question asked candidates to ‘evaluate pilot implementation’ and made no mention of the other methods.",
      "page": 17
-    }
-   ]
-  },
-  {
-   "kind": "tip",
-   "text": "Evaluate is not the same as Discuss. Discuss asks you to write in depth in a structured way. Evaluate asks you to judge importance or value. You can give a judgement on each point or on the whole answer. We checked the 77 Discuss mark schemes from 2022 onward. None has a conclusion mark, but recent Evaluate mark schemes do.",
-   "cites": [
-    {
-     "doc": "9626_syllabus_2025-2027",
-     "ref": "Command words, p.66",
-     "quote": "Discuss write about issue(s) or topic(s) in depth in a structured way Evaluate judge or calculate the quality, importance, amount, or value of something",
-     "page": 66
-    },
-    {
-     "doc": "9626_w24_er",
-     "ref": "Q10 (Paper 32)",
-     "quote": "The command word ‘evaluate’ requires a judgement of the importance of the points being made about the method of prototyping.",
-     "page": 17
-    },
-    {
-     "doc": "9626_w24_er",
-     "ref": "Q11(b) (Paper 33)",
-     "quote": "In questions where an evaluation is, or evaluations are, required, the judgement can be for individual points or for an overall judgement on the whole content of the answer.",
-     "page": 21
-    }
-   ]
-  },
-  {
-   "kind": "marks",
-   "text": "Some mark schemes give one mark for a short definition or description of the thing you evaluate. Keep it to one sentence, then start judging it.",
-   "cites": [
-    {
-     "doc": "9626_m24_ms_12",
-     "ref": "Q9",
-     "quote": "One mark for a description of encryption (e.g. data scrambled/converted to cyphertext)",
-     "page": 9
-    },
-    {
-     "doc": "9626_s25_ms_31",
-     "ref": "Q11",
-     "quote": "Valid definition / description of video-conferencing in education",
-     "page": 15
     }
    ]
   }
@@ -324,15 +281,14 @@
    ],
    "weak": {
     "answer": "Dialogue interfaces are good for disabled people. You control things with your voice. It is hands-free and easy to use.",
-    "marks_likely": "about 2 of 6",
-    "why": "Every point is positive. No point has a consequence, and there is no conclusion. So the answer cannot reach most of the marks for drawbacks and for the judgement.",
+    "marks_likely": "2 of 6",
+    "why": "Every point is positive. No point has a consequence, and there is no conclusion. The marks for drawbacks and for the judgement are out of reach.",
     "basis": {
      "doc": "9626_s25_er",
      "quote": "Candidates tended to concentrate on the positive implications, rather than both the positive and the negative, and this did restrict the overall marks scored for this question in a few cases.",
      "page": 8
     }
-   },
-   "note": "Three sentences for, two against and one conclusion. The conclusion mark is easy to get if you remember to write one."
+   }
   },
   {
    "doc": "9626_w24_qp_32",
@@ -412,16 +368,15 @@
    ],
    "weak": {
     "answer": "Evolutionary prototyping involves the users. The screen can be changed. It can be expensive. It takes a long time.",
-    "marks_likely": "probably no more than 3 of 8",
+    "marks_likely": "0-3 of 8",
     "why": "These are bare statements. No statement has a consequence or a judgement after it, and there is no conclusion.",
     "basis": {
      "doc": "9626_w24_er",
      "quote": "Weaker answers confused the methods of prototyping, made statements with no consequences, expansion, or judgments.",
      "page": 17
     }
-   },
-   "note": "Both answers contain the same facts. The strong answer earns more because it follows each fact with what it leads to and how much it matters. It also ends with a judgement."
+   }
   }
  ],
- "thin_evidence": "Evaluate has plenty of evidence: 25 question parts from 2022 onward (114 in all years). Assess is in the syllabus list of command words. But no question part uses Assess as its command word. A search of all question paper pages found no question that starts with 'Assess'. There are no Assess mark schemes or examiner report comments. So this report gives no separate advice for Assess beyond its syllabus definition ('make an informed judgement'). The count of conclusion marks comes from a text search of the mark schemes for 'conclusion' or 'overall judgement'."
+ "thin_evidence": "Evaluate: 25 question parts from Papers 1 and 3, 2022 to March 2026. 24 have mark schemes, all from 2022 to 2025. The conclusion mark appears only from November 2024, in 8 of 9 mark schemes. Assess is in the syllabus list, but no question part from 2017 on uses it. There are no Assess mark schemes or examiner report comments, so the only advice for Assess is its syllabus definition."
 }
