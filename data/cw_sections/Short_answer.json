@@ -54,19 +54,13 @@
   {
    "kind": "tip",
    "heading": "How much to write",
-   "text": "For Identify, State and Name, a single word or short term can be enough. Examiners described one Identify question as looking for four one-word answers. Another question wanted only the name or acronym of a protocol.",
+   "text": "For Identify, State and Name, a single word or short term can be enough. Examiners described one Identify question as looking for four one-word answers.",
    "cites": [
     {
      "doc": "9626_s24_er",
      "ref": "Paper 11 Q2",
      "quote": "In effect, this question was a test of memory recall, as whilst the answer did not require precise wording, it was looking for four one-word answers",
      "page": 2
-    },
-    {
-     "doc": "9626_s25_er",
-     "ref": "Paper 31 Q6(b)",
-     "quote": "This question required only a name or acronym of a protocol that works at the internet layer.",
-     "page": 19
     }
    ]
   },
@@ -106,12 +100,6 @@
      "ref": "Q2",
      "quote": "Max two for each matched pair",
      "page": 4
-    },
-    {
-     "doc": "9626_s25_ms_12",
-     "ref": "Q11",
-     "quote": "Max FOUR marks, TWO per paired answer",
-     "page": 10
     }
    ]
   },
@@ -131,7 +119,7 @@
   {
    "kind": "mistake",
    "heading": "Use the exact term",
-   "text": "Make a definition precise. Examiners praised short, exact definitions such as 'a sequence of characters'. They called nearly-right answers a common mistake. One example is saying that encrypted data is unreadable. In fact the data is readable, but its meaning is hidden. Learn the exact meaning of each syllabus term.",
+   "text": "Make a definition precise. Examiners praised short, exact definitions such as 'a sequence of characters'. They called nearly-right answers a common mistake, for example saying that encrypted data is unreadable. In fact the data is readable, but its meaning is hidden. Learn the exact meaning of each syllabus term.",
    "cites": [
     {
      "doc": "9626_w24_er",
@@ -150,7 +138,7 @@
   {
    "kind": "mistake",
    "heading": "Use the exact term",
-   "text": "Use the exact names from the syllabus. Made-up names such as 'updating maintenance' got no marks. Be as specific as the question asks. For example, 'numeric' was not enough when the question asked which numeric data type.",
+   "text": "Use the exact names from the syllabus. Made-up names such as 'updating maintenance' got no marks. Be as specific as the question asks. When a question asked which type of numeric field was best, 'numeric' alone was not enough.",
    "cites": [
     {
      "doc": "9626_w23_er",
@@ -214,19 +202,13 @@
      "ref": "Paper 12 Q1",
      "quote": "Where candidates did not achieve full marks, this was often because they listed issues to do with the train service itself.",
      "page": 5
-    },
-    {
-     "doc": "9626_s23_er",
-     "ref": "Paper 12 Q1(a)",
-     "quote": "When faced with a question that has a clear context, learners should take this as an opportunity to apply their understanding in the particular context.",
-     "page": 6
     }
    ]
   },
   {
    "kind": "tip",
    "heading": "Suggest needs reasons that fit",
-   "text": "Suggest is rare, with 2 parts from 2022 onward. One of them has an examiner comment, on improving a flowchart. Each suggestion had to be relevant and had to fit clearly on the flowchart. A 2021 report on a Suggest question criticised answers that said what something was. Those answers gave no reasons that fitted the scenario.",
+   "text": "Suggest is rare, with 2 parts from 2022 onward. One of them has an examiner comment, on improving a flowchart. Each suggestion had to be relevant and had to fit clearly on the flowchart. A 2021 report on a Suggest question criticised answers that said what something was but gave no reasons that fitted the scenario.",
    "cites": [
     {
      "doc": "9626_w23_er",
@@ -288,8 +270,7 @@
      }
     }
    ],
-   "weak": null,
-   "note": "The mark scheme also accepts Level of detail."
+   "weak": null
   },
   {
    "doc": "9626_s25_qp_33",

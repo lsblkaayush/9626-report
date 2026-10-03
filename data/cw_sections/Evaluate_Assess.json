@@ -26,12 +26,6 @@
    "text": "Evaluate asks you to judge the importance or value of something. Discuss asks you to write in depth in a structured way. You can judge each point, or give one judgement on the whole answer.",
    "cites": [
     {
-     "doc": "9626_syllabus_2025-2027",
-     "ref": "Command words, p.66",
-     "quote": "Discuss write about issue(s) or topic(s) in depth in a structured way Evaluate judge or calculate the quality, importance, amount, or value of something",
-     "page": 66
-    },
-    {
      "doc": "9626_w24_er",
      "ref": "Q11(b) (Paper 33)",
      "quote": "the judgement can be for individual points or for an overall judgement on the whole content of the answer",
@@ -49,12 +43,6 @@
      "ref": "Q6(b)",
      "quote": "Candidates seemed to have some understanding of each process, but preferred to describe each of these than actually evaluate their efficacy.",
      "page": 3
-    },
-    {
-     "doc": "9626_w23_er",
-     "ref": "Q9 (Paper 33)",
-     "quote": "candidates were expected to make factual statements about project management software (PMS) and then expand on these with comments about whether these facts helped or hindered the project.",
-     "page": 21
     }
    ]
   },
@@ -87,12 +75,6 @@
      "ref": "Q9",
      "quote": "One mark for a description of encryption (e.g. data scrambled/converted to cyphertext)",
      "page": 9
-    },
-    {
-     "doc": "9626_s25_ms_31",
-     "ref": "Q11",
-     "quote": "Valid definition / description of video-conferencing in education",
-     "page": 15
     }
    ]
   },
@@ -144,12 +126,6 @@
      "ref": "Q10",
      "quote": "One mark is available for a valid conclusion / judgement (must have considered both pros and cons).",
      "page": 15
-    },
-    {
-     "doc": "9626_w24_er",
-     "ref": "Q3 (Paper 12)",
-     "quote": "Such discussions should end with a conclusion that revisits and brings together the points made.",
-     "page": 4
     }
    ]
   },
@@ -167,35 +143,10 @@
    ]
   },
   {
-   "kind": "format",
-   "heading": "Paragraphs on the thing named",
-   "text": "Write in full sentences and paragraphs. 9 of the 24 Evaluate mark schemes, all from 2022 to 2024, cap a bulleted list. The cap is usually 6 of 8, or 5 of 6 on 6-mark questions.",
-   "cites": [
-    {
-     "doc": "9626_m23_er",
-     "ref": "General comments (Paper 12)",
-     "quote": "A detailed answer is needed, which cannot be achieved by writing bullet points.",
-     "page": 1
-    },
-    {
-     "doc": "9626_m22_ms_32",
-     "ref": "Q4",
-     "quote": "Max 6 marks if bullets/list of points",
-     "page": 6
-    }
-   ]
-  },
-  {
    "kind": "tip",
-   "heading": "Paragraphs on the thing named",
+   "heading": "Stay on the thing named",
    "text": "Judge the thing in the scenario the question gives. Answers about spreadsheets that never mentioned financial modelling did badly.",
    "cites": [
-    {
-     "doc": "9626_m23_er",
-     "ref": "General comments (Paper 12)",
-     "quote": "To gain full credit, candidates must produce a reasoned evaluation that weighs up the advantages and disadvantages for the given scenario/context.",
-     "page": 1
-    },
     {
      "doc": "9626_s25_er",
      "ref": "Q11 (Paper 13)",
@@ -206,7 +157,7 @@
   },
   {
    "kind": "tip",
-   "heading": "Paragraphs on the thing named",
+   "heading": "Stay on the thing named",
    "text": "Evaluate only what the question names. Compare it with other methods only if the question asks you to.",
    "cites": [
     {

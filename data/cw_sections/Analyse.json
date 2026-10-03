@@ -56,12 +56,6 @@
    "text": "Listing features gets few marks. Expand each one.",
    "cites": [
     {
-     "doc": "9626_s22_er",
-     "ref": "Q3 (Paper 11)",
-     "quote": "Responses often consisted of lists of the features of encryption.",
-     "page": 2
-    },
-    {
      "doc": "9626_s23_er",
      "ref": "Q9 (Paper 31)",
      "quote": "The weaker answers did not go beyond listing points so could not gain many marks.",
@@ -74,12 +68,6 @@
    "heading": "Show the links",
    "text": "Show how one thing leads to another, and then to a further effect. Examiners and mark schemes reward these chains of cause and effect.",
    "cites": [
-    {
-     "doc": "9626_s23_er",
-     "ref": "Q7 (Paper 31)",
-     "quote": "Good answers should have made references to the need for greater bandwidth, for example, so IT infrastructure has to be upgraded which increases costs taking money from other needs",
-     "page": 18
-    },
     {
      "doc": "9626_m24_ms_12",
      "ref": "Q12",
@@ -113,12 +101,6 @@
    "text": "Write about the effect the question asks for. If it asks about risks to an economy or effects on an image, every point must reach that.",
    "cites": [
     {
-     "doc": "9626_s23_er",
-     "ref": "Q7 (Paper 32)",
-     "quote": "It was about the risks to an economy that might occur as a result of the use of digital currencies.",
-     "page": 22
-    },
-    {
      "doc": "9626_w23_er",
      "ref": "Q3 (Paper 32)",
      "quote": "references to a reduction in file size without an accompanying consequence on the image itself did not answer the question.",
@@ -131,12 +113,6 @@
    "heading": "Reach the effect the question asks for",
    "text": "Keep to the exact focus of the question. Avoid empty phrases like 'looks better'.",
    "cites": [
-    {
-     "doc": "9626_m24_er",
-     "ref": "Q12 (Paper 12)",
-     "quote": "Questions about the digital divide require candidates to concentrate on the specific focus, otherwise answers tend to be generic, unfocused and, usually, largely irrelevant.",
-     "page": 3
-    },
     {
      "doc": "9626_m25_er",
      "ref": "Q11 (Paper 32)",
@@ -155,25 +131,6 @@
      "ref": "Q4 (Paper 32)",
      "quote": "a significant number of a candidates included the tools mentioned in the question in their answer, which did not gain them credit.",
      "page": 20
-    }
-   ]
-  },
-  {
-   "kind": "format",
-   "heading": "Write in sentences",
-   "text": "Write in full sentences. 10 of the 18 Analyse mark schemes, all from 2022 and 2023, cap bullet points. The caps are 6 of 8, 5 of 7, and 4 or 5 of 6.",
-   "cites": [
-    {
-     "doc": "9626_m23_er",
-     "ref": "General comments (Paper 12)",
-     "quote": "questions that ask candidates to ‘analyse’ or ‘discuss’ require detailed responses that include a proper analysis or discussion, rather than short or bullet-pointed responses.",
-     "page": 1
-    },
-    {
-     "doc": "9626_s23_ms_31",
-     "ref": "Q7",
-     "quote": "Max 4 marks if bullets/list of points/characteristics",
-     "page": 8
     }
    ]
   }

@@ -18,12 +18,6 @@
    "text": "Describe asks what something is, what it does or how it happens. Explain adds why. You need a reason in a Describe answer only when the question asks for one, for example 'Describe, with reasons'. Then you cannot get full marks without the reasons.",
    "cites": [
     {
-     "doc": "9626_syllabus_2025-2027",
-     "ref": "Command words, p.66",
-     "quote": "Explain set out purposes or reasons/make the relationships between things clear/say why and/or how and support with relevant evidence",
-     "page": 66
-    },
-    {
      "doc": "9626_s23_ms_11",
      "ref": "Q6(a)",
      "quote": "Must have at least TWO reasons to obtain full marks",
@@ -92,26 +86,14 @@
      "ref": "Paper 11 Q2(a)",
      "quote": "As a description is generally a one-mark answer, candidates had to give three separate descriptions for full marks to be awarded.",
      "page": 1
-    },
-    {
-     "doc": "9626_w25_er",
-     "ref": "Paper 33 Key messages",
-     "quote": "Question 1 has four marks available for describing the structure of a cellular network so at least four points need to be made in the answer for full marks",
-     "page": 19
     }
    ]
   },
   {
    "kind": "marks",
    "heading": "One mark for each point",
-   "text": "Some mark schemes give one mark for a point, labelled (1st), and another for more detail about it, labelled (1). The (1st) label works as in the general rules at the front. On those questions, four short points can get 4 marks. Two points with more detail can also get 4 marks. 83 of the 388 Describe mark schemes from 2022 onward use (1st). None before 2022 use it.",
+   "text": "Some mark schemes give one mark for a point, labelled (1st), and another for more detail about it, labelled (1). The (1st) label works as in the general rules at the front. On those questions, four short points or two points with more detail can both get 4 marks. 83 of the 388 Describe mark schemes from 2022 onward use (1st). None before 2022 use it.",
    "cites": [
-    {
-     "doc": "9626_w25_ms_11",
-     "ref": "Q4(b)",
-     "quote": "It is interrogated by the inference engine (1st) – Using relevant rules//rules that apply (1)",
-     "page": 5
-    },
     {
      "doc": "9626_s25_er",
      "ref": "Paper 33 Q6(b)",
@@ -161,19 +143,13 @@
   {
    "kind": "mistake",
    "heading": "Say what each thing is or does",
-   "text": "Do not repeat the question. Answers such as 'White box testing is used to test the code' or 'a sound sensor measures sound' get no mark. Add a detail that the question does not give you.",
+   "text": "Do not repeat the question. An answer such as 'White box testing is used to test the code' gets no mark. Add a detail that the question does not give you.",
    "cites": [
     {
      "doc": "9626_s24_er",
      "ref": "Paper 32 Q4(a)",
      "quote": "Further, many candidates repeated the question, writing that ‘white box testing is used to test the code’. In general, statements that repeat the question are not given credit.",
      "page": 22
-    },
-    {
-     "doc": "9626_s22_er",
-     "ref": "Paper 12 Q6(a)",
-     "quote": "Candidates should avoid simply repeating the question in their response without further expansion; for example, a humidity sensor measures humidity and a sound sensor measures sound.",
-     "page": 5
     }
    ]
   },
@@ -187,12 +163,6 @@
      "ref": "Paper 13 Q4(a)",
      "quote": "Some weaker responses contained responses such as ‘more expensive’ which is not enough at this level and statements such as this should always be expanded.",
      "page": 8
-    },
-    {
-     "doc": "9626_s25_er",
-     "ref": "Paper 12 Q1(a)",
-     "quote": "However, where candidates stated that a specific, named, cost could be avoided, this was awarded.",
-     "page": 6
     }
    ]
   },
@@ -206,25 +176,6 @@
      "ref": "Paper 12 Key messages",
      "quote": "The use of what may be considered slang often renders answers meaningless.",
      "page": 1
-    }
-   ]
-  },
-  {
-   "kind": "format",
-   "heading": "Say what each thing is or does",
-   "text": "Write descriptions as full sentences, with one point in each sentence. The Paper 3 reports say that a description needs full sentences. On one Paper 1 question, the examiners accepted a list of steps for a 'describe the process' question. Use full sentences on both papers.",
-   "cites": [
-    {
-     "doc": "9626_s22_er",
-     "ref": "Paper 31 General comments",
-     "quote": "Descriptions or explanations can only be conveyed in full sentences.",
-     "page": 13
-    },
-    {
-     "doc": "9626_w25_er",
-     "ref": "Paper 12 Q7(a)",
-     "quote": "In the first, candidates listed (sometimes by creating a bulleted list) steps that would be taken, whilst others described the steps that had been taken. Either method was acceptable",
-     "page": 7
     }
    ]
   },

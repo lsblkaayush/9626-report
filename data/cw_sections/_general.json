@@ -5,7 +5,7 @@
   {
    "kind": "format",
    "heading": "Write in full sentences",
-   "text": "No Cambridge document for 9626 tells you to answer in bullet points. The Cambridge guide for students tells you to answer in sentences.",
+   "text": "No Cambridge document for 9626 asks for bullet points. The Cambridge guide for students gives advice for all of Papers 1 and 3, and it tells you to answer in sentences.",
    "cites": [
     {
      "doc": "9626_learner_guide",
@@ -25,26 +25,14 @@
      "ref": "Paper 3 General comments",
      "quote": "Candidates should also be encouraged to write full sentences and discouraged from writing bulleted, short statements in their responses. Descriptions or explanations can only be conveyed in full sentences.",
      "page": 16
-    },
-    {
-     "doc": "9626_s22_er",
-     "ref": "Paper 3 General comments",
-     "quote": "Candidates should write full sentences and avoid bulleted short statements in their responses.",
-     "page": 13
     }
    ]
   },
   {
    "kind": "format",
    "heading": "Write in full sentences",
-   "text": "Bullets usually leave out what earns the marks. A bullet is often a bare point with no reason or detail. Most of the marks are for the reason or detail.",
+   "text": "Bullets usually leave out what earns the marks. A bullet is often a bare point, and most of the marks go to the reason or detail that should follow it.",
    "cites": [
-    {
-     "doc": "9626_s18_er",
-     "ref": "General comments",
-     "quote": "the use of bullet points rarely produces little more than simple points or short statements with no explanations or descriptions",
-     "page": 17
-    },
     {
      "doc": "9626_w22_er",
      "ref": "Paper 3",
@@ -56,7 +44,7 @@
   {
    "kind": "format",
    "heading": "Lists and tables in long answers",
-   "text": "For Discuss, Evaluate and Analyse, the shape of the answer matters too. Bulleted lists and tables of statements cannot get most of the marks. Separate lists of benefits and drawbacks have the same problem when each item is one word or a very short sentence.",
+   "text": "Shape matters too in Discuss, Evaluate and Analyse answers. Bulleted lists and tables of statements cannot get most of the marks. Separate lists of benefits and drawbacks have the same problem when each item is one word or a very short sentence.",
    "cites": [
     {
      "doc": "9626_m25_er",
@@ -131,12 +119,6 @@
     {
      "doc": "9626_s25_ms_12",
      "ref": "Generic Marking Principle 3",
-     "quote": "marks are not deducted for errors",
-     "page": 2
-    },
-    {
-     "doc": "9626_s25_ms_12",
-     "ref": "Generic Marking Principle 3",
      "quote": "answers should only be judged on the quality of spelling, punctuation and grammar when these features are specifically assessed by the question as indicated by the mark scheme. The meaning, however, should be unambiguous.",
      "page": 2
     }
@@ -190,7 +172,7 @@
   {
    "kind": "mistake",
    "heading": "Answer the question on the paper",
-   "text": "Answer the question that the paper asks, about the scenario it gives. The full range of marks is only for answers that use the scenario. Do not write everything you know about one word in the question.",
+   "text": "Answer the question that the paper asks. Only answers that use the scenario in the question can reach the full range of marks. Do not write everything you know about one word in the question.",
    "cites": [
     {
      "doc": "9626_w25_er",
@@ -222,14 +204,8 @@
   {
    "kind": "tip",
    "heading": "Answer the question on the paper",
-   "text": "Use the number of marks as a clue to how much to write. It tells you how many separate points, or how much detail, the examiner expects.",
+   "text": "Use the number of marks as a clue. It tells you how many separate points, or how much detail, the examiner expects to see in your answer.",
    "cites": [
-    {
-     "doc": "9626_learner_guide",
-     "ref": "Advice for all papers",
-     "quote": "Look at how many marks are allocated to a question. This gives you a clue as to how much work is expected.",
-     "page": 15
-    },
     {
      "doc": "9626_m25_er",
      "ref": "Paper 3",

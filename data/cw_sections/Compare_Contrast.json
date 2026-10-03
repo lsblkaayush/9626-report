@@ -23,14 +23,8 @@
   {
    "heading": "Which sides to give",
    "kind": "marks",
-   "text": "Mark schemes for Compare list similarities and differences, with one mark for each valid point. Some mark schemes need at least one similarity and one difference for full marks. Two examples are March 2023 Paper 32 and June 2022 Paper 12.",
+   "text": "Mark schemes for Compare list similarities and differences, with one mark for each valid point. Some mark schemes need at least one similarity and one difference for full marks. June 2022 Paper 12 is one example.",
    "cites": [
-    {
-     "doc": "9626_m23_ms_32",
-     "ref": "Q3",
-     "quote": "Must be 1 of each for full marks",
-     "page": 5
-    },
     {
      "doc": "9626_s22_ms_12",
      "ref": "Q3(b)",
@@ -49,12 +43,6 @@
      "ref": "Q5",
      "quote": "Five marks available: Similarities Max 4",
      "page": 5
-    },
-    {
-     "doc": "9626_w25_ms_32",
-     "ref": "Q3",
-     "quote": "Five from: Max 4 from: Similarities",
-     "page": 6
     }
    ]
   },
@@ -80,19 +68,13 @@
   {
    "heading": "Which sides to give",
    "kind": "mistake",
-   "text": "Students often leave out the similarities. The November 2025 examiner report (Paper 11) said few, if any, candidates gave similarities. The June 2025 report (Paper 32) said candidates often omitted them.",
+   "text": "Students often leave out the similarities. The November 2025 examiner report on Paper 11 said that few, if any, candidates gave them.",
    "cites": [
     {
      "doc": "9626_w25_er",
      "ref": "Paper 11 Q5(b)",
      "quote": "Few, if any, candidates identified similarities between the two methods.",
      "page": 2
-    },
-    {
-     "doc": "9626_s25_er",
-     "ref": "Paper 32 Q7",
-     "quote": "the similarities between the two were often omitted.",
-     "page": 22
     }
    ]
   },
@@ -106,12 +88,6 @@
      "ref": "Paper 32 Q4(a)",
      "quote": "Any references to similarities were ignored and not given credit because these did not answer the question.",
      "page": 21
-    },
-    {
-     "doc": "9626_m22_ms_32",
-     "ref": "Q1",
-     "quote": "Command word: Contrast: identify/comment on differences.",
-     "page": 3
     }
    ]
   },
@@ -156,19 +132,13 @@
   {
    "heading": "Write each point as a comparison",
    "kind": "format",
-   "text": "Do not answer with a bullet list or a table. Write full sentences. One examiner report says lists of points, bulleted or in tables, are unlikely to get full marks for a comparison.",
+   "text": "Bullet lists and tables are risky in a comparison. The June 2023 examiner report says lists of points, bulleted or in tables, are unlikely to get full marks. Write each comparison as a sentence.",
    "cites": [
     {
      "doc": "9626_s23_er",
      "ref": "Paper 32 Q2",
      "quote": "candidates who provide lists of points, bulleted or in tables, are unlikely to gain full marks because the question asks for comparisons which are best written in free response.",
      "page": 21
-    },
-    {
-     "doc": "9626_m22_er",
-     "ref": "Paper 32 Q1",
-     "quote": "Weaker answers just stated facts, sometimes as unconnected bullets, or described uses of LANs/WANs.",
-     "page": 6
     }
    ]
   },
@@ -201,12 +171,6 @@
      "ref": "Paper 12 Q8(c)",
      "quote": "some candidates either only focussed on one of the two methods, or did not discuss the impact of each method on the quality of a video file.",
      "page": 7
-    },
-    {
-     "doc": "9626_m23_er",
-     "ref": "Paper 32 Q3",
-     "quote": "a significant number of responses referred to dynamic IP assignment using DHCP. Such references did not answer the question",
-     "page": 8
     }
    ]
   }
@@ -346,7 +310,7 @@
    "weak": {
     "answer": "• LAN: small area, one building.\n• WAN: large area, the internet.\n• Both are networks that connect computers.",
     "marks_likely": "0 of 6",
-    "why": "Each bullet states facts about one network, so no bullet gives a difference. The last bullet is a similarity, and Contrast gives no credit for similarities.",
+    "why": "Each bullet states facts about one network. None of them gives a difference. The last bullet is a similarity, and Contrast gives no credit for similarities.",
     "basis": {
      "doc": "9626_m22_er",
      "quote": "Weaker answers just stated facts, sometimes as unconnected bullets, or described uses of LANs/WANs. Others gave similarities. These did not gain credit because the responses did not answer the question.",
@@ -355,5 +319,5 @@
    }
   }
  ],
- "thin_evidence": "Compare: 16 question parts from 2022 to 2025, all 16 with mark schemes. Contrast: 6 parts from 2022 to 2026, 5 with mark schemes. The sixth part, March 2026 Paper 12 Q7(b), has no mark scheme in the source set. November 2024 Paper 33 Q3(b) is left out because 'contrast' there is an image term in a Describe question. The examiner reports disagree on whether Compare needs both sides when the question does not ask for both."
+ "thin_evidence": "Compare: 16 question parts from 2022 to 2025, all 16 with mark schemes. Contrast: 6 parts from 2022 to 2026, 5 with mark schemes. The sixth part, March 2026 Paper 12 Q7(b), has no mark scheme in the source set. November 2024 Paper 33 Q3(b) is left out. There, 'contrast' is an image term in a Describe question. The examiner reports disagree on whether Compare needs both sides when the question does not ask for both."
 }

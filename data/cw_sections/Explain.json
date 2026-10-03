@@ -15,19 +15,13 @@
   {
    "kind": "tip",
    "heading": "Statement, then reason",
-   "text": "An explanation has two parts. First, you make a statement. Then you give a reason, a purpose or more detail about that statement.",
+   "text": "An explanation has two parts. First you make a statement, then you add a reason, a purpose or more detail about that statement.",
    "cites": [
     {
      "doc": "9626_s24_er",
      "ref": "Paper 32 Q7",
      "quote": "An explanation requires a statement or description followed by a reason or purpose or further expansion of that statement",
      "page": 23
-    },
-    {
-     "doc": "9626_m24_er",
-     "ref": "Paper 32 Q2(a)",
-     "quote": "An explanation is statement of fact with a reason or expansion giving its purpose.",
-     "page": 8
     }
    ]
   },
@@ -41,25 +35,6 @@
      "ref": "Q10(b)",
      "quote": "The lower the sample rate, the smaller the file size (1st) – because there is less data stored (1)",
      "page": 9
-    },
-    {
-     "doc": "9626_s25_er",
-     "ref": "Paper 33 Q2(b)",
-     "quote": "stating the task 'to check that the project has ended' should have been followed by a reason such as 'so that all stakeholders and clients can agree that no further additions or changes are necessary'",
-     "page": 25
-    }
-   ]
-  },
-  {
-   "kind": "format",
-   "heading": "Statement, then reason",
-   "text": "Write explanations in full sentences. A sentence keeps the point and its reason together.",
-   "cites": [
-    {
-     "doc": "9626_w22_er",
-     "ref": "Paper 31 General comments",
-     "quote": "Candidates should be encouraged to write full sentences and discouraged from writing bulleted, short statements in their responses. Descriptions or explanations can only be conveyed in full sentences.",
-     "page": 12
     }
    ]
   },
@@ -73,12 +48,6 @@
      "ref": "Q10(b)",
      "quote": "The sampling rate can affect the quality of audio files/how the audio sounds (1st) – because it captures sounds at discrete points (and not the whole sound) (1)",
      "page": 9
-    },
-    {
-     "doc": "9626_m24_ms_32",
-     "ref": "Q7",
-     "quote": "Access control can be based on attribute of user within company (1st) – so that they can only access data appropriate for their job/task/role (1)",
-     "page": 7
     }
    ]
   },
@@ -126,12 +95,6 @@
    "text": "Explain asks why or how. Examiner reports say that many answers described what something is and lost marks.",
    "cites": [
     {
-     "doc": "9626_w23_er",
-     "ref": "Paper 12 Q6(a)",
-     "quote": "Most responses gave descriptive answers rather than explanations.",
-     "page": 6
-    },
-    {
      "doc": "9626_w22_er",
      "ref": "Paper 31 Key messages",
      "quote": "there is usually little or no credit given for describing what the point or process is since this does not answer the question 'how'",
@@ -161,7 +124,7 @@
   {
    "kind": "mistake",
    "heading": "Reasons that fit the question",
-   "text": "Use exact technical words. In one encryption question, many answers said encrypted data 'cannot be understood'. A similar number said it 'cannot be read'. Only 'cannot be understood' got the mark.",
+   "text": "Use exact technical words. In one encryption question, many answers said encrypted data 'cannot be understood', and a similar number said it 'cannot be read'. Only 'cannot be understood' got the mark.",
    "cites": [
     {
      "doc": "9626_s24_er",
@@ -174,14 +137,8 @@
   {
    "kind": "tip",
    "heading": "Reasons that fit the question",
-   "text": "If the question has a scenario, use it. Give reasons that fit the situation in the question. General facts alone are not enough.",
+   "text": "If the question has a scenario, use it. Give reasons that fit the situation in the question. A general fact that ignores the scenario cannot reach the full range of marks.",
    "cites": [
-    {
-     "doc": "9626_w23_er",
-     "ref": "Paper 13 Q3(c)",
-     "quote": "As with all scenario-based questions, candidates are advised to consider the significance of this scenario.",
-     "page": 9
-    },
     {
      "doc": "9626_w22_er",
      "ref": "Paper 31 General comments",
@@ -287,5 +244,5 @@
    }
   }
  ],
- "thin_evidence": "176 parts, and 174 of them have a mark scheme. 38 of those 174 mark schemes use the (1st) and (1) labels. The rest give one mark for each point. Only one mark scheme limits answers that are 'all only first marks'. It is Q3(c) on Paper 13, November 2023."
+ "thin_evidence": "176 parts, and 174 of them have a mark scheme. 38 of those 174 mark schemes use the (1st) and (1) labels. The rest give one mark for each point. Only one mark scheme, for Q3(c) on Paper 13 in November 2023, limits answers that are 'all only first marks'."
 }

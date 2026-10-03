@@ -41,12 +41,6 @@
      "ref": "Q7",
      "quote": "Direct data source/direct data is reliable/trusted (1st) – because we collected it (1)",
      "page": 7
-    },
-    {
-     "doc": "9626_m22_ms_12",
-     "ref": "Q3(b)",
-     "quote": "Must have expansions or comparisons to be a proper discussion",
-     "page": 4
     }
    ]
   },
@@ -72,14 +66,8 @@
   {
    "kind": "marks",
    "heading": "Open briefly, then expand each point",
-   "text": "No Discuss mark scheme from 2022 to 2025 gives a mark for a conclusion or for your opinion. The syllabus meaning of Discuss does not ask for one. The November 2019 examiner report used older wording. It said Discuss often needs a conclusion. A one-line conclusion does no harm. Spend your time on expanded points.",
+   "text": "No Discuss mark scheme from 2022 to 2025 gives a mark for a conclusion or for your opinion. The syllabus meaning of Discuss does not ask for one. The November 2019 examiner report, in older wording, said Discuss often needs a conclusion. A one-line conclusion does no harm. Spend your time on expanded points.",
    "cites": [
-    {
-     "doc": "9626_syllabus_2025-2027",
-     "ref": "Command words, p66",
-     "quote": "Discuss write about issue(s) or topic(s) in depth in a structured way",
-     "page": 66
-    },
     {
      "doc": "9626_w19_er",
      "ref": "Key messages",
@@ -98,12 +86,6 @@
      "ref": "Q9",
      "quote": "Benefits max 6",
      "page": 9
-    },
-    {
-     "doc": "9626_s23_ms_12",
-     "ref": "Q6(b)",
-     "quote": "Disadvantages MAX five from",
-     "page": 7
     }
    ]
   },
@@ -132,73 +114,10 @@
    "text": "Do not write the same point twice, once as a benefit and again reversed as a drawback. The examiner gives the mark only once, and you lose time.",
    "cites": [
     {
-     "doc": "9626_s24_er",
-     "ref": "Paper 12, Question 7",
-     "quote": "repeated the list, but in reverse structure, so the positive aspects of one became the negative points of the other",
-     "page": 7
-    },
-    {
      "doc": "9626_s23_ms_12",
      "ref": "Q6(b)",
      "quote": "(Converse answer may also be given as an advantage – Award ONCE only)",
      "page": 7
-    }
-   ]
-  },
-  {
-   "kind": "format",
-   "heading": "Write in paragraphs",
-   "text": "Bullet points lose marks. Every 2022 and 2023 Discuss mark scheme caps a bulleted list. So do 6 of the 17 from 2024. That makes 48 of the 77. The cap is 6 of 8, 4 or 5 of 6, or 3 of 4.",
-   "cites": [
-    {
-     "doc": "9626_m22_ms_12",
-     "ref": "Q3(b)",
-     "quote": "Max. six marks if bullets/list of points",
-     "page": 4
-    },
-    {
-     "doc": "9626_w22_ms_12",
-     "ref": "Q8(b)",
-     "quote": "Max. three marks if bullets/list of points",
-     "page": 7
-    }
-   ]
-  },
-  {
-   "kind": "format",
-   "heading": "Write in paragraphs",
-   "text": "The 2025 mark schemes do not print the bullet cap. The 2025 examiner reports still say that bulleted lists and tables of statements cannot reach most of the marks. Two separate lists of single words or very short sentences have the same problem.",
-   "cites": [
-    {
-     "doc": "9626_m25_er",
-     "ref": "Paper 32, Question 7",
-     "quote": "learners who produced bulleted lists or tables of statements were unable to access most of the marks",
-     "page": 10
-    },
-    {
-     "doc": "9626_s25_er",
-     "ref": "Paper 32, Question 5",
-     "quote": "answers that have separate lists of benefits and drawbacks, but the lists consist of single word or very brief sentences",
-     "page": 22
-    }
-   ]
-  },
-  {
-   "kind": "format",
-   "heading": "Write in paragraphs",
-   "text": "Write one paragraph of benefits and one of drawbacks. Put the reason or effect of each point in the same sentence as the point.",
-   "cites": [
-    {
-     "doc": "9626_s25_er",
-     "ref": "Paper 31, General comments",
-     "quote": "Candidates should be encouraged to write answers in full sentences.",
-     "page": 17
-    },
-    {
-     "doc": "9626_m22_er",
-     "ref": "Paper 12, Question 3(b)",
-     "quote": "The strongest answers were written in full prose style and included points which were expanded upon",
-     "page": 2
     }
    ]
   },
@@ -212,12 +131,6 @@
      "ref": "Paper 12, Question 7",
      "quote": "Where candidates stated that collecting direct data was expensive, this was considered too vague, but if candidates identified an area on which money would have to be spent, which would not otherwise be spent, this was awarded",
      "page": 7
-    },
-    {
-     "doc": "9626_m22_er",
-     "ref": "Paper 12, Question 3(b)",
-     "quote": "Many responses mentioned costs without going into sufficient detail to merit credit.",
-     "page": 2
     }
    ]
   },
@@ -305,14 +218,13 @@
    "weak": {
     "answer": "Advantages: direct data is cheaper, relevant, up to date. Disadvantages: indirect data is not relevant and old, direct data is expensive.",
     "marks_likely": "2 of 8",
-    "why": "It is a list of single words. 'Expensive' does not say what the money pays for. The disadvantages repeat the advantages in reverse, so they earn nothing new.",
+    "why": "It is a list of single words. 'Expensive' does not say what the money pays for. The disadvantages repeat the advantages in reverse. They earn nothing new.",
     "basis": {
      "doc": "9626_s24_er",
      "quote": "Some candidates effectively wrote what was good about direct data compared to indirect data and then repeated the list, but in reverse structure, so the positive aspects of one became the negative points of the other.",
      "page": 7
     }
-   },
-   "note": "The examiner report says this question was about direct data, with indirect data only as a reference point."
+   }
   },
   {
    "doc": "9626_s25_qp_31",

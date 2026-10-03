@@ -34,7 +34,7 @@
   {
    "kind": "tip",
    "heading": "Argue one side only",
-   "text": "You may give a drawback of an alternative, because that still supports the choice. For example, direct data lets you control the sample size, and indirect data does not.",
+   "text": "You may give a drawback of an alternative. That still supports the choice. For example, direct data lets you control the sample size, and indirect data does not.",
    "cites": [
     {
      "doc": "9626_s24_er",
@@ -60,12 +60,6 @@
      "ref": "Q10 (Paper 33)",
      "quote": "Most candidates could list the features of a VPN, but few used these to justify its use.",
      "page": 26
-    },
-    {
-     "doc": "9626_w25_er",
-     "ref": "Q9 (Paper 11)",
-     "quote": "few candidates attempted to fully justify, with some candidates giving reasons against the decision, and others giving descriptions",
-     "page": 3
     }
    ]
   },
@@ -94,12 +88,6 @@
    "text": "Some mark schemes give one mark for a definition of the thing you justify. One clear sentence is enough.",
    "cites": [
     {
-     "doc": "9626_s23_ms_11",
-     "ref": "Q11",
-     "quote": "Any correct definition of direct data sources, such as:",
-     "page": 10
-    },
-    {
      "doc": "9626_w25_ms_12",
      "ref": "Q9",
      "quote": "Definition of encryption (1)",
@@ -117,12 +105,6 @@
      "ref": "Q10 (Paper 13)",
      "quote": "Whilst candidates were aware of some advantages, these were often narrow and repeated from different angles in an apparent attempt to achieve more marks.",
      "page": 9
-    },
-    {
-     "doc": "9626_s25_er",
-     "ref": "Q8(b) (Paper 13)",
-     "quote": "To justify the use of an interpreter, candidates had to have a range of benefits of the use of an interpreter.",
-     "page": 11
     }
    ]
   },
@@ -132,35 +114,10 @@
    "text": "Vague reasons lose marks. Be technically precise about why the choice helps.",
    "cites": [
     {
-     "doc": "9626_w25_er",
-     "ref": "Q7(b) (Paper 12)",
-     "quote": "some of the reasons given in support were either vague or incorrect.",
-     "page": 7
-    },
-    {
      "doc": "9626_s25_er",
      "ref": "Q8(b) (Paper 13)",
      "quote": "In some cases, there was a lack of technical understanding, whilst in others, answers were vague and lacked clarity.",
      "page": 11
-    }
-   ]
-  },
-  {
-   "kind": "format",
-   "heading": "Reasons carry the marks",
-   "text": "Write in full sentences. 4 of the 19 Justify mark schemes, all 8-mark questions from 2023, cap a bulleted list at 6 marks.",
-   "cites": [
-    {
-     "doc": "9626_w23_ms_13",
-     "ref": "Q10",
-     "quote": "Max 6 marks for just bullet points",
-     "page": 9
-    },
-    {
-     "doc": "9626_m24_er",
-     "ref": "Q4 (Paper 32)",
-     "quote": "Candidates should be discouraged from writing bulleted, short statements in their responses but instead be encouraged to write answers in full sentences.",
-     "page": 7
     }
    ]
   },
@@ -245,7 +202,7 @@
    "weak": {
     "answer": "Interpreted code is easier to debug. However, it runs more slowly than compiled code and the user needs the source code, so a compiler would be better.",
     "marks_likely": "1 of 4",
-    "why": "Only the first sentence supports the decision. The rest argues against it, which earns nothing for Justify.",
+    "why": "Only the first sentence supports the decision. The rest argues against it. That earns nothing for Justify.",
     "basis": {
      "doc": "9626_w25_er",
      "quote": "few candidates attempted to fully justify, with some candidates giving reasons against the decision, and others giving descriptions.",
