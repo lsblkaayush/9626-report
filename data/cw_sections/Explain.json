@@ -1,0 +1,319 @@
+{
+ "group": "Explain",
+ "words": [
+  {
+   "word": "Explain",
+   "syllabus": {
+    "doc": "9626_syllabus_2025-2027",
+    "quote": "Explain set out purposes or reasons/make the relationships between things clear/say why and/or how and support with relevant evidence",
+    "page": 66
+   }
+  }
+ ],
+ "one_line": "Make a point, then add a reason for it with 'because', 'so' or 'which means', and repeat until you have covered the marks.",
+ "points": [
+  {
+   "kind": "tip",
+   "text": "An explanation has two parts. First you make a statement. Then you give a reason, a purpose or more detail about that statement.",
+   "cites": [
+    {
+     "doc": "9626_s24_er",
+     "ref": "Paper 32 Q7",
+     "quote": "An explanation requires a statement or description followed by a reason or purpose or further expansion of that statement",
+     "page": 23
+    },
+    {
+     "doc": "9626_w22_er",
+     "ref": "Paper 31 Q7(a)",
+     "quote": "Explanations require a statement and an expansion, which is often a reason but can be additional facts, to fully answer the question.",
+     "page": 14
+    },
+    {
+     "doc": "9626_m24_er",
+     "ref": "Paper 32 Q2(a)",
+     "quote": "An explanation is statement of fact with a reason or expansion giving its purpose.",
+     "page": 8
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "text": "Many Explain mark schemes mark a point '(1st)' and the expansion under it '(1)'. The (1st) mark is for your statement. The (1) mark is only for the reason or detail you add to that statement. I counted this in cw_parts.json: 38 of the 176 Explain parts from 2022 to 2025 use (1st) in the mark scheme.",
+   "cites": [
+    {
+     "doc": "9626_m24_ms_12",
+     "ref": "Q10(b)",
+     "quote": "The sampling rate can affect the quality of audio files/how the audio sounds (1st) – because it captures sounds at discrete points (and not the whole sound) (1)",
+     "page": 9
+    },
+    {
+     "doc": "9626_w23_ms_32",
+     "ref": "Q2(a)",
+     "quote": "To define/specify the timing of the movement (1st)",
+     "page": 4
+    },
+    {
+     "doc": "9626_m24_ms_32",
+     "ref": "Q7",
+     "quote": "Access control can be based on attribute of user within company (1st) – so that they can only access data appropriate for their job/task/role (1)",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "text": "A point with no reason can still get its one mark, but no more. If every point you write is only a statement, the mark scheme can cap you below full marks.",
+   "cites": [
+    {
+     "doc": "9626_s24_er",
+     "ref": "Paper 32 Q7",
+     "quote": "A less detailed answer, such as 'they can learn at their own pace' can be given credit as it is a correct statement of the effect, but it lacks the detail to gain any further credit because it does not add an expansion",
+     "page": 23
+    },
+    {
+     "doc": "9626_w23_ms_13",
+     "ref": "Q3(c)",
+     "quote": "MAX two marks if answers are all only first marks.",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "text": "The expansion mark depends on the first mark. If you do not make the first point, the examiner cannot give the reason mark that goes with it. In a short question, one full point and its reason can be the whole answer.",
+   "cites": [
+    {
+     "doc": "9626_s24_er",
+     "ref": "Paper 11 Q10(a)",
+     "quote": "A relatively easy first mark was given for any answer that stated that the data is scrambled. Many candidates achieved this mark. Two further marks were then dependant on this answer.",
+     "page": 4
+    },
+    {
+     "doc": "9626_m24_ms_12",
+     "ref": "Q10(b)",
+     "quote": "Max two for one complete explanation",
+     "page": 9
+    }
+   ]
+  },
+  {
+   "kind": "tip",
+   "text": "Join the statement to its reason with a linking word. In the mark schemes, the expansion usually starts with 'so', 'so that', 'because', 'as' or 'which means'. Write the link word, so the examiner can see where the reason is.",
+   "cites": [
+    {
+     "doc": "9626_m24_ms_32",
+     "ref": "Q7",
+     "quote": "Can be adapted (automatically) in response to changing conditions/change of staff (1st) – so that new employees can have access (1)",
+     "page": 7
+    },
+    {
+     "doc": "9626_m24_ms_12",
+     "ref": "Q10(b)",
+     "quote": "The lower the sample rate, the smaller the file size (1st) – because there is less data stored (1)",
+     "page": 9
+    },
+    {
+     "doc": "9626_w22_er",
+     "ref": "Paper 31 Q7(a)",
+     "quote": "A good answer would have stated that there is no central governing authority which means that there is no oversight or regulation",
+     "page": 14
+    },
+    {
+     "doc": "9626_s25_er",
+     "ref": "Paper 33 Q2(b)",
+     "quote": "stating the task 'to check that the project has ended' should have been followed by a reason such as 'so that all stakeholders and clients can agree that no further additions or changes are necessary'",
+     "page": 25
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Do not just describe what something is. Explain asks 'why' or 'how'. Examiners say many answers gave descriptions and lost marks.",
+   "cites": [
+    {
+     "doc": "9626_w23_er",
+     "ref": "Paper 12 Q6(a)",
+     "quote": "Most responses gave descriptive answers rather than explanations.",
+     "page": 6
+    },
+    {
+     "doc": "9626_w22_er",
+     "ref": "Paper 31 Q1",
+     "quote": "Responses that described what each server was did not answer the question.",
+     "page": 12
+    },
+    {
+     "doc": "9626_w22_er",
+     "ref": "Paper 31 Key messages",
+     "quote": "there is usually little or no credit given for describing what the point or process is since this does not answer the question 'how'",
+     "page": 12
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Leaving out the reason is the most common mistake. Short, vague phrases like 'store web sites' or 'makes the code more readable' do not get full marks.",
+   "cites": [
+    {
+     "doc": "9626_w23_er",
+     "ref": "Paper 32 Q2(a)",
+     "quote": "A common mistake was to omit a reason or expansion to the response – the question asked for explanations",
+     "page": 16
+    },
+    {
+     "doc": "9626_w22_er",
+     "ref": "Paper 31 Q1(a)",
+     "quote": "Vague responses such as 'store web sites' were not sufficient to be awarded marks.",
+     "page": 12
+    },
+    {
+     "doc": "9626_m24_er",
+     "ref": "Paper 32 Q2(c)",
+     "quote": "a significant number only stated that comment make the code more readable so did not gain the full marks.",
+     "page": 8
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Use exact technical words. In one encryption question, about as many answers said encrypted data 'cannot be read' as said it 'cannot be understood'. Only 'cannot be understood' got the mark.",
+   "cites": [
+    {
+     "doc": "9626_s24_er",
+     "ref": "Paper 11 Q10(a)",
+     "quote": "Many candidates made the point that encrypted data can not be understood, but an approximately equal number stated that encrypted data could not be read, and were not awarded marks.",
+     "page": 4
+    }
+   ]
+  },
+  {
+   "kind": "tip",
+   "text": "If the question has a scenario, use it. Your reasons should fit the situation in the question, not just be general facts.",
+   "cites": [
+    {
+     "doc": "9626_w23_er",
+     "ref": "Paper 13 Q3(c)",
+     "quote": "As with all scenario-based questions, candidates are advised to consider the significance of this scenario.",
+     "page": 9
+    },
+    {
+     "doc": "9626_w22_er",
+     "ref": "Paper 31 General comments",
+     "quote": "The full range of marks is only available to candidates for answers referring to the scenario in the questions.",
+     "page": 12
+    }
+   ]
+  },
+  {
+   "kind": "format",
+   "text": "Write explanations in full sentences, not bullet points of a few words. A sentence lets you put the point and its reason together.",
+   "cites": [
+    {
+     "doc": "9626_w22_er",
+     "ref": "Paper 31 General comments",
+     "quote": "Candidates should be encouraged to write full sentences and discouraged from writing bulleted, short statements in their responses. Descriptions or explanations can only be conveyed in full sentences.",
+     "page": 12
+    }
+   ]
+  }
+ ],
+ "examples": [
+  {
+   "doc": "9626_w23_qp_13",
+   "ref": "Q3(c)",
+   "marks": 3,
+   "question": {
+    "doc": "9626_w23_qp_13",
+    "quote": "Mainframe computers were developed from the need for computers to process data in tasks such as carrying out a census. (c) Explain why mainframe computers are used to process the data from a census.",
+    "page": 3
+   },
+   "context": null,
+   "strong": [
+    {
+     "sentence": "A census collects a very large amount of data that has to be processed,",
+     "earns": {
+      "doc": "9626_w23_ms_13",
+      "quote": "The amount of data that has to be processed is very large (1st)",
+      "page": 4
+     }
+    },
+    {
+     "sentence": "as countries tend to have a lot of people and each person adds more data.",
+     "earns": {
+      "doc": "9626_w23_ms_13",
+      "quote": "as countries tend to have a lot of people (1)",
+      "page": 4
+     }
+    },
+    {
+     "sentence": "All of this data also needs to be processed in a short period of time, so a mainframe with a high processing speed is used.",
+     "earns": {
+      "doc": "9626_w23_ms_13",
+      "quote": "All data needs to be processed in a short period of time (1st)",
+      "page": 4
+     }
+    }
+   ],
+   "weak": {
+    "answer": "There is a lot of data in a census. Mainframes are very reliable.",
+    "marks_likely": "2 of 3",
+    "why": "Both sentences are only first marks with no reason after them. The mark scheme says answers that are all first marks get a maximum of two, and the examiners said most answers stopped at 'a large amount of data'.",
+    "basis": {
+     "doc": "9626_w23_er",
+     "quote": "Typically, however, responses tended to focus on that fact that there is usually a large amount of data.",
+     "page": 9
+    }
+   },
+   "note": "Adding 'as countries tend to have a lot of people' turns a statement into an explanation and unlocks the third mark. Think about why the scenario (a census) needs a mainframe."
+  },
+  {
+   "doc": "9626_s24_qp_11",
+   "ref": "Q10(a)",
+   "marks": 3,
+   "question": {
+    "doc": "9626_s24_qp_11",
+    "quote": "Explain how each of these methods keeps data safe from unauthorised users. (a) encryption",
+    "page": 11
+   },
+   "context": null,
+   "strong": [
+    {
+     "sentence": "Encryption scrambles the data,",
+     "earns": {
+      "doc": "9626_s24_ms_11",
+      "quote": "Data is scrambled (1st)",
+      "page": 9
+     }
+    },
+    {
+     "sentence": "so that it cannot be understood by anyone who intercepts it,",
+     "earns": {
+      "doc": "9626_s24_ms_11",
+      "quote": "so it is not understandable (1)",
+      "page": 9
+     }
+    },
+    {
+     "sentence": "which means the data is of no use to a hacker or any other third party.",
+     "earns": {
+      "doc": "9626_s24_ms_11",
+      "quote": "of no use to a hacker/third party (1)",
+      "page": 9
+     }
+    }
+   ],
+   "weak": {
+    "answer": "Encryption makes the data unreadable so hackers cannot read it.",
+    "marks_likely": "0 of 3",
+    "why": "It does not say the data is scrambled, so the first mark is missing and the two expansion marks cannot follow. 'Cannot be read' is the wrong idea; the examiners wanted 'cannot be understood'.",
+    "basis": {
+     "doc": "9626_s24_er",
+     "quote": "Rather than making data unreadable, encryption puts data into a state whereby it can not be understood.",
+     "page": 4
+    }
+   },
+   "note": "One point and two linked reasons can earn all three marks. The first statement is the gateway; each 'so' or 'which means' adds a mark."
+  }
+ ],
+ "thin_evidence": "Explain is common (176 parts from 2022 to 2025 in cw_parts.json), so the evidence is broad. But only 38 of those mark schemes use the explicit (1st)/(1) labels; the rest simply list points worth one mark each. The cap for answers that are 'all only first marks' is written out in 9626_w23_ms_13 Q3(c); other mark schemes show the same idea through 'Max two for one complete explanation' (9626_m24_ms_12) and the s24 ER comment, but it is not printed on every Explain question."
+}
