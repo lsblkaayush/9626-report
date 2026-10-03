@@ -20,7 +20,15 @@ TITLES = {"Evaluate_Assess": "Evaluate (and Assess)", "Compare_Contrast": "Compa
           "Algorithm_tasks": "Complete, Draw, Write (algorithms and flowcharts)"}
 KIND = [("marks", "How the marks are given"), ("format", "How to write it"),
         ("mistake", "What goes wrong"), ("tip", "Tips")]
-e = html.escape
+def e(t):
+    return html.escape(t)
+
+ABBR = [(r"\bERs\b", "examiner reports"), (r"\bER\b", "examiner report"), (r"\bMSs\b", "mark schemes"),
+        (r"\bMS\b", "mark scheme"), (r"\bQPs?\b", "question paper")]
+
+def prose(t):
+    for a, b in ABBR: t = re.sub(a, b, t)
+    return html.escape(t)
 
 def er_components():
     """doc -> {page: (component in force at the top of the page, [(offset, component), ...])}
@@ -84,34 +92,42 @@ def stats():
 def section_html(s, title):
     h = [f'<section class="word"><h2>{e(title)}</h2>']
     for w in s.get("words", []):
-        h.append(f'<div class="def"><b>{e(w["word"])}</b> — Cambridge’s definition: “{e(w["syllabus"]["quote"])}”'
-                 f'<span class="src"> {e(source(w["syllabus"]))}</span></div>')
-    h.append(f'<p class="oneline">{e(s["one_line"])}</p>')
+        if not w.get("syllabus"):
+            h.append(f'<div class="def"><b>{e(w["word"])}</b> — not in the syllabus list of command words. {e(w.get("note", ""))}</div>')
+            continue
+        q = SYLLABUS.get(w["word"])
+        if q:
+            h.append(f'<div class="def"><b>{e(w["word"])}</b> — Cambridge’s definition: “{e(q)}”'
+                     f'<span class="src"> Syllabus 2025–2027, p. 66</span></div>')
+        else:
+            h.append(f'<div class="def"><b>{e(w["word"])}</b> — not in the syllabus table of command words. '
+                     f'{e(w.get("note", ""))}</div>{cites_html([w["syllabus"]])}')
+    h.append(f'<p class="oneline">{prose(s["one_line"])}</p>')
     for kind, label in KIND:
         pts = [p for p in s.get("points", []) if p["kind"] == kind]
         if not pts: continue
         h.append(f"<h3>{label}</h3><ol class='pts'>")
         for p in pts:
-            h.append(f"<li><p>{e(p['text'])}</p>{cites_html(p['cites'])}</li>")
+            h.append(f"<li><p>{prose(p['text'])}</p>{cites_html(p['cites'])}</li>")
         h.append("</ol>")
     for ex in s.get("examples", []):
         h.append('<div class="ex"><h3>Worked example</h3>')
         h.append(f'<p class="q"><b>{e(ex["ref"])} [{ex["marks"]} marks]</b> “{e(ex["question"]["quote"])}”'
                  f'<span class="src"> {e(source(ex["question"]))}</span></p>')
-        if ex.get("context"): h.append(f'<p class="ctx">{e(ex["context"])}</p>')
+        if ex.get("context"): h.append(f'<p class="ctx">{prose(ex["context"])}</p>')
         h.append('<p class="lbl good">A full-mark answer, built from the mark scheme (not a real candidate’s):</p><ol class="strong">')
         for st in ex["strong"]:
-            h.append(f'<li>{e(st["sentence"])}<div class="earns">earns: “{e(st["earns"]["quote"])}”'
+            h.append(f'<li>{prose(st["sentence"])}<div class="earns">earns: “{e(st["earns"]["quote"])}”'
                      f'<span class="src"> {e(source(st["earns"]))}</span></div></li>')
         h.append("</ol>")
         wk = ex.get("weak")
         if wk:
             h.append(f'<p class="lbl bad">A weak answer of the kind the examiners describe (written for this guide; likely {e(wk["marks_likely"])}):</p>'
-                     f'<p class="weak">{e(wk["answer"])}</p><p class="why">{e(wk["why"])}</p>{cites_html([wk["basis"]])}')
-        if ex.get("note"): h.append(f'<p class="note">{e(ex["note"])}</p>')
+                     f'<p class="weak">{prose(wk["answer"])}</p><p class="why">{prose(wk["why"])}</p>{cites_html([wk["basis"]])}')
+        if ex.get("note"): h.append(f'<p class="note">{prose(ex["note"])}</p>')
         h.append("</div>")
     if s.get("thin_evidence"):
-        h.append(f'<p class="thin"><b>How much evidence:</b> {e(s["thin_evidence"])}</p>')
+        h.append(f'<p class="thin"><b>How much evidence:</b> {prose(s["thin_evidence"])}</p>')
     h.append("</section>")
     return "".join(h)
 
@@ -174,7 +190,7 @@ def build():
     h = [f"<!doctype html><html><head><meta charset='utf-8'><title>Command words</title><style>{CSS}</style></head><body>"]
     h.append('<section class="first"><div class="kicker">CAIE 9626 · INFORMATION TECHNOLOGY · PAPERS 1 AND 3</div>'
              '<h1>Command words</h1><div class="sub">What each one asks for, how the marks are given, and what the examiners say goes wrong</div>')
-    h.append(f'<p class="oneline">{e(g["one_line"])}</p>')
+    h.append(f'<p class="oneline">{prose(g["one_line"])}</p>')
     # share-of-marks table
     h.append(f"<h3>Which words carry the marks</h3><p class='small'>Every Paper 1 and Paper 3 question part from 2022 to March 2026: "
              f"{parts} parts in {papers} papers. Each part counts under the command word it uses.</p><table><tr><th>Word</th><th>Cambridge’s definition (syllabus p. 66)</th><th class='n'>Parts</th><th class='n'>Share of marks</th><th></th></tr>")
@@ -188,11 +204,11 @@ def build():
     # the myth box: format points
     h.append('<div class="myth"><h3>“Write everything in bullet points” is wrong</h3><ol class="pts">')
     for p in [p for p in g["points"] if p["kind"] == "format"]:
-        h.append(f"<li><p>{e(p['text'])}</p>{cites_html(p['cites'])}</li>")
+        h.append(f"<li><p>{prose(p['text'])}</p>{cites_html(p['cites'])}</li>")
     h.append("</ol></div></section>")
     h.append('<section><h2>How the marks are given</h2><ol class="pts">')
     for p in [p for p in g["points"] if p["kind"] != "format"]:
-        h.append(f"<li><p>{e(p['text'])}</p>{cites_html(p['cites'])}</li>")
+        h.append(f"<li><p>{prose(p['text'])}</p>{cites_html(p['cites'])}</li>")
     h.append("</ol></section>")
     for k in ORDER:
         if k in secs: h.append(section_html(secs[k], TITLES.get(k, k)))
