@@ -5,3 +5,4 @@ data/cw_parts.json
 data/cw_packs/
 node_modules/
 __pycache__/
+data/cw_counts.json
