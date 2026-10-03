@@ -1,0 +1,413 @@
+{
+ "group": "Describe",
+ "words": [
+  {
+   "word": "Describe",
+   "syllabus": {
+    "doc": "9626_syllabus_2025-2027",
+    "quote": "Describe state the points of a topic/give characteristics and main features",
+    "page": 66
+   }
+  }
+ ],
+ "one_line": "Say what it is, what it does or how it happens, in enough separate, accurate points to match the marks; you only need to say why if the question asks for reasons.",
+ "points": [
+  {
+   "kind": "marks",
+   "text": "In most Describe mark schemes each correct point earns one mark. So a 4-mark Describe question needs about four separate points, not one long sentence that says one thing.",
+   "cites": [
+    {
+     "doc": "9626_w25_er",
+     "ref": "Paper 11 Q2(a)",
+     "quote": "As a description is generally a one-mark answer, candidates had to give three separate descriptions for full marks to be awarded.",
+     "page": 1
+    },
+    {
+     "doc": "9626_w22_er",
+     "ref": "Paper 12 Q7(b)",
+     "quote": "Typically, one would expect a four mark question to require four individual points to be made.",
+     "page": 4
+    },
+    {
+     "doc": "9626_w25_er",
+     "ref": "Paper 33 Key messages",
+     "quote": "Question 1 has four marks available for describing the structure of a cellular network so at least four points need to be made in the answer for full marks",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "text": "Some mark schemes give a mark for a point, shown as (1st), and a second mark for adding detail to that same point, shown as (1). So you can reach 4 marks with four short points or with two points that you expand. I counted 83 of the 387 Describe mark schemes from 2022 on in cw_parts.json that use (1st) somewhere.",
+   "cites": [
+    {
+     "doc": "9626_s25_ms_11",
+     "ref": "Q7(a)",
+     "quote": "A wind sensor/anemometer (1st) – is used to measure the direction of the wind (1)",
+     "page": 6
+    },
+    {
+     "doc": "9626_w25_ms_11",
+     "ref": "Q4(b)",
+     "quote": "It is interrogated by the inference engine (1st) – Using relevant rules//rules that apply (1)",
+     "page": 5
+    },
+    {
+     "doc": "9626_s25_er",
+     "ref": "Paper 13 Q8(a)",
+     "quote": "Therefore, they could describe four individual functions or two in some depth, or three with a mixture of techniques.",
+     "page": 11
+    },
+    {
+     "doc": "9626_s25_er",
+     "ref": "Paper 33 Q6(b)",
+     "quote": "This meant that candidates could gain full credit by either giving four descriptions or expanding on fewer descriptions.",
+     "page": 26
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "text": "Naming things is not describing them. If you only give names (of components, events or sensors), the mark scheme often limits how many marks you can get. Say what each one is or does.",
+   "cites": [
+    {
+     "doc": "9626_s24_ms_32",
+     "ref": "Q4(c)",
+     "quote": "Max three for naming valid events without descriptions",
+     "page": 6
+    },
+    {
+     "doc": "9626_s22_er",
+     "ref": "Paper 13 Q9(a)",
+     "quote": "Many responses indicated that candidates knew the names of the components but were unable to describe them in the detail required to gain the higher marks.",
+     "page": 9
+    },
+    {
+     "doc": "9626_m24_er",
+     "ref": "Paper 12",
+     "quote": "candidates were unable to describe the component, without relying on simply restating the component’s name.",
+     "page": 2
+    }
+   ]
+  },
+  {
+   "kind": "marks",
+   "text": "Describe is about what and how. Explain adds why. You do not need a reason in a Describe answer unless the question asks for one, for example 'Describe, with reasons'. When it does, the mark scheme holds back full marks until you give the reasons.",
+   "cites": [
+    {
+     "doc": "9626_syllabus_2025-2027",
+     "ref": "Command words, p.66",
+     "quote": "Explain set out purposes or reasons/make the relationships between things clear/say why and/or how and support with relevant evidence",
+     "page": 66
+    },
+    {
+     "doc": "9626_w23_er",
+     "ref": "Paper 11 Q3",
+     "quote": "Candidates were asked to explain the differences rather than describe, so they were expected to give reasons for why the differences exist.",
+     "page": 2
+    },
+    {
+     "doc": "9626_s23_qp_11",
+     "ref": "Q6(a)",
+     "quote": "Describe, with reasons, the steps the manager takes when setting up this process.",
+     "page": 6
+    },
+    {
+     "doc": "9626_s23_ms_11",
+     "ref": "Q6(a)",
+     "quote": "Must have at least TWO reasons to obtain full marks",
+     "page": 5
+    },
+    {
+     "doc": "9626_w25_er",
+     "ref": "Paper 11 Q8",
+     "quote": "For each part, candidates had to describe the process and give a reason for its use for full marks to be awarded.",
+     "page": 3
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Examiners keep reporting that students mix up Describe and Explain. The opposite mistake also loses marks: if the question asks why, a description of the thing itself scores little or nothing.",
+   "cites": [
+    {
+     "doc": "9626_s24_er",
+     "ref": "Paper 11 General comments",
+     "quote": "Many candidates failed to differentiate between, for example, questions where they were asked to describe and questions where they were asked to explain.",
+     "page": 1
+    },
+    {
+     "doc": "9626_s22_er",
+     "ref": "Paper 31 Key messages",
+     "quote": "where a question asks why a protocol or process would be used, there is usually little or no credit given for describing the protocol or process itself since this does not answer the question ‘why?’.",
+     "page": 13
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Check what the question wants you to describe. 'Describe how X is set up' or 'the process of' wants the steps in order. 'Describe the features' or 'the functions' wants what X is or does. 'Describe the benefits' wants benefits, not uses. Writing about the wrong one earns nothing, even if it is true.",
+   "cites": [
+    {
+     "doc": "9626_s22_er",
+     "ref": "Paper 32 Q1(b)",
+     "quote": "Good answers detailed the steps that would be taken to set up an electronic wallet. No details of the use of the wallet were required to gain marks.",
+     "page": 16
+    },
+    {
+     "doc": "9626_s22_er",
+     "ref": "Paper 13 Q1(b)",
+     "quote": "some only identified methods of collecting the data without saying how they would be used for example, what data would be collected or who it would be collected from.",
+     "page": 7
+    },
+    {
+     "doc": "9626_m25_er",
+     "ref": "Paper 32 Q2(b)",
+     "quote": "Common mistakes included descriptions of uses, inaccurate references to network performance and to illegal activities.",
+     "page": 9
+    },
+    {
+     "doc": "9626_w22_er",
+     "ref": "Paper 31 Q8(a)",
+     "quote": "some focused on the use of the internet and remote learning, neither of which are features of a MOOC.",
+     "page": 14
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Do not repeat the question back. 'White box testing is used to test the code' or 'a sound sensor measures sound' earns no mark. Add a detail the question did not already give you.",
+   "cites": [
+    {
+     "doc": "9626_s24_er",
+     "ref": "Paper 32 Q4(a)",
+     "quote": "Further, many candidates repeated the question, writing that ‘white box testing is used to test the code’. In general, statements that repeat the question are not given credit.",
+     "page": 22
+    },
+    {
+     "doc": "9626_s22_er",
+     "ref": "Paper 12 Q6(a)",
+     "quote": "Candidates should avoid simply repeating the question in their response without further expansion; for example, a humidity sensor measures humidity and a sound sensor measures sound.",
+     "page": 5
+    }
+   ]
+  },
+  {
+   "kind": "mistake",
+   "text": "Short vague words like 'cheaper', 'more expensive' or 'work out the costs' do not earn marks on their own. Say exactly what is cheaper or which cost is saved, and use the proper technical term, not slang.",
+   "cites": [
+    {
+     "doc": "9626_s22_er",
+     "ref": "Paper 13 Q4(a)",
+     "quote": "Some weaker responses contained responses such as ‘more expensive’ which is not enough at this level and statements such as this should always be expanded.",
+     "page": 8
+    },
+    {
+     "doc": "9626_s25_er",
+     "ref": "Paper 12 Q1(a)",
+     "quote": "However, where candidates stated that a specific, named, cost could be avoided, this was awarded.",
+     "page": 6
+    },
+    {
+     "doc": "9626_s24_er",
+     "ref": "Paper 32 Q6(a)",
+     "quote": "A common mistake was to give vague answers such as ‘work out the costs’.",
+     "page": 22
+    },
+    {
+     "doc": "9626_w25_er",
+     "ref": "Paper 11 Q4(b)",
+     "quote": "candidates did not always focus as keenly as was required and gave vague answers that did not warrant any marks.",
+     "page": 2
+    }
+   ]
+  },
+  {
+   "kind": "tip",
+   "text": "Use the scenario. If the question is about a nuclear power plant, a bank's new customers or a given table of data, your points should fit that situation. A point that is true in general but wrong for the scenario loses the mark, and a prepared answer that ignores the question is kept to low marks.",
+   "cites": [
+    {
+     "doc": "9626_s22_er",
+     "ref": "Paper 31 General comments",
+     "quote": "The full range of marks is only available to candidates for answers referring to the scenario in the questions.",
+     "page": 13
+    },
+    {
+     "doc": "9626_w25_er",
+     "ref": "Paper 11 General comments",
+     "quote": "context also provides a restriction, as certain answers may be acceptable for one scenario, but not for another.",
+     "page": 1
+    },
+    {
+     "doc": "9626_w23_er",
+     "ref": "Paper 13 Q4(a)",
+     "quote": "Many responses suggested a form of lookup validation. This would not be acceptable, as the account numbers are for new customers and so would not exist.",
+     "page": 9
+    },
+    {
+     "doc": "9626_s22_er",
+     "ref": "Paper 31 Q9(b)",
+     "quote": "those who provided an answer they had prepared for, rather than for the question on the paper, were limited to low band marks.",
+     "page": 15
+    }
+   ]
+  },
+  {
+   "kind": "format",
+   "text": "Write descriptions as full sentences, one point per sentence. The Paper 3 reports say descriptions cannot be given in short bullets. On Paper 1, a list of steps for a 'describe the process' question was accepted, but full sentences are the safe choice on both papers.",
+   "cites": [
+    {
+     "doc": "9626_s22_er",
+     "ref": "Paper 31 General comments",
+     "quote": "Descriptions or explanations can only be conveyed in full sentences.",
+     "page": 13
+    },
+    {
+     "doc": "9626_w25_er",
+     "ref": "Paper 32 General comments",
+     "quote": "Candidates should also be encouraged to write full sentences and discouraged from writing bulleted, short statements in their responses.",
+     "page": 16
+    },
+    {
+     "doc": "9626_w25_er",
+     "ref": "Paper 12 Q7(a)",
+     "quote": "In the first, candidates listed (sometimes by creating a bulleted list) steps that would be taken, whilst others described the steps that had been taken. Either method was acceptable",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "kind": "tip",
+   "text": "If the question asks for a set number of things (for example 'Describe two reasons'), only that many are marked. Joining two ideas with 'and' can make the second one count as an extra answer, so give each point its own sentence.",
+   "cites": [
+    {
+     "doc": "9626_w25_er",
+     "ref": "Paper 11 General comments",
+     "quote": "Typically, where candidates join two concepts together using ‘and’, the concept after the word ‘and’ is treated as a second answer, unless the piece after the ‘and’ is clearly an explanation or clarification of the piece before the ‘and’.",
+     "page": 1
+    },
+    {
+     "doc": "9626_s25_er",
+     "ref": "Paper 33 Q6(a)",
+     "quote": "The question clearly stated that two reasons should be described so it was not possible to score full marks without giving two descriptions.",
+     "page": 26
+    }
+   ]
+  }
+ ],
+ "examples": [
+  {
+   "doc": "9626_w25_qp_11",
+   "ref": "Q4(b)",
+   "marks": 4,
+   "question": {
+    "doc": "9626_w25_qp_11",
+    "quote": "(b) Describe how a knowledge base is used in an expert system.",
+    "page": 4
+   },
+   "context": "Part (a) asked what is meant by the term knowledge base.",
+   "strong": [
+    {
+     "sentence": "The knowledge base holds the facts about the subject area of the expert system.",
+     "earns": {
+      "doc": "9626_w25_ms_11",
+      "quote": "4(b) Four from: • Knowledge base holds facts (1)",
+      "page": 5
+     }
+    },
+    {
+     "sentence": "These facts have been gathered from a human expert in that subject.",
+     "earns": {
+      "doc": "9626_w25_ms_11",
+      "quote": "Knowledge base holds facts (1) gathered from an expert (1)",
+      "page": 5
+     }
+    },
+    {
+     "sentence": "When a user enters a query, the inference engine interrogates the knowledge base.",
+     "earns": {
+      "doc": "9626_w25_ms_11",
+      "quote": "It is interrogated by the inference engine (1st)",
+      "page": 5
+     }
+    },
+    {
+     "sentence": "The inference engine only uses the rules that apply to that query.",
+     "earns": {
+      "doc": "9626_w25_ms_11",
+      "quote": "It is interrogated by the inference engine (1st) – Using relevant rules//rules that apply (1)",
+      "page": 5
+     }
+    }
+   ],
+   "weak": {
+    "answer": "The knowledge base stores information and rules. The expert system uses it to make decisions.",
+    "marks_likely": "1 of 4",
+    "why": "Only 'stores rules' matches a mark-scheme point. It never says the facts come from an expert, that the inference engine interrogates the knowledge base, or that only the relevant rules are used.",
+    "basis": {
+     "doc": "9626_w25_er",
+     "quote": "For example, whilst many candidates stated that the knowledge base holds facts, very few stated that these were sourced from experts. Similarly, candidates were aware that rules are used to interrogate the knowledge base, but very few stated that only the relevant rules were used.",
+     "page": 2
+    }
+   },
+   "note": "This is a 'describe how' question, so the marks are for what happens, not why. Two of the four marks are expansions of an earlier point (gathered from an expert; only relevant rules), so precise detail earns as much as new points."
+  },
+  {
+   "doc": "9626_s22_qp_13",
+   "ref": "Q4(a)",
+   "marks": 4,
+   "question": {
+    "doc": "9626_s22_qp_13",
+    "quote": "The directors of a company wish to create a database of customers. They are not sure whether they should ask a computer programmer to produce custom written software or they should purchase off-the-shelf software. (a) Describe the features of custom written software.",
+    "page": 4
+   },
+   "context": null,
+   "strong": [
+    {
+     "sentence": "Custom written software is specially developed for one specific company, here the directors' company.",
+     "earns": {
+      "doc": "9626_s22_ms_13",
+      "quote": "Software that is specially developed for a specific company/business",
+      "page": 4
+     }
+    },
+    {
+     "sentence": "It is made to accommodate that company's particular preferences and needs, such as the exact customer details the directors want to store.",
+     "earns": {
+      "doc": "9626_s22_ms_13",
+      "quote": "It is made to accommodate that customer's particular preferences and needs",
+      "page": 4
+     }
+    },
+    {
+     "sentence": "Support is obtained directly from the programmers who created it.",
+     "earns": {
+      "doc": "9626_s22_ms_13",
+      "quote": "Support is obtained directly from the creators",
+      "page": 4
+     }
+    },
+    {
+     "sentence": "The development costs have to be paid by the company that commissions it.",
+     "earns": {
+      "doc": "9626_s22_ms_13",
+      "quote": "Development costs have to be paid for by client for whom its written/ commissioning company/business",
+      "page": 4
+     }
+    }
+   ],
+   "weak": {
+    "answer": "Custom written software is more expensive. It is better than off-the-shelf software.",
+    "marks_likely": "0 of 4",
+    "why": "'More expensive' is a vague comparison with no detail, and 'better' is an opinion, not a feature. The cost point only earns a mark when it says who pays the development costs.",
+    "basis": {
+     "doc": "9626_s22_er",
+     "quote": "Some weaker responses contained responses such as ‘more expensive’ which is not enough at this level and statements such as this should always be expanded.",
+     "page": 8
+    }
+   },
+   "note": "A 'describe the features' question wants four separate facts about what the thing is. No reasons are needed, but each fact must be specific enough to match a mark-scheme point."
+  }
+ ],
+ "thin_evidence": "Evidence is plentiful: Describe is one of the most common command words on Papers 1 and 3. The mark schemes do not define the (1st) label; the reading here (a first point that a later linked point expands) comes from how it is laid out and from the ER comments about expanding fewer points."
+}
